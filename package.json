@@ -1,0 +1,58 @@
+{
+	"name": "prism-app",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"engines": {
+		"npm": ">=8.0.0",
+		"node": ">=16.0.0"
+	},
+	"scripts": {
+		"dev": "vite --host",
+		"build": "tsc && vite build",
+		"preview": "vite preview --host",
+		"prettier": "npx prettier --write ."
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^6.2.1",
+		"@fortawesome/fontawesome-svg-core": "^6.2.1",
+		"@fortawesome/free-brands-svg-icons": "^6.2.1",
+		"@fortawesome/free-regular-svg-icons": "^6.2.1",
+		"@fortawesome/free-solid-svg-icons": "^6.2.1",
+		"@fortawesome/react-fontawesome": "^0.2.0",
+		"@headlessui/react": "^1.7.10",
+		"@heroicons/react": "^2.0.14",
+		"@react-three/drei": "^9.56.20",
+		"@react-three/fiber": "^8.11.0",
+		"@react-three/postprocessing": "^2.7.0",
+		"@supabase/supabase-js": "^2.7.1",
+		"@tailwindcss/line-clamp": "^0.4.2",
+		"@tanstack/react-query": "^4.24.4",
+		"@tanstack/react-query-devtools": "^4.24.4",
+		"@types/three": "^0.148.0",
+		"@use-gesture/react": "^10.2.24",
+		"date-fns": "^2.29.3",
+		"framer-motion": "^9.0.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.8.1",
+		"tailwind-merge": "^1.9.1",
+		"three": "^0.148.0",
+		"usehooks-ts": "^2.9.1"
+	},
+	"devDependencies": {
+		"@tailwindcss/forms": "^0.5.3",
+		"@types/react": "^18.0.27",
+		"@types/react-dom": "^18.0.10",
+		"@vitejs/plugin-react": "^3.1.0",
+		"autoprefixer": "^10.4.13",
+		"eslint": "^8.33.0",
+		"eslint-config-react-app": "^7.0.1",
+		"postcss": "^8.4.21",
+		"prettier": "^2.8.3",
+		"prettier-plugin-tailwindcss": "^0.2.2",
+		"tailwindcss": "^3.2.4",
+		"typescript": "^4.9.3",
+		"vite": "^4.1.0"
+	}
+}
