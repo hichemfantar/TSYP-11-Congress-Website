@@ -11,6 +11,8 @@ import ExpoDetailsPage from "./app/pages/ExpoDetails.page.jsx";
 import SchedulePage from "./app/pages/Schedule.page.jsx";
 import { setInitialTheme } from "./app/utils/themeSwitcher.js";
 import HomePage from "./app/pages/Home.page.jsx";
+import Team from "./app/components/Team.jsx";
+import TunisiaPage from "./app/pages/Tunisia.page.jsx";
 
 setInitialTheme();
 
@@ -22,6 +24,10 @@ const router = createBrowserRouter([
 				path: "/",
 				// index: true,
 				element: <HomePage />,
+			},
+			{
+				path: "tunisia",
+				element: <TunisiaPage />,
 			},
 			{
 				path: "expo",
@@ -38,6 +44,10 @@ const router = createBrowserRouter([
 			{
 				path: "speakers",
 				element: <Speakers />,
+			},
+			{
+				path: "team",
+				element: <Team />,
 			},
 			{
 				path: "speakers/:speakerSlug",
