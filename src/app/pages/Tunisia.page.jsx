@@ -6,56 +6,40 @@ import SBGroupPic from "../../assets/sb-group-pic.jpg";
 export default function TunisiaPage() {
 	return (
 		<div className="h-full">
-			<section className="grid grid-cols-12 items-center justify-center py-36 md:py-56">
-				<div className="col-span-12 mx-auto">
-					<img
-						src={Logo}
-						className="mx-auto mb-8 hidden h-52 object-contain dark:block dark:invert sm:h-48"
-						alt="TSYP 11"
-					/>
-					<img
-						src={LightLogo}
-						className="mx-auto h-56 object-contain dark:hidden sm:h-52"
-						alt="TSYP 11"
-					/>
-					<h1 className="mb-4 text-center text-4xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
-						Welcome to our Silicon Valley.
+			<section className="grid items-center justify-center gap-12 py-8 md:grid-cols-12 md:py-28">
+				<div className="col-span-6">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+						Tunisia - تونس
 					</h1>
-					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-						18-20 December 2023, Diar Lemdina, Hammamet.
+					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+						There’s so much to see and do in each region of Tunisia: a wide
+						variety of landscapes, a coastline spanning 1,250km, studded with
+						islands and archipelagos, a fantastic array of traditions and
+						customs and a rich historical heritage. We are delighted to
+						introduce you to these regions by breaking them down into this
+						video.
 					</h1>
 				</div>
-				{/* <div className="col-span-6">
-				<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-6xl lg:font-extrabold lg:leading-none">
-					Welcome to our Silicon Valley.
-				</h1>
-				<h1 className="mb-4 text-4xl font-medium tracking-tight text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-2xl lg:font-extrabold lg:leading-none">
-					IEEE Tunisian Students and Young Professionals in Conjunction with
-					IEEE ESSTHS in Silicon Valley congress.
-				</h1>
-			</div> */}
-			</section>
-
-			<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
-				<div className="col-span-6 mx-auto">
-					<img
+				<div className="col-span-6 mx-auto w-full">
+					<iframe
+						// width="560"
+						// width="100%"
+						// height="315"
+						// height="500"
+						// width="100%"
+						className="mx-auto h-56 w-full rounded-2xl sm:h-96"
+						// className="mx-auto h-56 w-full sm:h-60"
+						src="https://www.youtube.com/embed/cR8mH08xNVw"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					></iframe>
+					{/* <img
 						src={LightLogo}
 						className="mx-auto h-56 object-contain sm:h-60"
 						alt="TSYP 11"
-					/>
-				</div>
-				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						About IEEE TSYP Congress.
-					</h1>
-					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-						Tunisian Students and Young Professionals, is the annual congress
-						that brings together IEEE members in Tunisia. We are talking about
-						the 11th edition which is organized by IEEE ESSTHS SB. It is an
-						excellent opportunity to discuss current and future challenges in
-						science and engineering, to immerse in the IEEE national network and
-						to exchange experiences.
-					</h1>
+					/> */}
 				</div>
 			</section>
 
