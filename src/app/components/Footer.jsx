@@ -66,9 +66,11 @@ export default function Footer() {
 							))}
 					</ul>
 
-					<div className="hidden lg:block">
-						<ThemeToggle />
-					</div>
+					{true && (
+						<div className="hidden lg:block">
+							<ThemeToggle />
+						</div>
+					)}
 				</div>
 			</div>
 		</footer>

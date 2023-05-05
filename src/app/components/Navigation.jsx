@@ -5,6 +5,7 @@ import routes from "../routes";
 import NavModal from "./NavModal";
 import Logo from "../../assets/main logo black (Custom).png";
 import LightLogo from "../../assets/main logo_2 (Custom).png";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navigation() {
 	const [toggleModal, setToggleModal] = useState(false);
@@ -84,9 +85,9 @@ export default function Navigation() {
 							</ul>
 						</div>
 
-						{/* <div className="hidden lg:block">
+						<div className="hidden lg:block">
 							<ThemeToggle />
-						</div> */}
+						</div>
 
 						<button
 							type="button"
