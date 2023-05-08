@@ -6,33 +6,681 @@ export default function Team() {
 		<div>
 			<div className="mb-8 text-4xl font-bold">Meet the Team</div>
 			<div className="grid grid-cols-12 gap-y-4 md:gap-4">
-				{speakersData.map((speaker) => (
-					<Link
-						key={speaker.name}
-						to={speaker.slug}
-						className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
-					>
-						<img
-							src={speaker.imageSmall.url}
-							alt=""
-							className="mb-2 h-96 w-full rounded-lg object-cover md:h-64"
-							loading="lazy"
-						/>
-						<div className="font-bold">{speaker.name}</div>
-						<div className="mb-2 text-sm text-gray-600 dark:text-gray-400">
-							@{speaker.twitterUsername}
-						</div>
-						<div className="text-sm">
-							{speaker.title}, {speaker.company.name}
-						</div>
-					</Link>
-				))}
+				{speakersData
+					?.filter((s) => !!s?.active)
+					?.map((speaker) => (
+						<Link
+							key={speaker.name}
+							to={speaker.slug}
+							className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
+						>
+							<img
+								src={speaker.imageSmall.url}
+								alt=""
+								className="mb-2 h-96 w-full rounded-lg object-cover md:h-64"
+								loading="lazy"
+							/>
+							<div className="font-bold">{speaker.name}</div>
+							<div className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+								@{speaker.twitterUsername}
+							</div>
+							<div className="text-sm">
+								{speaker.title}, {speaker.company.name}
+							</div>
+						</Link>
+					))}
 			</div>
 		</div>
 	);
 }
 
-export const speakersData = [
+const speakersData = [
+	{
+		active: true,
+		name: "Kayoum Djedidi",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Chairman",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Asma Basly",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Vice Chairwoman",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Loua Ben Afia",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "General Secretary",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Oussema Ben Mahmoud",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Treasurer",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Sarry Boukadida",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Sponsorship Chief",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Mariem Sidia",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Program Chief",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Oussema El Haddad",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Program Chief",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Malek Gdoura",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Guests & Speakers Coordinator",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Bachar Ben Slama",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Logistics Chief",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Fatma Belghith",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Logistics Manager",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Safa Mansour",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Logistics Manager",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Lina Bouallegue",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Media Chief",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Elyess Ben Sassi",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Media Manager",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Wijdene Mootamri",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Video Manager",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
+		name: "Bassem Gouty",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "IT Chief",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+
 	{
 		name: "Guillermo Rauch",
 		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
