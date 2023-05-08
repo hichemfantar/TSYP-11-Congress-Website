@@ -167,6 +167,49 @@ const speakersData = [
 	},
 	{
 		active: true,
+		name: "Hichem Fantar",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Digital Artisan",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			descriptionWithFormatting: {
+				value: {
+					schema: "dast",
+					document: {
+						type: "root",
+						children: [
+							{
+								type: "paragraph",
+								children: [
+									{
+										type: "span",
+										value:
+											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+									},
+								],
+							},
+						],
+					},
+				},
+			},
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png?h=192&w=192",
+		},
+	},
+	{
+		active: true,
 		name: "Oussema Ben Mahmoud",
 		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
 		title: "Treasurer",
