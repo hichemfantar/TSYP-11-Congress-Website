@@ -21,11 +21,12 @@ export default function Team() {
 								loading="lazy"
 							/>
 							<div className="font-bold">{speaker.name}</div>
-							<div className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+							{/* <div className="mb-2 text-sm text-gray-600 dark:text-gray-400">
 								@{speaker.twitterUsername}
-							</div>
+							</div> */}
 							<div className="text-sm">
-								{speaker.title}, {speaker.company.name}
+								{speaker.title}
+								{false && `, ${speaker.company.name}`}
 							</div>
 						</Link>
 					))}
