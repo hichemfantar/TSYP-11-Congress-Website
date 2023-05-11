@@ -2,6 +2,14 @@ import React from "react";
 import Logo from "../../assets/main logo black (Custom).png";
 import LightLogo from "../../assets/main logo_2 (Custom).png";
 import SBGroupPic from "../../assets/sb-group-pic.jpg";
+import TSYP2015 from "../../assets/tsyp-editions/tsyp-2015.jpg";
+import TSYP2016 from "../../assets/tsyp-editions/tsyp-2016.jpg";
+import TSYP2017 from "../../assets/tsyp-editions/tsyp-2017.jpg";
+import TSYP2018 from "../../assets/tsyp-editions/tsyp-2018.jpg";
+import TSYP2019 from "../../assets/tsyp-editions/tsyp-2019.jpg";
+import TSYP2020 from "../../assets/tsyp-editions/tsyp-2020.jpg";
+import TSYP2021 from "../../assets/tsyp-editions/tsyp-2021.jpg";
+import TSYP2022 from "../../assets/tsyp-editions/tsyp-2022.png";
 
 export default function HomePage() {
 	return (
@@ -39,8 +47,14 @@ export default function HomePage() {
 			<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
 				<div className="col-span-6 mx-auto">
 					<img
+						src={Logo}
+						className="mx-auto mb-8 hidden h-52 object-contain dark:block dark:invert sm:h-48"
+						alt="TSYP 11"
+					/>
+
+					<img
 						src={LightLogo}
-						className="mx-auto h-56 object-contain sm:h-60"
+						className="mx-auto h-56 object-contain dark:hidden sm:h-60"
 						alt="TSYP 11"
 					/>
 				</div>
@@ -108,6 +122,332 @@ export default function HomePage() {
 			</section>
 
 			<section className="py-8 md:py-28">
+				<PreviousEditions />
+			</section>
+
+			<section>
+				<div className="mb-12 text-4xl font-bold">Schedule Overview</div>
+				<div className="flex flex-col gap-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
+					<section>
+						<h3 className="text-2xl font-semibold tracking-tight ">
+							<time dateTime="2022-04-04">December 18</time>
+						</h3>
+						<p className="mt-1.5 text-base tracking-tight ">
+							The first day of the conference is focused on ecommerce.
+						</p>
+						<ol
+							role="list"
+							className="mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 backdrop-blur transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
+						>
+							<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM PST">
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Steven McHail
+								</h4>
+								<p className="mt-1 tracking-tight ">One-time payments</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-04T9:00AM-08:00">9:00AM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-04T10:00AM-08:00">10:00AM</time>{" "}
+									{/* */}PST
+								</p>
+							</li>
+							<li aria-label="Jaquelin Isch talking about The finer print at 10:00AM - 11:00AM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Jaquelin Isch
+								</h4>
+								<p className="mt-1 tracking-tight ">The finer print</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-04T10:00AM-08:00">10:00AM</time>{" "}
+									{/* */}-{/* */}{" "}
+									<time dateTime="2022-04-04T11:00AM-08:00">11:00AM</time>{" "}
+									{/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Dianne Guilianelli talking about Post-purchase at 11:00AM - 12:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Dianne Guilianelli
+								</h4>
+								<p className="mt-1 tracking-tight ">Post-purchase</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-04T11:00AM-08:00">11:00AM</time>{" "}
+									{/* */}-{/* */}{" "}
+									<time dateTime="2022-04-04T12:00PM-08:00">12:00PM</time>{" "}
+									{/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Lunch talking about null at 12:00PM - 1:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">Lunch</h4>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-04T12:00PM-08:00">12:00PM</time>{" "}
+									{/* */}-{/* */}{" "}
+									<time dateTime="2022-04-04T1:00PM-08:00">1:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Ronni Cantadore talking about Buy at 1:00PM - 2:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Ronni Cantadore
+								</h4>
+								<p className="mt-1 tracking-tight ">Buy</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-04T1:00PM-08:00">1:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-04T2:00PM-08:00">2:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Erhart Cockrin talking about In-person cancellation at 2:00PM - 3:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Erhart Cockrin
+								</h4>
+								<p className="mt-1 tracking-tight ">In-person cancellation</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-04T2:00PM-08:00">2:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-04T3:00PM-08:00">3:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Parker Johnson talking about The pay/cancel switcheroo at 3:00PM - 4:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Parker Johnson
+								</h4>
+								<p className="mt-1 tracking-tight ">
+									The pay/cancel switcheroo
+								</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-04T3:00PM-08:00">3:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-04T4:00PM-08:00">4:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+						</ol>
+					</section>
+					<section>
+						<h3 className="text-2xl font-semibold tracking-tight ">
+							<time dateTime="2022-04-05">December 19</time>
+						</h3>
+						<p className="mt-1.5 text-base tracking-tight ">
+							Next we spend the day talking about people with technology.
+						</p>
+						<ol
+							role="list"
+							className="mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 backdrop-blur transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
+						>
+							<li aria-label="Damaris Kimura talking about The invisible card reader at 9:00AM - 10:00AM PST">
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Damaris Kimura
+								</h4>
+								<p className="mt-1 tracking-tight ">
+									The invisible card reader
+								</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-05T9:00AM-08:00">9:00AM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-05T10:00AM-08:00">10:00AM</time>{" "}
+									{/* */}PST
+								</p>
+							</li>
+							<li aria-label="Ibrahim Frasch talking about Protecting fingerprints at 10:00AM - 11:00AM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Ibrahim Frasch
+								</h4>
+								<p className="mt-1 tracking-tight ">Protecting fingerprints</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-05T10:00AM-08:00">10:00AM</time>{" "}
+									{/* */}-{/* */}{" "}
+									<time dateTime="2022-04-05T11:00AM-08:00">11:00AM</time>{" "}
+									{/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Cathlene Burrage talking about Voting machines at 11:00AM - 12:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Cathlene Burrage
+								</h4>
+								<p className="mt-1 tracking-tight ">Voting machines</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-05T11:00AM-08:00">11:00AM</time>{" "}
+									{/* */}-{/* */}{" "}
+									<time dateTime="2022-04-05T12:00PM-08:00">12:00PM</time>{" "}
+									{/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Lunch talking about null at 12:00PM - 1:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">Lunch</h4>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-05T12:00PM-08:00">12:00PM</time>{" "}
+									{/* */}-{/* */}{" "}
+									<time dateTime="2022-04-05T1:00PM-08:00">1:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Rinaldo Beynon talking about Whitehat SEO that works at 1:00PM - 2:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Rinaldo Beynon
+								</h4>
+								<p className="mt-1 tracking-tight ">Whitehat SEO that works</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-05T1:00PM-08:00">1:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-05T2:00PM-08:00">2:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Waylon Hyden talking about Impressing your audience at 2:00PM - 3:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Waylon Hyden
+								</h4>
+								<p className="mt-1 tracking-tight ">Impressing your audience</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-05T2:00PM-08:00">2:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Giordano Sagucio
+								</h4>
+								<p className="mt-1 tracking-tight ">Fishing</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+						</ol>
+					</section>
+					<section>
+						<h3 className="text-2xl font-semibold tracking-tight ">
+							<time dateTime="2022-04-06">December 20</time>
+						</h3>
+						<p className="mt-1.5 text-base tracking-tight ">
+							We close out the event previewing techniques in development.
+						</p>
+						<ol
+							role="list"
+							className="mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 backdrop-blur transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
+						>
+							<li aria-label="Andrew Greene talking about Neuralink patterns at 9:00AM - 10:00AM PST">
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Andrew Greene
+								</h4>
+								<p className="mt-1 tracking-tight ">Neuralink patterns</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-06T9:00AM-08:00">9:00AM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-06T10:00AM-08:00">10:00AM</time>{" "}
+									{/* */}PST
+								</p>
+							</li>
+							<li aria-label="Heather Terry talking about DALL-E for passports at 10:00AM - 11:00AM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Heather Terry
+								</h4>
+								<p className="mt-1 tracking-tight ">DALL-E for passports</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-06T10:00AM-08:00">10:00AM</time>{" "}
+									{/* */}-{/* */}{" "}
+									<time dateTime="2022-04-06T11:00AM-08:00">11:00AM</time>{" "}
+									{/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Piers Wilkins talking about Quantum password cracking at 11:00AM - 12:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Piers Wilkins
+								</h4>
+								<p className="mt-1 tracking-tight ">
+									Quantum password cracking
+								</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-06T11:00AM-08:00">11:00AM</time>{" "}
+									{/* */}-{/* */}{" "}
+									<time dateTime="2022-04-06T12:00PM-08:00">12:00PM</time>{" "}
+									{/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Lunch talking about null at 12:00PM - 1:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">Lunch</h4>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-06T12:00PM-08:00">12:00PM</time>{" "}
+									{/* */}-{/* */}{" "}
+									<time dateTime="2022-04-06T1:00PM-08:00">1:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Gordon Sanderson talking about Singularity is coming at 1:00PM - 2:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Gordon Sanderson
+								</h4>
+								<p className="mt-1 tracking-tight ">Singularity is coming</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-06T1:00PM-08:00">1:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-06T2:00PM-08:00">2:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Kimberly Parsons talking about patterns for the metaverse at 2:00PM - 3:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Kimberly Parsons
+								</h4>
+								<p className="mt-1 tracking-tight ">
+									patterns for the metaverse
+								</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-06T2:00PM-08:00">2:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-06T3:00PM-08:00">3:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Richard Astley talking about Knowing the game and playing it at 3:00PM - 4:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Richard Astley
+								</h4>
+								<p className="mt-1 tracking-tight ">
+									Knowing the game and playing it
+								</p>
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-06T3:00PM-08:00">3:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-06T4:00PM-08:00">4:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+						</ol>
+					</section>
+				</div>
+			</section>
+
+			<section className="py-8 md:py-28">
 				<div className="mx-auto">
 					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						Find us here.
@@ -126,299 +466,75 @@ export default function HomePage() {
 					></iframe>
 				</div>
 			</section>
+		</div>
+	);
+}
 
-			<div className="mb-12 text-4xl font-bold">Schedule Overview</div>
-			<div className="flex flex-col gap-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
-				<section>
-					<h3 className="text-2xl font-semibold tracking-tight ">
-						<time dateTime="2022-04-04">December 18</time>
-					</h3>
-					<p className="mt-1.5 text-base tracking-tight ">
-						The first day of the conference is focused on ecommerce.
-					</p>
-					<ol
-						role="list"
-						className="mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 backdrop-blur transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
-					>
-						<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM PST">
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Steven McHail
-							</h4>
-							<p className="mt-1 tracking-tight ">One-time payments</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-04T9:00AM-08:00">9:00AM</time> {/* */}-
-								{/* */} <time dateTime="2022-04-04T10:00AM-08:00">10:00AM</time>{" "}
-								{/* */}PST
-							</p>
-						</li>
-						<li aria-label="Jaquelin Isch talking about The finer print at 10:00AM - 11:00AM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Jaquelin Isch
-							</h4>
-							<p className="mt-1 tracking-tight ">The finer print</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-04T10:00AM-08:00">10:00AM</time> {/* */}
-								-{/* */}{" "}
-								<time dateTime="2022-04-04T11:00AM-08:00">11:00AM</time> {/* */}
-								PST
-							</p>
-						</li>
-						<li aria-label="Dianne Guilianelli talking about Post-purchase at 11:00AM - 12:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Dianne Guilianelli
-							</h4>
-							<p className="mt-1 tracking-tight ">Post-purchase</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-04T11:00AM-08:00">11:00AM</time> {/* */}
-								-{/* */}{" "}
-								<time dateTime="2022-04-04T12:00PM-08:00">12:00PM</time> {/* */}
-								PST
-							</p>
-						</li>
-						<li aria-label="Lunch talking about null at 12:00PM - 1:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">Lunch</h4>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-04T12:00PM-08:00">12:00PM</time> {/* */}
-								-{/* */} <time dateTime="2022-04-04T1:00PM-08:00">1:00PM</time>{" "}
-								{/* */}
-								PST
-							</p>
-						</li>
-						<li aria-label="Ronni Cantadore talking about Buy at 1:00PM - 2:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Ronni Cantadore
-							</h4>
-							<p className="mt-1 tracking-tight ">Buy</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-04T1:00PM-08:00">1:00PM</time> {/* */}-
-								{/* */} <time dateTime="2022-04-04T2:00PM-08:00">2:00PM</time>{" "}
-								{/* */}PST
-							</p>
-						</li>
-						<li aria-label="Erhart Cockrin talking about In-person cancellation at 2:00PM - 3:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Erhart Cockrin
-							</h4>
-							<p className="mt-1 tracking-tight ">In-person cancellation</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-04T2:00PM-08:00">2:00PM</time> {/* */}-
-								{/* */} <time dateTime="2022-04-04T3:00PM-08:00">3:00PM</time>{" "}
-								{/* */}PST
-							</p>
-						</li>
-						<li aria-label="Parker Johnson talking about The pay/cancel switcheroo at 3:00PM - 4:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Parker Johnson
-							</h4>
-							<p className="mt-1 tracking-tight ">The pay/cancel switcheroo</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-04T3:00PM-08:00">3:00PM</time> {/* */}-
-								{/* */} <time dateTime="2022-04-04T4:00PM-08:00">4:00PM</time>{" "}
-								{/* */}PST
-							</p>
-						</li>
-					</ol>
-				</section>
-				<section>
-					<h3 className="text-2xl font-semibold tracking-tight ">
-						<time dateTime="2022-04-05">December 19</time>
-					</h3>
-					<p className="mt-1.5 text-base tracking-tight ">
-						Next we spend the day talking about people with technology.
-					</p>
-					<ol
-						role="list"
-						className="mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 backdrop-blur transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
-					>
-						<li aria-label="Damaris Kimura talking about The invisible card reader at 9:00AM - 10:00AM PST">
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Damaris Kimura
-							</h4>
-							<p className="mt-1 tracking-tight ">The invisible card reader</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-05T9:00AM-08:00">9:00AM</time> {/* */}-
-								{/* */} <time dateTime="2022-04-05T10:00AM-08:00">10:00AM</time>{" "}
-								{/* */}PST
-							</p>
-						</li>
-						<li aria-label="Ibrahim Frasch talking about Protecting fingerprints at 10:00AM - 11:00AM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Ibrahim Frasch
-							</h4>
-							<p className="mt-1 tracking-tight ">Protecting fingerprints</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-05T10:00AM-08:00">10:00AM</time> {/* */}
-								-{/* */}{" "}
-								<time dateTime="2022-04-05T11:00AM-08:00">11:00AM</time> {/* */}
-								PST
-							</p>
-						</li>
-						<li aria-label="Cathlene Burrage talking about Voting machines at 11:00AM - 12:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Cathlene Burrage
-							</h4>
-							<p className="mt-1 tracking-tight ">Voting machines</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-05T11:00AM-08:00">11:00AM</time> {/* */}
-								-{/* */}{" "}
-								<time dateTime="2022-04-05T12:00PM-08:00">12:00PM</time> {/* */}
-								PST
-							</p>
-						</li>
-						<li aria-label="Lunch talking about null at 12:00PM - 1:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">Lunch</h4>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-05T12:00PM-08:00">12:00PM</time> {/* */}
-								-{/* */} <time dateTime="2022-04-05T1:00PM-08:00">1:00PM</time>{" "}
-								{/* */}
-								PST
-							</p>
-						</li>
-						<li aria-label="Rinaldo Beynon talking about Whitehat SEO that works at 1:00PM - 2:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Rinaldo Beynon
-							</h4>
-							<p className="mt-1 tracking-tight ">Whitehat SEO that works</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-05T1:00PM-08:00">1:00PM</time> {/* */}-
-								{/* */} <time dateTime="2022-04-05T2:00PM-08:00">2:00PM</time>{" "}
-								{/* */}PST
-							</p>
-						</li>
-						<li aria-label="Waylon Hyden talking about Impressing your audience at 2:00PM - 3:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Waylon Hyden
-							</h4>
-							<p className="mt-1 tracking-tight ">Impressing your audience</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-05T2:00PM-08:00">2:00PM</time> {/* */}-
-								{/* */} <time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time>{" "}
-								{/* */}PST
-							</p>
-						</li>
-						<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Giordano Sagucio
-							</h4>
-							<p className="mt-1 tracking-tight ">Fishing</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}-
-								{/* */} <time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time>{" "}
-								{/* */}PST
-							</p>
-						</li>
-					</ol>
-				</section>
-				<section>
-					<h3 className="text-2xl font-semibold tracking-tight ">
-						<time dateTime="2022-04-06">December 20</time>
-					</h3>
-					<p className="mt-1.5 text-base tracking-tight ">
-						We close out the event previewing techniques in development.
-					</p>
-					<ol
-						role="list"
-						className="mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 backdrop-blur transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
-					>
-						<li aria-label="Andrew Greene talking about Neuralink patterns at 9:00AM - 10:00AM PST">
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Andrew Greene
-							</h4>
-							<p className="mt-1 tracking-tight ">Neuralink patterns</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-06T9:00AM-08:00">9:00AM</time> {/* */}-
-								{/* */} <time dateTime="2022-04-06T10:00AM-08:00">10:00AM</time>{" "}
-								{/* */}PST
-							</p>
-						</li>
-						<li aria-label="Heather Terry talking about DALL-E for passports at 10:00AM - 11:00AM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Heather Terry
-							</h4>
-							<p className="mt-1 tracking-tight ">DALL-E for passports</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-06T10:00AM-08:00">10:00AM</time> {/* */}
-								-{/* */}{" "}
-								<time dateTime="2022-04-06T11:00AM-08:00">11:00AM</time> {/* */}
-								PST
-							</p>
-						</li>
-						<li aria-label="Piers Wilkins talking about Quantum password cracking at 11:00AM - 12:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Piers Wilkins
-							</h4>
-							<p className="mt-1 tracking-tight ">Quantum password cracking</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-06T11:00AM-08:00">11:00AM</time> {/* */}
-								-{/* */}{" "}
-								<time dateTime="2022-04-06T12:00PM-08:00">12:00PM</time> {/* */}
-								PST
-							</p>
-						</li>
-						<li aria-label="Lunch talking about null at 12:00PM - 1:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">Lunch</h4>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-06T12:00PM-08:00">12:00PM</time> {/* */}
-								-{/* */} <time dateTime="2022-04-06T1:00PM-08:00">1:00PM</time>{" "}
-								{/* */}
-								PST
-							</p>
-						</li>
-						<li aria-label="Gordon Sanderson talking about Singularity is coming at 1:00PM - 2:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Gordon Sanderson
-							</h4>
-							<p className="mt-1 tracking-tight ">Singularity is coming</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-06T1:00PM-08:00">1:00PM</time> {/* */}-
-								{/* */} <time dateTime="2022-04-06T2:00PM-08:00">2:00PM</time>{" "}
-								{/* */}PST
-							</p>
-						</li>
-						<li aria-label="Kimberly Parsons talking about patterns for the metaverse at 2:00PM - 3:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Kimberly Parsons
-							</h4>
-							<p className="mt-1 tracking-tight ">patterns for the metaverse</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-06T2:00PM-08:00">2:00PM</time> {/* */}-
-								{/* */} <time dateTime="2022-04-06T3:00PM-08:00">3:00PM</time>{" "}
-								{/* */}PST
-							</p>
-						</li>
-						<li aria-label="Richard Astley talking about Knowing the game and playing it at 3:00PM - 4:00PM PST">
-							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-							<h4 className="text-lg font-semibold tracking-tight ">
-								Richard Astley
-							</h4>
-							<p className="mt-1 tracking-tight ">
-								Knowing the game and playing it
-							</p>
-							<p className="mt-1 font-mono text-sm text-slate-500">
-								<time dateTime="2022-04-06T3:00PM-08:00">3:00PM</time> {/* */}-
-								{/* */} <time dateTime="2022-04-06T4:00PM-08:00">4:00PM</time>{" "}
-								{/* */}PST
-							</p>
-						</li>
-					</ol>
-				</section>
+function PreviousEditions() {
+	return (
+		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-32">
+			<div className="mx-auto max-w-7xl px-6 lg:px-8">
+				<h2 className="mb-12 text-center text-4xl font-bold">
+					Previous Editions
+				</h2>
+				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+					<img
+						className="col-span-2 object-contain lg:col-span-1"
+						src={TSYP2022}
+						alt="Transistor"
+						width={200}
+						height={200}
+					/>
+					<img
+						className="col-span-2 rounded-full object-contain lg:col-span-1"
+						src={TSYP2021}
+						alt="Transistor"
+						width={200}
+						height={200}
+					/>
+					<img
+						className="col-span-2 object-contain dark:rounded-full lg:col-span-1"
+						src={TSYP2020}
+						alt="Reform"
+						width={200}
+						height={200}
+					/>
+					<img
+						className="col-span-2 rounded-full object-contain lg:col-span-1"
+						src={TSYP2019}
+						alt="Tuple"
+						width={200}
+						height={200}
+					/>
+					<img
+						className="col-span-2 object-contain dark:rounded-full sm:col-start-2 lg:col-span-1"
+						src={TSYP2018}
+						alt="SavvyCal"
+						width={200}
+						height={200}
+					/>
+					<img
+						className="col-span-2 col-start-2 rounded-full object-contain sm:col-start-auto lg:col-span-1"
+						src={TSYP2017}
+						alt="Statamic"
+						width={200}
+						height={200}
+					/>
+					<img
+						className="col-span-2 col-start-2 rounded-full object-contain sm:col-start-auto lg:col-span-1"
+						src={TSYP2016}
+						alt="Statamic"
+						width={200}
+						height={200}
+					/>
+					<img
+						className="col-span-2 col-start-2 rounded-full object-contain sm:col-start-auto lg:col-span-1"
+						src={TSYP2015}
+						alt="Statamic"
+						width={200}
+						height={200}
+					/>
+				</div>
 			</div>
 		</div>
 	);
