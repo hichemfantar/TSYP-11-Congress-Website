@@ -138,7 +138,7 @@ export default function HomePage() {
 						</p>
 						<ol
 							role="list"
-							className="mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 backdrop-blur transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
+							className="bbackdrop-blur mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
 						>
 							<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM PST">
 								<h4 className="text-lg font-semibold tracking-tight ">
@@ -242,7 +242,7 @@ export default function HomePage() {
 						</p>
 						<ol
 							role="list"
-							className="mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 backdrop-blur transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
+							className="bbackdrop-blur mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
 						>
 							<li aria-label="Damaris Kimura talking about The invisible card reader at 9:00AM - 10:00AM PST">
 								<h4 className="text-lg font-semibold tracking-tight ">
@@ -346,7 +346,7 @@ export default function HomePage() {
 						</p>
 						<ol
 							role="list"
-							className="mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 backdrop-blur transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
+							className="bbackdrop-blur mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
 						>
 							<li aria-label="Andrew Greene talking about Neuralink patterns at 9:00AM - 10:00AM PST">
 								<h4 className="text-lg font-semibold tracking-tight ">
@@ -473,68 +473,112 @@ export default function HomePage() {
 
 function PreviousEditions() {
 	return (
-		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-32">
+		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-24">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<h2 className="mb-12 text-center text-4xl font-bold">
 					Previous Editions
 				</h2>
 				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-					<img
-						className="col-span-2 object-contain lg:col-span-1"
-						src={TSYP2022}
-						alt="Transistor"
-						width={200}
-						height={200}
-					/>
-					<img
-						className="col-span-2 rounded-full object-contain lg:col-span-1"
-						src={TSYP2021Dark}
-						alt="Transistor"
-						width={200}
-						height={200}
-					/>
-					<img
-						className="col-span-2 h-[200px] w-[200px] rounded-full object-cover lg:col-span-1"
-						src={TSYP2020}
-						alt="Reform"
-						width={200}
-						height={200}
-					/>
-					<img
-						className="col-span-2 rounded-full object-contain lg:col-span-1"
-						src={TSYP2019}
-						alt="Tuple"
-						width={200}
-						height={200}
-					/>
-					<img
-						className="col-span-2 object-contain dark:rounded-full dark:invert sm:col-start-2 lg:col-span-1"
-						src={TSYP2018}
-						alt="SavvyCal"
-						width={200}
-						height={200}
-					/>
-					<img
-						className="col-span-2 col-start-2 rounded-full object-contain sm:col-start-auto lg:col-span-1"
-						src={TSYP2017}
-						alt="Statamic"
-						width={200}
-						height={200}
-					/>
-					<img
-						className="col-span-2 col-start-2 rounded-full object-contain sm:col-start-auto lg:col-span-1"
-						src={TSYP2016}
-						alt="Statamic"
-						width={200}
-						height={200}
-					/>
-					<img
-						className="col-span-2 col-start-2 rounded-full object-contain sm:col-start-auto lg:col-span-1"
-						src={TSYP2015}
-						alt="Statamic"
-						width={200}
-						height={200}
-					/>
+					<a href="https://tsyp.ieee.tn/" target="_blank" rel="noreferrer">
+						<img
+							className="col-span-2 rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 lg:col-span-1"
+							src={TSYP2022}
+							alt="Transistor"
+							width={200}
+							height={200}
+						/>
+					</a>
+					<a
+						href="https://past-tsyp.ieee.tn/2021/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							className="col-span-2 rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 lg:col-span-1"
+							src={TSYP2021Dark}
+							alt="Transistor"
+							width={200}
+							height={200}
+						/>
+					</a>
+					<a
+						href="https://past-tsyp.ieee.tn/2020/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							className="col-span-2 h-[200px] w-[200px] rounded-full object-cover shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 lg:col-span-1"
+							src={TSYP2020}
+							alt="Reform"
+							width={200}
+							height={200}
+						/>
+					</a>
+					<a
+						href="https://past-tsyp.ieee.tn/2019/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							className="col-span-2 rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 lg:col-span-1"
+							src={TSYP2019}
+							alt="Tuple"
+							width={200}
+							height={200}
+						/>
+					</a>
+					<a
+						href="https://past-tsyp.ieee.tn/2018/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							className="col-span-2 rounded-full object-contain p-4 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert sm:col-start-2 lg:col-span-1"
+							src={TSYP2018}
+							alt="SavvyCal"
+							width={200}
+							height={200}
+						/>
+					</a>
+					<a
+						href="https://past-tsyp.ieee.tn/2017/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							className="col-span-2 col-start-2 rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:invert sm:col-start-auto lg:col-span-1"
+							src={TSYP2017}
+							alt="Statamic"
+							width={200}
+							height={200}
+						/>
+					</a>
+					<a
+						href="https://past-tsyp.ieee.tn/2016/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							className="col-span-2 col-start-2 rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:invert sm:col-start-auto lg:col-span-1"
+							src={TSYP2016}
+							alt="Statamic"
+							width={200}
+							height={200}
+						/>
+					</a>
+					<a
+						href="https://past-tsyp.ieee.tn/2015/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							className="col-span-2 col-start-2 rounded-full object-contain shadow-md shadow-gray-900 invert transition hover:scale-105 dark:invert-0 sm:col-start-auto lg:col-span-1"
+							src={TSYP2015}
+							alt="Statamic"
+							width={200}
+							height={200}
+						/>
+					</a>
 				</div>
 			</div>
 		</div>
