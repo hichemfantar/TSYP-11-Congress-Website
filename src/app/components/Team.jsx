@@ -22,12 +22,12 @@ export default function Team() {
 		<div>
 			<div className="mb-8 text-4xl font-bold">Meet the Team</div>
 			<div className="grid grid-cols-12 gap-y-4 md:gap-4">
-				{speakersData
+				{teamData
 					?.filter((s) => !!s?.active)
 					?.map((speaker) => (
 						<Link
 							key={speaker.name}
-							to={speaker.slug}
+							to={speaker.name}
 							className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
 						>
 							<img
@@ -54,7 +54,7 @@ export default function Team() {
 	);
 }
 
-const speakersData = [
+export const teamData = [
 	{
 		active: true,
 		name: "Kayoum Djedidi",

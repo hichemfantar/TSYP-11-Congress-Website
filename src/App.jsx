@@ -13,6 +13,7 @@ import { setInitialTheme } from "./app/utils/themeSwitcher.js";
 import HomePage from "./app/pages/Home.page.jsx";
 import Team from "./app/components/Team.jsx";
 import TunisiaPage from "./app/pages/Tunisia.page.jsx";
+import TeamMember from "./app/components/TeamMember.jsx";
 
 setInitialTheme();
 
@@ -46,12 +47,16 @@ const router = createBrowserRouter([
 				element: <Speakers />,
 			},
 			{
+				path: "speakers/:speakerSlug",
+				element: <Speaker />,
+			},
+			{
 				path: "team",
 				element: <Team />,
 			},
 			{
-				path: "speakers/:speakerSlug",
-				element: <Speaker />,
+				path: "team/:teamMemberSlug",
+				element: <TeamMember />,
 			},
 		],
 	},
