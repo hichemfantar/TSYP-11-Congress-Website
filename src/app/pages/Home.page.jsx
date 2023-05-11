@@ -5,10 +5,11 @@ import SBGroupPic from "../../assets/sb-group-pic.jpg";
 import TSYP2015 from "../../assets/tsyp-editions/tsyp-2015.jpg";
 import TSYP2016 from "../../assets/tsyp-editions/tsyp-2016.jpg";
 import TSYP2017 from "../../assets/tsyp-editions/tsyp-2017.jpg";
-import TSYP2018 from "../../assets/tsyp-editions/tsyp-2018.jpg";
+import TSYP2018 from "../../assets/tsyp-editions/tsyp-2018.png";
 import TSYP2019 from "../../assets/tsyp-editions/tsyp-2019.jpg";
 import TSYP2020 from "../../assets/tsyp-editions/tsyp-2020.jpg";
 import TSYP2021 from "../../assets/tsyp-editions/tsyp-2021.jpg";
+import TSYP2021Dark from "../../assets/tsyp-editions/tsyp-2021-dark.png";
 import TSYP2022 from "../../assets/tsyp-editions/tsyp-2022.png";
 
 export default function HomePage() {
@@ -487,13 +488,13 @@ function PreviousEditions() {
 					/>
 					<img
 						className="col-span-2 rounded-full object-contain lg:col-span-1"
-						src={TSYP2021}
+						src={TSYP2021Dark}
 						alt="Transistor"
 						width={200}
 						height={200}
 					/>
 					<img
-						className="col-span-2 object-contain dark:rounded-full lg:col-span-1"
+						className="col-span-2 h-[200px] w-[200px] rounded-full object-cover lg:col-span-1"
 						src={TSYP2020}
 						alt="Reform"
 						width={200}
@@ -507,7 +508,7 @@ function PreviousEditions() {
 						height={200}
 					/>
 					<img
-						className="col-span-2 object-contain dark:rounded-full sm:col-start-2 lg:col-span-1"
+						className="col-span-2 object-contain dark:rounded-full dark:invert sm:col-start-2 lg:col-span-1"
 						src={TSYP2018}
 						alt="SavvyCal"
 						width={200}

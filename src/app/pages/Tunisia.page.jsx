@@ -9,7 +9,7 @@ export default function TunisiaPage() {
 			<section className="grid grid-cols-12 items-center justify-center md:pt-32">
 				<div className="col-span-12 md:mx-auto">
 					<h1 className="mb-4 text-start text-4xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
-						About Tunisia
+						Discover Tunisia
 					</h1>
 					{/* <h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 						18-20 December 2023, Diar Lemdina, Hammamet.
