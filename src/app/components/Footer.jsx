@@ -41,7 +41,7 @@ export default function Footer() {
 					)}
 				</div>
 
-				<div className="hidden gap-4 md:flex">
+				<div className="hidden items-center gap-4 md:flex">
 					<ul className="ffont-['space_mono'] flex flex-wrap items-center text-sm text-gray-500 dark:text-gray-400">
 						{routes
 							.filter((r) => !r.mobile)
