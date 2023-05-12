@@ -1,7 +1,4 @@
 import React from "react";
-import Logo from "../../assets/main logo black (Custom).png";
-import LightLogo from "../../assets/main logo_2 (Custom).png";
-import SBGroupPic from "../../assets/sb-group-pic.jpg";
 
 export default function TunisiaPage() {
 	return (
@@ -54,58 +51,81 @@ export default function TunisiaPage() {
 				</div>
 			</section>
 
-			{false && (
-				<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
-					<div className="col-span-6 mx-auto md:order-last">
-						<img
-							src={"https://tsyp.ieee.tn/static/media/TT.2542e6b4.png"}
-							className="mx-auto h-52 object-contain sm:h-96"
-							alt="TSYP 11"
-						/>
+			<section className="py-8 md:py-28">
+				<div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+					<div className="grid gap-4">
+						<div>
+							<img
+								className="h-full w-full rounded-lg object-cover"
+								src="https://www.nationsonline.org/gallery/Tunisia/Super_moon_over_Medina_of_Tunis.jpg"
+								alt=""
+							/>
+						</div>
+						<div>
+							<img
+								className="h-full w-full rounded-lg object-cover"
+								src="https://www.classicalmovements.com/wp-content/gallery/tunisia/1024px-Zied_Gharsa_et_la_Rachidia.jpg"
+								alt=""
+							/>
+						</div>
+						<div>
+							<img
+								className="h-full w-full rounded-lg object-cover"
+								src="https://lp-cms-production.imgix.net/2019-06/c32f29efd9f1e16d0732dc4ce06918fd-sidi-bou-said.jpg"
+								alt=""
+							/>
+						</div>
 					</div>
-					<div className="col-span-6">
-						<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-							About IEEE Tunisia Section.
-						</h1>
-						<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-							The IEEE Tunisian Section aims to disseminate IEEE activities to
-							all corners of the country through educational and technical
-							activities, networking of people, and developing technology and
-							its applications for humanitarian challenges. The section supports
-							chapters, special interest groups, student activities, and student
-							awards. IEEE is anchored in the Tunisian engineering landscape
-							with more than 33 Student Branches' spread over the different
-							engineering schools, faculties and universities
-						</h1>
+					<div className="grid gap-4">
+						<div>
+							<img
+								className="h-full w-full rounded-lg object-cover"
+								src="https://images.pexels.com/photos/15252910/pexels-photo-15252910.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+								alt=""
+							/>
+						</div>
+						<div>
+							<img
+								className="h-full w-full rounded-lg object-cover"
+								src="https://www.tunisia-desert-challenge.com/storage/images/content/gr_tdc2021-jan-64.jpg?4"
+								alt=""
+							/>
+						</div>
+						<div>
+							<img
+								className="h-full w-full rounded-lg object-cover"
+								// src="https://i.pinimg.com/originals/92/05/52/920552b3644bf71279a6701ec423c9aa.jpg"
+								// src="https://i0.wp.com/www.maverickbird.com/wp-content/uploads/2022/01/53739914_2616188481731516_6800712058993115136_n.jpg?w=960"
+								src="https://media.istockphoto.com/id/536054559/photo/tataouine-scenery-on-a-background-of-sand-dunes.jpg?s=612x612&w=0&k=20&c=5k65H-TwunRYqCui_p-VvRBDUlkXRvgj4onU7HxtKBQ="
+								alt=""
+							/>
+						</div>
 					</div>
-				</section>
-			)}
-
-			{false && (
-				<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
-					<div className="col-span-6 mx-auto">
-						<img
-							src={SBGroupPic}
-							className="mx-auto h-56 rounded-2xl object-cover sm:h-96"
-							alt="TSYP 11"
-						/>
+					<div className="grid gap-4">
+						<div>
+							<img
+								className="h-full w-full rounded-lg object-cover"
+								src="https://images.thefishsite.com/fish/articles/middle-east/tunisia-editorial-use-only.jpg?scale.option=fill&scale.width=1200&scale.height=630&crop.width=1200&crop.height=630&crop.y=center&crop.x=center"
+								alt=""
+							/>
+						</div>
+						<div>
+							<img
+								className="h-full w-full rounded-lg object-cover"
+								src="https://mohamedison.com/assets/images/blog/posts/639351c1e1b3a.png"
+								alt=""
+							/>
+						</div>
+						<div>
+							<img
+								className="h-full w-full rounded-lg object-cover"
+								src="https://static.barcelo.com/content/dam/bpt/posts/2023/3/things-to-do-in-tunisia_must-see-tunisia.jpg.bhgimg.square1000.jpg/1680181230709.jpg"
+								alt=""
+							/>
+						</div>
 					</div>
-					<div className="col-span-6">
-						<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-							Hosted By IEEE ESSTHS Student Branch.
-						</h1>
-						<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-							IEEE ESSTHS Student Branch, founded in 2020, is home to more than
-							280 members, making it the largest Student Branch in Sousse, and
-							7th in Tunisia Section. It encompasses 5 Technical Chapters: CIS,
-							CS, IAS, PES, RAS, and 2 Affinity Groups: SIGHT & WIE. We have had
-							the honor of receiving more than 12 worldwide IEEE Awards across
-							all fields through the dedication and commitment of each of our
-							members.
-						</h1>
-					</div>
-				</section>
-			)}
+				</div>
+			</section>
 
 			<section className="py-8 md:py-28">
 				<div className="mx-auto">

@@ -14,6 +14,7 @@ import HomePage from "./app/pages/Home.page.jsx";
 import Team from "./app/components/Team.jsx";
 import TunisiaPage from "./app/pages/Tunisia.page.jsx";
 import TeamMember from "./app/components/TeamMember.jsx";
+import ContactPage from "./app/pages/Contact.page.jsx";
 
 setInitialTheme();
 
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
 			{
 				path: "team/:teamMemberSlug",
 				element: <TeamMember />,
+			},
+			{
+				path: "contact",
+				element: <ContactPage />,
 			},
 		],
 	},
