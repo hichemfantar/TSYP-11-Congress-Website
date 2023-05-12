@@ -470,7 +470,7 @@ export const companiesMock = [
 
 export const stagesData = [
 	{
-		name: "Keynote",
+		name: "December 18",
 		slug: "keynote",
 		stream: "https://www.youtube.com/embed/NiknNI_0J48?autoplay=1&loop=1",
 		discord: "https://discord.gg/fake",
@@ -568,7 +568,7 @@ export const stagesData = [
 		],
 	},
 	{
-		name: "Stage J",
+		name: "December 19",
 		slug: "j",
 		stream: "https://www.youtube.com/embed/qe6kkw2ut_Q?autoplay=1&loop=1",
 		discord: "https://discord.gg/fake",
@@ -844,7 +844,7 @@ export const stagesData = [
 		],
 	},
 	{
-		name: "Stage S",
+		name: "December 20",
 		slug: "s",
 		stream: "https://www.youtube.com/embed/RwyaNPWMiwU?autoplay=1&loop=1",
 		discord: "https://discord.gg/fake",
