@@ -3,30 +3,36 @@ import ScheduleBox from "../ScheduleBox";
 export default function ScheduleList() {
 	return (
 		<div>
-			<div className="mb-8">
-				<div className="mb-4 text-4xl font-bold">Schedule</div>
-				<div className="text-gray-600 dark:text-gray-400">
-					Learn more about our event schedule.
-				</div>
-			</div>
-
-			<div className="flex flex-col gap-8">
-				{stagesData.map((s) => (
-					<div key={s.slug}>
-						<div className="mb-4 text-2xl font-bold">{s.name}</div>
-						<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
-							{s.schedule.map((e) => (
-								<div
-									className="col-span-12 md:col-span-4 lg:col-span-3"
-									key={e.title}
-								>
-									<ScheduleBox data={e} key={e.title} classNames={"h-full"} />
-								</div>
-							))}
-						</div>
+			{false && (
+				<div className="mb-8">
+					<div className="mb-4 text-4xl font-bold">Schedule</div>
+					<div className="text-gray-600 dark:text-gray-400">
+						Learn more about our event schedule.
 					</div>
-				))}
-			</div>
+				</div>
+			)}
+
+			<ScheduleOverview />
+
+			{false && (
+				<div className="flex flex-col gap-8">
+					{stagesData.map((s) => (
+						<div key={s.slug}>
+							<div className="mb-4 text-2xl font-bold">{s.name}</div>
+							<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
+								{s.schedule.map((e) => (
+									<div
+										className="col-span-12 md:col-span-4 lg:col-span-3"
+										key={e.title}
+									>
+										<ScheduleBox data={e} key={e.title} classNames={"h-full"} />
+									</div>
+								))}
+							</div>
+						</div>
+					))}
+				</div>
+			)}
 		</div>
 	);
 }
@@ -1142,3 +1148,327 @@ export const stagesData = [
 		],
 	},
 ];
+
+export function ScheduleOverview() {
+	return (
+		<section>
+			<div className="mb-12 text-4xl font-bold">Schedule Overview</div>
+			<div className="flex flex-col gap-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
+				<section className="flex flex-col">
+					<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black">
+						<time dateTime="2022-04-04">December 18</time>
+					</h3>
+					<p className="mt-1.5 text-base tracking-tight">
+						The first day of the conference is focused on ecommerce.
+					</p>
+					<ol
+						role="list"
+						className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
+					>
+						<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Check-in & Booth setup
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-04T9:00AM-08:00">10:00AM</time> {/* */}-
+								{/* */} <time dateTime="2022-04-04T10:00AM-08:00">2:00PM</time>{" "}
+								{/* */}GMT+1
+							</p>
+						</li>
+						<li aria-label="Jaquelin Isch talking about The finer print at 10:00AM - 11:00AM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Opening ceremony
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">The finer print</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-04T10:00AM-08:00">10:00AM</time> {/* */}
+								-{/* */}{" "}
+								<time dateTime="2022-04-04T11:00AM-08:00">11:00AM</time> {/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Dianne Guilianelli talking about Post-purchase at 11:00AM - 12:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Stands, TSYP Booths & Networking
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">Post-purchase</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-04T11:00AM-08:00">11:00AM</time> {/* */}
+								-{/* */}{" "}
+								<time dateTime="2022-04-04T12:00PM-08:00">12:00PM</time> {/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Lunch talking about null at 12:00PM - 1:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">Dinner</h4>
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-04T12:00PM-08:00">12:00PM</time> {/* */}
+								-{/* */} <time dateTime="2022-04-04T1:00PM-08:00">1:00PM</time>{" "}
+								{/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Ronni Cantadore talking about Buy at 1:00PM - 2:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Team-Building & Surprise Challenge
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">Buy</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-04T1:00PM-08:00">1:00PM</time> {/* */}-
+								{/* */} <time dateTime="2022-04-04T2:00PM-08:00">2:00PM</time>{" "}
+								{/* */}
+								GMT+1
+							</p>
+						</li>
+					</ol>
+				</section>
+				<section className="flex flex-col">
+					<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black ">
+						<time dateTime="2022-04-05">December 19</time>
+					</h3>
+					<p className="mt-1.5 text-base tracking-tight ">
+						Next we spend the day talking about people with technology.
+					</p>
+					<ol
+						role="list"
+						className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
+					>
+						<li aria-label="Damaris Kimura talking about The invisible card reader at 9:00AM - 10:00AM GMT+1">
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Breakfast
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">
+							The invisible card reader
+						</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-05T9:00AM-08:00">9:00AM</time> {/* */}-
+								{/* */} <time dateTime="2022-04-05T10:00AM-08:00">10:00AM</time>{" "}
+								{/* */}GMT+1
+							</p>
+						</li>
+						<li aria-label="Ibrahim Frasch talking about Protecting fingerprints at 10:00AM - 11:00AM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								IEEE challenges, Partner challenges, workshops & panels
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">Protecting fingerprints</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-05T10:00AM-08:00">10:00AM</time> {/* */}
+								-{/* */}{" "}
+								<time dateTime="2022-04-05T11:00AM-08:00">11:00AM</time> {/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Cathlene Burrage talking about Voting machines at 11:00AM - 12:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Coffee break
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">Voting machines</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-05T11:00AM-08:00">11:00AM</time> {/* */}
+								-{/* */}{" "}
+								<time dateTime="2022-04-05T12:00PM-08:00">12:00PM</time> {/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Lunch talking about null at 12:00PM - 1:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								IEEE challenges, Partner challenges, workshops & panels
+							</h4>
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-05T12:00PM-08:00">12:00PM</time> {/* */}
+								-{/* */} <time dateTime="2022-04-05T1:00PM-08:00">1:00PM</time>{" "}
+								{/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Rinaldo Beynon talking about Whitehat SEO that works at 1:00PM - 2:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">Lunch</h4>
+							{/* <p className="mt-1 tracking-tight ">Whitehat SEO that works</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-05T1:00PM-08:00">1:00PM</time> {/* */}-
+								{/* */} <time dateTime="2022-04-05T2:00PM-08:00">2:00PM</time>{" "}
+								{/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Waylon Hyden talking about Impressing your audience at 2:00PM - 3:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								IEEE challenges, Partner challenges, workshops & panels
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">Impressing your audience</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-05T2:00PM-08:00">2:00PM</time> {/* */}-
+								{/* */} <time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time>{" "}
+								{/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Coffee break
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}-
+								{/* */} <time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time>{" "}
+								{/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								IEEE challenges, Partner challenges, workshops & panels
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}-
+								{/* */} <time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time>{" "}
+								{/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">Dinner</h4>
+							{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}-
+								{/* */} <time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time>{" "}
+								{/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Awards ceremony
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}-
+								{/* */} <time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time>{" "}
+								{/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Talent show
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}-
+								{/* */} <time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time>{" "}
+								{/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Finalists announcement, social activities
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}-
+								{/* */} <time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time>{" "}
+								{/* */}
+								GMT+1
+							</p>
+						</li>
+					</ol>
+				</section>
+				<section className="flex flex-col">
+					<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black ">
+						<time dateTime="2022-04-06">December 20</time>
+					</h3>
+					<p className="mt-1.5 text-base tracking-tight ">
+						We close out the event previewing techniques in development.
+					</p>
+					<ol
+						role="list"
+						className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
+					>
+						<li aria-label="Andrew Greene talking about Neuralink patterns at 9:00AM - 10:00AM GMT+1">
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Breakfast
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">Neuralink patterns</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-06T9:00AM-08:00">9:00AM</time> {/* */}-
+								{/* */} <time dateTime="2022-04-06T10:00AM-08:00">10:00AM</time>{" "}
+								{/* */}GMT+1
+							</p>
+						</li>
+						<li aria-label="Heather Terry talking about DALL-E for passports at 10:00AM - 11:00AM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Tunisia Section Awards
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">DALL-E for passports</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-06T10:00AM-08:00">10:00AM</time> {/* */}
+								-{/* */}{" "}
+								<time dateTime="2022-04-06T11:00AM-08:00">11:00AM</time> {/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Piers Wilkins talking about Quantum password cracking at 11:00AM - 12:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Finalists Presentation (Q&A, Voting)
+							</h4>
+							{/* <p className="mt-1 tracking-tight ">
+							Quantum password cracking
+						</p> */}
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-06T11:00AM-08:00">11:00AM</time> {/* */}
+								-{/* */}{" "}
+								<time dateTime="2022-04-06T12:00PM-08:00">12:00PM</time> {/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Lunch talking about null at 12:00PM - 1:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								winners announcement and Closing ceremony
+							</h4>
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-06T12:00PM-08:00">12:00PM</time> {/* */}
+								-{/* */} <time dateTime="2022-04-06T1:00PM-08:00">1:00PM</time>{" "}
+								{/* */}
+								GMT+1
+							</p>
+						</li>
+						<li aria-label="Gordon Sanderson talking about Singularity is coming at 1:00PM - 2:00PM GMT+1">
+							<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+							<h4 className="text-lg font-semibold tracking-tight ">
+								Checkout
+							</h4>
+							<p className="mt-1 tracking-tight ">Singularity is coming</p>
+							<p className="mt-1 font-mono text-sm text-slate-500">
+								<time dateTime="2022-04-06T1:00PM-08:00">1:00PM</time> {/* */}-
+								{/* */} <time dateTime="2022-04-06T2:00PM-08:00">2:00PM</time>{" "}
+								{/* */}
+								GMT+1
+							</p>
+						</li>
+					</ol>
+				</section>
+			</div>
+		</section>
+	);
+}
