@@ -129,22 +129,22 @@ export default function HomePage() {
 			<section>
 				<div className="mb-12 text-4xl font-bold">Schedule Overview</div>
 				<div className="flex flex-col gap-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
-					<section>
-						<h3 className="text-2xl font-semibold tracking-tight ">
+					<section className="flex flex-col">
+						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black">
 							<time dateTime="2022-04-04">December 18</time>
 						</h3>
-						<p className="mt-1.5 text-base tracking-tight ">
+						<p className="mt-1.5 text-base tracking-tight">
 							The first day of the conference is focused on ecommerce.
 						</p>
 						<ol
 							role="list"
-							className="bbackdrop-blur mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
+							className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
 						>
 							<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM PST">
 								<h4 className="text-lg font-semibold tracking-tight ">
-									Steven McHail
+									Check-in & Booth setup
 								</h4>
-								<p className="mt-1 tracking-tight ">One-time payments</p>
+								{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-04T9:00AM-08:00">9:00AM</time> {/* */}
 									-{/* */}{" "}
@@ -155,9 +155,9 @@ export default function HomePage() {
 							<li aria-label="Jaquelin Isch talking about The finer print at 10:00AM - 11:00AM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
 								<h4 className="text-lg font-semibold tracking-tight ">
-									Jaquelin Isch
+									Opening ceremony
 								</h4>
-								<p className="mt-1 tracking-tight ">The finer print</p>
+								{/* <p className="mt-1 tracking-tight ">The finer print</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-04T10:00AM-08:00">10:00AM</time>{" "}
 									{/* */}-{/* */}{" "}
@@ -169,9 +169,9 @@ export default function HomePage() {
 							<li aria-label="Dianne Guilianelli talking about Post-purchase at 11:00AM - 12:00PM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
 								<h4 className="text-lg font-semibold tracking-tight ">
-									Dianne Guilianelli
+									Stands, TSYP Booths & Networking
 								</h4>
-								<p className="mt-1 tracking-tight ">Post-purchase</p>
+								{/* <p className="mt-1 tracking-tight ">Post-purchase</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-04T11:00AM-08:00">11:00AM</time>{" "}
 									{/* */}-{/* */}{" "}
@@ -182,7 +182,9 @@ export default function HomePage() {
 							</li>
 							<li aria-label="Lunch talking about null at 12:00PM - 1:00PM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">Lunch</h4>
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Dinner
+								</h4>
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-04T12:00PM-08:00">12:00PM</time>{" "}
 									{/* */}-{/* */}{" "}
@@ -193,9 +195,9 @@ export default function HomePage() {
 							<li aria-label="Ronni Cantadore talking about Buy at 1:00PM - 2:00PM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
 								<h4 className="text-lg font-semibold tracking-tight ">
-									Ronni Cantadore
+									Team-Building & Surprise Challenge
 								</h4>
-								<p className="mt-1 tracking-tight ">Buy</p>
+								{/* <p className="mt-1 tracking-tight ">Buy</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-04T1:00PM-08:00">1:00PM</time> {/* */}
 									-{/* */}{" "}
@@ -203,38 +205,10 @@ export default function HomePage() {
 									PST
 								</p>
 							</li>
-							<li aria-label="Erhart Cockrin talking about In-person cancellation at 2:00PM - 3:00PM PST">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Erhart Cockrin
-								</h4>
-								<p className="mt-1 tracking-tight ">In-person cancellation</p>
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T2:00PM-08:00">2:00PM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-04T3:00PM-08:00">3:00PM</time> {/* */}
-									PST
-								</p>
-							</li>
-							<li aria-label="Parker Johnson talking about The pay/cancel switcheroo at 3:00PM - 4:00PM PST">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Parker Johnson
-								</h4>
-								<p className="mt-1 tracking-tight ">
-									The pay/cancel switcheroo
-								</p>
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T3:00PM-08:00">3:00PM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-04T4:00PM-08:00">4:00PM</time> {/* */}
-									PST
-								</p>
-							</li>
 						</ol>
 					</section>
-					<section>
-						<h3 className="text-2xl font-semibold tracking-tight ">
+					<section className="flex flex-col">
+						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black ">
 							<time dateTime="2022-04-05">December 19</time>
 						</h3>
 						<p className="mt-1.5 text-base tracking-tight ">
@@ -242,15 +216,15 @@ export default function HomePage() {
 						</p>
 						<ol
 							role="list"
-							className="bbackdrop-blur mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
+							className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
 						>
 							<li aria-label="Damaris Kimura talking about The invisible card reader at 9:00AM - 10:00AM PST">
 								<h4 className="text-lg font-semibold tracking-tight ">
-									Damaris Kimura
+									Breakfast
 								</h4>
-								<p className="mt-1 tracking-tight ">
+								{/* <p className="mt-1 tracking-tight ">
 									The invisible card reader
-								</p>
+								</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-05T9:00AM-08:00">9:00AM</time> {/* */}
 									-{/* */}{" "}
@@ -261,9 +235,9 @@ export default function HomePage() {
 							<li aria-label="Ibrahim Frasch talking about Protecting fingerprints at 10:00AM - 11:00AM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
 								<h4 className="text-lg font-semibold tracking-tight ">
-									Ibrahim Frasch
+									IEEE challenges, Partner challenges, workshops & panels
 								</h4>
-								<p className="mt-1 tracking-tight ">Protecting fingerprints</p>
+								{/* <p className="mt-1 tracking-tight ">Protecting fingerprints</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-05T10:00AM-08:00">10:00AM</time>{" "}
 									{/* */}-{/* */}{" "}
@@ -275,9 +249,9 @@ export default function HomePage() {
 							<li aria-label="Cathlene Burrage talking about Voting machines at 11:00AM - 12:00PM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
 								<h4 className="text-lg font-semibold tracking-tight ">
-									Cathlene Burrage
+									Coffee break
 								</h4>
-								<p className="mt-1 tracking-tight ">Voting machines</p>
+								{/* <p className="mt-1 tracking-tight ">Voting machines</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-05T11:00AM-08:00">11:00AM</time>{" "}
 									{/* */}-{/* */}{" "}
@@ -288,7 +262,9 @@ export default function HomePage() {
 							</li>
 							<li aria-label="Lunch talking about null at 12:00PM - 1:00PM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">Lunch</h4>
+								<h4 className="text-lg font-semibold tracking-tight ">
+									IEEE challenges, Partner challenges, workshops & panels
+								</h4>
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-05T12:00PM-08:00">12:00PM</time>{" "}
 									{/* */}-{/* */}{" "}
@@ -298,10 +274,8 @@ export default function HomePage() {
 							</li>
 							<li aria-label="Rinaldo Beynon talking about Whitehat SEO that works at 1:00PM - 2:00PM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Rinaldo Beynon
-								</h4>
-								<p className="mt-1 tracking-tight ">Whitehat SEO that works</p>
+								<h4 className="text-lg font-semibold tracking-tight ">Lunch</h4>
+								{/* <p className="mt-1 tracking-tight ">Whitehat SEO that works</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-05T1:00PM-08:00">1:00PM</time> {/* */}
 									-{/* */}{" "}
@@ -312,9 +286,9 @@ export default function HomePage() {
 							<li aria-label="Waylon Hyden talking about Impressing your audience at 2:00PM - 3:00PM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
 								<h4 className="text-lg font-semibold tracking-tight ">
-									Waylon Hyden
+									IEEE challenges, Partner challenges, workshops & panels
 								</h4>
-								<p className="mt-1 tracking-tight ">Impressing your audience</p>
+								{/* <p className="mt-1 tracking-tight ">Impressing your audience</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-05T2:00PM-08:00">2:00PM</time> {/* */}
 									-{/* */}{" "}
@@ -325,9 +299,74 @@ export default function HomePage() {
 							<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
 								<h4 className="text-lg font-semibold tracking-tight ">
-									Giordano Sagucio
+									Coffee break
 								</h4>
-								<p className="mt-1 tracking-tight ">Fishing</p>
+								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									IEEE challenges, Partner challenges, workshops & panels
+								</h4>
+								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Dinner
+								</h4>
+								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Awards ceremony
+								</h4>
+								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Talent show
+								</h4>
+								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
+								<p className="mt-1 font-mono text-sm text-slate-500">
+									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
+									-{/* */}{" "}
+									<time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time> {/* */}
+									PST
+								</p>
+							</li>
+							<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM PST">
+								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+								<h4 className="text-lg font-semibold tracking-tight ">
+									Finalists announcement, social activities
+								</h4>
+								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
 									-{/* */}{" "}
@@ -337,8 +376,8 @@ export default function HomePage() {
 							</li>
 						</ol>
 					</section>
-					<section>
-						<h3 className="text-2xl font-semibold tracking-tight ">
+					<section className="flex flex-col">
+						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black ">
 							<time dateTime="2022-04-06">December 20</time>
 						</h3>
 						<p className="mt-1.5 text-base tracking-tight ">
@@ -346,13 +385,13 @@ export default function HomePage() {
 						</p>
 						<ol
 							role="list"
-							className="bbackdrop-blur mt-10 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
+							className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
 						>
 							<li aria-label="Andrew Greene talking about Neuralink patterns at 9:00AM - 10:00AM PST">
 								<h4 className="text-lg font-semibold tracking-tight ">
-									Andrew Greene
+									Breakfast
 								</h4>
-								<p className="mt-1 tracking-tight ">Neuralink patterns</p>
+								{/* <p className="mt-1 tracking-tight ">Neuralink patterns</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-06T9:00AM-08:00">9:00AM</time> {/* */}
 									-{/* */}{" "}
@@ -363,9 +402,9 @@ export default function HomePage() {
 							<li aria-label="Heather Terry talking about DALL-E for passports at 10:00AM - 11:00AM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
 								<h4 className="text-lg font-semibold tracking-tight ">
-									Heather Terry
+									Tunisia Section Awards
 								</h4>
-								<p className="mt-1 tracking-tight ">DALL-E for passports</p>
+								{/* <p className="mt-1 tracking-tight ">DALL-E for passports</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-06T10:00AM-08:00">10:00AM</time>{" "}
 									{/* */}-{/* */}{" "}
@@ -377,11 +416,11 @@ export default function HomePage() {
 							<li aria-label="Piers Wilkins talking about Quantum password cracking at 11:00AM - 12:00PM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
 								<h4 className="text-lg font-semibold tracking-tight ">
-									Piers Wilkins
+									Finalists Presentation (Q&A, Voting)
 								</h4>
-								<p className="mt-1 tracking-tight ">
+								{/* <p className="mt-1 tracking-tight ">
 									Quantum password cracking
-								</p>
+								</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-06T11:00AM-08:00">11:00AM</time>{" "}
 									{/* */}-{/* */}{" "}
@@ -392,7 +431,9 @@ export default function HomePage() {
 							</li>
 							<li aria-label="Lunch talking about null at 12:00PM - 1:00PM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">Lunch</h4>
+								<h4 className="text-lg font-semibold tracking-tight ">
+									winners announcement and Closing ceremony
+								</h4>
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-06T12:00PM-08:00">12:00PM</time>{" "}
 									{/* */}-{/* */}{" "}
@@ -403,43 +444,13 @@ export default function HomePage() {
 							<li aria-label="Gordon Sanderson talking about Singularity is coming at 1:00PM - 2:00PM PST">
 								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
 								<h4 className="text-lg font-semibold tracking-tight ">
-									Gordon Sanderson
+									Checkout
 								</h4>
 								<p className="mt-1 tracking-tight ">Singularity is coming</p>
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-06T1:00PM-08:00">1:00PM</time> {/* */}
 									-{/* */}{" "}
 									<time dateTime="2022-04-06T2:00PM-08:00">2:00PM</time> {/* */}
-									PST
-								</p>
-							</li>
-							<li aria-label="Kimberly Parsons talking about patterns for the metaverse at 2:00PM - 3:00PM PST">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Kimberly Parsons
-								</h4>
-								<p className="mt-1 tracking-tight ">
-									patterns for the metaverse
-								</p>
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-06T2:00PM-08:00">2:00PM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-06T3:00PM-08:00">3:00PM</time> {/* */}
-									PST
-								</p>
-							</li>
-							<li aria-label="Richard Astley talking about Knowing the game and playing it at 3:00PM - 4:00PM PST">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Richard Astley
-								</h4>
-								<p className="mt-1 tracking-tight ">
-									Knowing the game and playing it
-								</p>
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-06T3:00PM-08:00">3:00PM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-06T4:00PM-08:00">4:00PM</time> {/* */}
 									PST
 								</p>
 							</li>
@@ -481,11 +492,11 @@ function PreviousEditions() {
 				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
 					<a href="https://tsyp.ieee.tn/" target="_blank" rel="noreferrer">
 						<img
-							className="col-span-2 rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 lg:col-span-1"
+							className="col-span-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={TSYP2022}
 							alt="Transistor"
-							width={200}
-							height={200}
+							// width={200}
+							// height={200}
 						/>
 					</a>
 					<a
@@ -494,11 +505,11 @@ function PreviousEditions() {
 						rel="noreferrer"
 					>
 						<img
-							className="col-span-2 rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 lg:col-span-1"
+							className="col-span-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={TSYP2021Dark}
 							alt="Transistor"
-							width={200}
-							height={200}
+							// width={200}
+							// height={200}
 						/>
 					</a>
 					<a
@@ -507,11 +518,11 @@ function PreviousEditions() {
 						rel="noreferrer"
 					>
 						<img
-							className="col-span-2 h-[200px] w-[200px] rounded-full object-cover shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 lg:col-span-1"
+							className="col-span-2 h-[120px] w-[120px] rounded-full object-cover shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={TSYP2020}
 							alt="Reform"
-							width={200}
-							height={200}
+							// width={200}
+							// height={200}
 						/>
 					</a>
 					<a
@@ -520,11 +531,11 @@ function PreviousEditions() {
 						rel="noreferrer"
 					>
 						<img
-							className="col-span-2 rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 lg:col-span-1"
+							className="col-span-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={TSYP2019}
 							alt="Tuple"
-							width={200}
-							height={200}
+							// width={200}
+							// height={200}
 						/>
 					</a>
 					<a
@@ -533,11 +544,11 @@ function PreviousEditions() {
 						rel="noreferrer"
 					>
 						<img
-							className="col-span-2 rounded-full object-contain p-4 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert sm:col-start-2 lg:col-span-1"
+							className="col-span-2 h-[120px] w-[120px] rounded-full object-contain p-4 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert sm:col-start-2 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={TSYP2018}
 							alt="SavvyCal"
-							width={200}
-							height={200}
+							// width={200}
+							// height={200}
 						/>
 					</a>
 					<a
@@ -546,11 +557,11 @@ function PreviousEditions() {
 						rel="noreferrer"
 					>
 						<img
-							className="col-span-2 col-start-2 rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:invert sm:col-start-auto lg:col-span-1"
+							className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:invert sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={TSYP2017}
 							alt="Statamic"
-							width={200}
-							height={200}
+							// width={200}
+							// height={200}
 						/>
 					</a>
 					<a
@@ -559,11 +570,11 @@ function PreviousEditions() {
 						rel="noreferrer"
 					>
 						<img
-							className="col-span-2 col-start-2 rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:invert sm:col-start-auto lg:col-span-1"
+							className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:invert sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={TSYP2016}
 							alt="Statamic"
-							width={200}
-							height={200}
+							// width={200}
+							// height={200}
 						/>
 					</a>
 					<a
@@ -572,11 +583,11 @@ function PreviousEditions() {
 						rel="noreferrer"
 					>
 						<img
-							className="col-span-2 col-start-2 rounded-full object-contain shadow-md shadow-gray-900 invert transition hover:scale-105 dark:invert-0 sm:col-start-auto lg:col-span-1"
+							className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-900 invert transition hover:scale-105 dark:invert-0 sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={TSYP2015}
 							alt="Statamic"
-							width={200}
-							height={200}
+							// width={200}
+							// height={200}
 						/>
 					</a>
 				</div>
