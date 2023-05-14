@@ -7,6 +7,34 @@ export default function SponsorUsPage() {
 	return (
 		<div className="h-full">
 			<section className="grid items-center justify-center gap-12 py-8 md:grid-cols-12 md:py-28">
+				<div className="col-span-6 mx-auto w-full md:order-last">
+					{/* <iframe
+						// width="560"
+						// width="100%"
+						// height="315"
+						// height="500"
+						// width="100%"
+						className="mx-auto h-56 w-full rounded-2xl sm:h-96"
+						// className="mx-auto h-56 w-full sm:h-60"
+						src="https://www.youtube.com/embed/cR8mH08xNVw"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					></iframe> */}
+					<Link
+						to="/assets/14.04.ENGLISH-PDF-DOSSIER-Collaboration-Final.pdf"
+						target="_blank"
+						className=""
+					>
+						<img
+							src={tsypCollabFile}
+							className="mx-auto h-[32rem] rounded-2xl object-cover transition hover:scale-105"
+							alt="TSYP 11"
+						/>
+					</Link>
+				</div>
+
 				<div className="col-span-6">
 					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						Collaborate with us
@@ -35,7 +63,7 @@ export default function SponsorUsPage() {
 					<div>
 						<Link
 							// type="button"
-							to={"https://ieee.tn/"}
+							to={"/assets/14.04.ENGLISH-PDF-DOSSIER-Collaboration-Final.pdf"}
 							target="_blank"
 							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:text-gray-100 dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
 						>
@@ -44,27 +72,6 @@ export default function SponsorUsPage() {
 							{/* </div> */}
 						</Link>
 					</div>
-				</div>
-				<div className="col-span-6 mx-auto w-full">
-					{/* <iframe
-						// width="560"
-						// width="100%"
-						// height="315"
-						// height="500"
-						// width="100%"
-						className="mx-auto h-56 w-full rounded-2xl sm:h-96"
-						// className="mx-auto h-56 w-full sm:h-60"
-						src="https://www.youtube.com/embed/cR8mH08xNVw"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						allowfullscreen
-					></iframe> */}
-					<img
-						src={tsypCollabFile}
-						className="mx-auto h-[32rem] rounded-2xl object-cover"
-						alt="TSYP 11"
-					/>
 				</div>
 			</section>
 
