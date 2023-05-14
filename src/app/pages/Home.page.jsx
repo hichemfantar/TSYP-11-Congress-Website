@@ -160,15 +160,15 @@ export default function HomePage() {
 					</div>
 				</div>
 			</section>
-			<section className="py-8 md:py-28">
+			<section className="py-8 md:py-20">
 				<PreviousEditions />
 			</section>
 
-			<section className="py-8 md:py-28">
+			<section className="py-8 md:py-20">
 				<PoweredBy />
 			</section>
 
-			<section className="py-8 md:py-28">
+			<section className="py-8 md:py-20">
 				<IEEEPartners />
 			</section>
 
@@ -205,9 +205,9 @@ export default function HomePage() {
 								</h4>
 								{/* <p className="mt-1 tracking-tight ">The finer print</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T10:00AM-08:00">10:00AM</time>{" "}
+									<time dateTime="2022-04-04T10:00AM-08:00">3:00PM</time>{" "}
 									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-04T11:00AM-08:00">11:00AM</time>{" "}
+									<time dateTime="2022-04-04T11:00AM-08:00">5:00PM</time>{" "}
 									{/* */}
 									GMT+1
 								</p>
@@ -219,9 +219,9 @@ export default function HomePage() {
 								</h4>
 								{/* <p className="mt-1 tracking-tight ">Post-purchase</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T11:00AM-08:00">11:00AM</time>{" "}
+									<time dateTime="2022-04-04T11:00AM-08:00">5:00PM</time>{" "}
 									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-04T12:00PM-08:00">12:00PM</time>{" "}
+									<time dateTime="2022-04-04T12:00PM-08:00">7:00PM</time>{" "}
 									{/* */}
 									GMT+1
 								</p>
@@ -232,9 +232,9 @@ export default function HomePage() {
 									Dinner
 								</h4>
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T12:00PM-08:00">12:00PM</time>{" "}
+									<time dateTime="2022-04-04T12:00PM-08:00">7:00PM</time>{" "}
 									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-04T1:00PM-08:00">1:00PM</time> {/* */}
+									<time dateTime="2022-04-04T1:00PM-08:00">9:00PM</time> {/* */}
 									GMT+1
 								</p>
 							</li>
@@ -245,9 +245,10 @@ export default function HomePage() {
 								</h4>
 								{/* <p className="mt-1 tracking-tight ">Buy</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T1:00PM-08:00">1:00PM</time> {/* */}
+									<time dateTime="2022-04-04T1:00PM-08:00">9:00PM</time> {/* */}
 									-{/* */}{" "}
-									<time dateTime="2022-04-04T2:00PM-08:00">2:00PM</time> {/* */}
+									<time dateTime="2022-04-04T2:00PM-08:00">11:00PM</time>{" "}
+									{/* */}
 									GMT+1
 								</p>
 							</li>
@@ -272,9 +273,9 @@ export default function HomePage() {
 									The invisible card reader
 								</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T9:00AM-08:00">9:00AM</time> {/* */}
+									<time dateTime="2022-04-05T9:00AM-08:00">7:00AM</time> {/* */}
 									-{/* */}{" "}
-									<time dateTime="2022-04-05T10:00AM-08:00">10:00AM</time>{" "}
+									<time dateTime="2022-04-05T10:00AM-08:00">9:00AM</time>{" "}
 									{/* */}GMT+1
 								</p>
 							</li>
@@ -285,9 +286,9 @@ export default function HomePage() {
 								</h4>
 								{/* <p className="mt-1 tracking-tight ">Protecting fingerprints</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T10:00AM-08:00">10:00AM</time>{" "}
+									<time dateTime="2022-04-05T10:00AM-08:00">9:00AM</time>{" "}
 									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-05T11:00AM-08:00">11:00AM</time>{" "}
+									<time dateTime="2022-04-05T11:00AM-08:00">10:30AM</time>{" "}
 									{/* */}
 									GMT+1
 								</p>
@@ -299,9 +300,9 @@ export default function HomePage() {
 								</h4>
 								{/* <p className="mt-1 tracking-tight ">Voting machines</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T11:00AM-08:00">11:00AM</time>{" "}
+									<time dateTime="2022-04-05T11:00AM-08:00">10:30AM</time>{" "}
 									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-05T12:00PM-08:00">12:00PM</time>{" "}
+									<time dateTime="2022-04-05T12:00PM-08:00">10:45AM</time>{" "}
 									{/* */}
 									GMT+1
 								</p>
@@ -312,9 +313,10 @@ export default function HomePage() {
 									IEEE challenges, Partner challenges, workshops & panels
 								</h4>
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T12:00PM-08:00">12:00PM</time>{" "}
+									<time dateTime="2022-04-05T12:00PM-08:00">10:45AM</time>{" "}
 									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-05T1:00PM-08:00">1:00PM</time> {/* */}
+									<time dateTime="2022-04-05T1:00PM-08:00">12:00PM</time>{" "}
+									{/* */}
 									GMT+1
 								</p>
 							</li>
@@ -323,8 +325,8 @@ export default function HomePage() {
 								<h4 className="text-lg font-semibold tracking-tight ">Lunch</h4>
 								{/* <p className="mt-1 tracking-tight ">Whitehat SEO that works</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T1:00PM-08:00">1:00PM</time> {/* */}
-									-{/* */}{" "}
+									<time dateTime="2022-04-05T1:00PM-08:00">12:30PM</time>{" "}
+									{/* */}-{/* */}{" "}
 									<time dateTime="2022-04-05T2:00PM-08:00">2:00PM</time> {/* */}
 									GMT+1
 								</p>
@@ -338,7 +340,7 @@ export default function HomePage() {
 								<p className="mt-1 font-mono text-sm text-slate-500">
 									<time dateTime="2022-04-05T2:00PM-08:00">2:00PM</time> {/* */}
 									-{/* */}{" "}
-									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
+									<time dateTime="2022-04-05T3:00PM-08:00">4:00PM</time> {/* */}
 									GMT+1
 								</p>
 							</li>
@@ -349,9 +351,9 @@ export default function HomePage() {
 								</h4>
 								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
+									<time dateTime="2022-04-05T3:00PM-08:00">4:00PM</time> {/* */}
 									-{/* */}{" "}
-									<time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time> {/* */}
+									<time dateTime="2022-04-05T4:00PM-08:00">4:30PM</time> {/* */}
 									GMT+1
 								</p>
 							</li>
@@ -362,9 +364,9 @@ export default function HomePage() {
 								</h4>
 								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
+									<time dateTime="2022-04-05T3:00PM-08:00">4:30PM</time> {/* */}
 									-{/* */}{" "}
-									<time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time> {/* */}
+									<time dateTime="2022-04-05T4:00PM-08:00">7:00PM</time> {/* */}
 									GMT+1
 								</p>
 							</li>
@@ -375,9 +377,9 @@ export default function HomePage() {
 								</h4>
 								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
+									<time dateTime="2022-04-05T3:00PM-08:00">7:00PM</time> {/* */}
 									-{/* */}{" "}
-									<time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time> {/* */}
+									<time dateTime="2022-04-05T4:00PM-08:00">9:00PM</time> {/* */}
 									GMT+1
 								</p>
 							</li>
@@ -388,9 +390,9 @@ export default function HomePage() {
 								</h4>
 								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
+									<time dateTime="2022-04-05T3:00PM-08:00">9:00PM</time> {/* */}
 									-{/* */}{" "}
-									<time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time> {/* */}
+									<time dateTime="2022-04-05T4:00PM-08:00">9:30PM</time> {/* */}
 									GMT+1
 								</p>
 							</li>
@@ -401,9 +403,10 @@ export default function HomePage() {
 								</h4>
 								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
+									<time dateTime="2022-04-05T3:00PM-08:00">9:30PM</time> {/* */}
 									-{/* */}{" "}
-									<time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time> {/* */}
+									<time dateTime="2022-04-05T4:00PM-08:00">10:00PM</time>{" "}
+									{/* */}
 									GMT+1
 								</p>
 							</li>
@@ -414,9 +417,10 @@ export default function HomePage() {
 								</h4>
 								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T3:00PM-08:00">3:00PM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-05T4:00PM-08:00">4:00PM</time> {/* */}
+									<time dateTime="2022-04-05T3:00PM-08:00">10:00PM</time>{" "}
+									{/* */}-{/* */}{" "}
+									<time dateTime="2022-04-05T4:00PM-08:00">11:00PM</time>{" "}
+									{/* */}
 									GMT+1
 								</p>
 							</li>
@@ -439,9 +443,9 @@ export default function HomePage() {
 								</h4>
 								{/* <p className="mt-1 tracking-tight ">Neuralink patterns</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-06T9:00AM-08:00">9:00AM</time> {/* */}
+									<time dateTime="2022-04-06T9:00AM-08:00">7:00AM</time> {/* */}
 									-{/* */}{" "}
-									<time dateTime="2022-04-06T10:00AM-08:00">10:00AM</time>{" "}
+									<time dateTime="2022-04-06T10:00AM-08:00">9:00AM</time>{" "}
 									{/* */}GMT+1
 								</p>
 							</li>
@@ -452,9 +456,9 @@ export default function HomePage() {
 								</h4>
 								{/* <p className="mt-1 tracking-tight ">DALL-E for passports</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-06T10:00AM-08:00">10:00AM</time>{" "}
+									<time dateTime="2022-04-06T10:00AM-08:00">9:00AM</time>{" "}
 									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-06T11:00AM-08:00">11:00AM</time>{" "}
+									<time dateTime="2022-04-06T11:00AM-08:00">10:00AM</time>{" "}
 									{/* */}
 									GMT+1
 								</p>
@@ -468,9 +472,9 @@ export default function HomePage() {
 									Quantum password cracking
 								</p> */}
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-06T11:00AM-08:00">11:00AM</time>{" "}
+									<time dateTime="2022-04-06T11:00AM-08:00">10:00AM</time>{" "}
 									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-06T12:00PM-08:00">12:00PM</time>{" "}
+									<time dateTime="2022-04-06T12:00PM-08:00">11:30AM</time>{" "}
 									{/* */}
 									GMT+1
 								</p>
@@ -481,9 +485,10 @@ export default function HomePage() {
 									winners announcement and Closing ceremony
 								</h4>
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-06T12:00PM-08:00">12:00PM</time>{" "}
+									<time dateTime="2022-04-06T12:00PM-08:00">11:30AM</time>{" "}
 									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-06T1:00PM-08:00">1:00PM</time> {/* */}
+									<time dateTime="2022-04-06T1:00PM-08:00">12:00PM</time>{" "}
+									{/* */}
 									GMT+1
 								</p>
 							</li>
@@ -494,9 +499,9 @@ export default function HomePage() {
 								</h4>
 								<p className="mt-1 tracking-tight ">Singularity is coming</p>
 								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-06T1:00PM-08:00">1:00PM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-06T2:00PM-08:00">2:00PM</time> {/* */}
+									<time dateTime="2022-04-06T1:00PM-08:00">12:00PM</time>{" "}
+									{/* */}-{/* */}{" "}
+									<time dateTime="2022-04-06T2:00PM-08:00">1:00PM</time> {/* */}
 									GMT+1
 								</p>
 							</li>
@@ -674,7 +679,7 @@ function PreviousEditions() {
 
 function PoweredBy() {
 	return (
-		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-24">
+		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-10">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<h2 className="mb-12 text-center text-4xl font-bold">Powered By</h2>
 				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
@@ -732,7 +737,7 @@ function PoweredBy() {
 
 function IEEEPartners() {
 	return (
-		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-24">
+		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-10">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<h2 className="mb-12 text-center text-4xl font-bold">IEEE Partners</h2>
 				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
