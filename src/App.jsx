@@ -18,6 +18,7 @@ import TeamMember from "./app/components/TeamMember.jsx";
 import ContactPage from "./app/pages/Contact.page.jsx";
 import SponsorUsPage from "./app/pages/SponsorUs.page.jsx";
 import ThreeExperience from "./app/components/ThreeExperience.jsx";
+import Phase from "./app/components/Phase.jsx";
 
 setInitialTheme();
 
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
 			{
 				path: "team",
 				element: <Team />,
+			},
+			{
+				path: "virtual",
+				element: <Phase />,
 			},
 			{
 				path: "team/:teamMemberSlug",
