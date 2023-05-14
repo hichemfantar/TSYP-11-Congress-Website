@@ -34,7 +34,7 @@ export default function Footer() {
 								Brought to life by Hichem Fantar
 								{/* <img src={signature} className="mr-3 h-8 dark:invert" alt="TSYP 11" /> */}
 							</div>
-							{/* <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
+							{/* <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-gray-100">
 						TSYP 11
 					</span> */}
 						</Link>

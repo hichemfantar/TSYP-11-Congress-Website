@@ -5,6 +5,7 @@ import routes from "../routes";
 import NavModal from "./NavModal";
 import Logo from "../../assets/main logo black (Custom).png";
 import LightLogo from "../../assets/main logo_2 (Custom).png";
+import LogoOnBlack from "../../assets/Logo on black.png";
 import ThemeToggle from "./ThemeToggle";
 
 export default function Navigation() {
@@ -16,13 +17,15 @@ export default function Navigation() {
 				<div className="container mx-auto flex flex-wrap items-center justify-between">
 					<Link to="/" className="flex items-center">
 						<img
-							src={Logo}
-							className="mr-3 hidden h-8 dark:block dark:invert sm:h-10"
+							src={LogoOnBlack ||Logo}
+							className={`mr-3 hidden h-8 dark:block ${
+								LogoOnBlack ? "" : "dark:invert"
+							} sm:h-10`}
 							alt="TSYP 11"
 						/>
 						<img
 							src={LightLogo}
-							className="mr-3 h-10 dark:hidden dark:invert sm:h-12"
+							className={`mr-3 h-10 dark:hidden sm:h-12`}
 							alt="TSYP 11"
 						/>
 						{/* <svg
@@ -68,7 +71,7 @@ export default function Navigation() {
 								{/* <li>
 									<a
 										href="#"
-										className="block rounded bg-blue-700 py-2 pl-3 pr-4 text-white dark:text-white md:bg-transparent md:p-0 md:text-blue-700"
+										className="block rounded bg-blue-700 py-2 pl-3 pr-4 text-white dark:text-gray-100 md:bg-transparent md:p-0 md:text-blue-700"
 										aria-current="page"
 									>
 										Keynote
@@ -91,11 +94,11 @@ export default function Navigation() {
 
 						<Link
 							to="/sponsor-us"
-							className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium text-gray-900 transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500 dark:text-white dark:focus:ring-purple-800"
+							className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium text-gray-900 transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500 dark:text-gray-100 dark:focus:ring-purple-800"
 						>
 							{/* <button
 								type="button"
-								className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium text-gray-900 transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500 dark:text-white dark:focus:ring-purple-800"
+								className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium text-gray-900 transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500 dark:text-gray-100 dark:focus:ring-purple-800"
 							> */}
 							<span className="relative rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
 								Sponsor us

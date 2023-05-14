@@ -14,12 +14,12 @@ export default function ContactPage() {
 	);
 }
 
-export function ContactForm({ title="Contact us" }) {
+export function ContactForm({ title = "Contact us" }) {
 	return (
 		<section className="py-8 lg:py-16">
 			<div className="max-w-8xl mx-auto px-4 lg:px-4">
 				<div className="xl:mx-64 2xl:mx-80">
-					<h1 className="mb-4 text-4xl font-bold text-gray-900 dark:text-white lg:mb-7 lg:text-center lg:text-5xl lg:font-extrabold lg:leading-none">
+					<h1 className="mb-4 text-4xl font-bold text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-center lg:text-5xl lg:font-extrabold lg:leading-none">
 						{title}
 					</h1>
 					<p className="mb-10 text-lg font-normal text-gray-500 dark:text-gray-400 lg:text-center lg:text-xl">
@@ -43,7 +43,7 @@ export function ContactForm({ title="Contact us" }) {
 									type="text"
 									id="first_name"
 									placeholder="John"
-									className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+									className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black dark:text-gray-100 dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
 									defaultValue=""
 								/>
 							</div>
@@ -59,7 +59,7 @@ export function ContactForm({ title="Contact us" }) {
 									type="text"
 									id="last_name"
 									placeholder="Doe"
-									className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+									className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black dark:text-gray-100 dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
 									defaultValue=""
 								/>
 							</div>
@@ -76,7 +76,7 @@ export function ContactForm({ title="Contact us" }) {
 								type="email"
 								id="email"
 								placeholder="john.doe@company.com"
-								className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+								className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black dark:text-gray-100 dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
 								defaultValue=""
 							/>
 						</div>
@@ -91,7 +91,7 @@ export function ContactForm({ title="Contact us" }) {
 								required=""
 								type="text"
 								id="subject"
-								className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+								className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black dark:text-gray-100 dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
 								placeholder="Subject name"
 								defaultValue=""
 							/>
@@ -107,7 +107,7 @@ export function ContactForm({ title="Contact us" }) {
 								required=""
 								id="message"
 								rows={4}
-								className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+								className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black dark:text-gray-100 dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
 								placeholder="Your message..."
 								defaultValue={""}
 							/>

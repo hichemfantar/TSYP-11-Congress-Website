@@ -1,5 +1,6 @@
 import React, { useEffect, Suspense } from "react";
 import Logo from "../../assets/main logo black (Custom).png";
+import LogoOnBlack from "../../assets/Logo on black.png";
 import LightLogo from "../../assets/main logo_2 (Custom).png";
 import SBGroupPic from "../../assets/sb-group-pic.jpg";
 import TSYP2015 from "../../assets/tsyp-editions/tsyp-2015.jpg";
@@ -14,6 +15,7 @@ import TSYP2022 from "../../assets/tsyp-editions/tsyp-2022.png";
 import { Link } from "react-router-dom";
 import Team from "../components/Team";
 import ThreeExperience from "../components/ThreeExperience";
+import { ScheduleOverview } from "../components/schedule/ScheduleList";
 
 export default function HomePage() {
 	return (
@@ -26,16 +28,21 @@ export default function HomePage() {
 
 			<section className="grid grid-cols-12 items-center justify-center py-24 md:py-48">
 				<div className="col-span-12 mx-auto">
-					<img
-						src={Logo}
-						className="mx-auto mb-8 hidden h-52 object-contain dark:block dark:invert sm:h-48"
-						alt="TSYP 11"
-					/>
-					<img
-						src={LightLogo}
-						className="mx-auto h-56 object-contain dark:hidden sm:h-52"
-						alt="TSYP 11"
-					/>
+					{false && (
+						<>
+							{" "}
+							<img
+								src={Logo}
+								className="mx-auto mb-8 hidden h-52 object-contain dark:block dark:invert sm:h-48"
+								alt="TSYP 11"
+							/>
+							<img
+								src={LightLogo}
+								className="mx-auto h-56 object-contain dark:hidden sm:h-52"
+								alt="TSYP 11"
+							/>
+						</>
+					)}
 					<h1 className="mb-4 text-center text-4xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
 						Bringing Silicon Valley to Tunisia.
 					</h1>
@@ -53,20 +60,23 @@ export default function HomePage() {
 					</h1>
 				</div>
 				{/* <div className="col-span-6">
-				<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-6xl lg:font-extrabold lg:leading-none">
+				<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-6xl lg:font-extrabold lg:leading-none">
 					Welcome to our Silicon Valley.
 				</h1>
-				<h1 className="mb-4 text-4xl font-medium tracking-tight text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-2xl lg:font-extrabold lg:leading-none">
+				<h1 className="mb-4 text-4xl font-medium tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-2xl lg:font-extrabold lg:leading-none">
 					IEEE Tunisian Students and Young Professionals in Conjunction with
 					IEEE ESSTHS in Silicon Valley congress.
 				</h1>
 			</div> */}
 			</section>
+
 			<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
 				<div className="col-span-6 mx-auto">
 					<img
-						src={Logo}
-						className="mx-auto mb-8 hidden h-52 object-contain dark:block dark:invert sm:h-48"
+						src={LogoOnBlack || Logo}
+						className={`mx-auto mb-8 hidden h-52 object-contain dark:block ${
+							LogoOnBlack ? "" : "dark:invert"
+						} sm:h-48`}
 						alt="TSYP 11"
 					/>
 
@@ -77,10 +87,10 @@ export default function HomePage() {
 					/>
 				</div>
 				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						About IEEE TSYP Congress.
 					</h1>
-					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						Tunisian Students and Young Professionals, is the annual congress
 						that brings together IEEE members in Tunisia. We are talking about
 						the 11th edition which is organized by IEEE ESSTHS SB. It is an
@@ -99,10 +109,10 @@ export default function HomePage() {
 					/>
 				</div>
 				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						About IEEE Tunisia Section.
 					</h1>
-					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						The IEEE Tunisian Section aims to disseminate IEEE activities to all
 						corners of the country through educational and technical activities,
 						networking of people, and developing technology and its applications
@@ -117,7 +127,7 @@ export default function HomePage() {
 							// type="button"
 							to={"https://ieee.tn/"}
 							target="_blank"
-							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:text-white dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
+							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:text-gray-100 dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
 						>
 							{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
 							<span className="">Learn more</span>
@@ -135,10 +145,10 @@ export default function HomePage() {
 					/>
 				</div>
 				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						Hosted By IEEE ESSTHS Student Branch.
 					</h1>
-					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						IEEE ESSTHS Student Branch, founded in 2020, is home to more than
 						280 members, making it the largest Student Branch in Sousse, and 7th
 						in Tunisia Section. It encompasses 5 Technical Chapters: CIS, CS,
@@ -151,7 +161,7 @@ export default function HomePage() {
 							// type="button"
 							to={"https://essths.ieee.tn/"}
 							target="_blank"
-							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:text-white dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
+							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:text-gray-100 dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
 						>
 							{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
 							<span className="">Learn more</span>
@@ -172,343 +182,7 @@ export default function HomePage() {
 				<IEEEPartners />
 			</section>
 
-			<section>
-				<div className="mb-12 text-4xl font-bold">Schedule Overview</div>
-				<div className="flex flex-col gap-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
-					<section className="flex flex-col">
-						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black">
-							<time dateTime="2022-04-04">December 18</time>
-						</h3>
-						<p className="mt-1.5 text-base tracking-tight">
-							The first day of the conference is focused on ecommerce.
-						</p>
-						<ol
-							role="list"
-							className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
-						>
-							<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Check-in & Booth setup
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T9:00AM-08:00">10:00AM</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-04T10:00AM-08:00">2:00PM</time>{" "}
-									{/* */}GMT+1
-								</p>
-							</li>
-							<li aria-label="Jaquelin Isch talking about The finer print at 10:00AM - 11:00AM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Opening ceremony
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">The finer print</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T10:00AM-08:00">3:00PM</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-04T11:00AM-08:00">5:00PM</time>{" "}
-									{/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Dianne Guilianelli talking about Post-purchase at 11:00AM - 12:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Stands, TSYP Booths & Networking
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">Post-purchase</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T11:00AM-08:00">5:00PM</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-04T12:00PM-08:00">7:00PM</time>{" "}
-									{/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Lunch talking about null at 12:00PM - 1:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Dinner
-								</h4>
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T12:00PM-08:00">7:00PM</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-04T1:00PM-08:00">9:00PM</time> {/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Ronni Cantadore talking about Buy at 1:00PM - 2:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Team-Building & Surprise Challenge
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">Buy</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T1:00PM-08:00">9:00PM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-04T2:00PM-08:00">11:00PM</time>{" "}
-									{/* */}
-									GMT+1
-								</p>
-							</li>
-						</ol>
-					</section>
-					<section className="flex flex-col">
-						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black ">
-							<time dateTime="2022-04-05">December 19</time>
-						</h3>
-						<p className="mt-1.5 text-base tracking-tight ">
-							Next we spend the day talking about people with technology.
-						</p>
-						<ol
-							role="list"
-							className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
-						>
-							<li aria-label="Damaris Kimura talking about The invisible card reader at 9:00AM - 10:00AM GMT+1">
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Breakfast
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">
-									The invisible card reader
-								</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T9:00AM-08:00">7:00AM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-05T10:00AM-08:00">9:00AM</time>{" "}
-									{/* */}GMT+1
-								</p>
-							</li>
-							<li aria-label="Ibrahim Frasch talking about Protecting fingerprints at 10:00AM - 11:00AM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									IEEE challenges, Partner challenges, workshops & panels
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">Protecting fingerprints</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T10:00AM-08:00">9:00AM</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-05T11:00AM-08:00">10:30AM</time>{" "}
-									{/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Cathlene Burrage talking about Voting machines at 11:00AM - 12:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Coffee break
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">Voting machines</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T11:00AM-08:00">10:30AM</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-05T12:00PM-08:00">10:45AM</time>{" "}
-									{/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Lunch talking about null at 12:00PM - 1:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									IEEE challenges, Partner challenges, workshops & panels
-								</h4>
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T12:00PM-08:00">10:45AM</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-05T1:00PM-08:00">12:00PM</time>{" "}
-									{/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Rinaldo Beynon talking about Whitehat SEO that works at 1:00PM - 2:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">Lunch</h4>
-								{/* <p className="mt-1 tracking-tight ">Whitehat SEO that works</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T1:00PM-08:00">12:30PM</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-05T2:00PM-08:00">2:00PM</time> {/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Waylon Hyden talking about Impressing your audience at 2:00PM - 3:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									IEEE challenges, Partner challenges, workshops & panels
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">Impressing your audience</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T2:00PM-08:00">2:00PM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-05T3:00PM-08:00">4:00PM</time> {/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Coffee break
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T3:00PM-08:00">4:00PM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-05T4:00PM-08:00">4:30PM</time> {/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									IEEE challenges, Partner challenges, workshops & panels
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T3:00PM-08:00">4:30PM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-05T4:00PM-08:00">7:00PM</time> {/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Dinner
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T3:00PM-08:00">7:00PM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-05T4:00PM-08:00">9:00PM</time> {/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Awards ceremony
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T3:00PM-08:00">9:00PM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-05T4:00PM-08:00">9:30PM</time> {/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Talent show
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T3:00PM-08:00">9:30PM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-05T4:00PM-08:00">10:00PM</time>{" "}
-									{/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Giordano Sagucio talking about Fishing at 3:00PM - 4:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Finalists announcement, social activities
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">Fishing</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-05T3:00PM-08:00">10:00PM</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-05T4:00PM-08:00">11:00PM</time>{" "}
-									{/* */}
-									GMT+1
-								</p>
-							</li>
-						</ol>
-					</section>
-					<section className="flex flex-col">
-						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black ">
-							<time dateTime="2022-04-06">December 20</time>
-						</h3>
-						<p className="mt-1.5 text-base tracking-tight ">
-							We close out the event previewing techniques in development.
-						</p>
-						<ol
-							role="list"
-							className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-2xl rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
-						>
-							<li aria-label="Andrew Greene talking about Neuralink patterns at 9:00AM - 10:00AM GMT+1">
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Breakfast
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">Neuralink patterns</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-06T9:00AM-08:00">7:00AM</time> {/* */}
-									-{/* */}{" "}
-									<time dateTime="2022-04-06T10:00AM-08:00">9:00AM</time>{" "}
-									{/* */}GMT+1
-								</p>
-							</li>
-							<li aria-label="Heather Terry talking about DALL-E for passports at 10:00AM - 11:00AM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Tunisia Section Awards
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">DALL-E for passports</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-06T10:00AM-08:00">9:00AM</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-06T11:00AM-08:00">10:00AM</time>{" "}
-									{/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Piers Wilkins talking about Quantum password cracking at 11:00AM - 12:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Finalists Presentation (Q&A, Voting)
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">
-									Quantum password cracking
-								</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-06T11:00AM-08:00">10:00AM</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-06T12:00PM-08:00">11:30AM</time>{" "}
-									{/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Lunch talking about null at 12:00PM - 1:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									winners announcement and Closing ceremony
-								</h4>
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-06T12:00PM-08:00">11:30AM</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-06T1:00PM-08:00">12:00PM</time>{" "}
-									{/* */}
-									GMT+1
-								</p>
-							</li>
-							<li aria-label="Gordon Sanderson talking about Singularity is coming at 1:00PM - 2:00PM GMT+1">
-								<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								<h4 className="text-lg font-semibold tracking-tight ">
-									Checkout
-								</h4>
-								<p className="mt-1 tracking-tight ">Singularity is coming</p>
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-06T1:00PM-08:00">12:00PM</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-06T2:00PM-08:00">1:00PM</time> {/* */}
-									GMT+1
-								</p>
-							</li>
-						</ol>
-					</section>
-				</div>
-			</section>
+			<ScheduleOverview />
 
 			<section className="py-8 md:py-28">
 				<Team />
@@ -516,7 +190,7 @@ export default function HomePage() {
 
 			<section className="py-8 md:py-28">
 				<div className="mx-auto">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-white lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						Find us here.
 					</h1>
 					<iframe
