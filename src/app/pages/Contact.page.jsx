@@ -9,7 +9,7 @@ export default function ContactPage() {
 		<div className="h-full">
 			<ContactForm />
 
-			<SparrowSurvey />
+			{false && <SparrowSurvey />}
 		</div>
 	);
 }
