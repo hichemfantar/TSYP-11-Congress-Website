@@ -5,6 +5,12 @@ import { NavLink } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 import routes from "../routes";
 import ThemeToggle from "./ThemeToggle";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faFacebook,
+	faInstagram,
+	faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function NavModal({ setToggleModal, toggleModal }) {
 	return (
@@ -112,7 +118,30 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 													TSYP 11 © 2023
 												</Dialog.Title>
 											</div>
-											<div className="px-4 sm:px-6">
+
+											<div className="flex items-center gap-4 px-4 sm:px-6">
+												<a
+													href="https://www.facebook.com/ieee.tsyp"
+													target="_blank"
+													className="text-gray-600 dark:text-gray-400"
+												>
+													<FontAwesomeIcon icon={faFacebook} />
+												</a>
+												<a
+													href="https://www.instagram.com/ieee_tsyp/"
+													target="_blank"
+													className="text-gray-600 dark:text-gray-400"
+												>
+													<FontAwesomeIcon icon={faInstagram} />
+												</a>
+												<a
+													href="https://www.linkedin.com/company/ieee-tsyp/"
+													target="_blank"
+													className="text-gray-600 dark:text-gray-400"
+												>
+													<FontAwesomeIcon icon={faLinkedin} />
+												</a>
+
 												<ThemeToggle />
 											</div>
 										</div>

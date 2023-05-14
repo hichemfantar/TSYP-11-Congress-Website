@@ -2,6 +2,12 @@ import { Link, NavLink } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import routes from "../routes";
 import { twMerge } from "tailwind-merge";
+import {
+	faFacebook,
+	faInstagram,
+	faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
 	return (
@@ -71,6 +77,27 @@ export default function Footer() {
 							<ThemeToggle />
 						</div>
 					)}
+					<a
+						href="https://www.facebook.com/ieee.tsyp"
+						target="_blank"
+						className="text-gray-600 dark:text-gray-400"
+					>
+						<FontAwesomeIcon icon={faFacebook} />
+					</a>
+					<a
+						href="https://www.instagram.com/ieee_tsyp/"
+						target="_blank"
+						className="text-gray-600 dark:text-gray-400"
+					>
+						<FontAwesomeIcon icon={faInstagram} />
+					</a>
+					<a
+						href="https://www.linkedin.com/company/ieee-tsyp/"
+						target="_blank"
+						className="text-gray-600 dark:text-gray-400"
+					>
+						<FontAwesomeIcon icon={faLinkedin} />
+					</a>
 				</div>
 			</div>
 		</footer>
