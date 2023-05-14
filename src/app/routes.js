@@ -16,9 +16,13 @@ const routes = [
 		href: "/schedule",
 	},
 	{
-		title: "Expo",
+		title: "Sponsors",
 		href: "/expo",
 	},
+	// {
+	// 	title: "Expo",
+	// 	href: "/expo",
+	// },
 	{
 		title: "Team",
 		href: "/team",
@@ -26,6 +30,10 @@ const routes = [
 	{
 		title: "Contact us",
 		href: "/contact",
+	},
+	{
+		title: "Game",
+		href: "/game",
 	},
 ];
 

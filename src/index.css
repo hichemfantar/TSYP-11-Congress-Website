@@ -37,3 +37,8 @@ body,
 #root {
 	height: 100%;
 }
+
+#ss_survey_widget > iframe {
+	border-radius: 1rem /* 16px */;
+	width: 100% !important;
+}

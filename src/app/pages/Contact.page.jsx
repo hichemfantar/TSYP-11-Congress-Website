@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../../assets/main logo black (Custom).png";
 import LightLogo from "../../assets/main logo_2 (Custom).png";
 import SBGroupPic from "../../assets/sb-group-pic.jpg";
+import { SparrowSurvey } from "./Home.page";
 
 export default function ContactPage() {
 	return (
@@ -102,57 +103,7 @@ export default function ContactPage() {
 									defaultValue={""}
 								/>
 							</div>
-							<div className="mb-6">
-								<div>
-									<div
-										className="grecaptcha-badge"
-										data-style="bottomright"
-										style={{
-											width: 256,
-											height: 60,
-											display: "block",
-											transition: "right 0.3s ease 0s",
-											position: "fixed",
-											bottom: 14,
-											right: "-186px",
-											boxShadow: "gray 0px 0px 5px",
-											borderRadius: 2,
-											overflow: "hidden",
-										}}
-									>
-										<div className="grecaptcha-logo">
-											<iframe
-												title="reCAPTCHA"
-												src="https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcKn58eAAAAAFD-lFXQHCSkdJ9V76lq3KLyNygU&co=aHR0cHM6Ly9mbG93Yml0ZS5jb206NDQz&hl=en&type=image&v=wqcyhEwminqmAoT8QO_BkXCr&theme=light&size=invisible&badge=bottomright&cb=viexrhagc9rg"
-												width={256}
-												height={60}
-												role="presentation"
-												name="a-69h9kqhtzspj"
-												frameBorder={0}
-												scrolling="no"
-												sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
-											/>
-										</div>
-										<div className="grecaptcha-error" />
-										<textarea
-											id="g-recaptcha-response"
-											name="g-recaptcha-response"
-											className="g-recaptcha-response"
-											style={{
-												width: 250,
-												height: 40,
-												border: "1px solid rgb(193, 193, 193)",
-												margin: "10px 25px",
-												padding: 0,
-												resize: "none",
-												display: "none",
-											}}
-											defaultValue={""}
-										/>
-									</div>
-									<iframe style={{ display: "none" }} />
-								</div>
-							</div>
+
 							{/* <p className="mb-6 text-sm text-gray-500">
 								By submitting this form you agree to our{" "}
 								<a
@@ -183,6 +134,8 @@ export default function ContactPage() {
 					</div>
 				</div>
 			</section>
+
+			<SparrowSurvey />
 		</div>
 	);
 }

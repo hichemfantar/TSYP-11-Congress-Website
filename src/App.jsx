@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import {
 	createBrowserRouter,
 	Navigate,
@@ -15,6 +16,8 @@ import Team from "./app/components/Team.jsx";
 import TunisiaPage from "./app/pages/Tunisia.page.jsx";
 import TeamMember from "./app/components/TeamMember.jsx";
 import ContactPage from "./app/pages/Contact.page.jsx";
+import SponsorUsPage from "./app/pages/SponsorUs.page.jsx";
+import ThreeExperience from "./app/components/ThreeExperience.jsx";
 
 setInitialTheme();
 
@@ -63,7 +66,19 @@ const router = createBrowserRouter([
 				path: "contact",
 				element: <ContactPage />,
 			},
+			{
+				path: "sponsor-us",
+				element: <SponsorUsPage />,
+			},
 		],
+	},
+	{
+		path: "game",
+		element: (
+			<Suspense fallback={null}>
+				<ThreeExperience />
+			</Suspense>
+		),
 	},
 ]);
 

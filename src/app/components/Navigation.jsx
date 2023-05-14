@@ -90,7 +90,7 @@ export default function Navigation() {
 						</div>
 
 						<Link
-							to="/contact"
+							to="/sponsor-us"
 							className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium text-gray-900 transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500 dark:text-white dark:focus:ring-purple-800"
 						>
 							{/* <button

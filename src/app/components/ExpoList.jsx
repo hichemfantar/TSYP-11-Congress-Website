@@ -5,7 +5,7 @@ export default function ExpoList() {
 	return (
 		<div>
 			<div className="mb-8">
-				<div className="mb-4 text-4xl font-bold">Expo</div>
+				<div className="mb-4 text-4xl font-bold">Sponsors</div>
 				<div className="text-gray-600 dark:text-gray-400">
 					Learn more about our event sponsors.
 				</div>
@@ -26,7 +26,7 @@ export default function ExpoList() {
 				</div>
 
 				<div>
-					<div className="mb-4 text-2xl font-bold">Titanium Partners</div>
+					<div className="mb-4 text-2xl font-bold">Apex Partners</div>
 					<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
 						{companiesMock
 							?.filter((e) => e.tierRank === 1)
@@ -39,7 +39,7 @@ export default function ExpoList() {
 				</div>
 
 				<div>
-					<div className="mb-4 text-2xl font-bold">Gold Partners</div>
+					<div className="mb-4 text-2xl font-bold">Vanguard Partners</div>
 					<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
 						{companiesMock
 							?.filter((e) => e.tierRank === 2)
@@ -56,7 +56,24 @@ export default function ExpoList() {
 				</div>
 
 				<div>
-					<div className="mb-4 text-2xl font-bold">Expert Partners</div>
+					<div className="mb-4 text-2xl font-bold">Ascendant Partners</div>
+					<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
+						{companiesMock
+							?.filter((e) => e.tierRank === 3)
+							.map((e) => (
+								<div className="col-span-12 md:col-span-3" key={e.slug}>
+									<ExpoListItem
+										data={e}
+										imgClassNames="md:h-40"
+										classNames={"h-full"}
+									/>
+								</div>
+							))}
+					</div>
+				</div>
+
+				<div>
+					<div className="mb-4 text-2xl font-bold">Explorer Partners</div>
 					<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
 						{companiesMock
 							?.filter((e) => e.tierRank === 3)
