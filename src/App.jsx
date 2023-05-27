@@ -59,14 +59,14 @@ const router = createBrowserRouter([
 				path: "team",
 				element: <Team />,
 			},
-			{
-				path: "virtual",
-				element: <Phase />,
-			},
-			{
-				path: "team/:teamMemberSlug",
-				element: <TeamMember />,
-			},
+			// {
+			// 	path: "virtual",
+			// 	element: <Phase />,
+			// },
+			// {
+			// 	path: "team/:teamMemberSlug",
+			// 	element: <TeamMember />,
+			// },
 			{
 				path: "contact",
 				element: <ContactPage />,
@@ -77,14 +77,14 @@ const router = createBrowserRouter([
 			},
 		],
 	},
-	{
-		path: "game",
-		element: (
-			<Suspense fallback={null}>
-				<ThreeExperience />
-			</Suspense>
-		),
-	},
+	// {
+	// 	path: "game",
+	// 	element: (
+	// 		<Suspense fallback={null}>
+	// 			<ThreeExperience />
+	// 		</Suspense>
+	// 	),
+	// },
 ]);
 
 function App() {

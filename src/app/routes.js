@@ -27,18 +27,18 @@ const routes = [
 		title: "Team",
 		href: "/team",
 	},
-	{
-		title: "Virtual",
-		href: "/virtual",
-	},
+	// {
+	// 	title: "Virtual",
+	// 	href: "/virtual",
+	// },
 	{
 		title: "Contact us",
 		href: "/contact",
 	},
-	{
-		title: "Game",
-		href: "/game",
-	},
+	// {
+	// 	title: "Game",
+	// 	href: "/game",
+	// },
 ];
 
 export default routes;
