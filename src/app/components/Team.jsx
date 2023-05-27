@@ -25,9 +25,13 @@ export default function Team() {
 				{teamData
 					?.filter((s) => !!s?.active)
 					?.map((speaker) => (
-						<Link
+						// <Link
+						// 	key={speaker.name}
+						// 	to={speaker.name}
+						// 	className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
+						// >
+						<div
 							key={speaker.name}
-							to={speaker.name}
 							className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
 						>
 							<img
@@ -47,7 +51,8 @@ export default function Team() {
 								{speaker.title}
 								{false && `, ${speaker.company.name}`}
 							</div>
-						</Link>
+						</div>
+						// </Link>
 					))}
 			</div>
 		</div>
