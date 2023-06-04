@@ -20,7 +20,7 @@ export default function TimelineShedule() {
 					className={twMerge(
 						"text-xl font-bold transition",
 						selectedTab === 0 &&
-							"scale-125 border-b-2 border-gray-600 font-extrabold md:scale-150"
+							"scale-125 border-b-2 border-gray-600 font-extrabold"
 					)}
 				>
 					December 18
@@ -30,7 +30,7 @@ export default function TimelineShedule() {
 					className={twMerge(
 						"text-xl font-bold transition",
 						selectedTab === 1 &&
-							"scale-125 border-b-2 border-gray-600 font-extrabold md:scale-150"
+							"scale-125 border-b-2 border-gray-600 font-extrabold"
 					)}
 				>
 					December 19
@@ -40,7 +40,7 @@ export default function TimelineShedule() {
 					className={twMerge(
 						"text-xl font-bold transition",
 						selectedTab === 2 &&
-							"scale-125 border-b-2 border-gray-600 font-extrabold md:scale-150"
+							"scale-125 border-b-2 border-gray-600 font-extrabold"
 					)}
 				>
 					December 20
