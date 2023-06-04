@@ -1,6 +1,10 @@
-import React from "react";
+import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState } from "react";
 
 export default function TunisiaPage() {
+	const [usdToTnd, setUsdToTnd] = useState(1);
+
 	return (
 		<div className="h-full">
 			<section className="grid grid-cols-12 items-center justify-center md:pt-32">
@@ -124,6 +128,88 @@ export default function TunisiaPage() {
 							/>
 						</div>
 					</div>
+				</div>
+			</section>
+
+			<section className="grid items-center justify-center gap-12 py-8 md:grid-cols-12 md:py-28">
+				<div className="col-span-6">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+						Currency
+					</h1>
+					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+						The national currency is the Tunisian dinar which is very friendly
+						to foreign currencies.
+					</h1>
+					<div className="grid items-end gap-4 md:grid-cols-12">
+						<div className="md:col-span-5">
+							<label
+								for="usd"
+								className="mb-2 block font-medium text-gray-900 dark:text-white"
+							>
+								USD
+							</label>
+							<input
+								value={usdToTnd}
+								min={0}
+								type="number"
+								id="usd"
+								className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 transition focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+								required
+								onChange={(e) => setUsdToTnd(e.target.value)}
+							/>
+						</div>
+						<div className="text-center md:col-span-2">
+							<FontAwesomeIcon
+								icon={faArrowRightLong}
+								className="h-10 w-10 rotate-90 md:rotate-0"
+							/>
+						</div>
+						<div className="md:col-span-5">
+							<label
+								for="tnd"
+								className="mb-2 block font-medium text-gray-900 dark:text-white"
+							>
+								TND
+							</label>
+							<input
+								value={usdToTnd * 3.09}
+								readOnly
+								type="number"
+								id="tnd"
+								className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 transition focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+								required
+							/>
+						</div>
+					</div>
+				</div>
+				<div className="col-span-6 mx-auto w-full">
+					<div className="grid gap-4 md:grid-cols-12">
+						{[
+							"https://lacurrency.com/wp-content/uploads/2022/06/2017-2020-5.00-TND-Tunisian-Dinar-note-front.jpg",
+							"https://www.imf.org/-/media/Images/IMF/FANDD/hero/2020/September/currency-2656.ashx?h=1282&w=2656&la=en",
+							"https://www.foreigncurrencyandcoin.com/wp-content/uploads/2018/12/products-17494.jpg",
+							"https://www.theworldnote.com/uploads/allimg/2005/1_200505150513_1.jpg",
+						]?.map((e) => (
+							<img
+								className="h-40 w-full rounded-2xl object-cover shadow md:col-span-6"
+								src={e}
+								alt=""
+							/>
+						))}
+					</div>
+					{/* <iframe
+						className="mx-auto h-56 w-full rounded-2xl sm:h-96"
+						src="https://www.youtube.com/embed/cR8mH08xNVw"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					></iframe> */}
+					{/* <img
+						src={LightLogo}
+						className="mx-auto h-56 object-contain sm:h-60"
+						alt="TSYP 11"
+					/> */}
 				</div>
 			</section>
 
