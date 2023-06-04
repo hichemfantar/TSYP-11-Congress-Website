@@ -161,7 +161,7 @@ export default function TunisiaPage() {
 						<div className="text-center md:col-span-2">
 							<FontAwesomeIcon
 								icon={faArrowRightLong}
-								className="h-10 w-10 rotate-90 md:rotate-0"
+								className="h-9 w-9 rotate-90 md:rotate-0"
 							/>
 						</div>
 						<div className="md:col-span-5">
@@ -172,7 +172,7 @@ export default function TunisiaPage() {
 								TND
 							</label>
 							<input
-								value={usdToTnd * 3.09}
+								value={Math.floor(usdToTnd * 3.09)}
 								readOnly
 								type="number"
 								id="tnd"
