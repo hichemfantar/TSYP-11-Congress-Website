@@ -7,7 +7,7 @@ import twentyTnd from "../../assets/currency/products-17494.jpg";
 import fiftyTnd from "../../assets/currency/1_200505150513_1.jpg";
 
 export default function TunisiaPage() {
-	const [usdToTnd, setUsdToTnd] = useState(1);
+	const [usdToTnd, setUsdToTnd] = useState(100);
 
 	return (
 		<div className="h-full">
