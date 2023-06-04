@@ -1,4 +1,4 @@
-import React from "react";
+import SartexGroupLogo from "../../assets/companies/Sartex-group-big-1024x682.png";
 import ExpoListItem from "./ExpoListItem";
 
 export default function ExpoList() {
@@ -102,6 +102,18 @@ export const companiesMock = [
 		tierRank: 0,
 		logo: {
 			url: "https://www.datocms-assets.com/35255/1665957463-sponsor-logo-vercel.png",
+		},
+	},
+	{
+		name: "Sartex Group",
+		description:
+			"Sartex is the garment manufacturer of “Denim with Integrity and Principles. Eco-friendly production utilizing cutting-edge technologies based in state-of-the-art facilities in Tunisia.",
+		slug: "sartex-group",
+		tierRank: 1,
+		logo: {
+			url: SartexGroupLogo,
+			// url: "https://sartexgroup.com/wp-content/uploads/2019/07/Sartex-group-big-1024x682.png",
+			// url: "https://sartexgroup.com/wp-content/uploads/2018/07/logo-sartex.png",
 		},
 	},
 	{

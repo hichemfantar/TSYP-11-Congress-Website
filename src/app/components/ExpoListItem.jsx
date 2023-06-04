@@ -11,15 +11,17 @@ export default function ExpoListItem({ data, classNames, imgClassNames }) {
 				classNames
 			)}
 		>
-			<img
-				loading="lazy"
-				src={data.logo.url || data.logo}
-				alt=""
-				className={twMerge(
-					"mb-4 h-52 w-full rounded-lg bg-black object-contain p-6 md:h-64",
-					imgClassNames
-				)}
-			/>
+			<div className="mb-4 rounded-lg bg-black p-6">
+				<img
+					loading="lazy"
+					src={data.logo.url || data.logo}
+					alt=""
+					className={twMerge(
+						"h-52 w-full object-contain md:h-64",
+						imgClassNames
+					)}
+				/>
+			</div>
 			<div className="text-gray-600 line-clamp-4 dark:text-gray-300">
 				{data.description}
 			</div>
