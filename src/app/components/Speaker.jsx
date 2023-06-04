@@ -13,7 +13,7 @@ import StyledButton from "./StyledButton";
 export default function Speaker() {
 	const { speakerSlug } = useParams();
 
-	const currentSpeaker = speakersData.find((s) => s.slug === speakerSlug);
+	const currentSpeaker = speakersData?.find((s) => s.slug === speakerSlug);
 
 	return (
 		<div className="mx-auto max-w-3xl">
@@ -69,22 +69,26 @@ export default function Speaker() {
 						</p>
 					</div>
 
-					<div>
-						<div className="font-semibold text-gray-600 dark:text-gray-400">
-							Watch their Session
-						</div>
-						<p>
-							{currentSpeaker.talk?.description ||
-								"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates."}
-						</p>
-					</div>
+					{false && (
+						<>
+							<div>
+								<div className="font-semibold text-gray-600 dark:text-gray-400">
+									Watch their Session
+								</div>
+								<p>
+									{currentSpeaker.talk?.description ||
+										"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates."}
+								</p>
+							</div>
 
-					<div>
-						<StyledButton
-							message={"Watch Session"}
-							icon={<FontAwesomeIcon icon={faPlay} />}
-						/>
-					</div>
+							<div>
+								<StyledButton
+									message={"Watch Session"}
+									icon={<FontAwesomeIcon icon={faPlay} />}
+								/>
+							</div>
+						</>
+					)}
 				</div>
 			</div>
 		</div>
