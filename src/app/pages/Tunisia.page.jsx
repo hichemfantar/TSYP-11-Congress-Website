@@ -150,7 +150,7 @@ export default function TunisiaPage() {
 								for="usd"
 								className="mb-2 block font-medium text-gray-900 dark:text-white"
 							>
-								USD
+								United States Dollar (USD)
 							</label>
 							<input
 								value={usdToTnd}
@@ -173,7 +173,7 @@ export default function TunisiaPage() {
 								for="tnd"
 								className="mb-2 block font-medium text-gray-900 dark:text-white"
 							>
-								TND
+								Tunisian Dinar (TND)
 							</label>
 							<input
 								value={Math.floor(usdToTnd * 3.09)}
