@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import ThomasCoughlin from "../../assets/people/Thomas Coughlin.webp";
+import AbdulateefAliyu from "../../assets/people/Abdulateef Aliyu.webp";
+import BrahamHimed from "../../assets/people/Braham Himed.jpg";
+import SrikanthPillai from "../../assets/people/Srikanth Pillai.jpg";
+import MikeHinchey from "../../assets/people/Mike Hinchey.webp";
+
 export default function Speakers() {
 	return (
 		<div>
@@ -72,10 +78,10 @@ export const speakersData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://media-private.canva.com/jauCA/MAFk5CjauCA/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230604T041509Z&X-Amz-Expires=84469&X-Amz-Signature=2c5387e251c8f514f2a58f641ff6445e0523fad6f0fc0f7dcb8f59bd91cc6098&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2005%20Jun%202023%2003%3A42%3A58%20GMT",
+			url: ThomasCoughlin,
 		},
 		imageSmall: {
-			url: "https://media-private.canva.com/jauCA/MAFk5CjauCA/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230604T041509Z&X-Amz-Expires=84469&X-Amz-Signature=2c5387e251c8f514f2a58f641ff6445e0523fad6f0fc0f7dcb8f59bd91cc6098&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2005%20Jun%202023%2003%3A42%3A58%20GMT",
+			url: ThomasCoughlin,
 		},
 	},
 	{
@@ -115,10 +121,10 @@ export const speakersData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://media-private.canva.com/8p6Mw/MAFk5a8p6Mw/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230604T013229Z&X-Amz-Expires=93721&X-Amz-Signature=d42a77a0e5d4cb1cc6f253722cd8751d83835ef51f7b5f22d024cc7dcfb8c9a1&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2005%20Jun%202023%2003%3A34%3A30%20GMT",
+			url: AbdulateefAliyu,
 		},
 		imageSmall: {
-			url: "https://media-private.canva.com/8p6Mw/MAFk5a8p6Mw/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230604T013229Z&X-Amz-Expires=93721&X-Amz-Signature=d42a77a0e5d4cb1cc6f253722cd8751d83835ef51f7b5f22d024cc7dcfb8c9a1&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2005%20Jun%202023%2003%3A34%3A30%20GMT",
+			url: AbdulateefAliyu,
 		},
 	},
 	{
@@ -158,10 +164,10 @@ export const speakersData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://media-private.canva.com/oZU6c/MAFk5WoZU6c/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230604T070433Z&X-Amz-Expires=73690&X-Amz-Signature=33103d1a8c50509f76b837e82eeb90d0e77cb6b260ef93c12aeafe5432991596&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2005%20Jun%202023%2003%3A32%3A43%20GMT",
+			url: BrahamHimed,
 		},
 		imageSmall: {
-			url: "https://media-private.canva.com/oZU6c/MAFk5WoZU6c/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230604T070433Z&X-Amz-Expires=73690&X-Amz-Signature=33103d1a8c50509f76b837e82eeb90d0e77cb6b260ef93c12aeafe5432991596&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2005%20Jun%202023%2003%3A32%3A43%20GMT",
+			url: BrahamHimed,
 		},
 	},
 	{
@@ -201,10 +207,10 @@ export const speakersData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://media-private.canva.com/oaEhw/MAFk5QoaEhw/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230604T183625Z&X-Amz-Expires=32931&X-Amz-Signature=c3d3713cbea6a9cc98eae7f32b6e3989af8d9053db1d2db4479d0c2fd7c94280&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2005%20Jun%202023%2003%3A45%3A16%20GMT",
+			url: SrikanthPillai,
 		},
 		imageSmall: {
-			url: "https://media-private.canva.com/oaEhw/MAFk5QoaEhw/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230604T183625Z&X-Amz-Expires=32931&X-Amz-Signature=c3d3713cbea6a9cc98eae7f32b6e3989af8d9053db1d2db4479d0c2fd7c94280&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2005%20Jun%202023%2003%3A45%3A16%20GMT",
+			url: SrikanthPillai,
 		},
 	},
 	{
@@ -244,10 +250,10 @@ export const speakersData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://media-private.canva.com/kwTXE/MAFk5kkwTXE/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230604T105357Z&X-Amz-Expires=59920&X-Amz-Signature=08496025597bdbaabb94b06affcbb294dd7ce76befac24016c16ed9cd9967b94&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2005%20Jun%202023%2003%3A32%3A37%20GMT",
+			url: MikeHinchey,
 		},
 		imageSmall: {
-			url: "https://media-private.canva.com/kwTXE/MAFk5kkwTXE/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230604T105357Z&X-Amz-Expires=59920&X-Amz-Signature=08496025597bdbaabb94b06affcbb294dd7ce76befac24016c16ed9cd9967b94&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2005%20Jun%202023%2003%3A32%3A37%20GMT",
+			url: MikeHinchey,
 		},
 	},
 	{
