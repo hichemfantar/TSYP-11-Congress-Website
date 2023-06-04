@@ -117,16 +117,6 @@ export const companiesMock = [
 		},
 	},
 	{
-		name: "AWS",
-		description:
-			"Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.",
-		slug: "aws",
-		tierRank: 1,
-		logo: {
-			url: "https://www.datocms-assets.com/35255/1665798996-sponsor-logo-aws.png",
-		},
-	},
-	{
 		name: "ESports TN",
 		description:
 			"ESports TN (ESports By TT) is the official portal for gamers in Tunisia. Play matches in League of Legends, Teamfight Tactics, Valorant, and much more, to earn points and win prizes!",
@@ -134,6 +124,16 @@ export const companiesMock = [
 		tierRank: 1,
 		logo: {
 			url: "https://i.imgur.com/BJwI0qC.png",
+		},
+	},
+	{
+		name: "AWS",
+		description:
+			"Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.",
+		slug: "aws",
+		tierRank: 1,
+		logo: {
+			url: "https://www.datocms-assets.com/35255/1665798996-sponsor-logo-aws.png",
 		},
 	},
 	{
