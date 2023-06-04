@@ -1,6 +1,10 @@
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
+import fiveTnd from "../../assets/currency/2017-2020-5.00-TND-Tunisian-Dinar-note-front.jpg";
+import tenTnd from "../../assets/currency/currency-2656 (Custom).jpg";
+import twentyTnd from "../../assets/currency/products-17494.jpg";
+import fiftyTnd from "../../assets/currency/1_200505150513_1.jpg";
 
 export default function TunisiaPage() {
 	const [usdToTnd, setUsdToTnd] = useState(1);
@@ -184,12 +188,7 @@ export default function TunisiaPage() {
 				</div>
 				<div className="col-span-6 mx-auto hidden w-full md:block">
 					<div className="grid gap-4 md:grid-cols-12">
-						{[
-							"https://lacurrency.com/wp-content/uploads/2022/06/2017-2020-5.00-TND-Tunisian-Dinar-note-front.jpg",
-							"https://www.imf.org/-/media/Images/IMF/FANDD/hero/2020/September/currency-2656.ashx?h=1282&w=2656&la=en",
-							"https://www.foreigncurrencyandcoin.com/wp-content/uploads/2018/12/products-17494.jpg",
-							"https://www.theworldnote.com/uploads/allimg/2005/1_200505150513_1.jpg",
-						]?.map((e) => (
+						{[fiveTnd, tenTnd, twentyTnd, fiftyTnd]?.map((e) => (
 							<img
 								className="h-40 w-full rounded-2xl object-cover shadow md:col-span-6"
 								src={e}
