@@ -1150,7 +1150,7 @@ export const stagesData = [
 	},
 ];
 
-const dec18Schedule = [
+export const dec18Schedule = [
 	{
 		title: "Check-in & Booth setup",
 		startTime: "10:00AM",
@@ -1183,7 +1183,7 @@ const dec18Schedule = [
 	},
 ];
 
-const dec19Schedule = [
+export const dec19Schedule = [
 	{
 		title: "Breakfast",
 		startTime: "7:00AM",
@@ -1258,7 +1258,7 @@ const dec19Schedule = [
 	},
 ];
 
-const dec20Schedule = [
+export const dec20Schedule = [
 	{
 		title: "Breakfast",
 		startTime: "7:00AM",
