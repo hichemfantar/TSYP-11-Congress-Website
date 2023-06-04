@@ -3,7 +3,7 @@ import Logo from "../../assets/main logo black (Custom).png";
 import LogoOnBlack from "../../assets/Logo on black.png";
 import LightLogo from "../../assets/main logo_2 (Custom).png";
 import SBGroupPic from "../../assets/sb-group-pic.jpg";
-import TSYP2015 from "../../assets/tsyp-editions/tsyp-2015.jpg";
+import TSYP2014 from "../../assets/tsyp-editions/tsyp-2014.jpg";
 import TSYP2016 from "../../assets/tsyp-editions/tsyp-2016.jpg";
 import TSYP2017 from "../../assets/tsyp-editions/tsyp-2017.jpg";
 import TSYP2018 from "../../assets/tsyp-editions/tsyp-2018.png";
@@ -110,7 +110,7 @@ export default function HomePage() {
 			<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
 				<div className="col-span-6 mx-auto md:order-last">
 					<img
-						src={"https://tsyp.ieee.tn/static/media/TT.2542e6b4.png"}
+						src={IeeeTunisia}
 						className="mx-auto h-52 object-contain sm:h-96"
 						alt="TSYP 11"
 					/>
@@ -125,7 +125,7 @@ export default function HomePage() {
 						networking of people, and developing technology and its applications
 						for humanitarian challenges. The section supports chapters, special
 						interest groups, student activities, and student awards. IEEE is
-						anchored in the Tunisian engineering landscape with more than 33
+						anchored in the Tunisian engineering landscape with more than 43
 						Student Branches' spread over the different engineering schools,
 						faculties and universities
 					</h1>
@@ -234,7 +234,7 @@ function PreviousEditions() {
 							<img
 								className="col-span-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2022}
-								alt="Transistor"
+								alt="TSYP2022"
 								// width={200}
 								// height={200}
 							/>
@@ -250,7 +250,7 @@ function PreviousEditions() {
 							<img
 								className="col-span-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2021Dark}
-								alt="Transistor"
+								alt="TSYP2021Dark"
 								// width={200}
 								// height={200}
 							/>
@@ -266,7 +266,7 @@ function PreviousEditions() {
 							<img
 								className="col-span-2 h-[120px] w-[120px] rounded-full object-cover shadow-md shadow-gray-200 transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2020}
-								alt="Reform"
+								alt="TSYP2020"
 								// width={200}
 								// height={200}
 							/>
@@ -283,7 +283,7 @@ function PreviousEditions() {
 							<img
 								className="col-span-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2019}
-								alt="Tuple"
+								alt="TSYP2019"
 								// width={200}
 								// height={200}
 							/>
@@ -299,7 +299,7 @@ function PreviousEditions() {
 							<img
 								className="col-span-2 h-[120px] w-[120px] rounded-full object-contain p-4 shadow-md shadow-gray-200 transition dark:invert sm:col-start-2 md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2018}
-								alt="SavvyCal"
+								alt="TSYP2018"
 								// width={200}
 								// height={200}
 							/>
@@ -315,7 +315,7 @@ function PreviousEditions() {
 							<img
 								className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition dark:invert sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2017}
-								alt="Statamic"
+								alt="TSYP2017"
 								// width={200}
 								// height={200}
 							/>
@@ -331,7 +331,7 @@ function PreviousEditions() {
 							<img
 								className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition dark:invert sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2016}
-								alt="Statamic"
+								alt="TSYP2016"
 								// width={200}
 								// height={200}
 							/>
@@ -345,14 +345,42 @@ function PreviousEditions() {
 							rel="noreferrer"
 						>
 							<img
-								className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-900 invert transition dark:invert-0 sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
-								src={TSYP2015}
-								alt="Statamic"
+								className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
+								src={IeeeTunisia}
+								alt="IeeeTunisia"
 								// width={200}
 								// height={200}
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2015</h1>
+					</div>
+					<div className="transition hover:scale-105">
+						<a
+							href="https://past-tsyp.ieee.tn/2014/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img
+								className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-900 invert transition dark:invert-0 sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
+								src={TSYP2014}
+								alt="TSYP2014"
+								// width={200}
+								// height={200}
+							/>
+						</a>
+						<h1 className="mt-4 text-center font-extrabold">2014</h1>
+					</div>
+					<div className="transition hover:scale-105">
+						<a href="#">
+							<img
+								className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
+								src={IeeeTunisia}
+								alt="IeeeTunisia"
+								// width={200}
+								// height={200}
+							/>
+						</a>
+						<h1 className="mt-4 text-center font-extrabold">2013</h1>
 					</div>
 				</div>
 			</div>
