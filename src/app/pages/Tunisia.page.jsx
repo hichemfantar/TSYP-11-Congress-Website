@@ -182,7 +182,7 @@ export default function TunisiaPage() {
 						</div>
 					</div>
 				</div>
-				<div className="col-span-6 mx-auto w-full">
+				<div className="col-span-6 mx-auto hidden w-full md:block">
 					<div className="grid gap-4 md:grid-cols-12">
 						{[
 							"https://lacurrency.com/wp-content/uploads/2022/06/2017-2020-5.00-TND-Tunisian-Dinar-note-front.jpg",
