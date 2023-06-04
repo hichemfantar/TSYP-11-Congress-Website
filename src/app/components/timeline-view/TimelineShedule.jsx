@@ -11,7 +11,7 @@ const tabs = [dec18Schedule, dec19Schedule, dec20Schedule];
 
 export default function TimelineShedule() {
 	const [selectedTab, setSelectedTab] = useState(0);
-
+	const selectedSchedule = tabs?.[selectedTab];
 	return (
 		<div id="fzefzefze">
 			<div className="mb-6 flex w-full flex-wrap justify-around gap-6">
@@ -57,7 +57,7 @@ export default function TimelineShedule() {
 						</div>
 
 						{/* <ul className="[counter-reset:section]"> */}
-						{tabs?.[selectedTab]?.map((s, idx) => {
+						{selectedSchedule?.map((s, idx) => {
 							const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 							return (
 								<>
@@ -104,7 +104,7 @@ export default function TimelineShedule() {
 												</div>
 											</div>
 										</div>
-										{dec18Schedule?.length !== idx + 1 && (
+										{selectedSchedule?.length !== idx + 1 && (
 											<div className="row step-line">
 												<div className="col-3 corner" />
 												<div className="col-6 corner-line" />
@@ -112,7 +112,7 @@ export default function TimelineShedule() {
 											</div>
 										)}
 									</div>
-									{dec18Schedule?.length === idx + 1 && (
+									{selectedSchedule?.length === idx + 1 && (
 										<div className="step-out-left">
 											<div className="row step-line">
 												<div className="col-3 corner" />
