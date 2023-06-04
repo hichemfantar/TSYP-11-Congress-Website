@@ -1,9 +1,51 @@
+import { twMerge } from "tailwind-merge";
+import {
+	dec18Schedule,
+	dec19Schedule,
+	dec20Schedule,
+} from "../schedule/scheduleItems";
 import "./TimelineSchedule.scss";
-import { dec18Schedule } from "../schedule/ScheduleList";
+import { useState } from "react";
+
+const tabs = [dec18Schedule, dec19Schedule, dec20Schedule];
 
 export default function TimelineShedule() {
+	const [selectedTab, setSelectedTab] = useState(0);
+
 	return (
 		<div id="fzefzefze">
+			<div className="mb-6 flex w-full flex-wrap justify-around gap-6">
+				<button
+					onClick={() => setSelectedTab(0)}
+					className={twMerge(
+						"text-xl font-bold transition",
+						selectedTab === 0 &&
+							"scale-125 border-b-2 border-gray-600 font-extrabold md:scale-150"
+					)}
+				>
+					December 18
+				</button>
+				<button
+					onClick={() => setSelectedTab(1)}
+					className={twMerge(
+						"text-xl font-bold transition",
+						selectedTab === 1 &&
+							"scale-125 border-b-2 border-gray-600 font-extrabold md:scale-150"
+					)}
+				>
+					December 19
+				</button>
+				<button
+					onClick={() => setSelectedTab(2)}
+					className={twMerge(
+						"text-xl font-bold transition",
+						selectedTab === 2 &&
+							"scale-125 border-b-2 border-gray-600 font-extrabold md:scale-150"
+					)}
+				>
+					December 20
+				</button>
+			</div>
 			<div className="service-cloud">
 				<div className="b-our-process">
 					<div className="c-process-steps">
@@ -14,13 +56,15 @@ export default function TimelineShedule() {
 							</div>
 						</div>
 
-						{dec18Schedule?.map((s, idx) => {
+						{/* <ul className="[counter-reset:section]"> */}
+						{tabs?.[selectedTab]?.map((s, idx) => {
+							const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 							return (
 								<>
 									<div className="step">
 										<div className="b-step-content">
 											<div className="b-step-content__logo">
-												<div className="circle">
+												<div className="circle bg-white dark:bg-black">
 													{/* <img
 												src="/themes/satoripop-2019/images/services/smartphone-4.svg"
 												alt="Design"
@@ -28,7 +72,18 @@ export default function TimelineShedule() {
 												</div>
 											</div>
 											<div className="b-step-content__text">
-												<h4 className="b-step-content__title">{s?.title}</h4>
+												<h4
+													// className={
+													// 	"b-step-content__title before:content-['gfer']"
+													// }
+													className={twMerge(
+														`b-step-content__title`,
+														`before:content-['${arr[idx]}']`
+														// `before:[content:'counters(section,'.')']`
+													)}
+												>
+													{s?.title}
+												</h4>
 												<div className="b-step-content__description">
 													<p className="mt-1 font-mono text-sm text-slate-500">
 														<time dateTime="2022-04-04T9:00AM-08:00">
@@ -69,6 +124,7 @@ export default function TimelineShedule() {
 								</>
 							);
 						})}
+						{/* </ul> */}
 					</div>
 				</div>
 			</div>

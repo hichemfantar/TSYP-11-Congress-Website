@@ -1,5 +1,6 @@
 import ScheduleBox from "../ScheduleBox";
 import TimelineShedule from "../timeline-view/TimelineShedule";
+import { dec18Schedule, dec19Schedule, dec20Schedule } from "./scheduleItems";
 
 export default function ScheduleList() {
 	return (
@@ -13,7 +14,7 @@ export default function ScheduleList() {
 				</div>
 			)}
 
-			<ScheduleOverview />
+			<ScheduleOverview showTimeline />
 
 			{false && (
 				<div className="flex flex-col gap-8">
@@ -1150,244 +1151,111 @@ export const stagesData = [
 	},
 ];
 
-export const dec18Schedule = [
-	{
-		title: "Check-in & Booth setup",
-		startTime: "10:00AM",
-		endTime: "2:00PM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Opening ceremony",
-		startTime: "3:00PM",
-		endTime: "5:00PM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Stands, TSYP Booths & Networking",
-		startTime: "5:00PM",
-		endTime: "7:00PM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Dinner",
-		startTime: "7:00PM",
-		endTime: "9:00PM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Team-Building & Surprise Challenge",
-		startTime: "9:00PM",
-		endTime: "11:00PM",
-		timeZone: "GMT+1",
-	},
-];
-
-export const dec19Schedule = [
-	{
-		title: "Breakfast",
-		startTime: "7:00AM",
-		endTime: "9:00AM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "IEEE challenges, Partner challenges, workshops & panels",
-		startTime: "9:00AM",
-		endTime: "10:30AM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Coffee break",
-		startTime: "10:30AM",
-		endTime: "10:45AM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "IEEE challenges, Partner challenges, workshops & panels",
-		startTime: "10:45AM",
-		endTime: "12:00PM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Lunch",
-		startTime: "12:30PM",
-		endTime: "2:00PM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "IEEE challenges, Partner challenges, workshops & panels",
-		startTime: "2:00PM",
-		endTime: "4:00PM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Coffee break",
-		startTime: "4:00PM",
-		endTime: "4:30PM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "IEEE challenges, Partner challenges, workshops & panels",
-		startTime: "4:30PM",
-		endTime: "7:00PM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Dinner",
-		startTime: "7:00PM",
-		endTime: "9:00PM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Awards ceremony",
-		startTime: "9:00PM",
-		endTime: "9:30PM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Talent show",
-		startTime: "9:30PM",
-		endTime: "10:00PM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Finalists announcement, social activities",
-		startTime: "10:00PM",
-		endTime: "11:00PM",
-		timeZone: "GMT+1",
-	},
-];
-
-export const dec20Schedule = [
-	{
-		title: "Breakfast",
-		startTime: "7:00AM",
-		endTime: "9:00AM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Tunisia Section Awards",
-		startTime: "9:00AM",
-		endTime: "10:00AM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Finalists Presentation (Q&A, Voting)",
-		startTime: "10:00AM",
-		endTime: "11:30AM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Winners announcement and Closing ceremony",
-		startTime: "11:30AM",
-		endTime: "12:00PM",
-		timeZone: "GMT+1",
-	},
-	{
-		title: "Checkout",
-		startTime: "12:00PM",
-		endTime: "1:00PM",
-		timeZone: "GMT+1",
-	},
-];
-
-export function ScheduleOverview() {
+export function ScheduleOverview({ showTimeline }) {
 	return (
 		<section>
-			<div className="mb-12 text-center text-4xl font-bold">
+			<div className="mb-16 text-center text-4xl font-bold">
 				Schedule Overview
 			</div>
 
-			<TimelineShedule />
+			{showTimeline && <TimelineShedule />}
 
-			<div className="flex flex-col gap-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
-				<section className="flex flex-col">
-					<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black">
-						<time dateTime="2022-04-04">December 18</time>
-					</h3>
-					{/* <p className="mt-1.5 text-base tracking-tight">
+			{!showTimeline && (
+				<div className="flex flex-col gap-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
+					<section className="flex flex-col">
+						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black">
+							<time dateTime="2022-04-04">December 18</time>
+						</h3>
+						{/* <p className="mt-1.5 text-base tracking-tight">
 						The first day of the conference is focused on ecommerce.
 					</p> */}
-					<ol className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500">
-						{dec18Schedule.map((e, idx) => (
-							<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
-								{idx > 0 && (
-									<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								)}
-								<h4 className="text-lg font-semibold tracking-tight ">
-									{e.title}
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T9:00AM-08:00">{e.startTime}</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-04T10:00AM-08:00">{e.endTime}</time>{" "}
-									{/* */}
-									{e.timeZone}
-								</p>
-							</li>
-						))}
-					</ol>
-				</section>
+						<ol className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500">
+							{dec18Schedule?.map((e, idx) => (
+								<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
+									{idx > 0 && (
+										<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+									)}
+									<h4 className="text-lg font-semibold tracking-tight ">
+										{e.title}
+									</h4>
+									{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
+									<p className="mt-1 font-mono text-sm text-slate-500">
+										<time dateTime="2022-04-04T9:00AM-08:00">
+											{e.startTime}
+										</time>{" "}
+										{/* */}-{/* */}{" "}
+										<time dateTime="2022-04-04T10:00AM-08:00">{e.endTime}</time>{" "}
+										{/* */}
+										{e.timeZone}
+									</p>
+								</li>
+							))}
+						</ol>
+					</section>
 
-				<section className="flex flex-col">
-					<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black ">
-						<time dateTime="2022-04-05">December 19</time>
-					</h3>
-					{/* <p className="mt-1.5 text-base tracking-tight ">
+					<section className="flex flex-col">
+						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black ">
+							<time dateTime="2022-04-05">December 19</time>
+						</h3>
+						{/* <p className="mt-1.5 text-base tracking-tight ">
 						Next we spend the day talking about people with technology.
 					</p> */}
-					<ol className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500">
-						{dec19Schedule.map((e, idx) => (
-							<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
-								{idx > 0 && (
-									<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								)}
-								<h4 className="text-lg font-semibold tracking-tight ">
-									{e.title}
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T9:00AM-08:00">{e.startTime}</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-04T10:00AM-08:00">{e.endTime}</time>{" "}
-									{/* */}
-									{e.timeZone}
-								</p>
-							</li>
-						))}
-					</ol>
-				</section>
+						<ol className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500">
+							{dec19Schedule?.map((e, idx) => (
+								<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
+									{idx > 0 && (
+										<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+									)}
+									<h4 className="text-lg font-semibold tracking-tight ">
+										{e.title}
+									</h4>
+									{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
+									<p className="mt-1 font-mono text-sm text-slate-500">
+										<time dateTime="2022-04-04T9:00AM-08:00">
+											{e.startTime}
+										</time>{" "}
+										{/* */}-{/* */}{" "}
+										<time dateTime="2022-04-04T10:00AM-08:00">{e.endTime}</time>{" "}
+										{/* */}
+										{e.timeZone}
+									</p>
+								</li>
+							))}
+						</ol>
+					</section>
 
-				<section className="flex flex-col">
-					<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black ">
-						<time dateTime="2022-04-06">December 20</time>
-					</h3>
-					{/* <p className="mt-1.5 text-base tracking-tight ">
+					<section className="flex flex-col">
+						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black ">
+							<time dateTime="2022-04-06">December 20</time>
+						</h3>
+						{/* <p className="mt-1.5 text-base tracking-tight ">
 						We close out the event previewing techniques in development.
 					</p> */}
-					<ol className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500">
-						{dec20Schedule.map((e, idx) => (
-							<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
-								{idx > 0 && (
-									<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-								)}
-								<h4 className="text-lg font-semibold tracking-tight ">
-									{e.title}
-								</h4>
-								{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
-								<p className="mt-1 font-mono text-sm text-slate-500">
-									<time dateTime="2022-04-04T9:00AM-08:00">{e.startTime}</time>{" "}
-									{/* */}-{/* */}{" "}
-									<time dateTime="2022-04-04T10:00AM-08:00">{e.endTime}</time>{" "}
-									{/* */}
-									{e.timeZone}
-								</p>
-							</li>
-						))}
-					</ol>
-				</section>
-			</div>
+						<ol className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500">
+							{dec20Schedule?.map((e, idx) => (
+								<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
+									{idx > 0 && (
+										<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+									)}
+									<h4 className="text-lg font-semibold tracking-tight ">
+										{e.title}
+									</h4>
+									{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
+									<p className="mt-1 font-mono text-sm text-slate-500">
+										<time dateTime="2022-04-04T9:00AM-08:00">
+											{e.startTime}
+										</time>{" "}
+										{/* */}-{/* */}{" "}
+										<time dateTime="2022-04-04T10:00AM-08:00">{e.endTime}</time>{" "}
+										{/* */}
+										{e.timeZone}
+									</p>
+								</li>
+							))}
+						</ol>
+					</section>
+				</div>
+			)}
 		</section>
 	);
 }

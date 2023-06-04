@@ -189,7 +189,9 @@ export default function HomePage() {
 				<IEEEPartners />
 			</section>
 
-			<ScheduleOverview />
+			<div className="hidden md:block">
+				<ScheduleOverview />
+			</div>
 
 			<section className="py-8 md:py-28">
 				<Team />
