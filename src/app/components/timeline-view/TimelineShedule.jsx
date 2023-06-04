@@ -112,7 +112,7 @@ export default function TimelineShedule() {
 											</div>
 										)}
 									</div>
-									{selectedSchedule?.length === idx + 1 && (
+									{false && selectedSchedule?.length === idx + 1 && (
 										<div className="step-out-left">
 											<div className="row step-line">
 												<div className="col-3 corner" />
