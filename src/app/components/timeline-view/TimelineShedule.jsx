@@ -5,7 +5,7 @@ export default function TimelineShedule() {
 	return (
 		<div id="fzefzefze">
 			<div className="service-cloud">
-				<div className="b-our-process ">
+				<div className="b-our-process">
 					<div className="c-process-steps">
 						<div className="step-in">
 							<div className="row step-line">
