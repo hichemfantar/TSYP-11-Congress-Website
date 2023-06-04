@@ -1,4 +1,5 @@
 import SartexGroupLogo from "../../assets/companies/Sartex-group-big-1024x682.png";
+import IeeeEssthsSbLogo from "../../assets/companies/ieee-essths-sb-logo (Custom).png";
 import ExpoListItem from "./ExpoListItem";
 
 export default function ExpoList() {
@@ -95,15 +96,25 @@ export default function ExpoList() {
 
 export const companiesMock = [
 	{
-		name: "Vercel",
+		name: "IEEE ESSTHS SB",
 		description:
-			"Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
-		slug: "vercel",
+			"Founded in 2020, with over 260 enthusiastic members all with one vision “advancing students carrer's in technology, for the benefit of humanity“",
+		slug: "IEEE-ESSTHS-SB",
 		tierRank: 0,
 		logo: {
-			url: "https://www.datocms-assets.com/35255/1665957463-sponsor-logo-vercel.png",
+			url: IeeeEssthsSbLogo,
 		},
 	},
+	// {
+	// 	name: "Vercel",
+	// 	description:
+	// 		"Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
+	// 	slug: "vercel",
+	// 	tierRank: 0,
+	// 	logo: {
+	// 		url: "https://www.datocms-assets.com/35255/1665957463-sponsor-logo-vercel.png",
+	// 	},
+	// },
 	{
 		name: "Sartex Group",
 		description:

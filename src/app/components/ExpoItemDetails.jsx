@@ -34,7 +34,7 @@ function ExpoDetails({ data }) {
 				<img
 					src={data.logo.url || data.logo}
 					alt=""
-					className="bg-blackk mx-auto h-48 rounded-lg object-contain"
+					className="mx-auto aspect-video h-48 rounded-lg bg-black object-contain p-6"
 				/>
 				<div className="mt-4 hidden md:block">
 					{data.links && <ExpoDetailsResources links={data.links} />}
