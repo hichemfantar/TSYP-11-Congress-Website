@@ -36,27 +36,32 @@ export default function Speaker() {
 					<div className="">
 						<div className="flex justify-between">
 							<div className="text-2xl font-bold">{currentSpeaker.name}</div>
-							<div className="flex gap-4 text-lg text-gray-600">
-								<button>
-									<FontAwesomeIcon
-										icon={faTwitter}
-										className="transition hover:scale-125 hover:text-gray-900 active:scale-110 hover:dark:text-gray-400"
-									/>
-								</button>
-								<button>
-									<FontAwesomeIcon
-										icon={faGithub}
-										className="transition hover:scale-125 hover:text-gray-900 active:scale-110 hover:dark:text-gray-400"
-									/>
-								</button>
+							{false && (
+								<div className="flex gap-4 text-lg text-gray-600">
+									<button>
+										<FontAwesomeIcon
+											icon={faTwitter}
+											className="transition hover:scale-125 hover:text-gray-900 active:scale-110 hover:dark:text-gray-400"
+										/>
+									</button>
+									<button>
+										<FontAwesomeIcon
+											icon={faGithub}
+											className="transition hover:scale-125 hover:text-gray-900 active:scale-110 hover:dark:text-gray-400"
+										/>
+									</button>
+								</div>
+							)}
+						</div>
+						{false && (
+							<div className="text-gray-600 dark:text-gray-400">
+								@{currentSpeaker.twitterUsername}
 							</div>
-						</div>
-						<div className="text-gray-600 dark:text-gray-400">
-							@{currentSpeaker.twitterUsername}
-						</div>
-						<div>
+						)}
+						<div>{currentSpeaker.title}</div>
+						{/* <div>
 							{currentSpeaker.title} at {currentSpeaker.company.name}
-						</div>
+						</div> */}
 					</div>
 
 					<div>

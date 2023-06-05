@@ -27,12 +27,13 @@ export default function Speakers() {
 								loading="lazy"
 							/>
 							<div className="font-bold">{speaker.name}</div>
-							<div className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+							{/* <div className="mb-2 text-sm text-gray-600 dark:text-gray-400">
 								@{speaker.twitterUsername}
-							</div>
-							<div className="text-sm">
+							</div> */}
+							<div className="text-sm">{speaker.title}</div>
+							{/* <div className="text-sm">
 								{speaker.title}, {speaker.company.name}
-							</div>
+							</div> */}
 						</Link>
 					))}
 			</div>
