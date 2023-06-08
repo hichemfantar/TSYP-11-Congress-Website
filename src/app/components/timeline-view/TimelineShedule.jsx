@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import {
 	dec18Schedule,
@@ -5,7 +7,6 @@ import {
 	dec20Schedule,
 } from "../schedule/scheduleItems";
 import "./TimelineSchedule.scss";
-import { useState } from "react";
 
 const tabs = [dec18Schedule, dec19Schedule, dec20Schedule];
 
@@ -65,10 +66,14 @@ export default function TimelineShedule() {
 										<div className="b-step-content">
 											<div className="b-step-content__logo">
 												<div className="circle bg-white dark:bg-black">
+													<FontAwesomeIcon
+														icon={s?.icon}
+														className="h-12 w-12"
+													/>
 													{/* <img
-												src="/themes/satoripop-2019/images/services/smartphone-4.svg"
-												alt="Design"
-											/> */}
+														src="/themes/satoripop-2019/images/services/smartphone-4.svg"
+														alt="Design"
+													/> */}
 												</div>
 											</div>
 											<div className="b-step-content__text">
@@ -112,6 +117,7 @@ export default function TimelineShedule() {
 											</div>
 										)}
 									</div>
+
 									{false && selectedSchedule?.length === idx + 1 && (
 										<div className="step-out-left">
 											<div className="row step-line">
