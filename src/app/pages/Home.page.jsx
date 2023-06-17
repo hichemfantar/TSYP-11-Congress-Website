@@ -23,6 +23,7 @@ import { Link } from "react-router-dom";
 import Team from "../components/Team";
 import ThreeExperience from "../components/ThreeExperience";
 import { ScheduleOverview } from "../components/schedule/ScheduleList";
+import Speakers from "../components/Speakers";
 
 export default function HomePage() {
 	return (
@@ -50,20 +51,26 @@ export default function HomePage() {
 							/>
 						</>
 					)}
-					<h1 className="mb-4 text-center text-4xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
-						Bringing Silicon Valley to Tunisia.
+
+					{false && (
+						<h1 className="mb-4 text-center text-4xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
+							Bringing Silicon Valley to Tunisia.
+						</h1>
+					)}
+					{/* <h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none"> */}
+					<h1 className="mb-8 text-center text-4xl font-bold tracking-tight lg:mb-8 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
+						11th IEEE Tunisian Students & Young Professionals Congress
 					</h1>
 
 					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-						11th IEEE Tunisian Students & Young Professionals Congress.
-					</h1>
-
-					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-						18-20 December 2023, Diar Lemdina, Hammamet.
+						Medina Congress Center, Yasmine Hammamet
 					</h1>
 
 					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 						<q>Silicon valley is a mindset, not a location.</q>
+					</h1>
+					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+						18-20 December 2023
 					</h1>
 				</div>
 				{/* <div className="col-span-6">
@@ -187,6 +194,10 @@ export default function HomePage() {
 
 			<section className="py-8 md:py-20">
 				<IEEEPartners />
+			</section>
+
+			<section className="py-8 md:py-20">
+				<Speakers />
 			</section>
 
 			<div className="hidden md:block">

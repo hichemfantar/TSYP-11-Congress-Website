@@ -3,6 +3,14 @@ import IeeeEssthsSbLogo from "../../assets/companies/ieee-essths-sb-logo (Custom
 import ExpoListItem from "./ExpoListItem";
 
 export default function ExpoList() {
+	const enabledCompanies = companiesMock?.filter((e) => e.enabled === true);
+
+	const hostedBy = enabledCompanies?.filter((e) => e.tierRank === 0);
+	const apexPartners = enabledCompanies?.filter((e) => e.tierRank === 1);
+	const vanguardPartners = enabledCompanies?.filter((e) => e.tierRank === 2);
+	const ascendantPartners = enabledCompanies?.filter((e) => e.tierRank === 3);
+	const explorerPartners = enabledCompanies?.filter((e) => e.tierRank === 4);
+
 	return (
 		<div>
 			<div className="mb-8">
@@ -13,38 +21,37 @@ export default function ExpoList() {
 			</div>
 
 			<div className="flex flex-col gap-8">
-				<div>
-					<div className="mb-4 text-2xl font-bold">Hosted By</div>
-					<div className="grid grid-cols-12 gap-y-4 md:gap-4">
-						{companiesMock
-							?.filter((e) => e.tierRank === 0)
-							.map((e) => (
+				{!!hostedBy?.length && (
+					<div>
+						<div className="mb-4 text-2xl font-bold">Hosted By</div>
+						<div className="grid grid-cols-12 gap-y-4 md:gap-4">
+							{hostedBy.map((e) => (
 								<div className="col-span-12 md:col-span-4" key={e.slug}>
 									<ExpoListItem data={e} />
 								</div>
 							))}
+						</div>
 					</div>
-				</div>
+				)}
 
-				<div>
-					<div className="mb-4 text-2xl font-bold">Apex Partners</div>
-					<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
-						{companiesMock
-							?.filter((e) => e.tierRank === 1)
-							.map((e) => (
+				{!!apexPartners?.length && (
+					<div>
+						<div className="mb-4 text-2xl font-bold">Apex Partners</div>
+						<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
+							{apexPartners.map((e) => (
 								<div className="col-span-12 md:col-span-4" key={e.slug}>
 									<ExpoListItem data={e} classNames={"h-full"} />
 								</div>
 							))}
+						</div>
 					</div>
-				</div>
+				)}
 
-				<div>
-					<div className="mb-4 text-2xl font-bold">Vanguard Partners</div>
-					<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
-						{companiesMock
-							?.filter((e) => e.tierRank === 2)
-							.map((e) => (
+				{!!vanguardPartners?.length && (
+					<div>
+						<div className="mb-4 text-2xl font-bold">Vanguard Partners</div>
+						<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
+							{vanguardPartners.map((e) => (
 								<div className="col-span-12 md:col-span-3" key={e.slug}>
 									<ExpoListItem
 										data={e}
@@ -53,15 +60,15 @@ export default function ExpoList() {
 									/>
 								</div>
 							))}
+						</div>
 					</div>
-				</div>
+				)}
 
-				<div>
-					<div className="mb-4 text-2xl font-bold">Ascendant Partners</div>
-					<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
-						{companiesMock
-							?.filter((e) => e.tierRank === 3)
-							.map((e) => (
+				{!!ascendantPartners?.length && (
+					<div>
+						<div className="mb-4 text-2xl font-bold">Ascendant Partners</div>
+						<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
+							{ascendantPartners.map((e) => (
 								<div className="col-span-12 md:col-span-3" key={e.slug}>
 									<ExpoListItem
 										data={e}
@@ -70,15 +77,15 @@ export default function ExpoList() {
 									/>
 								</div>
 							))}
+						</div>
 					</div>
-				</div>
+				)}
 
-				<div>
-					<div className="mb-4 text-2xl font-bold">Explorer Partners</div>
-					<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
-						{companiesMock
-							?.filter((e) => e.tierRank === 3)
-							.map((e) => (
+				{!!explorerPartners?.length && (
+					<div>
+						<div className="mb-4 text-2xl font-bold">Explorer Partners</div>
+						<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
+							{explorerPartners.map((e) => (
 								<div className="col-span-12 md:col-span-3" key={e.slug}>
 									<ExpoListItem
 										data={e}
@@ -87,8 +94,9 @@ export default function ExpoList() {
 									/>
 								</div>
 							))}
+						</div>
 					</div>
-				</div>
+				)}
 			</div>
 		</div>
 	);
@@ -96,6 +104,7 @@ export default function ExpoList() {
 
 export const companiesMock = [
 	{
+		enabled: true,
 		name: "IEEE ESSTHS SB",
 		description:
 			"Founded in 2020, with over 260 enthusiastic members all with one vision “advancing students carrer's in technology, for the benefit of humanity“",
@@ -116,6 +125,7 @@ export const companiesMock = [
 	// 	},
 	// },
 	{
+		enabled: true,
 		name: "Sartex Group",
 		description:
 			"Sartex is the garment manufacturer of “Denim with Integrity and Principles. Eco-friendly production utilizing cutting-edge technologies based in state-of-the-art facilities in Tunisia.",
