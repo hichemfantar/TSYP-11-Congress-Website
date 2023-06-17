@@ -24,15 +24,20 @@ import Team from "../components/Team";
 import ThreeExperience from "../components/ThreeExperience";
 import { ScheduleOverview } from "../components/schedule/ScheduleList";
 import Speakers from "../components/Speakers";
+import { useMediaQuery } from "usehooks-ts";
 
 export default function HomePage() {
+	const matches = useMediaQuery("(min-width: 768px)");
+
 	return (
 		<div className="h-full">
-			<Suspense fallback={null}>
-				<div className="hidden h-[40rem] overflow-auto rounded-2xl md:block md:h-[45rem]">
-					<ThreeExperience />
-				</div>
-			</Suspense>
+			{matches && (
+				<Suspense fallback={null}>
+					<div className="hidden h-[40rem] overflow-auto rounded-2xl md:block md:h-[45rem]">
+						<ThreeExperience />
+					</div>
+				</Suspense>
+			)}
 
 			<section className="grid grid-cols-12 items-center justify-center py-24 md:py-48">
 				<div className="col-span-12 mx-auto">
@@ -57,6 +62,7 @@ export default function HomePage() {
 							Bringing Silicon Valley to Tunisia.
 						</h1>
 					)}
+
 					{/* <h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none"> */}
 					<h1 className="mb-8 text-center text-4xl font-bold tracking-tight lg:mb-8 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
 						11th IEEE Tunisian Students & Young Professionals Congress
@@ -241,7 +247,11 @@ function PreviousEditions() {
 				</h2>
 				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
 					<div className="transition hover:scale-105">
-						<a href="https://tsyp.ieee.tn/" target="_blank" rel="noreferrer">
+						<a
+							href="https://past-tsyp.ieee.tn/2022/"
+							target="_blank"
+							rel="noreferrer"
+						>
 							<img
 								className="col-span-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2022}

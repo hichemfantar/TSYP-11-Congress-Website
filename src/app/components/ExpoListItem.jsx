@@ -5,7 +5,7 @@ import { twMerge } from "tailwind-merge";
 export default function ExpoListItem({ data, classNames, imgClassNames }) {
 	return (
 		<Link
-			to={data.slug}
+			to={`/expo/${data.slug}`}
 			className={twMerge(
 				"block rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:p-6",
 				classNames
