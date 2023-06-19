@@ -156,7 +156,7 @@ export default function HomePage() {
 							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:text-gray-100 dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
 						>
 							{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
-							<span className="">Learn more</span>
+							<span className="">Learn more IEEE Tunisia Section</span>
 							{/* </div> */}
 						</Link>
 					</div>
@@ -192,7 +192,7 @@ export default function HomePage() {
 							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:text-gray-100 dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
 						>
 							{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
-							<span className="">Learn more</span>
+							<span className="">Learn more about ESSTHS SB</span>
 							{/* </div> */}
 						</Link>
 					</div>
