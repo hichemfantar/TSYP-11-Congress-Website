@@ -123,21 +123,27 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 												<a
 													href="https://www.facebook.com/ieee.tsyp"
 													target="_blank"
+													rel="noreferrer"
 													className="text-gray-600 dark:text-gray-400"
+													aria-label="facebook page"
 												>
 													<FontAwesomeIcon icon={faFacebook} />
 												</a>
 												<a
 													href="https://www.instagram.com/ieee_tsyp/"
 													target="_blank"
+													rel="noreferrer"
 													className="text-gray-600 dark:text-gray-400"
+													aria-label="instagram page"
 												>
 													<FontAwesomeIcon icon={faInstagram} />
 												</a>
 												<a
 													href="https://www.linkedin.com/company/ieee-tsyp/"
 													target="_blank"
+													rel="noreferrer"
 													className="text-gray-600 dark:text-gray-400"
+													aria-label="linkedin page"
 												>
 													<FontAwesomeIcon icon={faLinkedin} />
 												</a>

@@ -9,7 +9,12 @@ export default function SponsorUsPage() {
 		<div className="h-full">
 			<section className="grid items-center justify-center gap-12 py-8 md:grid-cols-12 md:py-28">
 				<div className="col-span-6 mx-auto w-full md:order-last">
-					<Link to={tsypCollabPDF} target="_blank" className="">
+					<Link
+						to={tsypCollabPDF}
+						target="_blank"
+						rel="noreferrer"
+						className=""
+					>
 						<img
 							src={tsypCollabFilePreview}
 							className="mx-auto h-[32rem] rounded-2xl object-cover transition hover:scale-105"
@@ -48,6 +53,7 @@ export default function SponsorUsPage() {
 						<Link
 							to={tsypCollabPDF}
 							target="_blank"
+							rel="noreferrer"
 							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:text-gray-100 dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
 						>
 							{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
