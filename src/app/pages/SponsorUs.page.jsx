@@ -14,6 +14,7 @@ export default function SponsorUsPage() {
 							src={tsypCollabFilePreview}
 							className="mx-auto h-[32rem] rounded-2xl object-cover transition hover:scale-105"
 							alt="TSYP 11"
+							loading="lazy"
 						/>
 					</Link>
 				</div>

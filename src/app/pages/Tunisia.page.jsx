@@ -55,6 +55,7 @@ export default function TunisiaPage() {
 						src={LightLogo}
 						className="mx-auto h-56 object-contain sm:h-60"
 						alt="TSYP 11"
+					loading="lazy"
 					/> */}
 				</div>
 			</section>
@@ -67,6 +68,7 @@ export default function TunisiaPage() {
 								className="h-full w-full rounded-lg object-cover"
 								src="https://www.nationsonline.org/gallery/Tunisia/Super_moon_over_Medina_of_Tunis.jpg"
 								alt=""
+								loading="lazy"
 							/>
 						</div>
 						<div>
@@ -74,6 +76,7 @@ export default function TunisiaPage() {
 								className="h-full w-full rounded-lg object-cover"
 								src="https://www.classicalmovements.com/wp-content/gallery/tunisia/1024px-Zied_Gharsa_et_la_Rachidia.jpg"
 								alt=""
+								loading="lazy"
 							/>
 						</div>
 						<div>
@@ -81,6 +84,7 @@ export default function TunisiaPage() {
 								className="h-full w-full rounded-lg object-cover"
 								src="https://lp-cms-production.imgix.net/2019-06/c32f29efd9f1e16d0732dc4ce06918fd-sidi-bou-said.jpg"
 								alt=""
+								loading="lazy"
 							/>
 						</div>
 					</div>
@@ -90,6 +94,7 @@ export default function TunisiaPage() {
 								className="h-full w-full rounded-lg object-cover"
 								src="https://images.pexels.com/photos/15252910/pexels-photo-15252910.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 								alt=""
+								loading="lazy"
 							/>
 						</div>
 						<div>
@@ -97,6 +102,7 @@ export default function TunisiaPage() {
 								className="h-full w-full rounded-lg object-cover"
 								src="https://www.tunisia-desert-challenge.com/storage/images/content/gr_tdc2021-jan-64.jpg?4"
 								alt=""
+								loading="lazy"
 							/>
 						</div>
 						<div>
@@ -106,6 +112,7 @@ export default function TunisiaPage() {
 								// src="https://i0.wp.com/www.maverickbird.com/wp-content/uploads/2022/01/53739914_2616188481731516_6800712058993115136_n.jpg?w=960"
 								src="https://media.istockphoto.com/id/536054559/photo/tataouine-scenery-on-a-background-of-sand-dunes.jpg?s=612x612&w=0&k=20&c=5k65H-TwunRYqCui_p-VvRBDUlkXRvgj4onU7HxtKBQ="
 								alt=""
+								loading="lazy"
 							/>
 						</div>
 					</div>
@@ -115,6 +122,7 @@ export default function TunisiaPage() {
 								className="h-full w-full rounded-lg object-cover"
 								src="https://images.thefishsite.com/fish/articles/middle-east/tunisia-editorial-use-only.jpg?scale.option=fill&scale.width=1200&scale.height=630&crop.width=1200&crop.height=630&crop.y=center&crop.x=center"
 								alt=""
+								loading="lazy"
 							/>
 						</div>
 						<div>
@@ -122,6 +130,7 @@ export default function TunisiaPage() {
 								className="h-full w-full rounded-lg object-cover"
 								src="https://mohamedison.com/assets/images/blog/posts/639351c1e1b3a.png"
 								alt=""
+								loading="lazy"
 							/>
 						</div>
 						<div>
@@ -129,6 +138,7 @@ export default function TunisiaPage() {
 								className="h-full w-full rounded-lg object-cover"
 								src="https://static.barcelo.com/content/dam/bpt/posts/2023/3/things-to-do-in-tunisia_must-see-tunisia.jpg.bhgimg.square1000.jpg/1680181230709.jpg"
 								alt=""
+								loading="lazy"
 							/>
 						</div>
 					</div>
@@ -193,6 +203,7 @@ export default function TunisiaPage() {
 								className="h-40 w-full rounded-2xl object-cover shadow md:col-span-6"
 								src={e}
 								alt=""
+								loading="lazy"
 							/>
 						))}
 					</div>
@@ -208,6 +219,7 @@ export default function TunisiaPage() {
 						src={LightLogo}
 						className="mx-auto h-56 object-contain sm:h-60"
 						alt="TSYP 11"
+					loading="lazy"
 					/> */}
 				</div>
 			</section>

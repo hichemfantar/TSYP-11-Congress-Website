@@ -17,13 +17,15 @@ export default function Navigation() {
 				<div className="container mx-auto flex flex-wrap items-center justify-between">
 					<Link to="/" className="flex items-center">
 						<img
-							src={LogoOnBlack ||Logo}
+							loading="eager"
+							src={LogoOnBlack || Logo}
 							className={`mr-3 hidden h-8 dark:block ${
 								LogoOnBlack ? "" : "dark:invert"
 							} sm:h-10`}
 							alt="TSYP 11"
 						/>
 						<img
+							loading="eager"
 							src={LightLogo}
 							className={`mr-3 h-10 dark:hidden sm:h-12`}
 							alt="TSYP 11"

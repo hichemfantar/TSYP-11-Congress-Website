@@ -29,6 +29,7 @@ export default function TeamMember() {
 						src={currentTeamMember.imageSmall.url}
 						alt=""
 						className="mx-auto h-60 rounded-lg object-cover"
+						loading="lazy"
 					/>
 				</div>
 				<div className="col-span-full flex flex-col gap-4 md:col-span-8">

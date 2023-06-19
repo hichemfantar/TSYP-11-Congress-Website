@@ -48,11 +48,13 @@ export default function HomePage() {
 								src={Logo}
 								className="mx-auto mb-8 hidden h-52 object-contain dark:block dark:invert sm:h-48"
 								alt="TSYP 11"
+								loading="lazy"
 							/>
 							<img
 								src={LightLogo}
 								className="mx-auto h-56 object-contain dark:hidden sm:h-52"
 								alt="TSYP 11"
+								loading="lazy"
 							/>
 						</>
 					)}
@@ -98,12 +100,14 @@ export default function HomePage() {
 							LogoOnBlack ? "" : "dark:invert"
 						} sm:h-48`}
 						alt="TSYP 11"
+						loading="lazy"
 					/>
 
 					<img
 						src={LightLogo}
 						className="mx-auto h-56 object-contain dark:hidden sm:h-60"
 						alt="TSYP 11"
+						loading="lazy"
 					/>
 				</div>
 				<div className="col-span-6">
@@ -126,6 +130,7 @@ export default function HomePage() {
 						src={IeeeTunisia}
 						className="mx-auto h-52 object-contain sm:h-96"
 						alt="TSYP 11"
+						loading="lazy"
 					/>
 				</div>
 				<div className="col-span-6">
@@ -162,6 +167,7 @@ export default function HomePage() {
 						src={SBGroupPic}
 						className="mx-auto h-56 rounded-2xl object-cover sm:h-96"
 						alt="TSYP 11"
+						loading="lazy"
 					/>
 				</div>
 				<div className="col-span-6">
@@ -258,6 +264,7 @@ function PreviousEditions() {
 								alt="TSYP2022"
 								// width={200}
 								// height={200}
+								loading="lazy"
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2022</h1>
@@ -274,6 +281,7 @@ function PreviousEditions() {
 								alt="TSYP2021Dark"
 								// width={200}
 								// height={200}
+								loading="lazy"
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2021</h1>
@@ -290,6 +298,7 @@ function PreviousEditions() {
 								alt="TSYP2020"
 								// width={200}
 								// height={200}
+								loading="lazy"
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2020</h1>
@@ -307,6 +316,7 @@ function PreviousEditions() {
 								alt="TSYP2019"
 								// width={200}
 								// height={200}
+								loading="lazy"
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2019</h1>
@@ -323,6 +333,7 @@ function PreviousEditions() {
 								alt="TSYP2018"
 								// width={200}
 								// height={200}
+								loading="lazy"
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2018</h1>
@@ -339,6 +350,7 @@ function PreviousEditions() {
 								alt="TSYP2017"
 								// width={200}
 								// height={200}
+								loading="lazy"
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2017</h1>
@@ -355,6 +367,7 @@ function PreviousEditions() {
 								alt="TSYP2016"
 								// width={200}
 								// height={200}
+								loading="lazy"
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2016</h1>
@@ -371,6 +384,7 @@ function PreviousEditions() {
 								alt="IeeeTunisia"
 								// width={200}
 								// height={200}
+								loading="lazy"
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2015</h1>
@@ -387,6 +401,7 @@ function PreviousEditions() {
 								alt="TSYP2014"
 								// width={200}
 								// height={200}
+								loading="lazy"
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2014</h1>
@@ -399,6 +414,7 @@ function PreviousEditions() {
 								alt="IeeeTunisia"
 								// width={200}
 								// height={200}
+								loading="lazy"
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2013</h1>
@@ -422,11 +438,12 @@ function PoweredBy() {
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<img
-							className="col-span-2 h-[120px] w-[120px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={IeeeTunisia}
-							alt="Transistor"
+							alt="IeeeTunisia"
 							// width={200}
 							// height={200}
+							loading="lazy"
 						/>
 					</a>
 					<a
@@ -436,11 +453,12 @@ function PoweredBy() {
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<img
-							className="col-span-2 h-[120px] w-[120px] object-contain transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={YpTunisia}
-							alt="Transistor"
+							alt="YpTunisia"
 							// width={200}
 							// height={200}
+							loading="lazy"
 						/>
 					</a>
 					<a
@@ -450,11 +468,12 @@ function PoweredBy() {
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
 					>
 						<img
-							className="col-span-2 h-[120px] w-[120px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={essthsLogo}
-							alt="Transistor"
+							alt="essthsLogo"
 							// width={200}
 							// height={200}
+							loading="lazy"
 						/>
 					</a>
 				</div>
@@ -476,11 +495,12 @@ function IEEEPartners() {
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<img
-							className="col-span-2 h-[120px] w-[120px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={IEEER8}
 							alt="Transistor"
 							// width={200}
 							// height={200}
+							loading="lazy"
 						/>
 					</a>
 					<a
@@ -490,11 +510,12 @@ function IEEEPartners() {
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<img
-							className="col-span-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[115px] w-[115px] rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={R8_SAC}
 							alt="Transistor"
 							// width={200}
 							// height={200}
+							loading="lazy"
 						/>
 					</a>
 					<a
@@ -504,11 +525,12 @@ function IEEEPartners() {
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<img
-							className="col-span-2 h-[120px] w-[120px] object-contain transition dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[115px] w-[115px] object-contain transition dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={aess}
 							alt="Transistor"
 							// width={200}
 							// height={200}
+							loading="lazy"
 						/>
 					</a>
 					<a
@@ -518,11 +540,12 @@ function IEEEPartners() {
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<img
-							className="col-span-2 h-[120px] w-[120px] object-contain transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[115px] w-[115px] object-contain transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={IASLogo}
 							alt="Transistor"
 							// width={200}
 							// height={200}
+							loading="lazy"
 						/>
 					</a>
 				</div>

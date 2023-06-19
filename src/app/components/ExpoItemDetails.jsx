@@ -32,6 +32,7 @@ function ExpoDetails({ data }) {
 		<div className="grid grid-cols-12 gap-y-8 md:gap-x-8">
 			<div className="col-span-full md:col-span-5">
 				<img
+					loading="lazy"
 					src={data.logo.url || data.logo}
 					alt=""
 					className="mx-auto aspect-video h-48 rounded-lg bg-black object-contain p-6"

@@ -48,6 +48,7 @@ export default function HighlightBox({ data }) {
 						{data.image && (
 							<div className="mt-4">
 								<img
+									loading="lazy"
 									src={data.image.url}
 									alt=""
 									className="rounded-2xl border object-cover dark:border-gray-800"
