@@ -175,7 +175,7 @@ export const speakersData = [
 		enabled: true,
 		name: "Srikanth Pillai",
 		bio: "Srikanth Vasudevan Pillai is a Ph.D. candidate and research assistant at McMaster University's MARC, specializing in the design and control of electric motors for EV and aerospace applications. At MARC, he is responsible for designing and testing high-speed machines for aerospace use. Srikanth's research focuses on machine control, and he has prior experience as an Assistant Professor at Amrita University. He is an active volunteer for IEEE and has organized and participated in international conferences. Srikanth's interests include playing the violin, reading, and watching TV. His programming skills include PIC microcontrollers and C, and he is proficient in MATLAB, PSIM, JMag, and ANSYS.",
-		title: "IEEE IAS CMD ChaiR",
+		title: "IEEE IAS CMD Chair",
 		talk: {
 			title: "Keynote",
 			description:
@@ -218,7 +218,7 @@ export const speakersData = [
 		enabled: true,
 		name: "Mike Hinchey",
 		bio: "Mike Hinchey is a Professor of Software Engineering at the University of Limerick. He previously directed the NASA Software Engineering Laboratory and continues to be a NASA Expert. Hinchey is a renowned innovator, holding degrees from prestigious universities and publishing extensively in the field. He has held esteemed positions worldwide and is recognized as a Chartered Engineer and Fellow of professional societies. Currently, he serves as President of IFIP and Vice-Chair of IEEE UK & Ireland section.",
-		title: "IEEE IAS CMD ChaiR",
+		title: "IEEE R8 Director-Elect",
 		talk: {
 			title: "Keynote",
 			description:
