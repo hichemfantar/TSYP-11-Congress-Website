@@ -31,7 +31,7 @@ export default function HomePage() {
 
 	return (
 		<div className="h-full">
-			{matches && (
+			{false && matches && (
 				<Suspense fallback={null}>
 					<div className="hidden h-[40rem] overflow-auto rounded-2xl md:block md:h-[45rem]">
 						<ThreeExperience />
