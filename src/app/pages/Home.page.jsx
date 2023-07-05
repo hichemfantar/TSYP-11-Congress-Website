@@ -82,10 +82,10 @@ export default function HomePage() {
 					</h1>
 				</div>
 				{/* <div className="col-span-6">
-				<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-6xl lg:font-extrabold lg:leading-none">
+				<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-6xl lg:font-extrabold lg:leading-none">
 					Welcome to our Silicon Valley.
 				</h1>
-				<h1 className="mb-4 text-4xl font-medium tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-2xl lg:font-extrabold lg:leading-none">
+				<h1 className="mb-4 text-4xl font-medium tracking-tight   lg:mb-7 lg:text-start lg:text-2xl lg:font-extrabold lg:leading-none">
 					IEEE Tunisian Students and Young Professionals in Conjunction with
 					IEEE ESSTHS in Silicon Valley congress.
 				</h1>
@@ -111,10 +111,10 @@ export default function HomePage() {
 					/>
 				</div>
 				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						About IEEE TSYP Congress.
 					</h1>
-					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						Tunisian Students and Young Professionals, is the annual congress
 						that brings together IEEE members in Tunisia. We are talking about
 						the 11th edition which is organized by IEEE ESSTHS SB. It is an
@@ -135,10 +135,10 @@ export default function HomePage() {
 					/>
 				</div>
 				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						About IEEE Tunisia Section.
 					</h1>
-					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						The IEEE Tunisian Section aims to disseminate IEEE activities to all
 						corners of the country through educational and technical activities,
 						networking of people, and developing technology and its applications
@@ -154,7 +154,7 @@ export default function HomePage() {
 							to={"https://ieee.tn/"}
 							target="_blank"
 							rel="noreferrer"
-							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:text-gray-100 dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
+							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black  dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
 						>
 							{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
 							<span className="">Learn more IEEE Tunisia Section</span>
@@ -173,10 +173,10 @@ export default function HomePage() {
 					/>
 				</div>
 				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						Hosted By IEEE ESSTHS Student Branch.
 					</h1>
-					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						IEEE ESSTHS Student Branch, founded in 2020, is home to more than
 						280 members, making it the largest Student Branch in Sousse, and 7th
 						in Tunisia Section. It encompasses 5 Technical Chapters: CIS, CS,
@@ -190,7 +190,7 @@ export default function HomePage() {
 							to={"https://essths.ieee.tn/"}
 							target="_blank"
 							rel="noreferrer"
-							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:text-gray-100 dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
+							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black  dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
 						>
 							{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
 							<span className="">Learn more about ESSTHS SB</span>
@@ -225,7 +225,7 @@ export default function HomePage() {
 
 			<section className="py-8 md:py-28">
 				<div className="mx-auto">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						Find us here.
 					</h1>
 					<iframe

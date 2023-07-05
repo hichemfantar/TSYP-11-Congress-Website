@@ -5,7 +5,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, useParams } from "react-router-dom";
 import ExpoDetailsResources from "./ExpoDetailsResources";
-import { companiesMock } from "./ExpoList";
+import { companiesMock } from "./SponsorsList";
 import StyledButton from "./StyledButton";
 
 export default function ExpoItemDetails() {
@@ -16,9 +16,9 @@ export default function ExpoItemDetails() {
 	return (
 		<div className="mx-auto max-w-3xl">
 			<div className="mb-8 inline-block text-sm">
-				<Link to="/expo" className="text-gray-700 dark:text-gray-300">
+				<Link to="/sponsors" className="text-gray-700 dark:text-gray-300">
 					<FontAwesomeIcon icon={faChevronLeft} />{" "}
-					<span className="font-bold hover:underline">Back to Expo</span>
+					<span className="font-bold hover:underline">Back to Sponsors</span>
 				</Link>
 			</div>
 

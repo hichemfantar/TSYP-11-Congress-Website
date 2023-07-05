@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 
-export default function ExpoListItem({ data, classNames, imgClassNames }) {
+export default function SponsorListItem({ data, classNames, imgClassNames }) {
 	return (
 		<Link
-			to={`/expo/${data.slug}`}
+			to={`/sponsors/${data.slug}`}
 			className={twMerge(
 				"block rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:p-6",
 				classNames

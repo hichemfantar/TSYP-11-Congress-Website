@@ -10,10 +10,10 @@ export default function StageTabs({ categories }) {
 						key={category}
 						className={({ selected }) =>
 							twMerge(
-								"w-full rounded-full py-2.5 text-sm font-medium leading-5 text-gray-900 transition dark:text-gray-200",
+								"w-full rounded-full py-2.5 text-sm font-medium leading-5  transition ",
 								"ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-900 focus:outline-none focus:ring-2",
 								selected
-									? "bg-gray-100 shadow dark:bg-gray-200 dark:text-gray-900"
+									? "dark: bg-gray-100 shadow dark:bg-gray-200"
 									: "text-gray-50 hover:bg-white/[0.12] hover:text-white"
 							)
 						}

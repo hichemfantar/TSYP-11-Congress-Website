@@ -24,10 +24,10 @@ export default function TunisiaPage() {
 
 			<section className="grid items-center justify-center gap-12 py-8 md:grid-cols-12 md:py-28">
 				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						Tunisia - تونس
 					</h1>
-					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						There’s so much to see and do in each region of Tunisia: a wide
 						variety of landscapes, a coastline spanning 1,250km, studded with
 						islands and archipelagos, a fantastic array of traditions and
@@ -147,10 +147,10 @@ export default function TunisiaPage() {
 
 			<section className="grid items-center justify-center gap-12 py-8 md:grid-cols-12 md:py-28">
 				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						Currency
 					</h1>
-					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						The national currency is the Tunisian dinar which is very friendly
 						to foreign currencies.
 					</h1>
@@ -158,7 +158,7 @@ export default function TunisiaPage() {
 						<div className="md:col-span-5">
 							<label
 								for="usd"
-								className="mb-2 block font-medium text-gray-900 dark:text-white"
+								className="mb-2 block font-medium  dark:text-white"
 							>
 								United States Dollar (USD)
 							</label>
@@ -167,7 +167,7 @@ export default function TunisiaPage() {
 								min={0}
 								type="number"
 								id="usd"
-								className="block w-full rounded-lg border-2 border-gray-300 bg-gray-50 p-2.5 text-gray-900 transition focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-900 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+								className="block w-full rounded-lg border-2 border-gray-300 bg-gray-50 p-2.5  transition focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-900 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
 								required
 								onChange={(e) => setUsdToTnd(e.target.value)}
 							/>
@@ -181,7 +181,7 @@ export default function TunisiaPage() {
 						<div className="md:col-span-5">
 							<label
 								for="tnd"
-								className="mb-2 block font-medium text-gray-900 dark:text-white"
+								className="mb-2 block font-medium  dark:text-white"
 							>
 								Tunisian Dinar (TND)
 							</label>
@@ -190,7 +190,7 @@ export default function TunisiaPage() {
 								readOnly
 								type="number"
 								id="tnd"
-								className="block w-full rounded-lg border-2 border-gray-300 bg-gray-50 p-2.5 text-gray-900 transition focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-900 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+								className="block w-full rounded-lg border-2 border-gray-300 bg-gray-50 p-2.5  transition focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-900 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
 								required
 							/>
 						</div>
@@ -226,7 +226,7 @@ export default function TunisiaPage() {
 
 			<section className="py-8 md:py-28">
 				<div className="mx-auto">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						Find us here.
 					</h1>
 					<iframe

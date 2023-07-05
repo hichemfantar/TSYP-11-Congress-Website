@@ -17,7 +17,7 @@ const routes = [
 	},
 	{
 		title: "Sponsors",
-		href: "/expo",
+		href: "/sponsors",
 	},
 	// {
 	// 	title: "Expo",

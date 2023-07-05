@@ -73,7 +73,7 @@ export default function AppLayout({ children }) {
 				<Footer />
 			</div>
 
-			{/* <div className="flex min-h-full flex-col text-gray-900 dark:text-gray-50">
+			{/* <div className="flex min-h-full flex-col  dark:text-gray-50">
 				<Navigation />
 
 				<main className="container mx-auto flex-1 p-4 py-8">

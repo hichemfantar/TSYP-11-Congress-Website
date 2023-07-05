@@ -42,13 +42,13 @@ export default function Speaker() {
 									<button>
 										<FontAwesomeIcon
 											icon={faTwitter}
-											className="transition hover:scale-125 hover:text-gray-900 active:scale-110 hover:dark:text-gray-400"
+											className="hover: transition hover:scale-125 active:scale-110 hover:dark:text-gray-400"
 										/>
 									</button>
 									<button>
 										<FontAwesomeIcon
 											icon={faGithub}
-											className="transition hover:scale-125 hover:text-gray-900 active:scale-110 hover:dark:text-gray-400"
+											className="hover: transition hover:scale-125 active:scale-110 hover:dark:text-gray-400"
 										/>
 									</button>
 								</div>

@@ -21,7 +21,7 @@ function StyledButton({
 			type="button"
 			className={twMerge(
 				fluid ? "w-full" : "",
-				`relative flex min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:text-gray-100 ${
+				`relative flex min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400  ${
 					isDanger
 						? "dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
 						: ""

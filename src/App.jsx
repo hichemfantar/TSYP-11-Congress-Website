@@ -7,7 +7,7 @@ import {
 import AppLayout from "./app/components/AppLayout.jsx";
 import Speaker from "./app/components/Speaker.jsx";
 import Speakers from "./app/components/Speakers.jsx";
-import ExpoPage from "./app/pages/Expo.page.jsx";
+import SponsorsPage from "./app/pages/Sponsors.page.jsx";
 import ExpoDetailsPage from "./app/pages/ExpoDetails.page.jsx";
 import SchedulePage from "./app/pages/Schedule.page.jsx";
 import { setInitialTheme } from "./app/utils/themeSwitcher.js";
@@ -36,15 +36,15 @@ const router = createBrowserRouter([
 				element: <TunisiaPage />,
 			},
 			{
-				path: "expo",
-				element: <ExpoPage />,
+				path: "sponsors",
+				element: <SponsorsPage />,
 			},
 			{
 				path: "schedule",
 				element: <SchedulePage />,
 			},
 			{
-				path: "expo/:companySlug",
+				path: "sponsors/:companySlug",
 				element: <ExpoDetailsPage />,
 			},
 			{

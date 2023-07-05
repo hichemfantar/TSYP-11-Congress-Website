@@ -40,7 +40,7 @@ export default function Footer() {
 								Brought to life by Hichem Fantar
 								{/* <img src={signature} className="mr-3 h-8 dark:invert" alt="TSYP 11" /> */}
 							</div>
-							{/* <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-gray-100">
+							{/* <span className="self-center whitespace-nowrap text-2xl font-semibold ">
 						TSYP 11
 					</span> */}
 						</Link>
@@ -56,9 +56,9 @@ export default function Footer() {
 									<NavLink
 										className={({ isActive, isPending }) =>
 											twMerge(
-												"block p-4 px-4 text-gray-600 transition-all duration-75 hover:text-gray-900 hover:underline focus:font-bold focus:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200",
+												"hover: focus: block p-4 px-4 text-gray-600 transition-all duration-75 hover:underline focus:font-bold dark:text-gray-400 dark:hover:text-gray-200",
 												isActive
-													? "font-bold text-gray-900 dark:text-gray-200"
+													? "font-bold  text-black dark:text-gray-200"
 													: isPending
 													? ""
 													: ""

@@ -1,8 +1,8 @@
 import SartexGroupLogo from "../../assets/companies/Sartex-group-big-1024x682.png";
 import IeeeEssthsSbLogo from "../../assets/companies/ieee-essths-sb-logo (Custom).png";
-import ExpoListItem from "./ExpoListItem";
+import SponsorListItem from "./SponsorListItem";
 
-export default function ExpoList() {
+export default function SponsorsList() {
 	const enabledCompanies = companiesMock?.filter((e) => e.enabled === true);
 
 	const hostedBy = enabledCompanies?.filter((e) => e.tierRank === 0);
@@ -27,7 +27,7 @@ export default function ExpoList() {
 						<div className="grid grid-cols-12 gap-y-4 md:gap-4">
 							{hostedBy.map((e) => (
 								<div className="col-span-12 md:col-span-4" key={e.slug}>
-									<ExpoListItem data={e} />
+									<SponsorListItem data={e} />
 								</div>
 							))}
 						</div>
@@ -40,7 +40,7 @@ export default function ExpoList() {
 						<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
 							{apexPartners.map((e) => (
 								<div className="col-span-12 md:col-span-4" key={e.slug}>
-									<ExpoListItem data={e} classNames={"h-full"} />
+									<SponsorListItem data={e} classNames={"h-full"} />
 								</div>
 							))}
 						</div>
@@ -53,7 +53,7 @@ export default function ExpoList() {
 						<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
 							{vanguardPartners.map((e) => (
 								<div className="col-span-12 md:col-span-3" key={e.slug}>
-									<ExpoListItem
+									<SponsorListItem
 										data={e}
 										imgClassNames="md:h-40"
 										classNames={"h-full"}
@@ -70,7 +70,7 @@ export default function ExpoList() {
 						<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
 							{ascendantPartners.map((e) => (
 								<div className="col-span-12 md:col-span-3" key={e.slug}>
-									<ExpoListItem
+									<SponsorListItem
 										data={e}
 										imgClassNames="md:h-40"
 										classNames={"h-full"}
@@ -87,7 +87,7 @@ export default function ExpoList() {
 						<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
 							{explorerPartners.map((e) => (
 								<div className="col-span-12 md:col-span-3" key={e.slug}>
-									<ExpoListItem
+									<SponsorListItem
 										data={e}
 										imgClassNames="md:h-40"
 										classNames={"h-full"}
