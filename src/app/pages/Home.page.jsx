@@ -124,6 +124,7 @@ export default function HomePage() {
 					</h1>
 				</div>
 			</section>
+
 			<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
 				<div className="col-span-6 mx-auto md:order-last">
 					<img
