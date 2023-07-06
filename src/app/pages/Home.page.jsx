@@ -25,6 +25,7 @@ import ThreeExperience from "../components/ThreeExperience";
 import { ScheduleOverview } from "../components/schedule/ScheduleList";
 import Speakers from "../components/Speakers";
 import { useMediaQuery } from "usehooks-ts";
+import { Countdown } from "../components/Countdown";
 
 export default function HomePage() {
 	const matches = useMediaQuery("(min-width: 768px)");
@@ -39,7 +40,7 @@ export default function HomePage() {
 				</Suspense>
 			)}
 
-			<section className="grid grid-cols-12 items-center justify-center py-24 md:py-24">
+			<section className="grid grid-cols-12 items-center justify-center py-24 md:py-12">
 				<div className="col-span-12 mx-auto">
 					{false && (
 						<>
@@ -77,9 +78,13 @@ export default function HomePage() {
 					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 						<q>Silicon valley is a mindset, not a location.</q>
 					</h1>
-					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-						18-20 December 2023
+					<h1 className="mb-8 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+						18 - 20 December 2023
 					</h1>
+					<Countdown
+						timeTillDate="12 18 2023, 6:00 am"
+						timeFormat="MM DD YYYY, h:mm a"
+					/>
 				</div>
 				{/* <div className="col-span-6">
 				<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-6xl lg:font-extrabold lg:leading-none">
