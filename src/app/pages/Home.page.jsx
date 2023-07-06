@@ -124,8 +124,8 @@ export default function HomePage() {
 						that brings together IEEE members in Tunisia. We are talking about
 						the 11th edition which is organized by IEEE ESSTHS SB. It is an
 						excellent opportunity to discuss current and future challenges in
-						science and engineering, to immerse in the IEEE national network and
-						to exchange experiences.
+						science and engineering, to immerse yourself in the IEEE national
+						network and to exchange experiences.
 					</h1>
 				</div>
 			</section>
