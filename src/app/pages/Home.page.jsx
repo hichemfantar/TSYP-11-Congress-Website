@@ -40,7 +40,7 @@ export default function HomePage() {
 				</Suspense>
 			)}
 
-			<section className="grid grid-cols-12 items-center justify-center py-24 md:py-12">
+			<section className="grid grid-cols-12 items-center justify-center py-10 md:py-12">
 				<div className="col-span-12 mx-auto">
 					{false && (
 						<>
