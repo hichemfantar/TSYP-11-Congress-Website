@@ -67,7 +67,7 @@ export default function SchedulePage() {
 				<div className="col-span-6 mx-auto md:order-last">
 					<img
 						src={
-							"https://r8syp.ieee.tn/images/schedule/description%20images/party.jpg"
+							"https://images.pexels.com/photos/7964237/pexels-photo-7964237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
 						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
 						alt="TSYP 11"
@@ -76,14 +76,11 @@ export default function SchedulePage() {
 				</div>
 				<div className="col-span-6">
 					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						Free time.
+						Booths and Networking.
 					</h1>
 					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-						An opportunity where our dear participants will get the chance to
-						get to know over three hundred people from different cultures across
-						Region 8 and break the ice! Many fun activities will be held
-						allowing you to expand your network. Get ready for a night to
-						remember!
+						An opportunity for our dear participants to meet over members from
+						different student branches and get to know their work.
 					</h1>
 				</div>
 			</section>
@@ -101,7 +98,7 @@ export default function SchedulePage() {
 				</div>
 				<div className="col-span-6">
 					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						Keynotes.
+						Discussion Panel.
 					</h1>
 					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						A variety of lectures will be organized covering many technical
@@ -131,54 +128,6 @@ export default function SchedulePage() {
 						Various workshops in different fields will be held in the hotel
 						dealing with up-to-date topics in diverse technical fields and also
 						related to soft skills.
-					</h1>
-				</div>
-			</section>
-
-			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
-				<div className="col-span-6 mx-auto">
-					<img
-						src={
-							"https://r8syp.ieee.tn/images/schedule/description%20images/tours.jpg"
-						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
-						alt="TSYP 11"
-						loading="lazy"
-					/>
-				</div>
-				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						Tour and visits.
-					</h1>
-					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-						Tunisia has always been the crossroad of many Civilizations. From
-						Romans to Carthaginians, we will have a tour on Tunisia’s most
-						fascinating tourist sites presenting these cultures and will surely
-						take advantage of the panoramic views to take our group photos!
-					</h1>
-				</div>
-			</section>
-
-			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
-				<div className="col-span-6 mx-auto md:order-last">
-					<img
-						src={
-							"https://r8syp.ieee.tn/images/schedule/description%20images/tunisian.png"
-						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
-						alt="TSYP 11"
-						loading="lazy"
-					/>
-				</div>
-				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						Tunisian Dinner.
-					</h1>
-					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-						We are taking you on a trip across Tunisia’s delicious dishes
-						brought to you by the best caterers around the country. You will
-						also enjoy a traditional show covering tunisian music, dances and
-						traditions.
 					</h1>
 				</div>
 			</section>
@@ -237,7 +186,7 @@ export default function SchedulePage() {
 				<div className="col-span-6 mx-auto">
 					<img
 						src={
-							"https://r8syp.ieee.tn/images/schedule/description%20images/culture.png"
+							"https://images.pexels.com/photos/2422294/pexels-photo-2422294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
 						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
 						alt="TSYP 11"
@@ -246,11 +195,13 @@ export default function SchedulePage() {
 				</div>
 				<div className="col-span-6">
 					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						Multicultural evening.
+						Team Building.
 					</h1>
 					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-						Each participant will present his country and its traditions through
-						clothing, food, dance, or even songs.
+						During this session each Student branch attending the congress will
+						present its activities and projects to other participants and our
+						dear guests. An award will be given at the end of the congress to
+						the best stall.
 					</h1>
 				</div>
 			</section>
@@ -282,7 +233,7 @@ export default function SchedulePage() {
 				<div className="col-span-6 mx-auto">
 					<img
 						src={
-							"https://r8syp.ieee.tn/images/schedule/description%20images/gala.jpg"
+							"https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
 						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
 						alt="TSYP 11"
@@ -291,12 +242,11 @@ export default function SchedulePage() {
 				</div>
 				<div className="col-span-6">
 					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						Gala Dinner.
+						Dinner.
 					</h1>
 					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-						Get your fancy clothes ready because we have a gala dinner ! You
-						will profit from a variety of delicious dishes during the dinner.
-						There will also be an award ceremony.
+						Get your appeties ready because we have a special dinner ! You will
+						profit from a variety of delicious dishes during the dinner.
 					</h1>
 				</div>
 			</section>
@@ -329,7 +279,7 @@ export default function SchedulePage() {
 				<div className="col-span-6 mx-auto">
 					<img
 						src={
-							"https://r8syp.ieee.tn/images/schedule/description%20images/break.jpg"
+							"https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
 						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
 						alt="TSYP 11"
@@ -341,8 +291,8 @@ export default function SchedulePage() {
 						Closing Ceremony.
 					</h1>
 					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-						a closing ceremony will be held at the university presenting many
-						speeches and summaries of the congress.
+						a closing ceremony will be held presenting many speeches and
+						summaries of the congress.
 					</h1>
 				</div>
 			</section>
@@ -351,7 +301,29 @@ export default function SchedulePage() {
 				<div className="col-span-6 mx-auto md:order-last">
 					<img
 						src={
-							"https://r8syp.ieee.tn/images/schedule/description%20images/checkin.jpg"
+							"https://images.pexels.com/photos/3678057/pexels-photo-3678057.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+						}
+						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						alt="TSYP 11"
+						loading="lazy"
+					/>
+				</div>
+				<div className="col-span-6">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+						Awards Ceremony.
+					</h1>
+					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+						A big applause for those who one Awards as an appreciation for their
+						hard work in IEEE throught the years.
+					</h1>
+				</div>
+			</section>
+
+			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
+				<div className="col-span-6 mx-auto">
+					<img
+						src={
+							"https://media-cdn.tripadvisor.com/media/photo-s/15/48/c8/90/hotel-diar-lemdina.jpg"
 						}
 						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
 						alt="TSYP 11"
