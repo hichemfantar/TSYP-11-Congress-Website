@@ -10,6 +10,20 @@ import TSYP2018 from "../../assets/tsyp-editions/tsyp-2018.png";
 import TSYP2019 from "../../assets/tsyp-editions/tsyp-2019.jpg";
 import TSYP2020 from "../../assets/tsyp-editions/tsyp-2020.jpg";
 import TSYP2021 from "../../assets/tsyp-editions/tsyp-2021.jpg";
+
+// memories assets
+import memory1 from "../../assets/memories/356543044_934550990939126_5175676186716871815_n.jpg";
+import memory2 from "../../assets/memories/356551992_226751036434551_8933123460754285924_n.jpg";
+import memory3 from "../../assets/memories/356597928_284785967424808_4014952816457019128_n.jpg";
+import memory4 from "../../assets/memories/356638153_1045852983243072_6319438153536457058_n.jpg";
+import memory5 from "../../assets/memories/356779690_1021512152540830_7436088057197797763_n.jpg";
+import memory6 from "../../assets/memories/356870057_205006965857961_5503311855628802179_n.jpg";
+import memory7 from "../../assets/memories/356882005_272016892113248_6469925021621114931_n.jpg";
+import memory8 from "../../assets/memories/357311497_1034866187885516_4807505043687124219_n.jpg";
+import memory9 from "../../assets/memories/358218740_2128948947437461_3099469010629116758_n.jpg";
+import memory10 from "../../assets/memories/358619396_222649417397966_6373005098322693727_n.jpg";
+import memory11 from "../../assets/memories/358766087_984763039233782_8396677229418813180_n.jpg";
+
 import IeeeTunisia from "../../assets/ieee-tunisia.png";
 import YpTunisia from "../../assets/yp-tunisia-section.png";
 import essthsLogo from "../../assets/essths.png";
@@ -209,6 +223,10 @@ export default function HomePage() {
 			</section>
 
 			<section className="py-8 md:py-20">
+				<Memories />
+			</section>
+
+			<section className="py-8 md:py-20">
 				<PoweredBy />
 			</section>
 
@@ -249,6 +267,96 @@ export default function HomePage() {
 				</div>
 			</section>
 			{/* <SparrowSurvey /> */}
+		</div>
+	);
+}
+
+function Memories() {
+	return (
+		<div>
+			<h2 className="mb-12 text-center text-4xl font-bold">
+				Memories from Previous Editions
+			</h2>
+			<div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+				<div className="grid gap-4">
+					<div>
+						<img
+							className="h-full w-full rounded-lg object-cover"
+							src={memory10}
+							alt=""
+							loading="lazy"
+						/>
+					</div>
+					<div>
+						<img
+							className="h-full w-full rounded-lg object-cover"
+							src={memory2}
+							alt=""
+							loading="lazy"
+						/>
+					</div>
+					<div>
+						<img
+							className="h-full w-full rounded-lg object-cover"
+							src={memory3}
+							alt=""
+							loading="lazy"
+						/>
+					</div>
+				</div>
+				<div className="grid gap-4">
+					<div>
+						<img
+							className="h-full w-full rounded-lg object-cover"
+							src={memory4}
+							alt=""
+							loading="lazy"
+						/>
+					</div>
+					<div>
+						<img
+							className="h-full w-full rounded-lg object-cover"
+							src={memory5}
+							alt=""
+							loading="lazy"
+						/>
+					</div>
+					<div>
+						<img
+							className="h-full w-full rounded-lg object-cover"
+							src={memory6}
+							alt=""
+							loading="lazy"
+						/>
+					</div>
+				</div>
+				<div className="grid gap-4">
+					<div>
+						<img
+							className="h-full w-full rounded-lg object-cover"
+							src={memory7}
+							alt=""
+							loading="lazy"
+						/>
+					</div>
+					<div>
+						<img
+							className="h-full w-full rounded-lg object-cover"
+							src={memory8}
+							alt=""
+							loading="lazy"
+						/>
+					</div>
+					<div>
+						<img
+							className="h-full w-full rounded-lg object-cover"
+							src={memory9}
+							alt=""
+							loading="lazy"
+						/>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 }
