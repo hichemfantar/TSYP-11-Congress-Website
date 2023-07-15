@@ -4,6 +4,7 @@ import React from "react";
 import toggleDarkTheme from "../utils/themeSwitcher";
 
 export default function ThemeToggle() {
+	return null;
 	return (
 		<button
 			type="button"
