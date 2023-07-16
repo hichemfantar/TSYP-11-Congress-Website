@@ -93,7 +93,6 @@ export default function Navigation() {
 																					twMerge(
 																						"text-gray-600 transition-all duration-75 hover:font-bold focus:font-bold dark:text-gray-400 dark:hover:text-gray-200",
 																						"group flex w-full items-center rounded-md px-2 py-2 text-sm",
-
 																						isActive
 																							? "font-bold text-black dark:text-gray-200"
 																							: isPending
@@ -122,7 +121,7 @@ export default function Navigation() {
 												<NavLink
 													className={({ isActive, isPending }) =>
 														twMerge(
-															"hover: focus: block p-4 px-4 text-gray-600 transition-all duration-75 hover:font-bold focus:font-bold dark:text-gray-400 dark:hover:text-gray-200",
+															"block p-4 px-4 text-gray-600 transition-all duration-75 hover:font-bold focus:font-bold dark:text-gray-400 dark:hover:text-gray-200",
 															isActive
 																? "font-bold text-black dark:text-gray-200"
 																: isPending

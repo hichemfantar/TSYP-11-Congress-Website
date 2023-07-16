@@ -130,136 +130,33 @@ export default function HomePage() {
 			</div> */}
 			</section>
 
-			<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
-				<div className="col-span-6 mx-auto">
-					<img
-						src={LogoOnBlack || Logo}
-						className={`mx-auto mb-8 hidden h-52 object-contain dark:block ${
-							LogoOnBlack ? "" : "dark:invert"
-						} sm:h-48`}
-						alt="TSYP 11"
-						loading="lazy"
-					/>
+			<AboutTSYP />
 
-					<img
-						src={LightLogo}
-						className="mx-auto h-56 object-contain dark:hidden sm:h-60"
-						alt="TSYP 11"
-						loading="lazy"
-					/>
-				</div>
-				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						About IEEE TSYP Congress.
-					</h1>
-					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-						Tunisian Students and Young Professionals, is the annual congress
-						that brings together IEEE members in Tunisia. We are talking about
-						the 11th edition which is organized by IEEE ESSTHS SB. It is an
-						excellent opportunity to discuss current and future challenges in
-						science and engineering, to immerse yourself in the IEEE national
-						network and to exchange experiences.
-					</h1>
-				</div>
-			</section>
+			<AboutTunisiaSection />
 
-			<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
-				<div className="col-span-6 mx-auto md:order-last">
-					<img
-						src={IeeeTunisia}
-						className="mx-auto h-52 object-contain sm:h-96"
-						alt="TSYP 11"
-						loading="lazy"
-					/>
-				</div>
-				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						About IEEE Tunisia Section.
-					</h1>
-					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-						The IEEE Tunisian Section aims to disseminate IEEE activities to all
-						corners of the country through educational and technical activities,
-						networking of people, and developing technology and its applications
-						for humanitarian challenges. The section supports chapters, special
-						interest groups, student activities, and student awards. IEEE is
-						anchored in the Tunisian engineering landscape with more than 43
-						Student Branches' spread over the different engineering schools,
-						faculties and universities
-					</h1>
-					<div>
-						<Link
-							// type="button"
-							to={"https://ieee.tn/"}
-							target="_blank"
-							rel="noreferrer"
-							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black  dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
-						>
-							{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
-							<span className="">Learn more IEEE Tunisia Section</span>
-							{/* </div> */}
-						</Link>
-					</div>
-				</div>
-			</section>
+			<AboutESSTHSSB />
 
-			<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
-				<div className="col-span-6 mx-auto">
-					<img
-						src={SBGroupPic}
-						className="mx-auto h-56 rounded-2xl object-cover sm:h-96"
-						alt="TSYP 11"
-						loading="lazy"
-					/>
-				</div>
-				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						Hosted By IEEE ESSTHS Student Branch.
-					</h1>
-					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-						IEEE ESSTHS Student Branch, founded in 2020, is home to more than
-						280 members, making it the largest Student Branch in Sousse, and 7th
-						in Tunisia Section. It encompasses 5 Technical Chapters: CIS, CS,
-						IAS, PES, RAS, and 2 Affinity Groups: SIGHT & WIE. We have had the
-						honor of receiving more than 12 worldwide IEEE Awards across all
-						fields through the dedication and commitment of each of our members.
-					</h1>
-					<div>
-						<Link
-							// type="button"
-							to={"https://essths.ieee.tn/"}
-							target="_blank"
-							rel="noreferrer"
-							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black  dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
-						>
-							{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
-							<span className="">Learn more about ESSTHS SB</span>
-							{/* </div> */}
-						</Link>
-					</div>
-				</div>
-			</section>
-
-			<section className="py-8 md:py-20">
+			<section className="py-8 md:py-10">
 				<AboutCongress />
 			</section>
 
-			<section className="py-8 md:py-20">
+			<section className="py-8 md:py-10">
 				<PreviousEditions />
 			</section>
 
-			<section className="py-8 md:py-20">
+			<section className="py-8 md:py-10">
 				<Memories />
 			</section>
 
-			<section className="py-8 md:py-20">
+			<section className="py-8 md:py-10">
 				<PoweredBy />
 			</section>
 
-			<section className="py-8 md:py-20">
+			<section className="py-8 md:py-10">
 				<IEEEPartners />
 			</section>
 
-			<section className="py-8 md:py-20">
+			<section className="py-8 md:py-10">
 				<Speakers />
 			</section>
 
@@ -293,6 +190,127 @@ export default function HomePage() {
 			</section>
 			{/* <SparrowSurvey /> */}
 		</div>
+	);
+}
+
+export function AboutESSTHSSB(params) {
+	return (
+		<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
+			<div className="col-span-6 mx-auto">
+				<img
+					src={SBGroupPic}
+					className="mx-auto h-56 rounded-2xl object-cover sm:h-96"
+					alt="TSYP 11"
+					loading="lazy"
+				/>
+			</div>
+			<div className="col-span-6">
+				<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					Hosted By IEEE ESSTHS Student Branch.
+				</h1>
+				<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+					IEEE ESSTHS Student Branch, founded in 2020, is home to more than 280
+					members, making it the largest Student Branch in Sousse, and 7th in
+					Tunisia Section. It encompasses 5 Technical Chapters: CIS, CS, IAS,
+					PES, RAS, and 2 Affinity Groups: SIGHT & WIE. We have had the honor of
+					receiving more than 12 worldwide IEEE Awards across all fields through
+					the dedication and commitment of each of our members.
+				</h1>
+				<div>
+					<Link
+						// type="button"
+						to={"https://essths.ieee.tn/"}
+						target="_blank"
+						rel="noreferrer"
+						className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black  dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
+					>
+						{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
+						<span className="">Learn more about ESSTHS SB</span>
+						{/* </div> */}
+					</Link>
+				</div>
+			</div>
+		</section>
+	);
+}
+
+export function AboutTunisiaSection(params) {
+	return (
+		<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
+			<div className="col-span-6 mx-auto md:order-last">
+				<img
+					src={IeeeTunisia}
+					className="mx-auto h-52 object-contain sm:h-96"
+					alt="TSYP 11"
+					loading="lazy"
+				/>
+			</div>
+			<div className="col-span-6">
+				<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					About IEEE Tunisia Section.
+				</h1>
+				<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+					The IEEE Tunisian Section aims to disseminate IEEE activities to all
+					corners of the country through educational and technical activities,
+					networking of people, and developing technology and its applications
+					for humanitarian challenges. The section supports chapters, special
+					interest groups, student activities, and student awards. IEEE is
+					anchored in the Tunisian engineering landscape with more than 43
+					Student Branches' spread over the different engineering schools,
+					faculties and universities
+				</h1>
+				<div>
+					<Link
+						// type="button"
+						to={"https://ieee.tn/"}
+						target="_blank"
+						rel="noreferrer"
+						className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black  dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
+					>
+						{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
+						<span className="">Learn more IEEE Tunisia Section</span>
+						{/* </div> */}
+					</Link>
+				</div>
+			</div>
+		</section>
+	);
+}
+
+export function AboutTSYP(params) {
+	return (
+		<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
+			<div className="col-span-6 mx-auto">
+				<img
+					src={LogoOnBlack || Logo}
+					className={`mx-auto mb-8 hidden h-52 object-contain dark:block ${
+						LogoOnBlack ? "" : "dark:invert"
+					} sm:h-48`}
+					alt="TSYP 11"
+					loading="lazy"
+				/>
+
+				<img
+					src={LightLogo}
+					className="mx-auto h-56 object-contain dark:hidden sm:h-60"
+					alt="TSYP 11"
+					loading="lazy"
+				/>
+			</div>
+			<div className="col-span-6">
+				<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					About IEEE TSYP Congress.
+				</h1>
+				<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+					Tunisian Students and Young Professionals, is the annual congress that
+					brings together IEEE members in Tunisia. We are talking about the 11th
+					edition which is organized by IEEE ESSTHS SB. It is an excellent
+					opportunity to discuss current and future challenges in science and
+					engineering, to immerse yourself in the IEEE national network and to
+					exchange experiences.
+				</h1>
+			</div>
+		</section>
 	);
 }
 
@@ -388,7 +406,7 @@ function Memories() {
 
 function AboutCongress() {
 	return (
-		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-24">
+		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-10">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<h2 className="mb-12 text-center text-4xl font-bold">
 					About TSYP Congress 2023
@@ -436,7 +454,7 @@ function AboutCongress() {
 
 function PreviousEditions() {
 	return (
-		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-24">
+		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-10">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<h2 className="mb-12 text-center text-4xl font-bold">
 					Previous Editions

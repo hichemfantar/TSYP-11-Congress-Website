@@ -19,6 +19,7 @@ import ContactPage from "./app/pages/Contact.page.jsx";
 import SponsorUsPage from "./app/pages/SponsorUs.page.jsx";
 import ThreeExperience from "./app/components/ThreeExperience.jsx";
 import Phase from "./app/components/Phase.jsx";
+import AboutUs from "./app/pages/AboutUs.page.jsx";
 
 setInitialTheme();
 
@@ -56,9 +57,13 @@ const router = createBrowserRouter([
 				element: <Speaker />,
 			},
 			{
-				path: "team",
-				element: <Team />,
+				path: "about-us",
+				element: <AboutUs />,
 			},
+			// {
+			// 	path: "team",
+			// 	element: <Team />,
+			// },
 			// {
 			// 	path: "virtual",
 			// 	element: <Phase />,

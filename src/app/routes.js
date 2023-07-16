@@ -42,7 +42,7 @@ const routes = [
 	// },
 	{
 		title: "About us",
-		href: "/team",
+		href: "/about-us",
 	},
 	// {
 	// 	title: "Virtual",
