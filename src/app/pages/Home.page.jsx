@@ -201,6 +201,7 @@ export default function HomePage() {
 					</div>
 				</div>
 			</section>
+
 			<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
 				<div className="col-span-6 mx-auto">
 					<img
@@ -237,6 +238,11 @@ export default function HomePage() {
 					</div>
 				</div>
 			</section>
+
+			<section className="py-8 md:py-20">
+				<AboutCongress />
+			</section>
+
 			<section className="py-8 md:py-20">
 				<PreviousEditions />
 			</section>
@@ -373,6 +379,54 @@ function Memories() {
 							alt=""
 							loading="lazy"
 						/>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+}
+
+function AboutCongress() {
+	return (
+		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-24">
+			<div className="mx-auto max-w-7xl px-6 lg:px-8">
+				<h2 className="mb-12 text-center text-4xl font-bold">
+					About TSYP Congress 2023
+				</h2>
+				<div className="mx-auto mt-10 grid max-w-lg items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-12">
+					<div className="col-span-4 flex flex-col items-center gap-4">
+						<img
+							className="h-14 w-14 object-contain"
+							src="https://sections-congress.ieee.org/assets/img/site_images/home/network.webp"
+							alt=""
+						/>
+						<div className="text-2xl font-bold">Network</div>
+						<p className="text-center">
+							Network and build relationships with other volunteers within IEEE.
+						</p>
+					</div>
+					<div className="col-span-4 flex flex-col items-center gap-4">
+						<img
+							className="h-14 w-14 object-contain"
+							src="https://sections-congress.ieee.org/assets/img/site_images/home/learn.webp"
+							alt=""
+						/>
+						<div className="text-2xl font-bold">Learn</div>
+						<p className="text-center">
+							To provide an opportunity for delegates to gain information and
+							training skills.
+						</p>
+					</div>
+					<div className="col-span-4 flex flex-col items-center gap-4">
+						<img
+							className="h-14 w-14 object-contain"
+							src="https://sections-congress.ieee.org/assets/img/site_images/home/goal.webp"
+							alt=""
+						/>
+						<div className="text-2xl font-bold">Plan ahead</div>
+						<p className="text-center">
+							Collectively shape the future and goals of the IEEE.
+						</p>
 					</div>
 				</div>
 			</div>
