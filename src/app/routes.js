@@ -16,7 +16,7 @@ const routes = [
 		href: "/schedule",
 	},
 	{
-		title: "Sponsors",
+		title: "Partners",
 		href: "/sponsors",
 	},
 	// {
@@ -24,7 +24,7 @@ const routes = [
 	// 	href: "/expo",
 	// },
 	{
-		title: "Team",
+		title: "About us",
 		href: "/team",
 	},
 	// {

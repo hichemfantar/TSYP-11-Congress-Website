@@ -2,7 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 
-export default function SponsorListItem({ data, classNames, imgClassNames }) {
+export default function SponsorListItem({
+	data,
+	classNames,
+	imgClassNames,
+	whiteBg,
+}) {
 	return (
 		<Link
 			to={`/sponsors/${data.slug}`}
@@ -11,7 +16,12 @@ export default function SponsorListItem({ data, classNames, imgClassNames }) {
 				classNames
 			)}
 		>
-			<div className="mb-4 rounded-lg bg-black p-6 py-8">
+			<div
+				className={twMerge(
+					"mb-4 rounded-lg bg-black p-6 py-8",
+					whiteBg && "bg-gray-50"
+				)}
+			>
 				<img
 					loading="lazy"
 					src={data.logo.url || data.logo}

@@ -7,7 +7,7 @@ import { ContactForm } from "./Contact.page";
 export default function SponsorUsPage() {
 	return (
 		<div className="h-full">
-			<section className="grid items-center justify-center gap-12 py-8 md:grid-cols-12 md:py-28">
+			<section className="grid items-center justify-center gap-12 py-8 md:grid-cols-12 md:py-6">
 				<div className="col-span-6 mx-auto md:order-last">
 					<div className="">
 						<Link

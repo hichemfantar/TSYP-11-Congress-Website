@@ -5,13 +5,13 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, useParams } from "react-router-dom";
 import ExpoDetailsResources from "./ExpoDetailsResources";
-import { companiesMock } from "./SponsorsList";
+import { sponsorsData } from "./SponsorsList";
 import StyledButton from "./StyledButton";
 
 export default function ExpoItemDetails() {
 	const { companySlug } = useParams();
 
-	const currentCompany = companiesMock.find((s) => s.slug === companySlug);
+	const currentCompany = sponsorsData.find((s) => s.slug === companySlug);
 
 	return (
 		<div className="mx-auto max-w-3xl">

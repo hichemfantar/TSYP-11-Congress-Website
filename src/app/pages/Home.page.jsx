@@ -27,10 +27,12 @@ import memory11 from "../../assets/memories/358766087_984763039233782_8396677229
 import IeeeTunisia from "../../assets/ieee-tunisia.png";
 import YpTunisia from "../../assets/yp-tunisia-section.png";
 import essthsLogo from "../../assets/essths.png";
+
 import IEEER8 from "../../assets/IEEE R8.svg";
 import R8_SAC from "../../assets/R8_SAC.png";
 import aess from "../../assets/aess.png";
 import IASLogo from "../../assets/ias-logo-shadowbg.png";
+
 import TSYP2021Dark from "../../assets/tsyp-editions/tsyp-2021-dark.png";
 import TSYP2022 from "../../assets/tsyp-editions/tsyp-2022.png";
 import { Link } from "react-router-dom";
@@ -40,6 +42,9 @@ import { ScheduleOverview } from "../components/schedule/ScheduleList";
 import Speakers from "../components/Speakers";
 import { useMediaQuery } from "usehooks-ts";
 import { Countdown } from "../components/Countdown";
+import StyledButton from "../components/StyledButton";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 
 export default function HomePage() {
 	const matches = useMediaQuery("(min-width: 768px)");
@@ -99,6 +104,20 @@ export default function HomePage() {
 						timeTillDate="12 18 2023, 6:00 am"
 						timeFormat="MM DD YYYY, h:mm a"
 					/>
+					<div className="flex justify-center gap-6">
+						<Link to={"/sponsor-us"} className="mt-8 flex justify-center">
+							<StyledButton
+								message={"Register now"}
+								// icon={<FontAwesomeIcon icon={faExternalLink} />}
+							/>
+						</Link>
+						<Link to={"/sponsor-us"} className="mt-8 flex justify-center">
+							<StyledButton
+								message={"Become a Sponsor"}
+								// icon={<FontAwesomeIcon icon={faExternalLink} />}
+							/>
+						</Link>
+					</div>
 				</div>
 				{/* <div className="col-span-6">
 				<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-6xl lg:font-extrabold lg:leading-none">
