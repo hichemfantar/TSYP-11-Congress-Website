@@ -87,26 +87,28 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 											{/* Replace with your content */}
 											<div>
 												<ul className="flex flex-col divide-y divide-gray-600">
-													{routes.map((route) => (
-														<li className="" key={route.title}>
-															<NavLink
-																className={({ isActive, isPending }) =>
-																	twMerge(
-																		"block w-full p-4 px-0 transition-all duration-75 hover:font-bold dark:text-gray-400 dark:hover:text-gray-200",
-																		isActive
-																			? "font-bold "
-																			: isPending
-																			? ""
-																			: ""
-																	)
-																}
-																to={route.href}
-																onClick={() => setToggleModal(false)}
-															>
-																{route.title}
-															</NavLink>
-														</li>
-													))}
+													{routes
+														?.filter((y) => !y?.type)
+														.map((route) => (
+															<li className="" key={route.title}>
+																<NavLink
+																	className={({ isActive, isPending }) =>
+																		twMerge(
+																			"block w-full p-4 px-0 transition-all duration-75 hover:font-bold dark:text-gray-400 dark:hover:text-gray-200",
+																			isActive
+																				? "font-bold "
+																				: isPending
+																				? ""
+																				: ""
+																		)
+																	}
+																	to={route.href}
+																	onClick={() => setToggleModal(false)}
+																>
+																	{route.title}
+																</NavLink>
+															</li>
+														))}
 												</ul>
 											</div>
 											{/* /End replace */}

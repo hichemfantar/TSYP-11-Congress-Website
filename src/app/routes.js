@@ -8,13 +8,30 @@ const routes = [
 		href: "/tunisia",
 	},
 	{
-		title: "Speakers",
-		href: "/speakers",
+		title: "Program",
+		type: "group",
+		items: [
+			{
+				title: "Schedule",
+				href: "/schedule",
+			},
+			{
+				title: "Speakers",
+				href: "/speakers",
+			},
+		],
 	},
 	{
 		title: "Schedule",
 		href: "/schedule",
+		mobileOnly: true,
 	},
+	{
+		title: "Speakers",
+		href: "/speakers",
+		mobileOnly: true,
+	},
+
 	{
 		title: "Partners",
 		href: "/sponsors",

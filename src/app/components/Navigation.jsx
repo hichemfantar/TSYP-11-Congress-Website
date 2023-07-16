@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 import routes from "../routes";
@@ -7,6 +7,8 @@ import Logo from "../../assets/main logo black (Custom).png";
 import LightLogo from "../../assets/main logo_2 (Custom).png";
 import LogoOnBlack from "../../assets/Logo on black.png";
 import ThemeToggle from "./ThemeToggle";
+import { Menu, Transition } from "@headlessui/react";
+import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 export default function Navigation() {
 	const [toggleModal, setToggleModal] = useState(false);
@@ -49,24 +51,90 @@ export default function Navigation() {
 						<div className="hidden w-auto items-center justify-between lg:flex">
 							<ul className="flex flex-col rounded-lg border border-gray-100 p-4 dark:border-gray-700 md:mt-0 md:flex-row md:border-0 md:text-sm md:font-medium">
 								{routes
-									.filter((r) => !r.mobile)
+									// .filter((r) => !r.mobile)
+									.filter((r) => !r.mobileOnly)
 									.map((route) => (
 										<li className="" key={route.title}>
-											<NavLink
-												className={({ isActive, isPending }) =>
-													twMerge(
-														"hover: focus: block p-4 px-4 text-gray-600 transition-all duration-75 hover:font-bold focus:font-bold dark:text-gray-400 dark:hover:text-gray-200",
-														isActive
-															? "font-bold text-black dark:text-gray-200"
-															: isPending
-															? ""
-															: ""
-													)
-												}
-												to={route.href}
-											>
-												{route.title}
-											</NavLink>
+											{route?.type ? (
+												<Menu
+													as="div"
+													className="relative inline-block text-left"
+												>
+													<div>
+														<Menu.Button
+															className={twMerge(
+																// "inline-flex w-full justify-center rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75",
+																"inline-flex items-center p-4 px-4 text-gray-600 transition-all duration-75 hover:font-bold focus:font-bold dark:text-gray-400 dark:hover:text-gray-200"
+															)}
+														>
+															{route?.title}
+															<ChevronDownIcon
+																className="ml-2 -mr-1 h-4 w-4 "
+																aria-hidden="true"
+															/>
+														</Menu.Button>
+													</div>
+													<Transition
+														as={Fragment}
+														enter="transition ease-out duration-100"
+														enterFrom="transform opacity-0 scale-95"
+														enterTo="transform opacity-100 scale-100"
+														leave="transition ease-in duration-75"
+														leaveFrom="transform opacity-100 scale-100"
+														leaveTo="transform opacity-0 scale-95"
+													>
+														<Menu.Items className="absolute left-0 mt-2 w-48 origin-top-right divide-y divide-gray-100 rounded-xl bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none dark:bg-gray-900">
+															<div className="px-1 py-1 ">
+																{route?.items?.map((e) => (
+																	<Menu.Item>
+																		{({ active }) => (
+																			<NavLink
+																				className={({ isActive, isPending }) =>
+																					twMerge(
+																						"text-gray-600 transition-all duration-75 hover:font-bold focus:font-bold dark:text-gray-400 dark:hover:text-gray-200",
+																						"group flex w-full items-center rounded-md px-2 py-2 text-sm",
+
+																						isActive
+																							? "font-bold text-black dark:text-gray-200"
+																							: isPending
+																							? ""
+																							: ""
+																					)
+																				}
+																				to={e.href}
+																			>
+																				{/* <button
+																					className={`${
+																						active ? "" : "text-gray-900"
+																					} group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+																				> */}
+																				{e?.title}
+																				{/* </button> */}
+																			</NavLink>
+																		)}
+																	</Menu.Item>
+																))}
+															</div>
+														</Menu.Items>
+													</Transition>
+												</Menu>
+											) : (
+												<NavLink
+													className={({ isActive, isPending }) =>
+														twMerge(
+															"hover: focus: block p-4 px-4 text-gray-600 transition-all duration-75 hover:font-bold focus:font-bold dark:text-gray-400 dark:hover:text-gray-200",
+															isActive
+																? "font-bold text-black dark:text-gray-200"
+																: isPending
+																? ""
+																: ""
+														)
+													}
+													to={route.href}
+												>
+													{route.title}
+												</NavLink>
+											)}
 										</li>
 									))}
 
