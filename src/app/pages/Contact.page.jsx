@@ -33,13 +33,13 @@ export function ContactForm({ title = "Contact us" }) {
 						Reach out via Email
 					</h1>
 					<h1 className="mb-6 text-3xl font-semibold md:mb-12   md:text-center lg:text-4xl lg:leading-none">
-						ieee.essths@gmail.com
+						tsyp@ieee.org
 					</h1>
 					<h1 className="mb-4 text-3xl font-bold   md:text-center lg:text-4xl lg:font-extrabold lg:leading-none">
 						Or call us
 					</h1>
 					<h1 className="mb-4 text-3xl font-semibold   md:text-center lg:text-4xl lg:leading-none">
-						+216 56 479 019
+						+216 52 227 099
 					</h1>
 				</div>
 

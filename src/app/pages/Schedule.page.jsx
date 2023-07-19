@@ -41,7 +41,7 @@ export default function SchedulePage() {
 						src={
 							"https://media-cdn.tripadvisor.com/media/photo-s/15/48/c8/90/hotel-diar-lemdina.jpg"
 						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
 						loading="lazy"
 					/>
@@ -69,7 +69,7 @@ export default function SchedulePage() {
 						src={
 							"https://images.pexels.com/photos/7964237/pexels-photo-7964237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
 						loading="lazy"
 					/>
@@ -89,16 +89,16 @@ export default function SchedulePage() {
 				<div className="col-span-6 mx-auto">
 					<img
 						src={
-							"https://r8syp.ieee.tn/images/schedule/description%20images/keynotes.jpg"
+							"https://images.pexels.com/photos/3321793/pexels-photo-3321793.jpeg?auto=compress&cs=tinysrgb&w=1600"
 						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
 						loading="lazy"
 					/>
 				</div>
 				<div className="col-span-6">
 					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						Discussion Panel.
+						Discussion Panels.
 					</h1>
 					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						A variety of lectures will be organized covering many technical
@@ -113,9 +113,9 @@ export default function SchedulePage() {
 				<div className="col-span-6 mx-auto md:order-last">
 					<img
 						src={
-							"https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+							"https://images.pexels.com/photos/3285203/pexels-photo-3285203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
 						loading="lazy"
 					/>
@@ -136,9 +136,9 @@ export default function SchedulePage() {
 				<div className="col-span-6 mx-auto">
 					<img
 						src={
-							"https://r8syp.ieee.tn/images/schedule/description%20images/career.jpg"
+							"https://images.pexels.com/photos/4963436/pexels-photo-4963436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
 						loading="lazy"
 					/>
@@ -162,9 +162,9 @@ export default function SchedulePage() {
 				<div className="col-span-6 mx-auto md:order-last">
 					<img
 						src={
-							"https://r8syp.ieee.tn/images/schedule/description%20images/poster.png"
+							"https://images.pexels.com/photos/6476783/pexels-photo-6476783.jpeg?auto=compress&cs=tinysrgb&w=1600"
 						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
 						loading="lazy"
 					/>
@@ -188,7 +188,7 @@ export default function SchedulePage() {
 						src={
 							"https://images.pexels.com/photos/2422294/pexels-photo-2422294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
 						loading="lazy"
 					/>
@@ -210,9 +210,9 @@ export default function SchedulePage() {
 				<div className="col-span-6 mx-auto md:order-last">
 					<img
 						src={
-							"https://r8syp.ieee.tn/images/schedule/description%20images/plenary.jpg"
+							"https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
 						loading="lazy"
 					/>
@@ -235,7 +235,7 @@ export default function SchedulePage() {
 						src={
 							"https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
 						loading="lazy"
 					/>
@@ -255,9 +255,9 @@ export default function SchedulePage() {
 				<div className="col-span-6 mx-auto md:order-last">
 					<img
 						src={
-							"https://r8syp.ieee.tn/images/schedule/description%20images/break.jpg"
+							"https://images.pexels.com/photos/2182975/pexels-photo-2182975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
 						loading="lazy"
 					/>
@@ -281,7 +281,7 @@ export default function SchedulePage() {
 						src={
 							"https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
 						loading="lazy"
 					/>
@@ -303,7 +303,7 @@ export default function SchedulePage() {
 						src={
 							"https://images.pexels.com/photos/3678057/pexels-photo-3678057.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
 						loading="lazy"
 					/>
@@ -325,7 +325,7 @@ export default function SchedulePage() {
 						src={
 							"https://media-cdn.tripadvisor.com/media/photo-s/15/48/c8/90/hotel-diar-lemdina.jpg"
 						}
-						className="mx-auto h-52 rounded-2xl object-cover sm:h-96"
+						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
 						loading="lazy"
 					/>
