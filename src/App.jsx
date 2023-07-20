@@ -20,6 +20,7 @@ import SponsorUsPage from "./app/pages/SponsorUs.page.jsx";
 import ThreeExperience from "./app/components/ThreeExperience.jsx";
 import Phase from "./app/components/Phase.jsx";
 import AboutUs from "./app/pages/AboutUs.page.jsx";
+import TicketPage from "./app/pages/Ticket.page.jsx";
 
 setInitialTheme();
 
@@ -80,16 +81,24 @@ const router = createBrowserRouter([
 				path: "sponsor-us",
 				element: <SponsorUsPage />,
 			},
+			{
+				path: "ticket",
+				element: <TicketPage />,
+			},
+			{
+				path: "stage",
+				element: <Phase />,
+			},
 		],
 	},
-	// {
-	// 	path: "game",
-	// 	element: (
-	// 		<Suspense fallback={null}>
-	// 			<ThreeExperience />
-	// 		</Suspense>
-	// 	),
-	// },
+	{
+		path: "reveal",
+		element: (
+			<Suspense fallback={null}>
+				<ThreeExperience />
+			</Suspense>
+		),
+	},
 ]);
 
 function App() {

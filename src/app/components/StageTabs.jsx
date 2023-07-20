@@ -13,7 +13,7 @@ export default function StageTabs({ categories }) {
 								"w-full rounded-full py-2.5 text-sm font-medium leading-5  transition ",
 								"ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-900 focus:outline-none focus:ring-2",
 								selected
-									? "dark: bg-gray-100 shadow dark:bg-gray-200"
+									? "bg-gray-100 shadow dark:bg-gray-200 dark:text-gray-800"
 									: "text-gray-50 hover:bg-white/[0.12] hover:text-white"
 							)
 						}
