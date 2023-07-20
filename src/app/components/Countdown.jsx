@@ -56,28 +56,28 @@ export function Countdown(props) {
 				</h1> */}
 			<div className="flex flex-wrap items-center justify-center gap-4">
 				{"days" && (
-					<div className="relative flex h-[100px] w-[100px] flex-col items-center justify-center pt-[6px] text-2xl font-bold leading-[30px]">
+					<div className="relative flex h-[100px] w-[100px] flex-col items-center justify-center pt-[0px] text-2xl font-bold leading-[30px]">
 						<SVGCircle radius={daysRadius} />
 						{days}
 						<span className="mt-1 text-xs font-bold uppercase">days</span>
 					</div>
 				)}
 				{"hours" && (
-					<div className="relative flex h-[100px] w-[100px] flex-col items-center justify-center pt-[6px] text-2xl font-bold leading-[30px]">
+					<div className="relative flex h-[100px] w-[100px] flex-col items-center justify-center pt-[0px] text-2xl font-bold leading-[30px]">
 						<SVGCircle radius={hoursRadius} />
 						{hours}
 						<span className="mt-1 text-xs font-bold uppercase">hours</span>
 					</div>
 				)}
 				{"minutes" && (
-					<div className="relative flex h-[100px] w-[100px] flex-col items-center justify-center pt-[6px] text-2xl font-bold leading-[30px]">
+					<div className="relative flex h-[100px] w-[100px] flex-col items-center justify-center pt-[0px] text-2xl font-bold leading-[30px]">
 						<SVGCircle radius={minutesRadius} />
 						{minutes}
 						<span className="mt-1 text-xs font-bold uppercase">minutes</span>
 					</div>
 				)}
 				{"seconds" && (
-					<div className="relative flex h-[100px] w-[100px] flex-col items-center justify-center pt-[6px] text-2xl font-bold leading-[30px]">
+					<div className="relative flex h-[100px] w-[100px] flex-col items-center justify-center pt-[0px] text-2xl font-bold leading-[30px]">
 						<SVGCircle radius={secondsRadius} />
 						{seconds}
 						<span className="mt-1 text-xs font-bold uppercase">seconds</span>
@@ -93,6 +93,8 @@ const SVGCircle = ({ radius }) => {
 	if (radius === 0 || radius === 360) {
 		nRadius = 359.999;
 	}
+	// return null;
+
 	return (
 		<svg className="absolute top-0 left-0 h-[100px] w-[100px]">
 			<path

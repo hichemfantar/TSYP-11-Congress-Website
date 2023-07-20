@@ -37,7 +37,7 @@ import TSYP2021Dark from "../../assets/tsyp-editions/tsyp-2021-dark.png";
 import TSYP2022 from "../../assets/tsyp-editions/tsyp-2022.png";
 import { Link } from "react-router-dom";
 import Team from "../components/Team";
-import ThreeExperience from "../components/ThreeExperience";
+// import ThreeExperience from "../components/ThreeExperience";
 import { ScheduleOverview } from "../components/schedule/ScheduleList";
 import Speakers from "../components/Speakers";
 import { useMediaQuery } from "usehooks-ts";
@@ -51,13 +51,13 @@ export default function HomePage() {
 
 	return (
 		<div className="h-full">
-			{false && matches && (
+			{/* {false && matches && (
 				<Suspense fallback={null}>
 					<div className="hidden h-[40rem] overflow-auto rounded-2xl md:block md:h-[45rem]">
 						<ThreeExperience />
 					</div>
 				</Suspense>
-			)}
+			)} */}
 
 			<section className="grid grid-cols-12 items-center justify-center py-10 md:py-12">
 				<div className="col-span-12 mx-auto">
@@ -100,10 +100,32 @@ export default function HomePage() {
 					<h1 className="mb-8 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 						18 - 20 December 2023
 					</h1>
-					<Countdown
-						timeTillDate="12 18 2023, 6:00 am"
-						timeFormat="MM DD YYYY, h:mm a"
-					/>
+					<div className="flex flex-wrap items-center justify-center gap-8">
+						<div className="mb-4">
+							<h1 className="mb-2 text-center text-xl font-bold tracking-tight lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+								1200+
+							</h1>
+							<span className="mt-1 font-bold uppercase">Participants</span>
+						</div>
+						<div className="w-full md:hidden">
+							<div className="mx-auto h-0.5 w-3/6 bg-black md:block"></div>
+						</div>
+						<div className="hidden h-20 w-0.5 bg-black md:block"></div>
+						<Countdown
+							timeTillDate="12 18 2023, 6:00 am"
+							timeFormat="MM DD YYYY, h:mm a"
+						/>
+						<div className="w-full md:hidden">
+							<div className="mx-auto h-0.5 w-3/6 bg-black md:block"></div>
+						</div>
+						<div className="hidden h-20 w-0.5 bg-black md:block"></div>
+						<div className="mb-4">
+							<h1 className="mb-2 text-center text-xl font-bold tracking-tight lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+								40+
+							</h1>
+							<span className="mt-1 font-bold uppercase">Speakers</span>
+						</div>
+					</div>
 					<div className="flex justify-center gap-6">
 						<Link to={"/sponsor-us"} className="mt-8 flex justify-center">
 							<StyledButton
