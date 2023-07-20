@@ -108,17 +108,17 @@ export default function HomePage() {
 							<span className="mt-1 font-bold uppercase">Participants</span>
 						</div>
 						<div className="w-full md:hidden">
-							<div className="mx-auto h-0.5 w-3/6 bg-black md:block"></div>
+							<div className="mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
 						</div>
-						<div className="hidden h-20 w-0.5 bg-black md:block"></div>
+						<div className="hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
 						<Countdown
 							timeTillDate="12 18 2023, 6:00 am"
 							timeFormat="MM DD YYYY, h:mm a"
 						/>
 						<div className="w-full md:hidden">
-							<div className="mx-auto h-0.5 w-3/6 bg-black md:block"></div>
+							<div className="mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
 						</div>
-						<div className="hidden h-20 w-0.5 bg-black md:block"></div>
+						<div className="hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
 						<div className="mb-4">
 							<h1 className="mb-2 text-center text-xl font-bold tracking-tight lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 								40+
