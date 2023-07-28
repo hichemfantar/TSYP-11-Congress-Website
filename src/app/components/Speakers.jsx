@@ -264,7 +264,7 @@ export const speakersData = [
 		enabled: true,
 		name: "Khaled Sliti",
 		bio: "Khaled Sliti serves as a software engineer at Google. He studied Software Engineering at the university of SUP'COM.",
-		title: "Software Engineer",
+		title: "Software Engineer, Google",
 		talk: {
 			title: "Keynote",
 			description:

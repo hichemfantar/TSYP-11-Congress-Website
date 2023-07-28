@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Outlet, ScrollRestoration, useLocation } from "react-router-dom";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
+import ScrollToTop from "react-scroll-to-top";
 
 const pageVariants = {
 	initial: {
@@ -83,6 +84,8 @@ export default function AppLayout({ children }) {
 
 				<Footer />
 			</div> */}
+
+			<ScrollToTop className="flex items-center justify-center rounded-full p-3 transition" />
 
 			<ScrollRestoration />
 			<ReactQueryDevtools initialIsOpen={false} />

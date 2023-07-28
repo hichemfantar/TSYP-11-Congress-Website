@@ -121,7 +121,7 @@ export default function HomePage() {
 						<div className="hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
 						<div className="mb-4">
 							<h1 className="mb-2 text-center text-xl font-bold tracking-tight lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-								20+
+								50+
 							</h1>
 							<span className="mt-1 font-bold uppercase">Speakers</span>
 						</div>
@@ -129,7 +129,7 @@ export default function HomePage() {
 					<div className="flex justify-center gap-6">
 						<Link to={"/sponsor-us"} className="mt-8 flex justify-center">
 							<StyledButton
-								message={"Register now"}
+								message={"Registrations Opening Soon"}
 								// icon={<FontAwesomeIcon icon={faExternalLink} />}
 							/>
 						</Link>
@@ -228,7 +228,7 @@ export function AboutESSTHSSB(params) {
 			</div>
 			<div className="col-span-6">
 				<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-					Hosted By IEEE ESSTHS Student Branch.
+					IEEE ESSTHS Student Branch.
 				</h1>
 				<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 					IEEE ESSTHS Student Branch, founded in 2020, is home to more than 280
@@ -271,7 +271,7 @@ export function AboutTunisiaSection(params) {
 				<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 					About IEEE Tunisia Section.
 				</h1>
-				<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+				<h1 className="mb-4 text-lg font-medium  lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 					The IEEE Tunisian Section aims to disseminate IEEE activities to all
 					corners of the country through educational and technical activities,
 					networking of people, and developing technology and its applications
@@ -320,17 +320,17 @@ export function AboutTSYP(params) {
 				/>
 			</div>
 			<div className="col-span-6">
-				<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+				<h1 className="mb-4 text-4xl font-bold tracking-tight lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 					About IEEE TSYP Congress.
 				</h1>
-				<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+				<p className="mb-4  text-lg font-medium lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 					Tunisian Students and Young Professionals, is the annual congress that
 					brings together IEEE members in Tunisia. We are talking about the 11th
 					edition which is organized by IEEE ESSTHS SB. It is an excellent
 					opportunity to discuss current and future challenges in science and
 					engineering, to immerse yourself in the IEEE national network and to
 					exchange experiences.
-				</h1>
+				</p>
 			</div>
 		</section>
 	);

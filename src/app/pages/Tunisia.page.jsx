@@ -27,14 +27,14 @@ export default function TunisiaPage() {
 					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						Tunisia - تونس
 					</h1>
-					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+					<p className="mb-4 text-lg font-medium  lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						There’s so much to see and do in each region of Tunisia: a wide
 						variety of landscapes, a coastline spanning 1,250km, studded with
 						islands and archipelagos, a fantastic array of traditions and
 						customs and a rich historical heritage. We are delighted to
 						introduce you to these regions by breaking them down into this
 						video.
-					</h1>
+					</p>
 				</div>
 				<div className="col-span-6 mx-auto w-full">
 					<iframe
