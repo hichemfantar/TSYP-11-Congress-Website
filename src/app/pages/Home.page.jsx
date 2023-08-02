@@ -3,6 +3,7 @@ import Logo from "../../assets/main logo black (Custom).png";
 import LogoOnBlack from "../../assets/Logo on black.png";
 import LightLogo from "../../assets/main logo_2 (Custom).png";
 import SBGroupPic from "../../assets/sb-group-pic.jpg";
+import logoBar from "../../assets/logo-bar.png";
 import TSYP2014 from "../../assets/tsyp-editions/tsyp-2014.jpg";
 import TSYP2016 from "../../assets/tsyp-editions/tsyp-2016.jpg";
 import TSYP2017 from "../../assets/tsyp-editions/tsyp-2017.jpg";
@@ -151,6 +152,12 @@ export default function HomePage() {
 				</h1>
 			</div> */}
 			</section>
+
+			<img
+				src={logoBar}
+				alt=""
+				className="hidden h-52 object-contain dark:invert lg:block"
+			/>
 
 			<AboutTSYP />
 
