@@ -1,21 +1,70 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import Logo from "../../assets/main logo black (Custom).png";
 import LightLogo from "../../assets/main logo_2 (Custom).png";
 import SBGroupPic from "../../assets/sb-group-pic.jpg";
 import { SparrowSurvey } from "./Home.page";
+import { Link } from "react-router-dom";
+import emailjs from "@emailjs/browser";
 
 export default function ContactPage() {
 	return (
 		<div className="h-full">
-			<ContactDetails />
-			{/* <ContactForm /> */}
+			<ContactForm />
+
+			{/* <ContactDetails /> */}
+
+			<section className="py-8 lg:py-8">
+				<div className="max-w-8xl mx-auto">
+					<div className="xl:mx-64 2xl:mx-60">
+						<h1 className="mb-4 text-4xl font-bold lg:mb-7 lg:text-center lg:text-5xl lg:font-extrabold lg:leading-none">
+							Have feedback or suggestions?
+						</h1>
+						<p className="mb-10 text-lg font-normal text-gray-500 dark:text-gray-400 lg:text-center lg:text-xl">
+							Fill the appropriate form below and we'll do our best to make it
+							happen!
+						</p>
+					</div>
+				</div>
+				<div className="mb-6 flex flex-wrap justify-center gap-4">
+					<Link
+						to={
+							"https://docs.google.com/forms/d/e/1FAIpQLSdWzT28HrTniMtPlQetXLeG9hBr6ccADzIYM4GunDost_5TxQ/viewform"
+						}
+						target="_blank"
+						rel="noreferrer"
+						className="inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black  dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
+					>
+						<span className="">Speaker Suggestions</span>
+					</Link>
+					<Link
+						to={
+							"https://docs.google.com/forms/d/e/1FAIpQLSfBAlWQwYjahd0VwbCtPcLZjZsIpXsDArmE8VyQq6-vw-gAKw/viewform"
+						}
+						target="_blank"
+						rel="noreferrer"
+						className="inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black  dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
+					>
+						<span className="">Sponsor Suggestions</span>
+					</Link>
+					<Link
+						to={
+							"https://docs.google.com/forms/d/e/1FAIpQLSfZLf1IajhxhCG89BGdzBye6t6HGNvYqJmGQ4I2bgyGcfvloQ/viewform"
+						}
+						target="_blank"
+						rel="noreferrer"
+						className="inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black  dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
+					>
+						<span className="">Feedback & Ideas</span>
+					</Link>
+				</div>
+			</section>
 
 			{false && <SparrowSurvey />}
 		</div>
 	);
 }
 
-export function ContactDetails({ title = "Contact us" }) {
+export function ContactDetails({ title = "Reach us" }) {
 	return (
 		<section className="py-8 lg:py-8">
 			<div className="max-w-8xl mx-auto">
@@ -24,7 +73,7 @@ export function ContactDetails({ title = "Contact us" }) {
 						{title}
 					</h1>
 					<p className="mb-10 text-lg font-normal text-gray-500 dark:text-gray-400 lg:text-center lg:text-xl">
-						Let us know what you need and we will get back to you in no time.
+						We value teamwork and honesty. Join us if you share the same values.
 					</p>
 				</div>
 			</div>
@@ -60,128 +109,43 @@ export function ContactDetails({ title = "Contact us" }) {
 					></iframe>
 				</div>
 			</div>
-			{false && (
-				<div className="max-w-8xl mx-auto px-4 lg:px-4">
-					<div className="mx-auto max-w-3xl rounded-2xl border-2 border-gray-50 p-4 shadow-md dark:border-gray-800 lg:p-8">
-						<form>
-							<div className="grid md:grid-cols-2 md:gap-8">
-								<div className="mb-6">
-									<label
-										htmlFor="first_name"
-										className="mb-2 block text-sm font-medium  dark:text-gray-300"
-									>
-										First name
-									</label>
-									<input
-										required=""
-										type="text"
-										id="first_name"
-										placeholder="John"
-										className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5  focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black  dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-										defaultValue=""
-									/>
-								</div>
-								<div className="mb-6">
-									<label
-										htmlFor="last_name"
-										className="mb-2 block text-sm font-medium  dark:text-gray-300"
-									>
-										Last name
-									</label>
-									<input
-										required=""
-										type="text"
-										id="last_name"
-										placeholder="Doe"
-										className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5  focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black  dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-										defaultValue=""
-									/>
-								</div>
-							</div>
-							<div className="mb-6">
-								<label
-									htmlFor="email"
-									className="mb-2 block text-sm font-medium  dark:text-gray-300"
-								>
-									Email address
-								</label>
-								<input
-									required=""
-									type="email"
-									id="email"
-									placeholder="john.doe@company.com"
-									className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5  focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black  dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-									defaultValue=""
-								/>
-							</div>
-							<div className="mb-6">
-								<label
-									htmlFor="subject"
-									className="mb-2 block text-sm font-medium  dark:text-gray-300"
-								>
-									Subject
-								</label>
-								<input
-									required=""
-									type="text"
-									id="subject"
-									className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5  focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black  dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-									placeholder="Subject name"
-									defaultValue=""
-								/>
-							</div>
-							<div className="mb-6">
-								<label
-									htmlFor="message"
-									className="mb-2 block text-sm font-medium  dark:text-gray-400"
-								>
-									Message
-								</label>
-								<textarea
-									required=""
-									id="message"
-									rows={4}
-									className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm  focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black  dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-									placeholder="Your message..."
-									defaultValue={""}
-								/>
-							</div>
-
-							{/* <p className="mb-6 text-sm text-gray-500">
-				By submitting this form you agree to our{" "}
-				<a
-					className="text-blue-600 hover:underline dark:text-blue-500"
-					href="/terms-and-conditions/"
-				>
-					Terms &amp; conditions
-				</a>{" "}
-				and our{" "}
-				<a
-					className="text-blue-600 hover:underline dark:text-blue-500"
-					href="/privacy-policy/"
-				>
-					Privacy Policy
-				</a>{" "}
-				which explains how we may collect, use and disclose your
-				personal information including to third parties.
-			</p> */}
-							<button
-								className="w-full rounded-lg bg-blue-700 px-5 py-3 text-center text-base font-medium text-white sm:w-auto"
-								type="submit"
-							>
-								<span className="flex items-center justify-center">
-									Send message
-								</span>
-							</button>
-						</form>
-					</div>
-				</div>
-			)}
 		</section>
 	);
 }
 
 function ContactForm({ title = "Contact us" }) {
+	const form = useRef();
+
+	const [isSuccess, setIsSuccess] = useState(false);
+	const [isSending, setIsSending] = useState(false);
+
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		setIsSuccess(false);
+		setIsSending(true);
+		emailjs
+			.sendForm(
+				"service_0eywd1w",
+				"template_f3onrlp",
+				form.current,
+				"X1AqlHz3TEdbh55zo"
+			)
+			.then(
+				(result) => {
+					console.log(result.text);
+					setIsSuccess(true);
+					form.current.reset();
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			)
+			.finally(() => {
+				setIsSending(false);
+			});
+	};
+
 	return (
 		<section className="py-8 lg:py-16">
 			<div className="max-w-8xl mx-auto px-4 lg:px-4">
@@ -196,7 +160,7 @@ function ContactForm({ title = "Contact us" }) {
 			</div>
 			<div className="max-w-8xl mx-auto px-4 lg:px-4">
 				<div className="mx-auto max-w-3xl rounded-2xl border-2 border-gray-50 p-4 shadow-md dark:border-gray-800 lg:p-8">
-					<form>
+					<form ref={form} onSubmit={sendEmail}>
 						<div className="grid md:grid-cols-2 md:gap-8">
 							<div className="mb-6">
 								<label
@@ -206,9 +170,10 @@ function ContactForm({ title = "Contact us" }) {
 									First name
 								</label>
 								<input
-									required=""
+									required
 									type="text"
 									id="first_name"
+									name="first_name"
 									placeholder="John"
 									className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5  focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black  dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
 									defaultValue=""
@@ -222,9 +187,10 @@ function ContactForm({ title = "Contact us" }) {
 									Last name
 								</label>
 								<input
-									required=""
+									required
 									type="text"
 									id="last_name"
+									name="last_name"
 									placeholder="Doe"
 									className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5  focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black  dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
 									defaultValue=""
@@ -239,9 +205,10 @@ function ContactForm({ title = "Contact us" }) {
 								Email address
 							</label>
 							<input
-								required=""
+								required
 								type="email"
 								id="email"
+								name="email"
 								placeholder="john.doe@company.com"
 								className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5  focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black  dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
 								defaultValue=""
@@ -255,9 +222,10 @@ function ContactForm({ title = "Contact us" }) {
 								Subject
 							</label>
 							<input
-								required=""
+								required
 								type="text"
 								id="subject"
+								name="subject"
 								className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5  focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black  dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
 								placeholder="Subject name"
 								defaultValue=""
@@ -271,8 +239,9 @@ function ContactForm({ title = "Contact us" }) {
 								Message
 							</label>
 							<textarea
-								required=""
+								required
 								id="message"
+								name="message"
 								rows={4}
 								className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm  focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-black  dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
 								placeholder="Your message..."
@@ -298,17 +267,44 @@ function ContactForm({ title = "Contact us" }) {
 						which explains how we may collect, use and disclose your
 						personal information including to third parties.
 					</p> */}
+						<div
+							class="g-recaptcha"
+							data-sitekey="6LfH4XYnAAAAAGl9725lUE8AGJ0WuCyzL-V0sgoI"
+						></div>
+
 						<button
-							className="w-full rounded-lg bg-blue-700 px-5 py-3 text-center text-base font-medium text-white sm:w-auto"
+							className={`w-full rounded-lg bg-blue-700 px-5 py-3 text-center text-base font-medium text-white sm:w-auto ${
+								isSending ? "opacity-50" : ""
+							}`}
 							type="submit"
+							disabled={isSending}
 						>
 							<span className="flex items-center justify-center">
 								Send message
 							</span>
 						</button>
+						{isSuccess && (
+							<div
+								className="mt-4 rounded-lg bg-green-50 p-4 text-sm text-green-800 dark:bg-gray-800 dark:text-green-400"
+								role="alert"
+							>
+								<span className="font-medium">Message sent!</span> Thank you, we
+								highly value your feedback.
+							</div>
+						)}
 					</form>
 				</div>
 			</div>
+			{/* <iframe
+				src="https://docs.google.com/forms/d/e/1FAIpQLSfZLf1IajhxhCG89BGdzBye6t6HGNvYqJmGQ4I2bgyGcfvloQ/viewform?embedded=true"
+				width="640"
+				height="1561"
+				frameBorder="0"
+				marginHeight="0"
+				marginWidth="0"
+			>
+				Loading…
+			</iframe> */}
 		</section>
 	);
 }
