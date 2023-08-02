@@ -7,14 +7,15 @@ import { SparrowSurvey } from "./Home.page";
 export default function ContactPage() {
 	return (
 		<div className="h-full">
-			<ContactForm />
+			<ContactDetails />
+			{/* <ContactForm /> */}
 
 			{false && <SparrowSurvey />}
 		</div>
 	);
 }
 
-export function ContactForm({ title = "Contact us" }) {
+export function ContactDetails({ title = "Contact us" }) {
 	return (
 		<section className="py-8 lg:py-8">
 			<div className="max-w-8xl mx-auto">
@@ -178,7 +179,9 @@ export function ContactForm({ title = "Contact us" }) {
 			)}
 		</section>
 	);
+}
 
+function ContactForm({ title = "Contact us" }) {
 	return (
 		<section className="py-8 lg:py-16">
 			<div className="max-w-8xl mx-auto px-4 lg:px-4">

@@ -2,7 +2,7 @@ import React from "react";
 import tsypCollabFilePreview from "../../assets/dossier-collab-tsyp.png";
 import tsypCollabPDF from "../../assets/pdf/14.04.ENGLISH-PDF-DOSSIER-Collaboration-Final.pdf";
 import { Link } from "react-router-dom";
-import { ContactForm } from "./Contact.page";
+import { ContactDetails } from "./Contact.page";
 
 export default function SponsorUsPage() {
 	return (
@@ -74,7 +74,7 @@ export default function SponsorUsPage() {
 				</div>
 			</section>
 
-			<ContactForm />
+			<ContactDetails />
 		</div>
 	);
 }
