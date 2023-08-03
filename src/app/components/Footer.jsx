@@ -51,6 +51,7 @@ export default function Footer() {
 					<ul className="ffont-['space_mono'] flex flex-wrap items-center text-sm text-gray-500 dark:text-gray-400">
 						{routes
 							.filter((r) => !r.mobile)
+							.filter((r) => !(r.type === "group"))
 							.map((route) => (
 								<li className="" key={route.title}>
 									<NavLink
