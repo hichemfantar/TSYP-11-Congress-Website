@@ -186,7 +186,7 @@ export default function HomePage() {
 			</section>
 
 			<section className="py-8 md:py-10">
-				<Speakers />
+				<Speakers limit={5} />
 			</section>
 
 			<div className="hidden md:block">
@@ -194,7 +194,7 @@ export default function HomePage() {
 			</div>
 
 			<section className="py-8 md:py-28">
-				<Team />
+				<Team limit={5} />
 			</section>
 
 			<section className="py-8 md:py-28">

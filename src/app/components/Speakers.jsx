@@ -9,36 +9,53 @@ import MikeHinchey from "../../assets/people/Mike Hinchey.webp";
 import KhaledSliti from "../../assets/people/Khaled Sliti.jpg";
 import KhaledLetaief from "../../assets/people/Khaled Letaief.jpg";
 import MathurDeepak from "../../assets/people/mathur-deepak.webp";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExternalLink, faPlus } from "@fortawesome/free-solid-svg-icons";
 
-export default function Speakers() {
+export default function Speakers({ limit = 0 }) {
 	return (
 		<div>
 			<div className="mb-8 text-4xl font-bold">Speakers</div>
 			<div className="grid grid-cols-12 gap-y-4 md:gap-4">
 				{speakersData
 					?.filter((e) => e?.enabled)
-					?.map((speaker) => (
-						<Link
-							key={speaker.name}
-							to={`/speakers/${speaker.slug}`}
-							className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
-						>
-							<img
-								src={speaker.imageSmall.url}
-								alt=""
-								className="mb-2 h-96 w-full rounded-lg object-cover md:h-64"
-								loading="lazy"
-							/>
-							<div className="font-bold">{speaker.name}</div>
-							{/* <div className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+					// ?.slice(0, limit)
+					?.map((speaker, idx) => {
+						if (idx >= limit && limit !== 0) return null;
+
+						return (
+							<Link
+								key={speaker.name}
+								to={`/speakers/${speaker.slug}`}
+								className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
+							>
+								<img
+									src={speaker.imageSmall.url}
+									alt=""
+									className="mb-2 h-96 w-full rounded-lg object-cover md:h-64"
+									loading="lazy"
+								/>
+								<div className="font-bold">{speaker.name}</div>
+								{/* <div className="mb-2 text-sm text-gray-600 dark:text-gray-400">
 								@{speaker.twitterUsername}
 							</div> */}
-							<div className="text-sm">{speaker.title}</div>
-							{/* <div className="text-sm">
+								<div className="text-sm">{speaker.title}</div>
+								{/* <div className="text-sm">
 								{speaker.title}, {speaker.company.name}
 							</div> */}
-						</Link>
-					))}
+							</Link>
+						);
+					})}
+
+				{limit ? (
+					<Link
+						to={`/speakers`}
+						className="col-span-12 flex flex-col items-center justify-center rounded-xl border-2 p-6 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
+					>
+						<FontAwesomeIcon icon={faExternalLink} className="mb-4 h-6 w-6" />
+						<div className="font-bold">See more</div>
+					</Link>
+				) : null}
 			</div>
 		</div>
 	);
