@@ -88,7 +88,7 @@ export default function AppLayout({ children }) {
 
 			<ScrollToTop
 				className={twMerge(
-					"flex items-center justify-center rounded-full p-3 transition"
+					"flex items-center justify-center !rounded-full p-3 transition"
 				)}
 			/>
 
