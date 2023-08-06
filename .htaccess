@@ -2,3 +2,63 @@
     RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.html [QSA,L]
+
+# <IfModule mod_rewrite.c>
+# RewriteEngine On
+
+#   RewriteBase /
+#   RewriteRule ^index\.html$ - [L]
+#   RewriteCond %{REQUEST_FILENAME} !-f
+#   RewriteCond %{REQUEST_FILENAME} !-d
+#   RewriteCond %{REQUEST_FILENAME} !-l
+#   RewriteRule . /index.html [L]
+# </IfModule>
+
+# GZIP compression for text files: HTML, CSS, JS, Text, XML, fonts
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+AddOutputFilterByType DEFLATE application/x-font
+AddOutputFilterByType DEFLATE application/x-font-opentype
+AddOutputFilterByType DEFLATE application/x-font-otf
+AddOutputFilterByType DEFLATE application/x-font-truetype
+AddOutputFilterByType DEFLATE application/x-font-ttf
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE font/opentype
+AddOutputFilterByType DEFLATE font/otf
+AddOutputFilterByType DEFLATE font/ttf
+AddOutputFilterByType DEFLATE image/svg+xml
+AddOutputFilterByType DEFLATE image/x-icon
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/xml
+</IfModule>
+
+# Disable server signature
+ServerSignature Off
+
+# BROWSER CACHING USING CACHE-CONTROL HEADERS
+<ifModule mod_headers.c>
+    # One year for image and video files
+    # One month for image and video files
+    <filesMatch ".(flv|gif|ico|jpg|jpeg|mp4|m4v|mpeg|png|svg|swf|webp|woff2)$">
+        Header set Cache-Control "max-age=2592000, public"
+        # Header set Cache-Control "max-age=31536000, public"
+    </filesMatch>
+
+    # One month for JavaScript and PDF files
+    <filesMatch ".(js|pdf)$">
+        Header set Cache-Control "max-age=2592000, public"
+        # Header set Cache-Control "max-age=2592000, public"
+    </filesMatch>
+
+    # One week for CSS files
+    <filesMatch ".(css)$">
+        Header set Cache-Control "max-age=604800, public"
+    </filesMatch>
+</ifModule>
