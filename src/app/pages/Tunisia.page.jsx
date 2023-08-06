@@ -44,7 +44,7 @@ export default function TunisiaPage() {
 						// height="315"
 						// height="500"
 						// width="100%"
-						className="mx-auto h-56 w-full rounded-2xl sm:h-96"
+						className="mx-auto h-56 w-full rounded-2xl shadow-lg sm:h-96"
 						// className="mx-auto h-56 w-full sm:h-60"
 						src="https://www.youtube.com/embed/cR8mH08xNVw"
 						title="YouTube video player"
@@ -209,7 +209,7 @@ export default function TunisiaPage() {
 						))}
 					</div>
 					{/* <iframe
-						className="mx-auto h-56 w-full rounded-2xl sm:h-96"
+						className="mx-auto h-56 w-full rounded-2xl sm:h-96 shadow-lg" 
 						src="https://www.youtube.com/embed/cR8mH08xNVw"
 						title="YouTube video player"
 						frameborder="0"
@@ -232,7 +232,7 @@ export default function TunisiaPage() {
 					</h1>
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6775315.518954521!2d9.560763999999999!3d33.98586695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x125595448316a4e1%3A0x3a84333aaa019bef!2sTunisia!5e0!3m2!1sen!2stn!4v1683130409503!5m2!1sen!2stn"
-						className="w-full rounded-2xl"
+						className="w-full rounded-2xl shadow-lg"
 						height="500"
 						style={{
 							border: 0,

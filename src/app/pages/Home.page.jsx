@@ -210,7 +210,7 @@ export default function HomePage() {
 					<iframe
 						title="tsyp location"
 						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12851.062625886407!2d10.5328555!3d36.3664548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13029e020677bc0d%3A0x82fe8c3faf57e873!2sDiar%20Lemdina!5e0!3m2!1sen!2stn!4v1682280141809!5m2!1sen!2stn"
-						className="w-full rounded-2xl"
+						className="w-full rounded-2xl shadow-lg"
 						height="500"
 						style={{
 							border: 0,
