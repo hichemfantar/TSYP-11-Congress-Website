@@ -31,14 +31,14 @@ export default function Footer() {
 					>
 						<path d="M37.59.25l36.95 64H.64l36.95-64z" />
 					</svg> */}
-							{/* <img
+							{/* <CustomImage
 						src="https://flowbite.com/docs/images/logo.svg"
 						className="mr-3 h-8"
 						alt="TSYP 11"
 					/> */}
 							<div className="flex flex-wrap gap-2 font-['Tangerine'] text-3xl font-semibold dark:font-normal md:text-4xl ">
 								Brought to life by Hichem Fantar
-								{/* <img src={signature} className="mr-3 h-8 dark:invert" alt="TSYP 11" /> */}
+								{/* <CustomImage src={signature} className="mr-3 h-8 dark:invert" alt="TSYP 11" /> */}
 							</div>
 							{/* <span className="self-center whitespace-nowrap text-2xl font-semibold ">
 						TSYP 11

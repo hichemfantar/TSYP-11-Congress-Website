@@ -9,6 +9,7 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 import StyledButton from "./StyledButton";
 import { teamData } from "./Team";
+import CustomImage from "./CustomImage";
 
 export default function TeamMember() {
 	const { teamMemberSlug } = useParams();
@@ -25,11 +26,11 @@ export default function TeamMember() {
 
 			<div className="grid grid-cols-12 gap-y-8 md:gap-x-8">
 				<div className="col-span-full md:col-span-4">
-					<img
+					<CustomImage
 						src={currentTeamMember.imageSmall.url}
 						alt=""
 						className="mx-auto h-60 rounded-lg object-cover"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-full flex flex-col gap-4 md:col-span-8">

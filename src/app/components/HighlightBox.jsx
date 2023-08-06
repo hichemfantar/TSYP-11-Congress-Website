@@ -1,6 +1,7 @@
 import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import CustomImage from "./CustomImage";
 
 export default function HighlightBox({ data }) {
 	return (
@@ -47,8 +48,8 @@ export default function HighlightBox({ data }) {
 						<div className="text-gray-600">{data.date}</div>
 						{data.image && (
 							<div className="mt-4">
-								<img
-									loading="lazy"
+								<CustomImage
+									loading=""
 									src={data.image.url}
 									alt=""
 									className="rounded-2xl border object-cover dark:border-gray-800"

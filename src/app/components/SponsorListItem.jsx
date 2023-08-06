@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
+import CustomImage from "./CustomImage";
 
 export default function SponsorListItem({
 	data,
@@ -22,8 +23,8 @@ export default function SponsorListItem({
 					whiteBg && "bg-gray-50"
 				)}
 			>
-				<img
-					loading="lazy"
+				<CustomImage
+					loading=""
 					src={data.logo.url || data.logo}
 					alt=""
 					className={twMerge(

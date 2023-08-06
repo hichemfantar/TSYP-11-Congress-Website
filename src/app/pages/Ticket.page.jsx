@@ -11,6 +11,7 @@ import ticketModule from "../components/ticket.module.css";
 
 import DiarLemdinaPoolNight from "./Diar-Lemdina-pool-night.png";
 import tsypfavicon from "./Asset 10.svg";
+import CustomImage from "../components/CustomImage";
 
 export default function TicketPage() {
 	return (
@@ -32,7 +33,7 @@ export default function TicketPage() {
 										)
 									}
 								>
-									<img
+									<CustomImage
 										src={ticketsData[category].ticketImgUrl}
 										alt=""
 										className="mx-auto h-14 w-14 rounded-full border border-gray-400 object-cover p-[0.12rem]"
@@ -54,7 +55,7 @@ export default function TicketPage() {
 									icon={faTicket}
 									className="mx-auto h-6 w-6 -rotate-45 rounded-full object-cover p-[0.12rem] text-gray-900 dark:text-gray-300"
 								/> */}
-								<img
+								<CustomImage
 									src={tsypfavicon}
 									alt=""
 									className="-full mx-auto h-14 w-14  border-gray-400 object-contain p-[0.12rem]"
@@ -106,7 +107,7 @@ export default function TicketPage() {
 
 											<div className="flex min-h-[inherit] flex-col justify-between gap-4 py-14">
 												<div className="flex flex-col items-center justify-center gap-2">
-													<img
+													<CustomImage
 														src="https://avatars.githubusercontent.com/hichemfantar"
 														alt=""
 														className="h-20 w-20 rounded-full border border-gray-400 object-cover p-[0.12rem]"
@@ -125,7 +126,7 @@ export default function TicketPage() {
 			</div> */}
 
 												{/* <div className="poster">
-				<img
+				<CustomImage
 					src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/25240/only-god-forgives.jpg"
 					alt="Movie: Only God Forgives"
 				/>
@@ -196,7 +197,7 @@ export default function TicketPage() {
 											<div className="flex min-h-[inherit] justify-between gap-4 py-10 px-10">
 												<div className="flex flex-1 flex-col gap-2">
 													<div className="flex items-center gap-2">
-														<img
+														<CustomImage
 															src="https://avatars.githubusercontent.com/hichemfantar"
 															alt=""
 															className="h-20 w-20 rounded-full border border-gray-400 object-cover p-[0.12rem]"

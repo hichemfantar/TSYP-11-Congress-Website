@@ -1,6 +1,7 @@
 import { differenceInMinutes, format, formatDistance } from "date-fns";
 import React from "react";
 import { twMerge } from "tailwind-merge";
+import CustomImage from "./CustomImage";
 
 export default function ScheduleBox({ data, classNames }) {
 	return (
@@ -28,8 +29,8 @@ export default function ScheduleBox({ data, classNames }) {
 				<div className="flex flex-wrap items-center gap-2">
 					<div className="flex -space-x-4">
 						{data.speaker.map((e) => (
-							<img
-								loading="lazy"
+							<CustomImage
+								loading=""
 								key={e.name}
 								className="h-10 w-10 rounded-full border border-white object-cover dark:border-gray-800"
 								src={

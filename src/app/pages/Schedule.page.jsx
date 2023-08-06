@@ -1,3 +1,4 @@
+import CustomImage from "../components/CustomImage";
 import ScheduleList from "../components/schedule/ScheduleList";
 
 export default function SchedulePage() {
@@ -17,7 +18,7 @@ export default function SchedulePage() {
 							width: "100%",
 						}}
 						allowfullscreen=""
-						loading="lazy"
+						loading=""
 						referrerpolicy="no-referrer-when-downgrade"
 					></iframe>
 				</div>
@@ -37,13 +38,13 @@ export default function SchedulePage() {
 
 			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 				<div className="col-span-6 mx-auto">
-					<img
+					<CustomImage
 						src={
 							"https://media-cdn.tripadvisor.com/media/photo-s/15/48/c8/90/hotel-diar-lemdina.jpg"
 						}
 						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-6">
@@ -65,13 +66,13 @@ export default function SchedulePage() {
 
 			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 				<div className="col-span-6 mx-auto md:order-last">
-					<img
+					<CustomImage
 						src={
 							"https://images.pexels.com/photos/7964237/pexels-photo-7964237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
 						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-6">
@@ -87,13 +88,13 @@ export default function SchedulePage() {
 
 			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 				<div className="col-span-6 mx-auto">
-					<img
+					<CustomImage
 						src={
 							"https://images.pexels.com/photos/3321793/pexels-photo-3321793.jpeg?auto=compress&cs=tinysrgb&w=1600"
 						}
 						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-6">
@@ -111,13 +112,13 @@ export default function SchedulePage() {
 
 			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 				<div className="col-span-6 mx-auto md:order-last">
-					<img
+					<CustomImage
 						src={
 							"https://images.pexels.com/photos/3285203/pexels-photo-3285203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
 						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-6">
@@ -134,13 +135,13 @@ export default function SchedulePage() {
 
 			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 				<div className="col-span-6 mx-auto">
-					<img
+					<CustomImage
 						src={
 							"https://images.pexels.com/photos/4963436/pexels-photo-4963436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
 						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-6">
@@ -160,13 +161,13 @@ export default function SchedulePage() {
 
 			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 				<div className="col-span-6 mx-auto md:order-last">
-					<img
+					<CustomImage
 						src={
 							"https://images.pexels.com/photos/6476783/pexels-photo-6476783.jpeg?auto=compress&cs=tinysrgb&w=1600"
 						}
 						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-6">
@@ -184,13 +185,13 @@ export default function SchedulePage() {
 
 			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 				<div className="col-span-6 mx-auto">
-					<img
+					<CustomImage
 						src={
 							"https://images.pexels.com/photos/2422294/pexels-photo-2422294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
 						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-6">
@@ -208,13 +209,13 @@ export default function SchedulePage() {
 
 			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 				<div className="col-span-6 mx-auto md:order-last">
-					<img
+					<CustomImage
 						src={
 							"https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
 						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-6">
@@ -231,13 +232,13 @@ export default function SchedulePage() {
 
 			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 				<div className="col-span-6 mx-auto">
-					<img
+					<CustomImage
 						src={
 							"https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
 						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-6">
@@ -253,13 +254,13 @@ export default function SchedulePage() {
 
 			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 				<div className="col-span-6 mx-auto md:order-last">
-					<img
+					<CustomImage
 						src={
 							"https://images.pexels.com/photos/2182975/pexels-photo-2182975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
 						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-6">
@@ -277,13 +278,13 @@ export default function SchedulePage() {
 
 			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 				<div className="col-span-6 mx-auto">
-					<img
+					<CustomImage
 						src={
 							"https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
 						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-6">
@@ -299,13 +300,13 @@ export default function SchedulePage() {
 
 			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 				<div className="col-span-6 mx-auto md:order-last">
-					<img
+					<CustomImage
 						src={
 							"https://images.pexels.com/photos/3678057/pexels-photo-3678057.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						}
 						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-6">
@@ -321,13 +322,13 @@ export default function SchedulePage() {
 
 			<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 				<div className="col-span-6 mx-auto">
-					<img
+					<CustomImage
 						src={
 							"https://media-cdn.tripadvisor.com/media/photo-s/15/48/c8/90/hotel-diar-lemdina.jpg"
 						}
 						className="mx-auto aspect-video rounded-2xl object-cover"
 						alt="TSYP 11"
-						loading="lazy"
+						loading=""
 					/>
 				</div>
 				<div className="col-span-6">

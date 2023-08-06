@@ -104,7 +104,7 @@ export function ContactDetails({ title = "Reach us" }) {
 							// width: "100%",
 						}}
 						allowfullscreen=""
-						loading="lazy"
+						loading=""
 						referrerpolicy="no-referrer-when-downgrade"
 					></iframe>
 				</div>

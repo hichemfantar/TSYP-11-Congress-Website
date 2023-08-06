@@ -14,13 +14,17 @@ import TSYP2021 from "../../assets/tsyp-editions/tsyp-2021.jpg";
 
 // memories assets
 import memory1 from "../../assets/memories/356543044_934550990939126_5175676186716871815_n.jpg";
-import memory2 from "../../assets/memories/356551992_226751036434551_8933123460754285924_n.jpg";
+// import memory2 from "../../assets/memories/356551992_226751036434551_8933123460754285924_n.jpg";
+import memory2 from "../../assets/memories/320777930_2311490175678507_4343281339549131430_n.jpg";
 import memory3 from "../../assets/memories/356597928_284785967424808_4014952816457019128_n.jpg";
-import memory4 from "../../assets/memories/356638153_1045852983243072_6319438153536457058_n.jpg";
+// import memory4 from "../../assets/memories/356638153_1045852983243072_6319438153536457058_n.jpg";
+import memory4 from "../../assets/memories/320890318_2005696479633031_3916944159098055484_n.jpg";
 import memory5 from "../../assets/memories/356779690_1021512152540830_7436088057197797763_n.jpg";
-import memory6 from "../../assets/memories/356870057_205006965857961_5503311855628802179_n.jpg";
+// import memory6 from "../../assets/memories/356870057_205006965857961_5503311855628802179_n.jpg";
+import memory6 from "../../assets/memories/322250720_721543699171031_4597921719413023052_n.jpg";
 import memory7 from "../../assets/memories/356882005_272016892113248_6469925021621114931_n.jpg";
-import memory8 from "../../assets/memories/357311497_1034866187885516_4807505043687124219_n.jpg";
+// import memory8 from "../../assets/memories/357311497_1034866187885516_4807505043687124219_n.jpg";
+import memory8 from "../../assets/memories/321296201_1206807523592277_5346561523774336230_n.jpg";
 import memory9 from "../../assets/memories/358218740_2128948947437461_3099469010629116758_n.jpg";
 import memory10 from "../../assets/memories/358619396_222649417397966_6373005098322693727_n.jpg";
 import memory11 from "../../assets/memories/358766087_984763039233782_8396677229418813180_n.jpg";
@@ -46,6 +50,7 @@ import { Countdown } from "../components/Countdown";
 import StyledButton from "../components/StyledButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
+import CustomImage from "../components/CustomImage";
 
 export default function HomePage() {
 	const matches = useMediaQuery("(min-width: 768px)");
@@ -65,17 +70,17 @@ export default function HomePage() {
 					{false && (
 						<>
 							{" "}
-							<img
+							<CustomImage
 								src={Logo}
 								className="mx-auto mb-8 hidden h-52 object-contain dark:block dark:invert sm:h-48"
 								alt="TSYP 11"
-								loading="lazy"
+								loading=""
 							/>
-							<img
+							<CustomImage
 								src={LightLogo}
 								className="mx-auto h-56 object-contain dark:hidden sm:h-52"
 								alt="TSYP 11"
-								loading="lazy"
+								loading=""
 							/>
 						</>
 					)}
@@ -153,7 +158,7 @@ export default function HomePage() {
 			</div> */}
 			</section>
 
-			<img
+			<CustomImage
 				src={logoBar}
 				alt=""
 				className="hidden h-52 object-contain dark:invert lg:block"
@@ -212,7 +217,7 @@ export default function HomePage() {
 							// width: "100%",
 						}}
 						allowfullscreen=""
-						loading="lazy"
+						loading=""
 						referrerpolicy="no-referrer-when-downgrade"
 					></iframe>
 				</div>
@@ -226,11 +231,11 @@ export function AboutESSTHSSB(params) {
 	return (
 		<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
 			<div className="col-span-6 mx-auto">
-				<img
+				<CustomImage
 					src={SBGroupPic}
 					className="mx-auto h-56 rounded-2xl object-cover sm:h-96"
 					alt="TSYP 11"
-					loading="lazy"
+					loading=""
 				/>
 			</div>
 			<div className="col-span-6">
@@ -267,11 +272,11 @@ export function AboutTunisiaSection(params) {
 	return (
 		<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
 			<div className="col-span-6 mx-auto md:order-last">
-				<img
+				<CustomImage
 					src={IeeeTunisia}
 					className="mx-auto h-52 object-contain sm:h-96"
 					alt="TSYP 11"
-					loading="lazy"
+					loading=""
 				/>
 			</div>
 			<div className="col-span-6">
@@ -310,20 +315,20 @@ export function AboutTSYP(params) {
 	return (
 		<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
 			<div className="col-span-6 mx-auto">
-				<img
+				<CustomImage
 					src={LogoOnBlack || Logo}
 					className={`mx-auto mb-8 hidden h-52 object-contain dark:block ${
 						LogoOnBlack ? "" : "dark:invert"
 					} sm:h-48`}
 					alt="TSYP 11"
-					loading="lazy"
+					loading=""
 				/>
 
-				<img
+				<CustomImage
 					src={LightLogo}
 					className="mx-auto h-56 object-contain dark:hidden sm:h-60"
 					alt="TSYP 11"
-					loading="lazy"
+					loading=""
 				/>
 			</div>
 			<div className="col-span-6">
@@ -352,79 +357,79 @@ function Memories() {
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-3">
 				<div className="grid gap-4">
 					<div>
-						<img
+						<CustomImage
 							className="h-full w-full rounded-lg object-cover"
 							src={memory10}
 							alt=""
-							loading="lazy"
+							loading=""
 						/>
 					</div>
 					<div>
-						<img
+						<CustomImage
 							className="h-full w-full rounded-lg object-cover"
 							src={memory2}
 							alt=""
-							loading="lazy"
+							loading=""
 						/>
 					</div>
 					<div>
-						<img
+						<CustomImage
 							className="h-full w-full rounded-lg object-cover"
 							src={memory3}
 							alt=""
-							loading="lazy"
+							loading=""
 						/>
 					</div>
 				</div>
 				<div className="grid gap-4">
 					<div>
-						<img
+						<CustomImage
 							className="h-full w-full rounded-lg object-cover"
 							src={memory4}
 							alt=""
-							loading="lazy"
+							loading=""
 						/>
 					</div>
 					<div>
-						<img
+						<CustomImage
 							className="h-full w-full rounded-lg object-cover"
 							src={memory5}
 							alt=""
-							loading="lazy"
+							loading=""
 						/>
 					</div>
 					<div>
-						<img
+						<CustomImage
 							className="h-full w-full rounded-lg object-cover"
 							src={memory6}
 							alt=""
-							loading="lazy"
+							loading=""
 						/>
 					</div>
 				</div>
 				<div className="grid gap-4">
 					<div>
-						<img
+						<CustomImage
 							className="h-full w-full rounded-lg object-cover"
 							src={memory7}
 							alt=""
-							loading="lazy"
+							loading=""
 						/>
 					</div>
 					<div>
-						<img
+						<CustomImage
 							className="h-full w-full rounded-lg object-cover"
 							src={memory8}
 							alt=""
-							loading="lazy"
+							loading=""
 						/>
 					</div>
 					<div>
-						<img
+						<CustomImage
 							className="h-full w-full rounded-lg object-cover"
 							src={memory9}
 							alt=""
-							loading="lazy"
+							loading=""
 						/>
 					</div>
 				</div>
@@ -442,7 +447,7 @@ function AboutCongress() {
 				</h2>
 				<div className="mx-auto mt-10 grid max-w-lg items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-12">
 					<div className="col-span-4 flex flex-col items-center gap-4">
-						<img
+						<CustomImage
 							className="h-14 w-14 object-contain"
 							src="https://sections-congress.ieee.org/assets/img/site_images/home/network.webp"
 							alt=""
@@ -453,7 +458,7 @@ function AboutCongress() {
 						</p>
 					</div>
 					<div className="col-span-4 flex flex-col items-center gap-4">
-						<img
+						<CustomImage
 							className="h-14 w-14 object-contain"
 							src="https://sections-congress.ieee.org/assets/img/site_images/home/learn.webp"
 							alt=""
@@ -465,7 +470,7 @@ function AboutCongress() {
 						</p>
 					</div>
 					<div className="col-span-4 flex flex-col items-center gap-4">
-						<img
+						<CustomImage
 							className="h-14 w-14 object-contain"
 							src="https://sections-congress.ieee.org/assets/img/site_images/home/goal.webp"
 							alt=""
@@ -495,13 +500,13 @@ function PreviousEditions() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img
+							<CustomImage
 								className="col-span-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2022}
 								alt="TSYP2022"
 								// width={200}
 								// height={200}
-								loading="lazy"
+								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2022</h1>
@@ -512,13 +517,13 @@ function PreviousEditions() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img
+							<CustomImage
 								className="col-span-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2021Dark}
 								alt="TSYP2021Dark"
 								// width={200}
 								// height={200}
-								loading="lazy"
+								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2021</h1>
@@ -529,13 +534,13 @@ function PreviousEditions() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img
+							<CustomImage
 								className="col-span-2 h-[120px] w-[120px] rounded-full object-cover shadow-md shadow-gray-200 transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2020}
 								alt="TSYP2020"
 								// width={200}
 								// height={200}
-								loading="lazy"
+								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2020</h1>
@@ -547,13 +552,13 @@ function PreviousEditions() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img
+							<CustomImage
 								className="col-span-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2019}
 								alt="TSYP2019"
 								// width={200}
 								// height={200}
-								loading="lazy"
+								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2019</h1>
@@ -564,13 +569,13 @@ function PreviousEditions() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img
+							<CustomImage
 								className="col-span-2 h-[120px] w-[120px] rounded-full object-contain p-4 shadow-md shadow-gray-200 transition dark:invert sm:col-start-2 md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2018}
 								alt="TSYP2018"
 								// width={200}
 								// height={200}
-								loading="lazy"
+								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2018</h1>
@@ -581,13 +586,13 @@ function PreviousEditions() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img
+							<CustomImage
 								className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition dark:invert sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2017}
 								alt="TSYP2017"
 								// width={200}
 								// height={200}
-								loading="lazy"
+								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2017</h1>
@@ -598,13 +603,13 @@ function PreviousEditions() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img
+							<CustomImage
 								className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition dark:invert sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2016}
 								alt="TSYP2016"
 								// width={200}
 								// height={200}
-								loading="lazy"
+								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2016</h1>
@@ -615,13 +620,13 @@ function PreviousEditions() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img
+							<CustomImage
 								className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={IeeeTunisia}
 								alt="IeeeTunisia"
 								// width={200}
 								// height={200}
-								loading="lazy"
+								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2015</h1>
@@ -632,26 +637,26 @@ function PreviousEditions() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img
+							<CustomImage
 								className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-900 invert transition dark:invert-0 sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={TSYP2014}
 								alt="TSYP2014"
 								// width={200}
 								// height={200}
-								loading="lazy"
+								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2014</h1>
 					</div>
 					<div className="transition hover:scale-105">
 						<a href="#">
-							<img
+							<CustomImage
 								className="col-span-2 col-start-2 h-[120px] w-[120px] rounded-full object-contain shadow-md shadow-gray-200 transition sm:col-start-auto md:h-[200px] md:w-[200px] lg:col-span-1"
 								src={IeeeTunisia}
 								alt="IeeeTunisia"
 								// width={200}
 								// height={200}
-								loading="lazy"
+								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2013</h1>
@@ -674,13 +679,13 @@ function PoweredBy() {
 						rel="noreferrer"
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
-						<img
+						<CustomImage
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={IeeeTunisia}
 							alt="IeeeTunisia"
 							// width={200}
 							// height={200}
-							loading="lazy"
+							loading=""
 						/>
 					</a>
 					<a
@@ -689,13 +694,13 @@ function PoweredBy() {
 						rel="noreferrer"
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
-						<img
+						<CustomImage
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={YpTunisia}
 							alt="YpTunisia"
 							// width={200}
 							// height={200}
-							loading="lazy"
+							loading=""
 						/>
 					</a>
 					<a
@@ -704,13 +709,13 @@ function PoweredBy() {
 						rel="noreferrer"
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
 					>
-						<img
+						<CustomImage
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={essthsLogo}
 							alt="essthsLogo"
 							// width={200}
 							// height={200}
-							loading="lazy"
+							loading=""
 						/>
 					</a>
 				</div>
@@ -731,13 +736,13 @@ function IEEEPartners() {
 						rel="noreferrer"
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
-						<img
+						<CustomImage
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={IEEER8}
 							alt="Transistor"
 							// width={200}
 							// height={200}
-							loading="lazy"
+							loading=""
 						/>
 					</a>
 					<a
@@ -746,13 +751,13 @@ function IEEEPartners() {
 						rel="noreferrer"
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
-						<img
+						<CustomImage
 							className="col-span-2 h-[115px] w-[115px] rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={R8_SAC}
 							alt="Transistor"
 							// width={200}
 							// height={200}
-							loading="lazy"
+							loading=""
 						/>
 					</a>
 					<a
@@ -761,13 +766,13 @@ function IEEEPartners() {
 						rel="noreferrer"
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
-						<img
+						<CustomImage
 							className="col-span-2 h-[115px] w-[115px] object-contain transition dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={aess}
 							alt="Transistor"
 							// width={200}
 							// height={200}
-							loading="lazy"
+							loading=""
 						/>
 					</a>
 					<a
@@ -776,13 +781,13 @@ function IEEEPartners() {
 						rel="noreferrer"
 						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
-						<img
+						<CustomImage
 							className="col-span-2 h-[115px] w-[115px] object-contain transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={IASLogo}
 							alt="Transistor"
 							// width={200}
 							// height={200}
-							loading="lazy"
+							loading=""
 						/>
 					</a>
 				</div>

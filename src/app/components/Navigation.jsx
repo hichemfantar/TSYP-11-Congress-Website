@@ -9,6 +9,7 @@ import LogoOnBlack from "../../assets/Logo on black.png";
 import ThemeToggle from "./ThemeToggle";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
+import CustomImage from "./CustomImage";
 
 export default function Navigation() {
 	const [toggleModal, setToggleModal] = useState(false);
@@ -18,7 +19,7 @@ export default function Navigation() {
 			<nav className="rounded border-gray-200 px-4 py-2.5 sm:px-8">
 				<div className="container mx-auto flex flex-wrap items-center justify-between">
 					<Link to="/" className="flex items-center">
-						<img
+						<CustomImage
 							loading="eager"
 							src={LogoOnBlack || Logo}
 							className={`mr-3 hidden h-8 dark:block ${
@@ -26,7 +27,7 @@ export default function Navigation() {
 							} sm:h-10`}
 							alt="TSYP 11"
 						/>
-						<img
+						<CustomImage
 							loading="eager"
 							src={LightLogo}
 							className={`mr-3 h-10 dark:hidden sm:h-12`}

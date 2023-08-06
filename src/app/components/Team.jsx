@@ -18,6 +18,7 @@ import wijdene from "../../assets/OC pictures/wijdene.png";
 import hichem from "../../assets/OC pictures/hichem.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
+import CustomImage from "./CustomImage";
 
 export default function Team({ limit = 0 }) {
 	return (
@@ -39,14 +40,14 @@ export default function Team({ limit = 0 }) {
 								key={speaker.name}
 								className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
 							>
-								<img
+								<CustomImage
 									style={{
 										objectPosition: "center top",
 									}}
 									src={speaker.imageSmall.url}
 									alt=""
 									className="mb-2 h-96 w-full rounded-lg object-cover md:h-64"
-									loading="lazy"
+									loading=""
 								/>
 								<div className="font-bold">{speaker.name}</div>
 								{/* <div className="mb-2 text-sm text-gray-600 dark:text-gray-400">

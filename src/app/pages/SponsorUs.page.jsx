@@ -3,6 +3,7 @@ import tsypCollabFilePreview from "../../assets/dossier-collab-tsyp.png";
 import tsypCollabPDF from "../../assets/pdf/14.04.ENGLISH-PDF-DOSSIER-Collaboration-Final.pdf";
 import { Link } from "react-router-dom";
 import { ContactDetails } from "./Contact.page";
+import CustomImage from "../components/CustomImage";
 
 export default function SponsorUsPage() {
 	return (
@@ -16,11 +17,11 @@ export default function SponsorUsPage() {
 							rel="noreferrer"
 							className=""
 						>
-							<img
+							<CustomImage
 								src={tsypCollabFilePreview}
 								className="mx-auto h-[32rem] rounded-2xl object-cover shadow-lg transition hover:scale-105"
 								alt="TSYP 11"
-								loading="lazy"
+								loading=""
 							/>
 						</Link>
 					</div>

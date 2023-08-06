@@ -1,5 +1,6 @@
 import React from "react";
 import ticketModule from "./ticket.module.css";
+import CustomImage from "./CustomImage";
 
 export default function TicketDesktop({ ticket }) {
 	return (
@@ -26,7 +27,7 @@ export default function TicketDesktop({ ticket }) {
 			<div className="flex min-h-[inherit] justify-between gap-4 py-10 px-10">
 				<div className="flex flex-1 flex-col gap-2">
 					<div className="flex items-center gap-2">
-						<img
+						<CustomImage
 							src="https://avatars.githubusercontent.com/hichemfantar"
 							alt=""
 							className="h-20 w-20 rounded-full border border-gray-400 object-cover p-[0.12rem]"

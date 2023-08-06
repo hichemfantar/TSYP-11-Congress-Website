@@ -70,10 +70,10 @@ export default function TimelineShedule() {
 														icon={s?.icon}
 														className="h-12 w-12"
 													/>
-													{/* <img
+													{/* <CustomImage
 														src="/themes/satoripop-2019/images/services/smartphone-4.svg"
 														alt="Design"
-					loading="lazy"
+					loading=""
 													/> */}
 												</div>
 											</div>

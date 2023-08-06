@@ -7,6 +7,7 @@ import { Link, useParams } from "react-router-dom";
 import ExpoDetailsResources from "./ExpoDetailsResources";
 import { sponsorsData } from "./SponsorsList";
 import StyledButton from "./StyledButton";
+import CustomImage from "./CustomImage";
 
 export default function ExpoItemDetails() {
 	const { companySlug } = useParams();
@@ -31,12 +32,13 @@ function ExpoDetails({ data }) {
 	return (
 		<div className="grid grid-cols-12 gap-y-8 md:gap-x-8">
 			<div className="col-span-full md:col-span-5">
-				<img
-					loading="lazy"
+				<CustomImage
+					loading=""
 					src={data.logo.url || data.logo}
 					alt=""
 					className="mx-auto aspect-video h-48 rounded-lg bg-black object-contain p-6"
 				/>
+
 				<div className="mt-4 hidden md:block">
 					{data.links && <ExpoDetailsResources links={data.links} />}
 				</div>

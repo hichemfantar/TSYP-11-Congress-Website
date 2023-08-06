@@ -9,6 +9,7 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 import { speakersData } from "./Speakers";
 import StyledButton from "./StyledButton";
+import CustomImage from "./CustomImage";
 
 export default function Speaker() {
 	const { speakerSlug } = useParams();
@@ -26,8 +27,8 @@ export default function Speaker() {
 
 			<div className="grid grid-cols-12 gap-y-8 md:gap-x-8">
 				<div className="col-span-full md:col-span-4">
-					<img
-						loading="lazy"
+					<CustomImage
+						loading=""
 						src={currentSpeaker.imageSmall.url}
 						alt=""
 						className="mx-auto h-60 rounded-lg object-cover"

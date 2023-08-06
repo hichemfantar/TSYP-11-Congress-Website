@@ -1,5 +1,6 @@
 import React from "react";
 import ticketModule from "./ticket.module.css";
+import CustomImage from "./CustomImage";
 
 export default function Ticket({ ticket }) {
 	return (
@@ -23,7 +24,7 @@ export default function Ticket({ ticket }) {
 
 			<div className="flex min-h-[inherit] flex-col justify-between gap-4 py-14">
 				<div className="flex flex-col items-center justify-center gap-2">
-					<img
+					<CustomImage
 						src="https://avatars.githubusercontent.com/hichemfantar"
 						alt=""
 						className="h-20 w-20 rounded-full border border-gray-400 object-cover p-[0.12rem]"
@@ -38,7 +39,7 @@ export default function Ticket({ ticket }) {
 			</div> */}
 
 				{/* <div className="poster">
-				<img
+				<CustomImage
 					src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/25240/only-god-forgives.jpg"
 					alt="Movie: Only God Forgives"
 				/>
