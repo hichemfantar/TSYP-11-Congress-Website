@@ -37,6 +37,7 @@ import IEEER8 from "../../assets/IEEE R8.svg";
 import R8_SAC from "../../assets/R8_SAC.png";
 import aess from "../../assets/aess.png";
 import IASLogo from "../../assets/ias-logo-shadowbg.png";
+import MTTSLogo from "../../assets/ieee/mtts-circle-logo.jpg";
 
 import TSYP2021Dark from "../../assets/tsyp-editions/tsyp-2021-dark.png";
 import TSYP2022 from "../../assets/tsyp-editions/tsyp-2022.png";
@@ -784,6 +785,21 @@ function IEEEPartners() {
 						<CustomImage
 							className="col-span-2 h-[115px] w-[115px] object-contain transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={IASLogo}
+							alt="Transistor"
+							// width={200}
+							// height={200}
+							loading=""
+						/>
+					</a>
+					<a
+						href="https://mtt.org/"
+						target="_blank"
+						rel="noreferrer"
+						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
+					>
+						<CustomImage
+							className="col-span-2 h-[115px] w-[115px] object-contain transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							src={MTTSLogo}
 							alt="Transistor"
 							// width={200}
 							// height={200}

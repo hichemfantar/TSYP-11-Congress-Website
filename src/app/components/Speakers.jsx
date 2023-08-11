@@ -9,6 +9,8 @@ import MikeHinchey from "../../assets/people/Mike Hinchey.webp";
 import KhaledSliti from "../../assets/people/Khaled Sliti.jpg";
 import KhaledLetaief from "../../assets/people/Khaled Letaief.jpg";
 import MathurDeepak from "../../assets/people/mathur-deepak.webp";
+import Maurizio_Bozzi from "../../assets/people/Maurizio_Bozzi.jpg";
+import hamza_abdelhedi from "../../assets/people/hamza_abdelhedi.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLink, faPlus } from "@fortawesome/free-solid-svg-icons";
 import CustomImage from "./CustomImage";
@@ -72,26 +74,6 @@ export const speakersData = [
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			descriptionWithFormatting: {
-				value: {
-					schema: "dast",
-					document: {
-						type: "root",
-						children: [
-							{
-								type: "paragraph",
-								children: [
-									{
-										type: "span",
-										value:
-											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-									},
-								],
-							},
-						],
-					},
-				},
-			},
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
 		slug: "Thomas Coughlin",
@@ -115,26 +97,6 @@ export const speakersData = [
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			descriptionWithFormatting: {
-				value: {
-					schema: "dast",
-					document: {
-						type: "root",
-						children: [
-							{
-								type: "paragraph",
-								children: [
-									{
-										type: "span",
-										value:
-											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-									},
-								],
-							},
-						],
-					},
-				},
-			},
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
 		slug: "Abdulateef Aliyu",
@@ -158,26 +120,6 @@ export const speakersData = [
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			descriptionWithFormatting: {
-				value: {
-					schema: "dast",
-					document: {
-						type: "root",
-						children: [
-							{
-								type: "paragraph",
-								children: [
-									{
-										type: "span",
-										value:
-											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-									},
-								],
-							},
-						],
-					},
-				},
-			},
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
 		slug: "Braham Himed",
@@ -201,26 +143,6 @@ export const speakersData = [
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			descriptionWithFormatting: {
-				value: {
-					schema: "dast",
-					document: {
-						type: "root",
-						children: [
-							{
-								type: "paragraph",
-								children: [
-									{
-										type: "span",
-										value:
-											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-									},
-								],
-							},
-						],
-					},
-				},
-			},
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
 		slug: "Srikanth Pillai",
@@ -244,26 +166,6 @@ export const speakersData = [
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			descriptionWithFormatting: {
-				value: {
-					schema: "dast",
-					document: {
-						type: "root",
-						children: [
-							{
-								type: "paragraph",
-								children: [
-									{
-										type: "span",
-										value:
-											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-									},
-								],
-							},
-						],
-					},
-				},
-			},
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
 		slug: "Mike Hinchey",
@@ -287,26 +189,6 @@ export const speakersData = [
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			descriptionWithFormatting: {
-				value: {
-					schema: "dast",
-					document: {
-						type: "root",
-						children: [
-							{
-								type: "paragraph",
-								children: [
-									{
-										type: "span",
-										value:
-											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-									},
-								],
-							},
-						],
-					},
-				},
-			},
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
 		slug: "Khaled Sliti",
@@ -330,26 +212,6 @@ export const speakersData = [
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			descriptionWithFormatting: {
-				value: {
-					schema: "dast",
-					document: {
-						type: "root",
-						children: [
-							{
-								type: "paragraph",
-								children: [
-									{
-										type: "span",
-										value:
-											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-									},
-								],
-							},
-						],
-					},
-				},
-			},
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
 		slug: "Khaled Letaief",
@@ -373,26 +235,6 @@ export const speakersData = [
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			descriptionWithFormatting: {
-				value: {
-					schema: "dast",
-					document: {
-						type: "root",
-						children: [
-							{
-								type: "paragraph",
-								children: [
-									{
-										type: "span",
-										value:
-											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-									},
-								],
-							},
-						],
-					},
-				},
-			},
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
 		slug: "Deepak Mathur",
@@ -405,6 +247,61 @@ export const speakersData = [
 		},
 		imageSmall: {
 			url: MathurDeepak,
+		},
+	},
+	{
+		enabled: true,
+		name: "Hamza Abdelhedi",
+		bio: `Hamza Abdelhedi is computer science research master's student at the University of Montreal, specializing in the field of neuro-AI. He holds a telecommunications engineering diploma from the Higher School of Communication of Tunis (SUPCOM) with a background in mathematics from his pre-engineering studies. He is a Graduate Research Assistant at the Cognitive & Computational Neuroscience Lab supervised by Dr. Karim Jerbi. Hamza's primary focus is on exploring the integration of artificial and biological neural networks in face recognition, utilizing deep learning techniques and Magnetoencephalography (MEG) for analyzing internal representations with the aim of contributing to our understanding of the brain's complexities..
+
+		Hamza's master's project has received significant support from prestigious scholarships such as the Cerebrum Neuro-AI Scholarship and the UNIQUE Excellence Scholarship (MSc level). These scholarships exemplify his commitment to excellence and his unwavering dedication to pushing the boundaries of neuro-AI research.
+		
+		Beyond academia, Hamza actively engages in social sector initiatives. Currently, he serves as a member of the scientific committee responsible for linking scientific research with student affairs at the UNIQUE Research Center. Notably, Hamza's leadership skills were recognized during his tenure as Chairman at the IEEE SUPCOM Student Branch. Under his guidance, the branch successfully organized the inaugural edition of the Deep Learning IndabaX in Tunisia, the largest AI event in Africa, in 2018. In 2020, Hamza's entrepreneurial spirit earned him the third prize in the SUPCOM entrepreneurship challenge and the distinction of being named the best IEEE Region 8 (EMEA) entrepreneurship initiative ambassador.
+		
+		`,
+		title: "Neuro-AI Research",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "hamza_abdelhedi",
+		twitterUsername: "hamza_abdelhedi",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: hamza_abdelhedi,
+		},
+		imageSmall: {
+			url: hamza_abdelhedi,
+		},
+	},
+	{
+		enabled: true,
+		name: "Maurizio Bozzi",
+		bio: `Prof. Bozzi is the 2023 President Elect of the IEEE Microwave Theory and Technology Society (MTT-S). He was an elected Member of the Administrative Committee of MTT-S for years 2017–2022, the MTT-S Treasurer for years 2020–2022, the Chair of the Meetings and Symposia Committee of MTT-S AdCom for years 2018-2019, and the Secretary of MTT-S for year 2016. He was also a member of the General Assembly (GA) of the European Microwave Association (EuMA) for the term 2014–2016.
+		He served as a Track Editor of the IEEE Transactions on Microwave Theory and Techniques and as an Associate Editor of the IEEE Microwave and Wireless Components Letters, the IET Microwaves, Antennas and Propagation, and the IET Electronics Letters.
+		He was the General Chair of the IEEE MTT-S International Microwave Workshop Series-Advanced Materials and Processes (IMWS-AMP 2017), Pavia, Italy, 2017, of the inaugural edition of the IEEE International Conference on Numerical Electromagnetic Modeling and Optimization, NEMO2014 (Pavia, Italy, May 14-16, 2014), and of the IEEE MTT-S International Microwave Workshop Series on Millimeter Wave Integration Technologies (Sitges, Spain, Sept. 15-16, 2011).
+		`,
+		title: "President-Elect MTT-S",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Maurizio_Bozzi",
+		twitterUsername: "Maurizio_Bozzi",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: Maurizio_Bozzi,
+		},
+		imageSmall: {
+			url: Maurizio_Bozzi,
 		},
 	},
 ];
