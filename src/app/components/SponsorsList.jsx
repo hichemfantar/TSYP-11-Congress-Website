@@ -1,5 +1,6 @@
 import SartexGroupLogo from "../../assets/companies/Sartex-group-big-1024x682.png";
 import IeeeEssthsSbLogo from "../../assets/companies/ieee-essths-sb-logo (Custom).png";
+import UniSousse from "../../assets/companies/logo-USo.png";
 import SponsorListItem from "./SponsorListItem";
 
 import IEEER8 from "../../assets/IEEE R8.svg";
@@ -192,6 +193,22 @@ export const sponsorsData = [
 		tierRank: 1,
 		logo: {
 			url: SartexGroupLogo,
+			// url: "https://sartexgroup.com/wp-content/uploads/2019/07/Sartex-group-big-1024x682.png",
+			// url: "https://sartexgroup.com/wp-content/uploads/2018/07/logo-sartex.png",
+		},
+	},
+	{
+		enabled: true,
+		name: "University of Sousse",
+		description: `The University of Sousse is a distinguished institution of higher learning situated in the vibrant city of Sousse, Tunisia. Renowned for its commitment to academic excellence and innovation, the university stands as a beacon of knowledge, research, and cultural enrichment within the region and beyond.
+
+			Established with a strong emphasis on fostering holistic development, the University of Sousse offers a diverse array of academic programs spanning various disciplines. These encompass fields such as engineering, humanities, natural sciences, social sciences, arts, and more. The university's comprehensive curriculum is designed to provide students with both theoretical foundations and practical skills, enabling them to thrive in an ever-evolving global landscape.
+			
+			`,
+		slug: "university-of-sousse",
+		tierRank: 1,
+		logo: {
+			url: UniSousse,
 			// url: "https://sartexgroup.com/wp-content/uploads/2019/07/Sartex-group-big-1024x682.png",
 			// url: "https://sartexgroup.com/wp-content/uploads/2018/07/logo-sartex.png",
 		},

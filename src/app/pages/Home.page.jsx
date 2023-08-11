@@ -32,6 +32,9 @@ import memory11 from "../../assets/memories/358766087_984763039233782_8396677229
 import IeeeTunisia from "../../assets/ieee-tunisia.png";
 import YpTunisia from "../../assets/yp-tunisia-section.png";
 import essthsLogo from "../../assets/essths.png";
+import UniSousse from "../../assets/companies/logo-USo.png";
+import IeeeEssthsSbLogoBlack from "../../assets/companies/ieee-essths-sb-logo-black.png";
+import IeeeLogo from "../../assets/ieee/IEEE_logo.svg.png";
 
 import IEEER8 from "../../assets/IEEE R8.svg";
 import R8_SAC from "../../assets/R8_SAC.png";
@@ -714,6 +717,66 @@ function PoweredBy() {
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={essthsLogo}
 							alt="essthsLogo"
+							// width={200}
+							// height={200}
+							loading=""
+						/>
+					</a>
+					<a
+						href="https://uso.rnu.tn/"
+						target="_blank"
+						rel="noreferrer"
+						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
+					>
+						<CustomImage
+							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							src={UniSousse}
+							alt="university of sousse"
+							// width={200}
+							// height={200}
+							loading=""
+						/>
+					</a>
+					<a
+						href="https://ieeer8.org/"
+						target="_blank"
+						rel="noreferrer"
+						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+					>
+						<CustomImage
+							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							src={IEEER8}
+							alt="IEEE Region 8"
+							// width={200}
+							// height={200}
+							loading=""
+						/>
+					</a>
+					<a
+						href="https://essths.ieee.tn/"
+						target="_blank"
+						rel="noreferrer"
+						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
+					>
+						<CustomImage
+							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							src={IeeeEssthsSbLogoBlack}
+							alt="IEEE ESSTHS SB"
+							// width={200}
+							// height={200}
+							loading=""
+						/>
+					</a>
+					<a
+						href="https://www.ieee.org/"
+						target="_blank"
+						rel="noreferrer"
+						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+					>
+						<CustomImage
+							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							src={IeeeLogo}
+							alt="IEEE"
 							// width={200}
 							// height={200}
 							loading=""
