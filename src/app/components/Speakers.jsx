@@ -11,6 +11,7 @@ import KhaledLetaief from "../../assets/people/Khaled Letaief.jpg";
 import MathurDeepak from "../../assets/people/mathur-deepak.webp";
 import Maurizio_Bozzi from "../../assets/people/Maurizio_Bozzi.jpg";
 import hamza_abdelhedi from "../../assets/people/hamza_abdelhedi.jpg";
+import Dharmawardena_hasala from "../../assets/people/Dharmawardena_hasala.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLink, faPlus } from "@fortawesome/free-solid-svg-icons";
 import CustomImage from "./CustomImage";
@@ -302,6 +303,32 @@ export const speakersData = [
 		},
 		imageSmall: {
 			url: Maurizio_Bozzi,
+		},
+	},
+	{
+		enabled: true,
+		name: "Hasala Dharmawardena",
+		bio: `I believe in the vision that it is possible to design a sustainable power grid that provides electric power to satisfy all basic needs of every human on the earth. In realizing this mission, my interests run from technical to socio-economic aspects of the power system. 
+
+		Having lived on four continents, I am well versed in effectively working in different environments and thrive in working in inter-disciplinary, multi-cultural teams. I have a proven track record of leadership, having started and led many successful initiatives in IEEE and Toastmasters International. I lead IEEE Young Professionals (2023) and serve as liaison to the IEEE Board of Directors.
+		`,
+		title: "Chair of IEEE Young Professionals",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Hasala_Dharmawardena",
+		twitterUsername: "Hasala_Dharmawardena",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: Dharmawardena_hasala,
+		},
+		imageSmall: {
+			url: Dharmawardena_hasala,
 		},
 	},
 ];
