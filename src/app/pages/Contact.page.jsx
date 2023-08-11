@@ -269,7 +269,7 @@ function ContactForm({ title = "Contact us" }) {
 					</p> */}
 						<div
 							class="g-recaptcha"
-							data-sitekey="6LfH4XYnAAAAAGl9725lUE8AGJ0WuCyzL-V0sgoI"
+							data-sitekey="6LdkuJonAAAAADPOvXrCE1hnLvmqqGP7WMt2oK8s"
 						></div>
 
 						<button
