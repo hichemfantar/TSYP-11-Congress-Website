@@ -55,6 +55,7 @@ import StyledButton from "../components/StyledButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 import CustomImage from "../components/CustomImage";
+import { Fade } from "react-awesome-reveal";
 
 export default function HomePage() {
 	const matches = useMediaQuery("(min-width: 768px)");
@@ -69,89 +70,90 @@ export default function HomePage() {
 				</Suspense>
 			)} */}
 
-			<section className="grid grid-cols-12 items-center justify-center py-10 md:py-12">
-				<div className="col-span-12 mx-auto">
-					{false && (
-						<>
-							{" "}
-							<CustomImage
-								src={Logo}
-								className="mx-auto mb-8 hidden h-52 object-contain dark:block dark:invert sm:h-48"
-								alt="TSYP 11"
-								loading=""
-							/>
-							<CustomImage
-								src={LightLogo}
-								className="mx-auto h-56 object-contain dark:hidden sm:h-52"
-								alt="TSYP 11"
-								loading=""
-							/>
-						</>
-					)}
+			<Fade>
+				<section className="grid grid-cols-12 items-center justify-center py-10 md:py-12">
+					<div className="col-span-12 mx-auto">
+						{false && (
+							<>
+								{" "}
+								<CustomImage
+									src={Logo}
+									className="mx-auto mb-8 hidden h-52 object-contain dark:block dark:invert sm:h-48"
+									alt="TSYP 11"
+									loading=""
+								/>
+								<CustomImage
+									src={LightLogo}
+									className="mx-auto h-56 object-contain dark:hidden sm:h-52"
+									alt="TSYP 11"
+									loading=""
+								/>
+							</>
+						)}
 
-					{false && (
-						<h1 className="mb-4 text-center text-4xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
-							Bringing Silicon Valley to Tunisia.
+						{false && (
+							<h1 className="mb-4 text-center text-4xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
+								Bringing Silicon Valley to Tunisia.
+							</h1>
+						)}
+
+						{/* <h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none"> */}
+						<h1 className="mb-8 text-center text-4xl font-bold tracking-tight lg:mb-8 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
+							11th IEEE Tunisian Students & Young Professionals Congress
 						</h1>
-					)}
 
-					{/* <h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none"> */}
-					<h1 className="mb-8 text-center text-4xl font-bold tracking-tight lg:mb-8 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
-						11th IEEE Tunisian Students & Young Professionals Congress
-					</h1>
+						<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+							Medina Congress Center, Yasmine Hammamet
+						</h1>
 
-					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-						Medina Congress Center, Yasmine Hammamet
-					</h1>
-
-					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-						<q>Silicon valley is a mindset, not a location.</q>
-					</h1>
-					<h1 className="mb-8 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-						18 - 20 December 2023
-					</h1>
-					<div className="flex flex-wrap items-center justify-center gap-8">
-						<div className="mb-4">
-							<h1 className="mb-2 text-center text-xl font-bold tracking-tight lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-								1200+
-							</h1>
-							<span className="mt-1 font-bold uppercase">Participants</span>
+						<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+							<q>Silicon valley is a mindset, not a location.</q>
+						</h1>
+						<h1 className="mb-8 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+							18 - 20 December 2023
+						</h1>
+						<div className="flex flex-wrap items-center justify-center gap-8">
+							<div className="mb-4">
+								<h1 className="mb-2 text-center text-xl font-bold tracking-tight lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+									1200+
+								</h1>
+								<span className="mt-1 font-bold uppercase">Participants</span>
+							</div>
+							<div className="w-full md:hidden">
+								<div className="mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
+							</div>
+							<div className="hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
+							<Countdown
+								timeTillDate="12 18 2023, 6:00 am"
+								timeFormat="MM DD YYYY, h:mm a"
+							/>
+							<div className="w-full md:hidden">
+								<div className="mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
+							</div>
+							<div className="hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
+							<div className="mb-4">
+								<h1 className="mb-2 text-center text-xl font-bold tracking-tight lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+									50+
+								</h1>
+								<span className="mt-1 font-bold uppercase">Speakers</span>
+							</div>
 						</div>
-						<div className="w-full md:hidden">
-							<div className="mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
-						</div>
-						<div className="hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
-						<Countdown
-							timeTillDate="12 18 2023, 6:00 am"
-							timeFormat="MM DD YYYY, h:mm a"
-						/>
-						<div className="w-full md:hidden">
-							<div className="mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
-						</div>
-						<div className="hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
-						<div className="mb-4">
-							<h1 className="mb-2 text-center text-xl font-bold tracking-tight lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-								50+
-							</h1>
-							<span className="mt-1 font-bold uppercase">Speakers</span>
+						<div className="flex justify-center gap-6">
+							<Link to={"/sponsor-us"} className="mt-8 flex justify-center">
+								<StyledButton
+									message={"Registrations Opening Soon"}
+									// icon={<FontAwesomeIcon icon={faExternalLink} />}
+								/>
+							</Link>
+							<Link to={"/sponsor-us"} className="mt-8 flex justify-center">
+								<StyledButton
+									message={"Become a Sponsor"}
+									// icon={<FontAwesomeIcon icon={faExternalLink} />}
+								/>
+							</Link>
 						</div>
 					</div>
-					<div className="flex justify-center gap-6">
-						<Link to={"/sponsor-us"} className="mt-8 flex justify-center">
-							<StyledButton
-								message={"Registrations Opening Soon"}
-								// icon={<FontAwesomeIcon icon={faExternalLink} />}
-							/>
-						</Link>
-						<Link to={"/sponsor-us"} className="mt-8 flex justify-center">
-							<StyledButton
-								message={"Become a Sponsor"}
-								// icon={<FontAwesomeIcon icon={faExternalLink} />}
-							/>
-						</Link>
-					</div>
-				</div>
-				{/* <div className="col-span-6">
+					{/* <div className="col-span-6">
 				<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-6xl lg:font-extrabold lg:leading-none">
 					Welcome to our Silicon Valley.
 				</h1>
@@ -160,72 +162,90 @@ export default function HomePage() {
 					IEEE ESSTHS in Silicon Valley congress.
 				</h1>
 			</div> */}
-			</section>
+				</section>
+			</Fade>
 
-			<CustomImage
-				src={logoBar}
-				alt=""
-				className="hidden h-52 object-contain dark:invert lg:block"
-			/>
+			<Fade>
+				<CustomImage
+					src={logoBar}
+					alt=""
+					className="hidden h-52 object-contain dark:invert lg:block"
+				/>
+			</Fade>
 
-			<AboutTSYP />
+			<Fade>
+				<AboutTSYP />
+			</Fade>
 
-			<AboutTunisiaSection />
-
-			<AboutESSTHSSB />
-
-			<section className="py-8 md:py-10">
-				<AboutCongress />
-			</section>
-
-			<section className="py-8 md:py-10">
-				<PreviousEditions />
-			</section>
-
-			<section className="py-8 md:py-10">
-				<Memories />
-			</section>
-
-			<section className="py-8 md:py-10">
-				<PoweredBy />
-			</section>
-
-			<section className="py-8 md:py-10">
-				<IEEEPartners />
-			</section>
-
-			<section className="py-8 md:py-10">
-				<Speakers limit={5} />
-			</section>
-
-			<div className="hidden md:block">
-				<ScheduleOverview />
-			</div>
-
-			<section className="py-8 md:py-28">
-				<Team limit={5} />
-			</section>
-
-			<section className="py-8 md:py-28">
-				<div className="mx-auto">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						Find us here.
-					</h1>
-					<iframe
-						title="tsyp location"
-						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12851.062625886407!2d10.5328555!3d36.3664548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13029e020677bc0d%3A0x82fe8c3faf57e873!2sDiar%20Lemdina!5e0!3m2!1sen!2stn!4v1682280141809!5m2!1sen!2stn"
-						className="w-full rounded-2xl shadow-lg"
-						height="500"
-						style={{
-							border: 0,
-							// width: "100%",
-						}}
-						allowfullscreen=""
-						loading=""
-						referrerpolicy="no-referrer-when-downgrade"
-					></iframe>
+			<Fade>
+				<AboutTunisiaSection />
+			</Fade>
+			<Fade>
+				<AboutESSTHSSB />
+			</Fade>
+			<Fade>
+				<section className="py-8 md:py-10">
+					<AboutCongress />
+				</section>
+			</Fade>
+			<Fade>
+				<section className="py-8 md:py-10">
+					<PreviousEditions />
+				</section>
+			</Fade>
+			<Fade>
+				<section className="py-8 md:py-10">
+					<Memories />
+				</section>
+			</Fade>
+			<Fade>
+				<section className="py-8 md:py-10">
+					<PoweredBy />
+				</section>
+			</Fade>
+			<Fade>
+				<section className="py-8 md:py-10">
+					<IEEEPartners />
+				</section>
+			</Fade>
+			<Fade>
+				<section className="py-8 md:py-10">
+					<Speakers limit={5} />
+				</section>
+			</Fade>
+			<Fade>
+				<div className="hidden md:block">
+					<ScheduleOverview />
 				</div>
-			</section>
+			</Fade>
+			<Fade>
+				<section className="py-8 md:py-28">
+					<Team limit={5} />
+				</section>
+			</Fade>
+			<Fade>
+				<section className="py-8 md:py-28">
+					<div className="mx-auto">
+						<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+							Find us here.
+						</h1>
+						<iframe
+							title="tsyp location"
+							src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12851.062625886407!2d10.5328555!3d36.3664548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13029e020677bc0d%3A0x82fe8c3faf57e873!2sDiar%20Lemdina!5e0!3m2!1sen!2stn!4v1682280141809!5m2!1sen!2stn"
+							className="w-full rounded-2xl shadow-lg"
+							height="500"
+							style={{
+								border: 0,
+								// width: "100%",
+							}}
+							allowfullscreen=""
+							loading=""
+							referrerpolicy="no-referrer-when-downgrade"
+						></iframe>
+					</div>
+				</section>
+			</Fade>
+
 			{/* <SparrowSurvey /> */}
 		</div>
 	);

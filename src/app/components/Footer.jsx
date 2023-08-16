@@ -13,7 +13,7 @@ export default function Footer() {
 	return (
 		<footer className="container mx-auto p-4 md:px-6 md:py-8">
 			<div className="flex flex-col items-center gap-4 sm:justify-between lg:flex-row">
-				<div>
+				<div className="hidden lg:block">
 					{false && (
 						<Link
 							to="https://hichemfantar.netlify.app/"
@@ -45,6 +45,7 @@ export default function Footer() {
 					</span> */}
 						</Link>
 					)}
+					© 2023 All rights reserved.
 				</div>
 
 				<div className="hidden items-center gap-4 md:flex">
