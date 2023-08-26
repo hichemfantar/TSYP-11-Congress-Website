@@ -50,7 +50,7 @@ export function Countdown(props) {
 	}
 
 	return (
-		<div>
+		<div className="xtext-[#2d459e]">
 			{/* <h1 className="mb-4 text-center text-4xl font-bold tracking-tight lg:mb-7 lg:text-5xl lg:font-extrabold lg:leading-none">
 					Starting in:
 				</h1> */}
@@ -99,6 +99,7 @@ const SVGCircle = ({ radius }) => {
 		<svg className="absolute top-0 left-0 h-[100px] w-[100px]">
 			<path
 				className="stroke-gray-900 dark:stroke-gray-400"
+				// className="stroke-[#3a55b4] dark:stroke-gray-400"
 				fill="none"
 				// stroke="#333"
 				stroke-width="4"

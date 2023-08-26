@@ -99,7 +99,8 @@ export default function HomePage() {
 
 						{/* <h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none"> */}
 						<h1 className="mb-8 text-center text-4xl font-bold tracking-tight lg:mb-8 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
-							11th IEEE Tunisian Students & Young Professionals Congress
+							<span className="text-[#3a55b4] dark:text-[#4967d0]">11th</span>{" "}
+							IEEE Tunisian Students & Young Professionals Congress
 						</h1>
 
 						<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
@@ -110,29 +111,29 @@ export default function HomePage() {
 							<q>Silicon valley is a mindset, not a location.</q>
 						</h1>
 						<h1 className="mb-8 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-							18 - 20 December 2023
+							18 - 20 December <span className="xtext-[#3a55b4]">2023</span>
 						</h1>
 						<div className="flex flex-wrap items-center justify-center gap-8">
-							<div className="mb-4">
-								<h1 className="mb-2 text-center text-xl font-bold tracking-tight lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+							<div className="xtext-[#3a55b4] mb-4 ">
+								<h1 className="mb-2 text-center text-xl font-bold tracking-tight text-[#3a55b4] dark:text-[#4967d0] lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 									1200+
 								</h1>
 								<span className="mt-1 font-bold uppercase">Participants</span>
 							</div>
 							<div className="w-full md:hidden">
-								<div className="mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
+								<div className="xbg-[#3a55b4] mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
 							</div>
-							<div className="hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
+							<div className="xbg-[#3a55b4] hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
 							<Countdown
 								timeTillDate="12 18 2023, 6:00 am"
 								timeFormat="MM DD YYYY, h:mm a"
 							/>
 							<div className="w-full md:hidden">
-								<div className="mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
+								<div className="xbg-[#3a55b4] mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
 							</div>
-							<div className="hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
-							<div className="mb-4">
-								<h1 className="mb-2 text-center text-xl font-bold tracking-tight lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+							<div className="xbg-[#3a55b4] hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
+							<div className="mb-4 ">
+								<h1 className="mb-2 text-center text-xl font-bold tracking-tight text-[#3a55b4] dark:text-[#4967d0] lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 									50+
 								</h1>
 								<span className="mt-1 font-bold uppercase">Speakers</span>
@@ -257,7 +258,7 @@ export function AboutESSTHSSB(params) {
 			<div className="col-span-6 mx-auto">
 				<CustomImage
 					src={SBGroupPic}
-					className="mx-auto h-56 rounded-2xl object-cover sm:h-96"
+					className="mx-auto h-56 rounded-2xl object-cover shadow-lg sm:h-96"
 					alt="TSYP 11"
 					loading=""
 				/>
@@ -378,11 +379,11 @@ function Memories() {
 			<h2 className="mb-12 text-center text-4xl font-bold">
 				Memories from Previous Editions
 			</h2>
-			<div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-				<div className="grid gap-4">
+			<div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+				<div className="grid gap-6">
 					<div>
 						<CustomImage
-							className="h-full w-full rounded-lg object-cover"
+							className="h-full w-full rounded-2xl object-cover"
 							src={memory10}
 							alt=""
 							loading=""
@@ -390,7 +391,7 @@ function Memories() {
 					</div>
 					<div>
 						<CustomImage
-							className="h-full w-full rounded-lg object-cover"
+							className="h-full w-full rounded-2xl object-cover"
 							src={memory2}
 							alt=""
 							loading=""
@@ -398,17 +399,17 @@ function Memories() {
 					</div>
 					<div>
 						<CustomImage
-							className="h-full w-full rounded-lg object-cover"
+							className="h-full w-full rounded-2xl object-cover"
 							src={memory3}
 							alt=""
 							loading=""
 						/>
 					</div>
 				</div>
-				<div className="grid gap-4">
+				<div className="grid gap-6">
 					<div>
 						<CustomImage
-							className="h-full w-full rounded-lg object-cover"
+							className="h-full w-full rounded-2xl object-cover"
 							src={memory4}
 							alt=""
 							loading=""
@@ -416,7 +417,7 @@ function Memories() {
 					</div>
 					<div>
 						<CustomImage
-							className="h-full w-full rounded-lg object-cover"
+							className="h-full w-full rounded-2xl object-cover"
 							src={memory5}
 							alt=""
 							loading=""
@@ -424,17 +425,17 @@ function Memories() {
 					</div>
 					<div>
 						<CustomImage
-							className="h-full w-full rounded-lg object-cover"
+							className="h-full w-full rounded-2xl object-cover"
 							src={memory6}
 							alt=""
 							loading=""
 						/>
 					</div>
 				</div>
-				<div className="grid gap-4">
+				<div className="grid gap-6">
 					<div>
 						<CustomImage
-							className="h-full w-full rounded-lg object-cover"
+							className="h-full w-full rounded-2xl object-cover"
 							src={memory7}
 							alt=""
 							loading=""
@@ -442,7 +443,7 @@ function Memories() {
 					</div>
 					<div>
 						<CustomImage
-							className="h-full w-full rounded-lg object-cover"
+							className="h-full w-full rounded-2xl object-cover"
 							src={memory8}
 							alt=""
 							loading=""
@@ -450,7 +451,7 @@ function Memories() {
 					</div>
 					<div>
 						<CustomImage
-							className="h-full w-full rounded-lg object-cover"
+							className="h-full w-full rounded-2xl object-cover"
 							src={memory9}
 							alt=""
 							loading=""
@@ -712,21 +713,23 @@ function PoweredBy() {
 							loading=""
 						/>
 					</a>
-					<a
-						href="https://yp.ieee.tn/"
-						target="_blank"
-						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
-					>
-						<CustomImage
-							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
-							src={YpTunisia}
-							alt="YpTunisia"
-							// width={200}
-							// height={200}
-							loading=""
-						/>
-					</a>
+					{true && (
+						<a
+							href="https://yp.ieee.tn/"
+							target="_blank"
+							rel="noreferrer"
+							className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+						>
+							<CustomImage
+								className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
+								src={YpTunisia}
+								alt="YpTunisia"
+								// width={200}
+								// height={200}
+								loading=""
+							/>
+						</a>
+					)}
 					<a
 						href="http://www.essths.rnu.tn/public/"
 						target="_blank"
@@ -757,21 +760,23 @@ function PoweredBy() {
 							loading=""
 						/>
 					</a>
-					<a
-						href="https://ieeer8.org/"
-						target="_blank"
-						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
-					>
-						<CustomImage
-							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
-							src={IEEER8}
-							alt="IEEE Region 8"
-							// width={200}
-							// height={200}
-							loading=""
-						/>
-					</a>
+					{false && (
+						<a
+							href="https://ieeer8.org/"
+							target="_blank"
+							rel="noreferrer"
+							className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+						>
+							<CustomImage
+								className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+								src={IEEER8}
+								alt="IEEE Region 8"
+								// width={200}
+								// height={200}
+								loading=""
+							/>
+						</a>
+					)}
 					<a
 						href="https://essths.ieee.tn/"
 						target="_blank"
@@ -787,6 +792,35 @@ function PoweredBy() {
 							loading=""
 						/>
 					</a>
+					{false && (
+						<a
+							href="https://www.ieee.org/"
+							target="_blank"
+							rel="noreferrer"
+							className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+						>
+							<CustomImage
+								className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+								src={IeeeLogo}
+								alt="IEEE"
+								// width={200}
+								// height={200}
+								loading=""
+							/>
+						</a>
+					)}
+				</div>
+			</div>
+		</div>
+	);
+}
+
+function IEEEPartners() {
+	return (
+		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-10">
+			<div className="mx-auto max-w-7xl px-6 lg:px-8">
+				<h2 className="mb-12 text-center text-4xl font-bold">IEEE Partners</h2>
+				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
 					<a
 						href="https://www.ieee.org/"
 						target="_blank"
@@ -802,18 +836,23 @@ function PoweredBy() {
 							loading=""
 						/>
 					</a>
-				</div>
-			</div>
-		</div>
-	);
-}
-
-function IEEEPartners() {
-	return (
-		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-10">
-			<div className="mx-auto max-w-7xl px-6 lg:px-8">
-				<h2 className="mb-12 text-center text-4xl font-bold">IEEE Partners</h2>
-				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+					{false && (
+						<a
+							href="https://yp.ieee.tn/"
+							target="_blank"
+							rel="noreferrer"
+							className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+						>
+							<CustomImage
+								className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
+								src={YpTunisia}
+								alt="YpTunisia"
+								// width={200}
+								// height={200}
+								loading=""
+							/>
+						</a>
+					)}
 					<a
 						href="https://ieeer8.org/"
 						target="_blank"
