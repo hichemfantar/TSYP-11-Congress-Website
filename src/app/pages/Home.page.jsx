@@ -538,7 +538,7 @@ function PreviousEditions() {
 					</div>
 					<div className="transition hover:scale-105">
 						<a
-							href={"https://past-tsyp.ieee.tn/2021/"}
+							href={"https://past-tsyp.ieee.tn/2021/index.html"}
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -555,7 +555,7 @@ function PreviousEditions() {
 					</div>
 					<div className="transition hover:scale-105">
 						<a
-							href={"https://past-tsyp.ieee.tn/2020/"}
+							href={"https://past-tsyp.ieee.tn/2020/index.html"}
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -573,7 +573,7 @@ function PreviousEditions() {
 
 					<div className="transition hover:scale-105">
 						<a
-							href={"https://past-tsyp.ieee.tn/2019/"}
+							href={"https://past-tsyp.ieee.tn/2019/index.html"}
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -590,7 +590,7 @@ function PreviousEditions() {
 					</div>
 					<div className="transition hover:scale-105">
 						<a
-							href={"https://past-tsyp.ieee.tn/2018/"}
+							href={"https://past-tsyp.ieee.tn/2018/index.html"}
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -607,7 +607,7 @@ function PreviousEditions() {
 					</div>
 					<div className="transition hover:scale-105">
 						<a
-							href={"https://past-tsyp.ieee.tn/2017/"}
+							href={"https://past-tsyp.ieee.tn/2017/index.html"}
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -624,7 +624,7 @@ function PreviousEditions() {
 					</div>
 					<div className="transition hover:scale-105">
 						<a
-							href={"https://past-tsyp.ieee.tn/2016/"}
+							href={"https://past-tsyp.ieee.tn/2016/index.html"}
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -641,7 +641,7 @@ function PreviousEditions() {
 					</div>
 					<div className="transition hover:scale-105">
 						<a
-							href={"https://past-tsyp.ieee.tn/2015/"}
+							href={"https://past-tsyp.ieee.tn/2015/index.html"}
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -658,7 +658,7 @@ function PreviousEditions() {
 					</div>
 					<div className="transition hover:scale-105">
 						<a
-							href={"https://past-tsyp.ieee.tn/2014/"}
+							href={"https://past-tsyp.ieee.tn/2014/index.html"}
 							target="_blank"
 							rel="noreferrer"
 						>

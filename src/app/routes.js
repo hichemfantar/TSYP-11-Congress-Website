@@ -19,6 +19,10 @@ const routes = [
 				title: "Speakers",
 				href: "/speakers",
 			},
+			{
+				title: "Venue",
+				href: "/venue",
+			},
 		],
 	},
 	{

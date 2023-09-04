@@ -21,6 +21,7 @@ import ThreeExperience from "./app/components/ThreeExperience.jsx";
 import Phase from "./app/components/Phase.jsx";
 import AboutUs from "./app/pages/AboutUs.page.jsx";
 import TicketPage from "./app/pages/Ticket.page.jsx";
+import VenuePage from "./app/pages/Venue.page.jsx";
 
 setInitialTheme();
 
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
 			{
 				path: "speakers",
 				element: <Speakers />,
+			},
+			{
+				path: "venue",
+				element: <VenuePage />,
 			},
 			{
 				path: "speakers/:speakerSlug",
