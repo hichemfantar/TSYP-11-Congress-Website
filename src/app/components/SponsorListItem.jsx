@@ -33,7 +33,7 @@ export default function SponsorListItem({
 					)}
 				/>
 			</div>
-			<div className="text-gray-600 line-clamp-4 dark:text-gray-300">
+			<div className="text-gray-600 line-clamp-3 dark:text-gray-300">
 				{data.description}
 			</div>
 		</Link>

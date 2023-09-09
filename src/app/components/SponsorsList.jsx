@@ -7,6 +7,7 @@ import IEEER8 from "../../assets/IEEE R8.svg";
 import R8_SAC from "../../assets/R8_SAC.png";
 import aess from "../../assets/aess.png";
 import IASLogo from "../../assets/ias-logo-shadowbg.png";
+import MTTSLogo from "../../assets/ieee/mtts-circle-logo.jpg";
 
 export default function SponsorsList() {
 	const enabledCompanies = sponsorsData?.filter((e) => e.enabled === true);
@@ -135,6 +136,7 @@ export const sponsorsData = [
 		logo: {
 			url: IEEER8,
 		},
+		website: "https://ieeer8.org/",
 	},
 	{
 		enabled: true,
@@ -147,6 +149,7 @@ export const sponsorsData = [
 		logo: {
 			url: R8_SAC,
 		},
+		website: "https://ieeer8.org/student-activities/sa-committee/sac/",
 	},
 	{
 		enabled: true,
@@ -159,6 +162,7 @@ export const sponsorsData = [
 		logo: {
 			url: aess,
 		},
+		website: "https://ieee-aess.org/",
 	},
 	{
 		enabled: true,
@@ -171,6 +175,33 @@ export const sponsorsData = [
 		logo: {
 			url: IASLogo,
 		},
+		website: "https://ias.ieee.org/",
+	},
+	{
+		enabled: true,
+		type: "partner",
+		name: "MTTS",
+		description:
+			"Established in 1952, the MTT-S has worked to advance the professional standing of its members and enhance the quality of life for all people through the development and application of microwave technology.",
+		slug: "MTTS",
+
+		logo: {
+			url: MTTSLogo,
+		},
+		website: "https://mtt.org/",
+	},
+	{
+		enabled: true,
+		type: "partner",
+		name: "SMC",
+		description:
+			"The mission of the Systems, Man, and Cybernetics Society is to serve the interests of its members and the community at large by promoting the theory, practice, and interdisciplinary aspects of systems science and engineering, human-machine systems, and cybernetics. It is accomplished through conferences, publications, and other activities that contribute to the professional needs of its members.",
+		slug: "SMC",
+
+		logo: {
+			url: "https://edu.ieee.org/in-sairamsmc/wp-content/uploads/sites/911/2022/07/ieee_smc.jpg",
+		},
+		website: "https://www.ieeesmc.org/",
 	},
 
 	{
@@ -183,6 +214,7 @@ export const sponsorsData = [
 		logo: {
 			url: IeeeEssthsSbLogo,
 		},
+		website: "https://essths.ieee.tn/",
 	},
 	{
 		enabled: true,
@@ -196,6 +228,7 @@ export const sponsorsData = [
 			// url: "https://sartexgroup.com/wp-content/uploads/2019/07/Sartex-group-big-1024x682.png",
 			// url: "https://sartexgroup.com/wp-content/uploads/2018/07/logo-sartex.png",
 		},
+		website: "https://sartexgroup.com/",
 	},
 	{
 		enabled: true,
@@ -212,6 +245,7 @@ export const sponsorsData = [
 			// url: "https://sartexgroup.com/wp-content/uploads/2019/07/Sartex-group-big-1024x682.png",
 			// url: "https://sartexgroup.com/wp-content/uploads/2018/07/logo-sartex.png",
 		},
+		website: "https://uso.rnu.tn/",
 	},
 	{
 		name: "ESports TN",

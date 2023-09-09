@@ -451,7 +451,7 @@ function Memories() {
 					</div>
 					<div>
 						<CustomImage
-							className="h-full w-full rounded-2xl object-cover"
+							className="hidden h-full w-full rounded-2xl object-cover md:block "
 							src={memory9}
 							alt=""
 							loading=""
@@ -702,10 +702,10 @@ function PoweredBy() {
 						href="https://ieee.tn/"
 						target="_blank"
 						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<CustomImage
-							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[120px] w-[120px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
 							src={IeeeTunisia}
 							alt="IeeeTunisia"
 							// width={200}
@@ -718,10 +718,10 @@ function PoweredBy() {
 							href="https://yp.ieee.tn/"
 							target="_blank"
 							rel="noreferrer"
-							className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+							className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
 						>
 							<CustomImage
-								className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
+								className="col-span-2 h-[120px] w-[120px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[220px] md:w-[220px] lg:col-span-1"
 								src={YpTunisia}
 								alt="YpTunisia"
 								// width={200}
@@ -734,10 +734,10 @@ function PoweredBy() {
 						href="http://www.essths.rnu.tn/public/"
 						target="_blank"
 						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
+						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
 					>
 						<CustomImage
-							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[120px] w-[120px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
 							src={essthsLogo}
 							alt="essthsLogo"
 							// width={200}
@@ -749,10 +749,10 @@ function PoweredBy() {
 						href="https://uso.rnu.tn/"
 						target="_blank"
 						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
+						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
 					>
 						<CustomImage
-							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[120px] w-[120px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
 							src={UniSousse}
 							alt="university of sousse"
 							// width={200}
@@ -765,10 +765,10 @@ function PoweredBy() {
 							href="https://ieeer8.org/"
 							target="_blank"
 							rel="noreferrer"
-							className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+							className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
 						>
 							<CustomImage
-								className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+								className="col-span-2 h-[120px] w-[120px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
 								src={IEEER8}
 								alt="IEEE Region 8"
 								// width={200}
@@ -781,10 +781,10 @@ function PoweredBy() {
 						href="https://essths.ieee.tn/"
 						target="_blank"
 						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
+						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
 					>
 						<CustomImage
-							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[120px] w-[120px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
 							src={IeeeEssthsSbLogoBlack}
 							alt="IEEE ESSTHS SB"
 							// width={200}
@@ -800,7 +800,7 @@ function PoweredBy() {
 							className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 						>
 							<CustomImage
-								className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+								className="col-span-2 h-[120px] w-[120px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
 								src={IeeeLogo}
 								alt="IEEE"
 								// width={200}
@@ -825,10 +825,10 @@ function IEEEPartners() {
 						href="https://www.ieee.org/"
 						target="_blank"
 						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<CustomImage
-							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
 							src={IeeeLogo}
 							alt="IEEE"
 							// width={200}
@@ -841,10 +841,10 @@ function IEEEPartners() {
 							href="https://yp.ieee.tn/"
 							target="_blank"
 							rel="noreferrer"
-							className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+							className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
 						>
 							<CustomImage
-								className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
+								className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[220px] md:w-[220px] lg:col-span-1"
 								src={YpTunisia}
 								alt="YpTunisia"
 								// width={200}
@@ -857,10 +857,10 @@ function IEEEPartners() {
 						href="https://ieeer8.org/"
 						target="_blank"
 						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<CustomImage
-							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
 							src={IEEER8}
 							alt="Transistor"
 							// width={200}
@@ -872,10 +872,10 @@ function IEEEPartners() {
 						href="https://ieeer8.org/student-activities/sa-committee/sac/"
 						target="_blank"
 						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<CustomImage
-							className="col-span-2 h-[115px] w-[115px] rounded-full object-contain shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[115px] w-[115px] rounded-full bg-white object-contain p-4 shadow-md shadow-gray-200 transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[220px] md:w-[220px] lg:col-span-1"
 							src={R8_SAC}
 							alt="Transistor"
 							// width={200}
@@ -887,10 +887,10 @@ function IEEEPartners() {
 						href="https://ieee-aess.org/"
 						target="_blank"
 						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<CustomImage
-							className="col-span-2 h-[115px] w-[115px] object-contain transition dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition dark:shadow-gray-800 dark:invert md:h-[220px] md:w-[220px] lg:col-span-1"
 							src={aess}
 							alt="Transistor"
 							// width={200}
@@ -902,10 +902,10 @@ function IEEEPartners() {
 						href="https://ias.ieee.org/"
 						target="_blank"
 						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<CustomImage
-							className="col-span-2 h-[115px] w-[115px] object-contain transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
 							src={IASLogo}
 							alt="Transistor"
 							// width={200}
@@ -920,8 +920,25 @@ function IEEEPartners() {
 						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<CustomImage
-							className="col-span-2 h-[115px] w-[115px] object-contain transition dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
 							src={MTTSLogo}
+							alt="Transistor"
+							// width={200}
+							// height={200}
+							loading=""
+						/>
+					</a>
+					<a
+						href="https://www.ieeesmc.org/"
+						target="_blank"
+						rel="noreferrer"
+						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
+					>
+						<CustomImage
+							className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
+							src={
+								"https://edu.ieee.org/in-sairamsmc/wp-content/uploads/sites/911/2022/07/ieee_smc.jpg"
+							}
 							alt="Transistor"
 							// width={200}
 							// height={200}

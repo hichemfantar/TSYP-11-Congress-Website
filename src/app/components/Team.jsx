@@ -24,7 +24,7 @@ export default function Team({ limit = 0 }) {
 	return (
 		<div id="team">
 			<div className="mb-8 text-4xl font-bold">Meet the Team</div>
-			<div className="grid grid-cols-12 gap-y-4 md:gap-4">
+			<div className="grid grid-cols-12 gap-4 md:gap-4">
 				{teamData
 					?.filter((s) => !!s?.active)
 					?.map((speaker, idx) => {
@@ -38,7 +38,7 @@ export default function Team({ limit = 0 }) {
 							// >
 							<div
 								key={speaker.name}
-								className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
+								className="col-span-6 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
 							>
 								<CustomImage
 									style={{
@@ -46,7 +46,7 @@ export default function Team({ limit = 0 }) {
 									}}
 									src={speaker.imageSmall.url}
 									alt=""
-									className="mb-2 h-96 w-full rounded-lg object-cover md:h-64"
+									className="mb-2 aspect-square w-full rounded-lg object-cover md:h-64"
 									loading=""
 								/>
 								<div className="font-bold">{speaker.name}</div>
@@ -65,7 +65,7 @@ export default function Team({ limit = 0 }) {
 				{limit ? (
 					<Link
 						to={`/about-us#team`}
-						className="col-span-12 flex flex-col items-center justify-center rounded-xl border-2 p-6 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
+						className="col-span-6 flex flex-col items-center justify-center rounded-xl border-2 p-6 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
 					>
 						<FontAwesomeIcon icon={faExternalLink} className="mb-4 h-6 w-6" />
 						<div className="font-bold">See more</div>

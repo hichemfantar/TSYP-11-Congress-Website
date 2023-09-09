@@ -55,7 +55,7 @@ function ExpoDetails({ data }) {
 				</div>
 
 				<div>
-					<a href={data.website}>
+					<a href={data.website} target="_blank" rel="noreferrer">
 						<StyledButton
 							message={"Learn More"}
 							icon={<FontAwesomeIcon icon={faExternalLink} />}
