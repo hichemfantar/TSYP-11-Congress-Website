@@ -1,7 +1,7 @@
 import React from "react";
 import tsypCollabFilePreview from "../../assets/dossier-collab-tsyp.png";
-import tsypCollabPDF_EN from "../../assets/pdf/19.07.ENGLISH-PDF-DOSSIER-Collaboration.pdf";
-import tsypCollabPDF_FR from "../../assets/pdf/19.07.FRENCH-PDF-DOSSIER-Collaboration-compressed.pdf";
+// import tsypCollabPDF_EN from "../../assets/pdf/19.07.ENGLISH-PDF-DOSSIER-Collaboration.pdf";
+// import tsypCollabPDF_FR from "../../assets/pdf/19.07.FRENCH-PDF-DOSSIER-Collaboration-compressed.pdf";
 import { Link } from "react-router-dom";
 import { ContactDetails } from "./Contact.page";
 import CustomImage from "../components/CustomImage";
@@ -13,7 +13,9 @@ export default function SponsorUsPage() {
 				<div className="col-span-6 mx-auto md:order-last">
 					<div className="">
 						<Link
-							to={tsypCollabPDF_EN}
+							to={
+								"https://drive.google.com/file/d/1mnUz3fwT11dLj0fs0xxR8PdFKa9QxqCp/view?usp=sharing"
+							}
 							target="_blank"
 							rel="noreferrer"
 							className=""
@@ -55,7 +57,9 @@ export default function SponsorUsPage() {
 					</h1>
 					<div className="mb-6">
 						<Link
-							to={tsypCollabPDF_EN}
+							to={
+								"https://drive.google.com/file/d/1mnUz3fwT11dLj0fs0xxR8PdFKa9QxqCp/view?usp=sharing"
+							}
 							target="_blank"
 							rel="noreferrer"
 							className="inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black  dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
@@ -65,7 +69,9 @@ export default function SponsorUsPage() {
 					</div>
 					<div>
 						<Link
-							to={tsypCollabPDF_FR}
+							to={
+								"https://drive.google.com/file/d/1k4yUOoSRc7APLeAK_NDzptpxXEKMWa4l/view?usp=sharing"
+							}
 							target="_blank"
 							rel="noreferrer"
 							className="inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black  dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"

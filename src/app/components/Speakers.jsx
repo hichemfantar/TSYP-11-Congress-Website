@@ -251,7 +251,7 @@ export const speakersData = [
 		},
 	},
 	{
-		enabled: true,
+		enabled: false,
 		name: "Hamza Abdelhedi",
 		bio: `Hamza Abdelhedi is computer science research master's student at the University of Montreal, specializing in the field of neuro-AI. He holds a telecommunications engineering diploma from the Higher School of Communication of Tunis (SUPCOM) with a background in mathematics from his pre-engineering studies. He is a Graduate Research Assistant at the Cognitive & Computational Neuroscience Lab supervised by Dr. Karim Jerbi. Hamza's primary focus is on exploring the integration of artificial and biological neural networks in face recognition, utilizing deep learning techniques and Magnetoencephalography (MEG) for analyzing internal representations with the aim of contributing to our understanding of the brain's complexities..
 
