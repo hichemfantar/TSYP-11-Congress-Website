@@ -13,6 +13,9 @@ export default function SponsorsList() {
 	const enabledCompanies = sponsorsData?.filter((e) => e.enabled === true);
 	const enabledPartners = sponsorsData?.filter((e) => e.enabled === true);
 
+	const sectionPartners = enabledPartners?.filter(
+		(e) => e.type === "section-partner"
+	);
 	const partners = enabledPartners?.filter((e) => e.type === "partner");
 	const hostedBy = enabledCompanies?.filter((e) => e.tierRank === 0);
 	const apexPartners = enabledCompanies?.filter((e) => e.tierRank === 1);
@@ -48,6 +51,21 @@ export default function SponsorsList() {
 						<div className="mb-4 text-2xl font-bold">IEEE Partners</div>
 						<div className="grid grid-cols-12 gap-y-4 md:gap-4">
 							{partners.map((e) => (
+								<div className="col-span-12 md:col-span-4" key={e.slug}>
+									<SponsorListItem data={e} whiteBg />
+								</div>
+							))}
+						</div>
+					</div>
+				)}
+
+				{!!hostedBy?.length && (
+					<div>
+						<div className="mb-4 text-2xl font-bold">
+							IEEE Tunisia Section Partners
+						</div>
+						<div className="grid grid-cols-12 gap-y-4 md:gap-4">
+							{sectionPartners.map((e) => (
 								<div className="col-span-12 md:col-span-4" key={e.slug}>
 									<SponsorListItem data={e} whiteBg />
 								</div>
@@ -192,7 +210,7 @@ export const sponsorsData = [
 	},
 	{
 		enabled: true,
-		type: "partner",
+		type: "section-partner",
 		name: "SMC",
 		description:
 			"The mission of the Systems, Man, and Cybernetics Society is to serve the interests of its members and the community at large by promoting the theory, practice, and interdisciplinary aspects of systems science and engineering, human-machine systems, and cybernetics. It is accomplished through conferences, publications, and other activities that contribute to the professional needs of its members.",
