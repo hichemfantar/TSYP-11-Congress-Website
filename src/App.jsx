@@ -22,6 +22,7 @@ import Phase from "./app/components/Phase.jsx";
 import AboutUs from "./app/pages/AboutUs.page.jsx";
 import TicketPage from "./app/pages/Ticket.page.jsx";
 import VenuePage from "./app/pages/Venue.page.jsx";
+import { ChallengesPage } from "./app/pages/Challenges.jsx";
 
 setInitialTheme();
 
@@ -85,6 +86,10 @@ const router = createBrowserRouter([
 			{
 				path: "sponsor-us",
 				element: <SponsorUsPage />,
+			},
+			{
+				path: "challenges",
+				element: <ChallengesPage />,
 			},
 			{
 				path: "ticket",

@@ -12,6 +12,10 @@ const routes = [
 		type: "group",
 		items: [
 			{
+				title: "Challenges",
+				href: "/challenges",
+			},
+			{
 				title: "Schedule",
 				href: "/schedule",
 			},
@@ -33,6 +37,16 @@ const routes = [
 	{
 		title: "Speakers",
 		href: "/speakers",
+		mobileOnly: true,
+	},
+	{
+		title: "Challenges",
+		href: "/challenges",
+		mobileOnly: true,
+	},
+	{
+		title: "Venue",
+		href: "/venue",
 		mobileOnly: true,
 	},
 
