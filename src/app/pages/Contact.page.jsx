@@ -103,9 +103,9 @@ export function ContactDetails({ title = "Reach us" }) {
 							border: 0,
 							// width: "100%",
 						}}
-						allowfullscreen=""
+						allowFullScreen=""
 						loading=""
-						referrerpolicy="no-referrer-when-downgrade"
+						referrerPolicy="no-referrer-when-downgrade"
 					></iframe>
 				</div>
 			</div>
@@ -268,7 +268,7 @@ function ContactForm({ title = "Contact us" }) {
 						personal information including to third parties.
 					</p> */}
 						<div
-							class="g-recaptcha"
+							className="g-recaptcha"
 							data-sitekey="6LdkuJonAAAAADPOvXrCE1hnLvmqqGP7WMt2oK8s"
 						></div>
 

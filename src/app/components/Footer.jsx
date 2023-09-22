@@ -8,12 +8,13 @@ import {
 	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import hich from "../../assets/favicon.ico";
 
 export default function Footer() {
 	return (
 		<footer className="container mx-auto p-4 md:px-6 md:py-8">
 			<div className="flex flex-col items-center gap-4 sm:justify-between lg:flex-row">
-				<div className="hidden lg:block">
+				<div className="hidden flex-wrap items-center gap-2 text-sm lg:flex">
 					{false && (
 						<Link
 							to="https://hichemfantar.netlify.app/"
@@ -45,7 +46,21 @@ export default function Footer() {
 					</span> */}
 						</Link>
 					)}
-					© 2023 All rights reserved.
+					{false && (
+						<Link
+							to="https://hichemfantar.com/"
+							target="_blank"
+							rel="noreferrer"
+							className="flex items-center"
+						>
+							<img
+								src={hich}
+								className="h-6 w-6 object-cover"
+								alt="Hichem Fantar"
+							/>
+						</Link>
+					)}
+					<div className="font-semibold">© 2023 All rights reserved.</div>
 				</div>
 
 				<div className="hidden items-center gap-4 md:flex">

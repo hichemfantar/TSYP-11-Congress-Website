@@ -1,7 +1,7 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { Fragment } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 import routes from "../routes";
 import ThemeToggle from "./ThemeToggle";
@@ -11,6 +11,7 @@ import {
 	faInstagram,
 	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import hich from "../../assets/favicon.ico";
 
 export default function NavModal({ setToggleModal, toggleModal }) {
 	return (
@@ -80,7 +81,7 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 									>
 										<div className="px-4 sm:px-6">
 											<Dialog.Title className="text-lg font-bold">
-												Navigation
+												TSYP 11
 											</Dialog.Title>
 										</div>
 										<div className="mt-6 flex-1 px-4 sm:px-6">
@@ -117,7 +118,21 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 										<div className="flex items-center justify-between">
 											<div className="px-4 sm:px-6">
 												<Dialog.Title className="text-sm font-semibold md:text-base">
-													TSYP 11 © 2023
+													{false && (
+														<Link
+															to="https://hichemfantar.com/"
+															target="_blank"
+															rel="noreferrer"
+															className="flex items-center"
+														>
+															<img
+																src={hich}
+																className="h-6 w-6 object-cover"
+																alt="Hichem Fantar"
+															/>
+														</Link>
+													)}
+													{/* TSYP 11 © 2023 */}
 												</Dialog.Title>
 											</div>
 

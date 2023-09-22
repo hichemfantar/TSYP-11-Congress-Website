@@ -30,11 +30,45 @@ export default function Team({ limit = 0 }) {
 					?.map((speaker, idx) => {
 						if (idx >= limit && limit !== 0) return null;
 
+						if (speaker.link) {
+							return (
+								<Link
+									key={speaker.name}
+									to={speaker.link}
+									className="col-span-6 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
+								>
+									<CustomImage
+										style={{
+											objectPosition: "center top",
+										}}
+										src={speaker.imageSmall.url}
+										alt=""
+										className="mb-2 aspect-square w-full rounded-lg object-cover md:h-64"
+										loading=""
+									/>
+									<div className="flex flex-wrap items-center gap-1">
+										<span className="font-bold">{speaker.name}</span>
+										<FontAwesomeIcon
+											icon={faExternalLink}
+											className="h-3 w-3"
+										/>
+									</div>
+									{/* <div className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+			@{speaker.twitterUsername}
+		</div> */}
+									<div className="text-sm">
+										{speaker.title}
+										{false && `, ${speaker.company.name}`}
+									</div>
+								</Link>
+							);
+						}
+
 						return (
 							// <Link
 							// 	key={speaker.name}
 							// 	to={speaker.name}
-							// 	className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
+							// className="col-span-6 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
 							// >
 							<div
 								key={speaker.name}
@@ -151,6 +185,7 @@ export const teamData = [
 		name: "Hichem Fantar",
 		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
 		title: "Digital Artisan",
+		link: "https://hichemfantar.com/",
 		talk: {
 			title: "Keynote",
 			description:

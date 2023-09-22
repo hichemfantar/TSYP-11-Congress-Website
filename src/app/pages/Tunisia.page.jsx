@@ -54,7 +54,7 @@ export default function TunisiaPage() {
 							title="YouTube video player"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							allowfullscreen
+							allowFullScreen
 						></iframe>
 						{/* <CustomImage
 						src={LightLogo}
@@ -222,7 +222,7 @@ export default function TunisiaPage() {
 						title="YouTube video player"
 						frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						allowfullscreen
+						allowFullScreen
 					></iframe> */}
 						{/* <CustomImage
 						src={LightLogo}
@@ -248,9 +248,9 @@ export default function TunisiaPage() {
 								border: 0,
 								// width: "100%",
 							}}
-							allowfullscreen=""
+							allowFullScreen=""
 							loading=""
-							referrerpolicy="no-referrer-when-downgrade"
+							referrerPolicy="no-referrer-when-downgrade"
 						></iframe>
 					</div>
 				</section>

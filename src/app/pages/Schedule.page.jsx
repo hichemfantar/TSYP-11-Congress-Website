@@ -21,9 +21,9 @@ export default function SchedulePage() {
 								border: 0,
 								width: "100%",
 							}}
-							allowfullscreen=""
+							allowFullScreen=""
 							loading=""
-							referrerpolicy="no-referrer-when-downgrade"
+							referrerPolicy="no-referrer-when-downgrade"
 						></iframe>
 					</div>
 					<div className="col-span-6">

@@ -23,7 +23,6 @@ export function ChallengesPage() {
 					<img
 						src="https://lh3.googleusercontent.com/fIpRF6MRS3-GtMNg6IJYGTg8WczF71WpXZpHVuusVRppAtU8V7rFF58tpC1d5bwHNiPoQo8GcfP7TSdEXk8moO63U86Gt-AHDKa_FdT9odkfyMIeZjCy2L8g2TheelI6Qw=w2164"
 						alt=""
-						srcset=""
 						className="mx-auto my-8 mb-20 rounded-2xl object-contain shadow-lg transition-all hover:scale-105 md:h-56"
 					/>
 				</Link>
