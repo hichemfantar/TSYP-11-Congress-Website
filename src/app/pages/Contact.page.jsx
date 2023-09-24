@@ -77,6 +77,7 @@ export function ContactDetails({ title = "Reach us" }) {
 					</p>
 				</div>
 			</div>
+
 			<div className="grid gap-y-6 md:grid-cols-12 md:gap-12">
 				<div className="flex flex-col justify-center md:col-span-6">
 					<h1 className="mb-4 text-3xl font-bold   md:text-center lg:text-4xl lg:font-extrabold lg:leading-none">
@@ -113,7 +114,7 @@ export function ContactDetails({ title = "Reach us" }) {
 	);
 }
 
-function ContactForm({ title = "Contact us" }) {
+export function ContactForm({ title = "Contact us" }) {
 	const form = useRef();
 
 	const [isSuccess, setIsSuccess] = useState(false);

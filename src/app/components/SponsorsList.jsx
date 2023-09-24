@@ -10,6 +10,7 @@ import IASLogo from "../../assets/ias-logo-shadowbg.png";
 import MTTSLogo from "../../assets/ieee/mtts-circle-logo.jpg";
 import YpTunisia from "../../assets/yp-tunisia-section.png";
 import tn_flag from "../../assets/Flag_of_Tunisia.svg";
+import IeeeTunisia from "../../assets/ieee-tunisia.png";
 
 export default function SponsorsList() {
 	const enabledCompanies = sponsorsData?.filter((e) => e.enabled === true);
@@ -398,6 +399,18 @@ export const sponsorsData = [
 			url: IeeeEssthsSbLogo,
 		},
 		website: "https://essths.ieee.tn/",
+	},
+	{
+		enabled: true,
+		name: "IEEE Tunisia Section",
+		description:
+			"IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities.",
+		slug: "IEEE-Tunisia-Section",
+		tierRank: 0,
+		logo: {
+			url: IeeeTunisia,
+		},
+		website: "https://ieee.tn/",
 	},
 	{
 		enabled: true,

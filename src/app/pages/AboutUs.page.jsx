@@ -1,5 +1,5 @@
 import Team from "../components/Team";
-import { ContactDetails } from "./Contact.page";
+import { ContactDetails, ContactForm } from "./Contact.page";
 import { AboutESSTHSSB, AboutTSYP, AboutTunisiaSection } from "./Home.page";
 import { Fade } from "react-awesome-reveal";
 
@@ -23,6 +23,10 @@ export default function AboutUs() {
 				<div className="mt-4">
 					<ContactDetails />
 				</div>{" "}
+			</Fade>
+
+			<Fade>
+				<ContactForm />
 			</Fade>
 		</div>
 	);
