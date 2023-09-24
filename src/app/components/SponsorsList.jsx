@@ -8,6 +8,7 @@ import R8_SAC from "../../assets/R8_SAC.png";
 import aess from "../../assets/aess.png";
 import IASLogo from "../../assets/ias-logo-shadowbg.png";
 import MTTSLogo from "../../assets/ieee/mtts-circle-logo.jpg";
+import YpTunisia from "../../assets/yp-tunisia-section.png";
 
 export default function SponsorsList() {
 	const enabledCompanies = sponsorsData?.filter((e) => e.enabled === true);
@@ -164,7 +165,6 @@ export const sponsorsData = [
 		description:
 			"Founded in 2020, with over 260 enthusiastic members all with one vision “advancing students carrer's in technology, for the benefit of humanity“",
 		slug: "IEEE-Region-8",
-
 		logo: {
 			url: IEEER8,
 		},
@@ -173,9 +173,22 @@ export const sponsorsData = [
 	{
 		enabled: true,
 		type: "global-ieee-partner",
+		name: "IEEE Young Professionals",
+		description:
+			"IEEE Young Professionals is an international community of enthusiastic, dynamic, and innovative members and volunteers. IEEE is committed to helping young professionals evaluate their career goals, polish their professional image, and create the building blocks of a lifelong and diverse professional network.",
+		slug: "IEEE-Young-Professionals",
+
+		logo: {
+			url: YpTunisia,
+		},
+		website: "https://yp.ieee.org/",
+	},
+	{
+		enabled: true,
+		type: "global-ieee-partner",
 		name: "IEEE R8 SAC",
 		description:
-			"Founded in 2020, with over 260 enthusiastic members all with one vision “advancing students carrer's in technology, for the benefit of humanity“",
+			"SAC is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff.",
 		slug: "IEEE-R8-SAC",
 
 		logo: {
@@ -225,12 +238,11 @@ export const sponsorsData = [
 
 	{
 		enabled: true,
-		type: "section-partner",
+		type: "global-ieee-partner",
 		name: "AESS",
 		description:
-			"Founded in 2020, with over 260 enthusiastic members all with one vision “advancing students carrer's in technology, for the benefit of humanity“",
+			"The mission of the AESS is to provide a responsive and relevant professional society that attracts, engages, aids, and retains a diverse set of members (age, culture, community – theoretical, managerial and applications) worldwide in the areas of our fields of interest as defined in our constitution. AESS will accomplish this through technical, chapter and society activities in the areas of conferences, publications, education, technical operations, industry relations, and member services.",
 		slug: "AESS",
-
 		logo: {
 			url: aess,
 		},
@@ -241,7 +253,7 @@ export const sponsorsData = [
 		type: "section-partner",
 		name: "IAS",
 		description:
-			"Founded in 2020, with over 260 enthusiastic members all with one vision “advancing students carrer's in technology, for the benefit of humanity“",
+			"IEEE IAS is a volunteer-driven organization for engineering professionals looking to advance the theory and practice of electrical and electronic systems.",
 		slug: "IAS",
 
 		logo: {
@@ -308,9 +320,8 @@ export const sponsorsData = [
 		description:
 			"In an era where technology is expanding at a rapid rate and the needs for medical application of these technologies has never been greater, the intersection between engineering, medicine and biology is a critical place to be. The IEEE Engineering in Medicine and Biology Society is well-positioned to serve as a central gathering point for both of these major disciplines.",
 		slug: "EMBS",
-
 		logo: {
-			url: "https://scontent.ftun14-1.fna.fbcdn.net/v/t39.30808-6/329010335_935058450836951_7332766420186250759_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=QfiBaY3P0dYAX8ndk8Y&_nc_ht=scontent.ftun14-1.fna&oh=00_AfCPtZuaz5lVPNb6GdpQ9SAPMGNTBNznq5J0oL4HAWcn4Q&oe=650C6503",
+			url: "https://i.imgur.com/lLu3S34.jpeg",
 		},
 		website: "https://www.embs.org/",
 	},

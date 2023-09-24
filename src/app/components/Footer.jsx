@@ -4,6 +4,7 @@ import routes from "../routes";
 import { twMerge } from "tailwind-merge";
 import {
 	faFacebook,
+	faGithub,
 	faInstagram,
 	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
@@ -93,6 +94,15 @@ export default function Footer() {
 						<div className="hidden lg:block">
 							<ThemeToggle />
 						</div>
+					)}
+					{false && (
+						<Link
+							to="https://github.com/hichemfantar/TSYP-11-Website-Virtual-Game-Hub"
+							aria-label="github repo"
+							target="_blank"
+						>
+							<FontAwesomeIcon icon={faGithub} className="block h-5 w-5 p-2" />
+						</Link>
 					)}
 					<a
 						href="https://www.facebook.com/ieee.tsyp"

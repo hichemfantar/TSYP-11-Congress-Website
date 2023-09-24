@@ -8,6 +8,7 @@ import ThemeToggle from "./ThemeToggle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faFacebook,
+	faGithub,
 	faInstagram,
 	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
@@ -137,6 +138,18 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 											</div>
 
 											<div className="flex items-center gap-4 px-4 sm:px-6">
+												<a
+													href="https://github.com/hichemfantar/TSYP-11-Website-Virtual-Game-Hub"
+													target="_blank"
+													rel="noreferrer"
+													className="text-gray-800 dark:text-gray-300"
+												>
+													<FontAwesomeIcon
+														icon={faGithub}
+														className="block h-5 w-5"
+													/>
+												</a>
+
 												<a
 													href="https://www.facebook.com/ieee.tsyp"
 													target="_blank"

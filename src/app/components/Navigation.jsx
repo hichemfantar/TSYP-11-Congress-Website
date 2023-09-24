@@ -10,6 +10,8 @@ import ThemeToggle from "./ThemeToggle";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import CustomImage from "./CustomImage";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Navigation() {
 	const [toggleModal, setToggleModal] = useState(false);
@@ -161,6 +163,18 @@ export default function Navigation() {
 						<div className="hidden lg:block">
 							<ThemeToggle />
 						</div>
+
+						{false && (
+							<Link
+								to="https://github.com/hichemfantar/TSYP-11-Website-Virtual-Game-Hub"
+								target="_blank"
+							>
+								<FontAwesomeIcon
+									icon={faGithub}
+									className="block h-5 w-5 p-2"
+								/>
+							</Link>
+						)}
 
 						<Link
 							to="/sponsor-us"
