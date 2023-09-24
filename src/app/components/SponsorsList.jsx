@@ -1,5 +1,5 @@
 import SartexGroupLogo from "../../assets/companies/Sartex-group-big-1024x682.png";
-import IeeeEssthsSbLogo from "../../assets/companies/ieee-essths-sb-logo (Custom).png";
+import IeeeEssthsSbLogo from "../../assets/companies/ieee-essths-sb-logo-black.png";
 import UniSousse from "../../assets/companies/logo-USo.png";
 import SponsorListItem from "./SponsorListItem";
 
@@ -9,6 +9,7 @@ import aess from "../../assets/aess.png";
 import IASLogo from "../../assets/ias-logo-shadowbg.png";
 import MTTSLogo from "../../assets/ieee/mtts-circle-logo.jpg";
 import YpTunisia from "../../assets/yp-tunisia-section.png";
+import tn_flag from "../../assets/Flag_of_Tunisia.svg";
 
 export default function SponsorsList() {
 	const enabledCompanies = sponsorsData?.filter((e) => e.enabled === true);
@@ -59,7 +60,7 @@ export default function SponsorsList() {
 						<div className="grid grid-cols-12 gap-y-4 md:gap-4">
 							{partners.map((e) => (
 								<div className="col-span-12 md:col-span-4" key={e.slug}>
-									<SponsorListItem data={e} whiteBg />
+									<SponsorListItem data={e} />
 								</div>
 							))}
 						</div>
@@ -68,13 +69,21 @@ export default function SponsorsList() {
 
 				{!!hostedBy?.length && (
 					<div>
-						<div className="sticky top-0 bg-gray-50 py-4 text-2xl font-bold dark:bg-black">
+						<div className="sticky top-0 z-10 bg-gray-50 py-4 text-2xl font-bold dark:bg-black">
 							IEEE Tunisia Section Partners
 						</div>
 						<div className="grid grid-cols-12 gap-y-4 md:gap-4">
 							{sectionPartners.map((e) => (
-								<div className="col-span-12 md:col-span-4" key={e.slug}>
-									<SponsorListItem data={e} whiteBg />
+								<div
+									className="relative col-span-12 md:col-span-4"
+									key={e.slug}
+								>
+									<SponsorListItem data={e} isTunisia />
+									<img
+										src={tn_flag}
+										className="absolute top-5 left-5 aspect-video h-5 rounded-md object-cover shadow"
+										alt="tunisian flag"
+									/>
 								</div>
 							))}
 						</div>

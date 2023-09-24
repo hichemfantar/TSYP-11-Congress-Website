@@ -3,12 +3,7 @@ import { Link } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 import CustomImage from "./CustomImage";
 
-export default function SponsorListItem({
-	data,
-	classNames,
-	imgClassNames,
-	whiteBg,
-}) {
+export default function SponsorListItem({ data, classNames, imgClassNames }) {
 	return (
 		<Link
 			to={`/sponsors/${data.slug}`}
@@ -17,12 +12,7 @@ export default function SponsorListItem({
 				classNames
 			)}
 		>
-			<div
-				className={twMerge(
-					"mb-4 rounded-lg bg-black p-6 py-8",
-					whiteBg && "bg-gray-50"
-				)}
-			>
+			<div className={twMerge("mb-4 rounded-lg bg-gray-50 p-6 py-8")}>
 				<CustomImage
 					loading=""
 					src={data.logo.url || data.logo}
@@ -33,6 +23,7 @@ export default function SponsorListItem({
 					)}
 				/>
 			</div>
+
 			<div className="text-gray-600 line-clamp-3 dark:text-gray-300">
 				{data.description}
 			</div>

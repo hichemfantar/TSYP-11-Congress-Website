@@ -8,6 +8,7 @@ import ExpoDetailsResources from "./ExpoDetailsResources";
 import { sponsorsData } from "./SponsorsList";
 import StyledButton from "./StyledButton";
 import CustomImage from "./CustomImage";
+import tn_flag from "../../assets/Flag_of_Tunisia.svg";
 
 export default function ExpoItemDetails() {
 	const { companySlug } = useParams();
@@ -31,13 +32,20 @@ export default function ExpoItemDetails() {
 function ExpoDetails({ data }) {
 	return (
 		<div className="grid grid-cols-12 gap-y-8 md:gap-x-8">
-			<div className="col-span-full md:col-span-5">
+			<div className="relative col-span-full md:col-span-5">
 				<CustomImage
 					loading=""
 					src={data.logo.url || data.logo}
 					alt=""
-					className="mx-auto aspect-video h-48 rounded-lg bg-black object-contain p-6"
+					className="mx-auto aspect-video h-48 rounded-lg bg-gray-50 object-contain p-6"
 				/>
+				{data.type === "section-partner" && (
+					<img
+						src={tn_flag}
+						className="absolute top-5 left-5 aspect-video h-5 rounded-md object-cover"
+						alt="tunisian flag"
+					/>
+				)}
 
 				<div className="mt-4 hidden md:block">
 					{data.links && <ExpoDetailsResources links={data.links} />}
