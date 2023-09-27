@@ -91,6 +91,29 @@ export const speakersData = [
 	},
 	{
 		enabled: true,
+		name: "Mohamed Baha Ben Ticha",
+		bio: "Doctoral Researcher in Computational Neuroscience",
+		title: "Researcher, Computational Neuroscience",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Mohamed Baha Ben Ticha",
+		twitterUsername: "Mohamed Baha Ben Ticha",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://i.imgur.com/x4KLefk.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/x4KLefk.jpg",
+		},
+	},
+	{
+		enabled: true,
 		name: "Abdulateef Aliyu",
 		bio: "Abdullateef is the General Manager of projects at Phase 3 Telecom and Senior VP of IEEE Smart Village. With a strong background in telecom, he has led high-profile projects in Africa. Abdullateef holds a bachelor's degree, a master's degree with Honors, and multiple certifications. He has received several awards for his leadership and contributions.",
 		title: "IEEE R8 SAC Chair",
