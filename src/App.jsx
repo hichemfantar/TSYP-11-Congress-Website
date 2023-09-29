@@ -87,10 +87,10 @@ const router = createBrowserRouter([
 				path: "sponsor-us",
 				element: <SponsorUsPage />,
 			},
-			{
-				path: "challenges",
-				element: <ChallengesPage />,
-			},
+			// {
+			// 	path: "challenges",
+			// 	element: <ChallengesPage />,
+			// },
 			{
 				path: "ticket",
 				element: <TicketPage />,

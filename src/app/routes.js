@@ -11,10 +11,10 @@ const routes = [
 		title: "Program",
 		type: "group",
 		items: [
-			{
-				title: "Challenges",
-				href: "/challenges",
-			},
+			// {
+			// 	title: "Challenges",
+			// 	href: "/challenges",
+			// },
 			{
 				title: "Schedule",
 				href: "/schedule",
@@ -39,11 +39,11 @@ const routes = [
 		href: "/speakers",
 		mobileOnly: true,
 	},
-	{
-		title: "Challenges",
-		href: "/challenges",
-		mobileOnly: true,
-	},
+	// {
+	// 	title: "Challenges",
+	// 	href: "/challenges",
+	// 	mobileOnly: true,
+	// },
 	{
 		title: "Venue",
 		href: "/venue",

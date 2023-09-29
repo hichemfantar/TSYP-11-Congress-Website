@@ -1,7 +1,7 @@
 import React, { useEffect, Suspense } from "react";
 import Logo from "../../assets/main logo black (Custom).png";
-import LogoOnBlack from "../../assets/Logo on black.png";
-import LightLogo from "../../assets/main logo_2 (Custom).png";
+import LogoOnBlack from "../../assets/Logo on black (Custom).png";
+import LightLogo from "../../assets/main logo (3) (Custom).png";
 import SBGroupPic from "../../assets/sb-group-pic.jpg";
 import logoBar from "../../assets/logo-bar.png";
 import TSYP2014 from "../../assets/tsyp-editions/tsyp-2014.jpg";
@@ -336,7 +336,7 @@ export function AboutTunisiaSection(params) {
 	);
 }
 
-export function AboutTSYP(params) {
+export function AboutTSYP() {
 	return (
 		<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
 			<div className="col-span-6 mx-auto">

@@ -12,7 +12,7 @@ export function ChallengesPage() {
 	return (
 		<div className="h-full">
 			<section className="py-8 lg:py-8">
-				<Link
+				{/* <Link
 					to={
 						"https://docs.google.com/forms/d/e/1FAIpQLSdv9uYAqY26Kc5Ixnv-KJ_0ZaI6HZBjNEicSoUHieoNNaRwoQ/viewform"
 					}
@@ -25,7 +25,7 @@ export function ChallengesPage() {
 						alt=""
 						className="mx-auto my-8 mb-20 rounded-2xl object-contain shadow-lg transition-all hover:scale-105 md:h-56"
 					/>
-				</Link>
+				</Link> */}
 				<div className="mx-auto">
 					<div className="">
 						<h1 className="mb-4 text-center text-3xl font-bold lg:mb-7 lg:text-5xl lg:font-extrabold lg:leading-none">
@@ -37,7 +37,7 @@ export function ChallengesPage() {
 						</p>
 					</div>
 				</div>
-				<div className="mb-6 flex flex-wrap justify-center gap-4">
+				{false&&<div className="mb-6 flex flex-wrap justify-center gap-4">
 					<Link
 						to={
 							"https://docs.google.com/forms/d/e/1FAIpQLSdv9uYAqY26Kc5Ixnv-KJ_0ZaI6HZBjNEicSoUHieoNNaRwoQ/viewform"
@@ -50,7 +50,7 @@ export function ChallengesPage() {
 
 						<span className="">Suggest a challenge</span>
 					</Link>
-				</div>
+				</div>}
 			</section>
 		</div>
 	);

@@ -1,7 +1,4 @@
 import React, { useRef, useState } from "react";
-import Logo from "../../assets/main logo black (Custom).png";
-import LightLogo from "../../assets/main logo_2 (Custom).png";
-import SBGroupPic from "../../assets/sb-group-pic.jpg";
 import { SparrowSurvey } from "./Home.page";
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
