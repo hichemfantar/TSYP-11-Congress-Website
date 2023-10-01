@@ -901,7 +901,7 @@ function IEEEPartners() {
 						/>
 					</a>
 					<a
-						href="https://ias.ieee.org/"
+						href="https://yp.ieee.org/"
 						target="_blank"
 						rel="noreferrer"
 						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
@@ -950,7 +950,7 @@ function IEEEPartners() {
 						/>
 					</a>
 					<a
-						href="https://mtt.org/"
+						href="https://www.ieee-ies.org/"
 						target="_blank"
 						rel="noreferrer"
 						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
@@ -967,7 +967,7 @@ function IEEEPartners() {
 						/>
 					</a>
 					<a
-						href="https://mtt.org/"
+						href="https://life.ieee.org/"
 						target="_blank"
 						rel="noreferrer"
 						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
@@ -984,7 +984,7 @@ function IEEEPartners() {
 						/>
 					</a>
 					<a
-						href="https://mtt.org/"
+						href="https://entrepreneurship.ieee.org/"
 						target="_blank"
 						rel="noreferrer"
 						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
