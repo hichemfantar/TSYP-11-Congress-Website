@@ -821,21 +821,23 @@ function IEEEPartners() {
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<h2 className="mb-12 text-center text-4xl font-bold">IEEE Partners</h2>
 				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-					<a
-						href="https://www.ieee.org/"
-						target="_blank"
-						rel="noreferrer"
-						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
-					>
-						<CustomImage
-							className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
-							src={IeeeLogo}
-							alt="IEEE"
-							// width={200}
-							// height={200}
-							loading=""
-						/>
-					</a>
+					{false && (
+						<a
+							href="https://www.ieee.org/"
+							target="_blank"
+							rel="noreferrer"
+							className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
+						>
+							<CustomImage
+								className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
+								src={IeeeLogo}
+								alt="IEEE"
+								// width={200}
+								// height={200}
+								loading=""
+							/>
+						</a>
+					)}
 					{false && (
 						<a
 							href="https://yp.ieee.tn/"
@@ -906,13 +908,32 @@ function IEEEPartners() {
 					>
 						<CustomImage
 							className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
-							src={IASLogo}
+							src={
+								"data:image/png;base64,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"
+							}
 							alt="Transistor"
 							// width={200}
 							// height={200}
 							loading=""
 						/>
 					</a>
+					{false && (
+						<a
+							href="https://ias.ieee.org/"
+							target="_blank"
+							rel="noreferrer"
+							className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
+						>
+							<CustomImage
+								className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
+								src={IASLogo}
+								alt="Transistor"
+								// width={200}
+								// height={200}
+								loading=""
+							/>
+						</a>
+					)}
 					<a
 						href="https://mtt.org/"
 						target="_blank"
@@ -929,7 +950,7 @@ function IEEEPartners() {
 						/>
 					</a>
 					<a
-						href="https://www.ieeesmc.org/"
+						href="https://mtt.org/"
 						target="_blank"
 						rel="noreferrer"
 						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
@@ -937,7 +958,7 @@ function IEEEPartners() {
 						<CustomImage
 							className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
 							src={
-								"https://edu.ieee.org/in-sairamsmc/wp-content/uploads/sites/911/2022/07/ieee_smc.jpg"
+								"https://iten.ieee-ies.org/wp-content/uploads/2021/01/IEEE-IES-Logo-Color-RGB-72ppi.png"
 							}
 							alt="Transistor"
 							// width={200}
@@ -945,6 +966,59 @@ function IEEEPartners() {
 							loading=""
 						/>
 					</a>
+					<a
+						href="https://mtt.org/"
+						target="_blank"
+						rel="noreferrer"
+						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
+					>
+						<CustomImage
+							className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
+							src={
+								"https://life.ieee.org/wp-content/uploads/ieee_life_members-logo.png"
+							}
+							alt="Transistor"
+							// width={200}
+							// height={200}
+							loading=""
+						/>
+					</a>
+					<a
+						href="https://mtt.org/"
+						target="_blank"
+						rel="noreferrer"
+						className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
+					>
+						<CustomImage
+							className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
+							src={
+								"https://entrepreneurship.ieee.org/wp-content/uploads/2020/07/ieee-entrepreneurship-logo.png"
+							}
+							alt="Transistor"
+							// width={200}
+							// height={200}
+							loading=""
+						/>
+					</a>
+					{false && (
+						<a
+							href="https://www.ieeesmc.org/"
+							target="_blank"
+							rel="noreferrer"
+							className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
+						>
+							<CustomImage
+								className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition dark:shadow-gray-800 md:h-[220px] md:w-[220px] lg:col-span-1"
+								src={
+									"https://edu.ieee.org/in-sairamsmc/wp-content/uploads/sites/911/2022/07/ieee_smc.jpg"
+								}
+								alt="Transistor"
+								// width={200}
+								// height={200}
+								loading=""
+							/>
+						</a>
+					)}
 				</div>
 			</div>
 		</div>
