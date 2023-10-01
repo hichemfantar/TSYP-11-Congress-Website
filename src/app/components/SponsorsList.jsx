@@ -60,7 +60,7 @@ export default function SponsorsList() {
 						</div>
 						<div className="grid grid-cols-12 gap-y-4 md:gap-4">
 							{partners.map((e) => (
-								<div className="col-span-12 md:col-span-4" key={e.slug}>
+								<div className="col-span-12 md:col-span-3" key={e.slug}>
 									<SponsorListItem data={e} />
 								</div>
 							))}
@@ -76,7 +76,7 @@ export default function SponsorsList() {
 						<div className="grid grid-cols-12 gap-y-4 md:gap-4">
 							{sectionPartners.map((e) => (
 								<div
-									className="relative col-span-12 md:col-span-4"
+									className="relative col-span-12 md:col-span-3"
 									key={e.slug}
 								>
 									<SponsorListItem data={e} isTunisia />
@@ -98,7 +98,7 @@ export default function SponsorsList() {
 						</div>
 						<div className="grid grid-cols-12 gap-y-4 md:auto-rows-fr md:gap-4">
 							{apexPartners.map((e) => (
-								<div className="col-span-12 md:col-span-4" key={e.slug}>
+								<div className="col-span-12 md:col-span-3" key={e.slug}>
 									<SponsorListItem data={e} classNames={"h-full"} />
 								</div>
 							))}

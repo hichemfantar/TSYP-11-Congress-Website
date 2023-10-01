@@ -23,6 +23,7 @@ import AboutUs from "./app/pages/AboutUs.page.jsx";
 import TicketPage from "./app/pages/Ticket.page.jsx";
 import VenuePage from "./app/pages/Venue.page.jsx";
 import { ChallengesPage } from "./app/pages/Challenges.jsx";
+import ChallengeDetailsPage from "./app/pages/ChallengeDetails.page.jsx";
 
 setInitialTheme();
 
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
 			{
 				path: "sponsors/:companySlug",
 				element: <ExpoDetailsPage />,
+			},
+			{
+				path: "challenges/:challengeSlug",
+				element: <ChallengeDetailsPage />,
 			},
 			{
 				path: "speakers",
@@ -87,10 +92,10 @@ const router = createBrowserRouter([
 				path: "sponsor-us",
 				element: <SponsorUsPage />,
 			},
-			// {
-			// 	path: "challenges",
-			// 	element: <ChallengesPage />,
-			// },
+			{
+				path: "challenges",
+				element: <ChallengesPage />,
+			},
 			{
 				path: "ticket",
 				element: <TicketPage />,
