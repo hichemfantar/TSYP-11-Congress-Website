@@ -521,7 +521,7 @@ export const sponsorsData = [
 		slug: "IEEE-ESSTHS-SB",
 		tierRank: 0,
 		logo: {
-			url: IeeeEssthsSbLogo,
+			url: "https://i.imgur.com/D2yCFXl.png" || IeeeEssthsSbLogo,
 		},
 		website: "https://essths.ieee.tn/",
 	},
