@@ -554,14 +554,13 @@ export const sponsorsData = [
 	{
 		enabled: true,
 		name: "Belkhiria Services & Conseils",
-		description: "",
+		description: "Belkhiria Services & Conseils",
 		slug: "Belkhiria-Services-&-Conseils",
 		tierRank: 4,
 		logo: {
 			url: "https://i.imgur.com/R63Dmh8.png",
 		},
-		website:
-			"https://vymaps.com/TN/Belkhiria-Services-Conseils-103331758065289/",
+		website: "",
 	},
 	{
 		enabled: true,

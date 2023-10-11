@@ -67,14 +67,16 @@ function ExpoDetails({ data }) {
 					<p>{data.description}</p>
 				</div>
 
-				<div>
-					<a href={data.website} target="_blank" rel="noreferrer">
-						<StyledButton
-							message={"Learn More"}
-							icon={<FontAwesomeIcon icon={faExternalLink} />}
-						/>
-					</a>
-				</div>
+				{data.website && (
+					<div>
+						<a href={data.website} target="_blank" rel="noreferrer">
+							<StyledButton
+								message={"Learn More"}
+								icon={<FontAwesomeIcon icon={faExternalLink} />}
+							/>
+						</a>
+					</div>
+				)}
 
 				{data.links && (
 					<div className="block md:hidden">
