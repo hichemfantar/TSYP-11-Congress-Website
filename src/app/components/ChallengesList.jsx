@@ -54,7 +54,7 @@ export default function ChallengesList() {
 
 export const challengesData = [
 	{
-		enabled: true,
+		enabled: false,
 		// type: "global-ieee-partner",
 		name: "IAS Challenge",
 		goal: "Fix the world",
@@ -64,11 +64,10 @@ export const challengesData = [
 		logo: {
 			url: "https://i.imgur.com/VFjq2KC.png",
 		},
-		link:
-			"https://drive.google.com/file/d/16L38Ia3QcQHgVLUFZKHUJfcmrFkVKQLB/view?usp=drive_link",
+		link: "https://drive.google.com/file/d/16L38Ia3QcQHgVLUFZKHUJfcmrFkVKQLB/view?usp=drive_link",
 	},
 	{
-		enabled: true,
+		enabled: false,
 		// type: "global-ieee-partner",
 		name: "SIGHT Challenge",
 		goal: "Fix the world",
@@ -78,11 +77,10 @@ export const challengesData = [
 		logo: {
 			url: "https://i.imgur.com/U3PXO5v.png",
 		},
-		link:
-			"https://drive.google.com/file/d/1VHZpVnigBXIrYbw1pkNKwJF5kBHTngvl/view?usp=drive_link",
+		link: "https://drive.google.com/file/d/1VHZpVnigBXIrYbw1pkNKwJF5kBHTngvl/view?usp=drive_link",
 	},
 	{
-		enabled: true,
+		enabled: false,
 		// type: "global-ieee-partner",
 		name: "CS & YP Challenge",
 		goal: "Fix the world",
@@ -92,11 +90,10 @@ export const challengesData = [
 		logo: {
 			url: "https://i.imgur.com/m4NBbkW.png",
 		},
-		link:
-			"https://drive.google.com/file/d/15sLn9jOzwH3uOw0p_5dqwc7L4JoQNtWL/view?usp=drive_link",
+		link: "https://drive.google.com/file/d/15sLn9jOzwH3uOw0p_5dqwc7L4JoQNtWL/view?usp=drive_link",
 	},
 	{
-		enabled: true,
+		enabled: false,
 		// type: "global-ieee-partner",
 		name: "SMC & EDUCATION Challenge",
 		goal: "Fix the world",
@@ -106,11 +103,10 @@ export const challengesData = [
 		logo: {
 			url: "https://i.imgur.com/HVSIJpw.png",
 		},
-		link:
-			"https://drive.google.com/file/d/1-JlWirmZjpG0rvkb4Mpt2__COhqAD6ib/view?usp=drive_link",
+		link: "https://drive.google.com/file/d/1-JlWirmZjpG0rvkb4Mpt2__COhqAD6ib/view?usp=drive_link",
 	},
 	{
-		enabled: true,
+		enabled: false,
 		// type: "global-ieee-partner",
 		name: "EMBS Challenge",
 		goal: "Fix the world",
@@ -120,11 +116,10 @@ export const challengesData = [
 		logo: {
 			url: "https://i.imgur.com/qsBZD6s.jpg",
 		},
-		link:
-			"https://drive.google.com/file/d/1cPTfWgMq0Ee8qs49enxsTvKoYhqKg0bW/view?usp=drive_link",
+		link: "https://drive.google.com/file/d/1cPTfWgMq0Ee8qs49enxsTvKoYhqKg0bW/view?usp=drive_link",
 	},
 	{
-		enabled: true,
+		enabled: false,
 		// type: "global-ieee-partner",
 		name: "SSCS Challenge",
 		goal: "Fix the world",
@@ -134,11 +129,10 @@ export const challengesData = [
 		logo: {
 			url: "https://i.imgur.com/URPRAP2.gif",
 		},
-		link:
-			"https://drive.google.com/file/d/1zr3bgm-XaKMaW9_fTkj3hx4IE3wiKghb/view?usp=drive_link",
+		link: "https://drive.google.com/file/d/1zr3bgm-XaKMaW9_fTkj3hx4IE3wiKghb/view?usp=drive_link",
 	},
 	{
-		enabled: true,
+		enabled: false,
 		// type: "global-ieee-partner",
 		name: "AESS Challenge",
 		goal: "Fix the world",
@@ -148,11 +142,10 @@ export const challengesData = [
 		logo: {
 			url: "https://i.imgur.com/VizcxQ0.jpg",
 		},
-		link:
-			"https://drive.google.com/file/d/1QsbJhAFmPDnjtt9OLZi_YNCBSfmUX_P_/view?usp=drive_link",
+		link: "https://drive.google.com/file/d/1QsbJhAFmPDnjtt9OLZi_YNCBSfmUX_P_/view?usp=drive_link",
 	},
 	{
-		enabled: true,
+		enabled: false,
 		// type: "global-ieee-partner",
 		name: "WIE Challenge",
 		goal: "Fix the world",
@@ -162,11 +155,10 @@ export const challengesData = [
 		logo: {
 			url: "https://i.imgur.com/n1NixiN.jpg",
 		},
-		link:
-			"https://drive.google.com/file/d/1uQ8WdPrNJRy5iAKdP3rzMWnqMGIK5lsI/view?usp=drive_link",
+		link: "https://drive.google.com/file/d/1uQ8WdPrNJRy5iAKdP3rzMWnqMGIK5lsI/view?usp=drive_link",
 	},
 	{
-		enabled: true,
+		enabled: false,
 		// type: "global-ieee-partner",
 		name: "RAS Challenge",
 		goal: "Fix the world",
@@ -176,21 +168,19 @@ export const challengesData = [
 		logo: {
 			url: "https://i.imgur.com/lFtMuPA.png",
 		},
-		link:
-			"https://drive.google.com/file/d/13LOQMU3oD3XItxe6cLFMb5g8ZeehD06q/view?usp=drive_link",
+		link: "https://drive.google.com/file/d/13LOQMU3oD3XItxe6cLFMb5g8ZeehD06q/view?usp=drive_link",
 	},
 	{
 		enabled: true,
 		// type: "global-ieee-partner",
-		name: "PES & IES Challenge",
+		name: "IEEE PES and IES Tunisia Technical Challenge",
 		goal: "Fix the world",
 		description:
 			"PES & IES is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
 		slug: "PES-&-IES-Challenge",
 		logo: {
-			url: "https://i.imgur.com/4vEYEHa.png",
+			url: "https://i.imgur.com/s2Da1Xb.png",
 		},
-		link:
-			"https://drive.google.com/file/d/10SWF5ZcVzFoRJwssA3YeQm5TYMjOl-tH/view?usp=drive_link",
+		link: "https://bit.ly/PES-IES",
 	},
 ];

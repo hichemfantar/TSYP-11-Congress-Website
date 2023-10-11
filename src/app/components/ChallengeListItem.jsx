@@ -28,9 +28,9 @@ export default function ChallengeListItem({ data, classNames, imgClassNames }) {
 			</div>
 
 			<div class="font-bold">{data.name}</div>
-			<div className="text-gray-600 line-clamp-3 dark:text-gray-300">
+			{/* <div className="text-gray-600 line-clamp-3 dark:text-gray-300">
 				{data.description}
-			</div>
+			</div> */}
 		</Link>
 	);
 }

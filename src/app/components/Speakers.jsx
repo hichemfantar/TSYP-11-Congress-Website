@@ -67,7 +67,7 @@ export default function Speakers({ limit = 0 }) {
 
 export const speakersData = [
 	{
-		enabled: true,
+		enabled: false,
 		name: "Thomas Coughlin",
 		bio: "An experienced owner in the digital storage industry with a strong background in HDDs, SSDs, SAN, NAS, and cloud storage. He holds a Ph.D. in Electrical and Electronics Engineering from Shinshu University.",
 		title: "IEEE President-Elect",
@@ -159,7 +159,7 @@ export const speakersData = [
 		},
 	},
 	{
-		enabled: true,
+		enabled: false,
 		name: "Srikanth Pillai",
 		bio: "Srikanth Vasudevan Pillai is a Ph.D. candidate and research assistant at McMaster University's MARC, specializing in the design and control of electric motors for EV and aerospace applications. At MARC, he is responsible for designing and testing high-speed machines for aerospace use. Srikanth's research focuses on machine control, and he has prior experience as an Assistant Professor at Amrita University. He is an active volunteer for IEEE and has organized and participated in international conferences. Srikanth's interests include playing the violin, reading, and watching TV. His programming skills include PIC microcontrollers and C, and he is proficient in MATLAB, PSIM, JMag, and ANSYS.",
 		title: "IEEE IAS CMD Chair",
@@ -329,7 +329,7 @@ export const speakersData = [
 		},
 	},
 	{
-		enabled: true,
+		enabled: false,
 		name: "Hasala Dharmawardena",
 		bio: `I believe in the vision that it is possible to design a sustainable power grid that provides electric power to satisfy all basic needs of every human on the earth. In realizing this mission, my interests run from technical to socio-economic aspects of the power system. 
 
@@ -352,6 +352,214 @@ export const speakersData = [
 		},
 		imageSmall: {
 			url: Dharmawardena_hasala,
+		},
+	},
+	{
+		enabled: true,
+		name: "Eric Berkowitz",
+		bio: `I’m a seasoned membership marketing executive, leader and strategist. I’m an expert in member recruitment, retention and engagement. I develop and execute strategic marketing plans and programs to build awareness of organizational activities and increase revenue. I have direct experience with building integrated direct marketing campaigns that include direct mail, telemarketing, email, advertising, and social media for both member acquisition and retention.`,
+		title: "Director of Membership - IEEE Computer Society",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "EricBerkowitz",
+		twitterUsername: "Hasala_Dharmawardena",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/59V4bgW.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/59V4bgW.jpg",
+		},
+	},
+	{
+		enabled: true,
+		name: "Laura Meyer",
+		bio: `LLM Candidate, Public International Law - Law of the Sea and Environmental Law specialization | Planet Positive 2030 Initiative by IEEE`,
+		title:
+			"Co-chair, Ocean Decade initiative / IEEE Oceanic engineering society",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "LauraMeyer",
+		twitterUsername: "Hasala_Dharmawardena",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/X1fTvTg.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/X1fTvTg.jpg",
+		},
+	},
+	{
+		enabled: true,
+		name: "Zied Bouida",
+		bio: `Experienced Senior Researcher with a demonstrated history of working in academic institutions with a strong collaboration with Industry Partners. Skilled in the design, deployment, and performance analysis of Wireless Sensor Networks. Extensive project management experience as a Manager of the MiGen Smart Grid Project (Carleton Team) and as the Cisco Chair Technical Manager with The Internet of Things (IoT) Lab at Carleton University.`,
+		title: "Senior Research Associate, Ericsson-Carleton Mobile Wireless Lab",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "ZiedBouida",
+		twitterUsername: "Zied Bouida",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/C2G2wJk.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/C2G2wJk.jpg",
+		},
+	},
+	{
+		enabled: true,
+		name: "Sabine Bastisch",
+		bio: `𝗦𝗼𝗳𝘁 𝗦𝗸𝗶𝗹𝗹𝘀 𝗘𝘅𝗽𝗲𝗿𝘁 𝗙𝗼𝗿 𝗖𝗼𝗿𝗽𝗼𝗿𝗮𝘁𝗲 & 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝘃𝗲 𝗧𝗲𝗮𝗺𝘀 – 𝗛𝗲𝗮𝗱 𝗼𝗳 𝗖𝗼𝗮𝗰𝗵𝗶𝗻𝗴 𝗮𝘁 𝗦𝗮𝗺𝗮𝗿𝗶 𝗖𝗼𝗻𝘀𝘂𝗹𝘁𝗶𝗻𝗴`,
+		title: "𝗦𝗮𝗺𝗮𝗿𝗶 𝗖𝗼𝗻𝘀𝘂𝗹𝘁𝗶𝗻𝗴, 𝗛𝗲𝗮𝗱 𝗼𝗳 𝗖𝗼𝗮𝗰𝗵𝗶𝗻𝗴",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "SabineBastisch",
+		twitterUsername: "Sabine Bastisch",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/S3wPvSs.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/S3wPvSs.jpg",
+		},
+	},
+	{
+		enabled: false,
+		name: "Ljiljana Trajkovic",
+		bio: `Professor of Engineering Science`,
+		title: "Professor of Engineering Science",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "LjiljanaTrajkovic",
+		twitterUsername: "Ljiljana Trajkovic",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/QSCYpYf.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/QSCYpYf.jpg",
+		},
+	},
+	{
+		enabled: true,
+		name: "Hatem Haddad",
+		bio: `Entrepreneur, professor and researcher in artificial intelligence and NLPs`,
+		title: "Professor, ISAMM",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "HatemHaddad",
+		twitterUsername: "Hatem Haddad",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/yCAIzXX.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/yCAIzXX.jpg",
+		},
+	},
+	{
+		enabled: true,
+		name: "Moez ben haj hmida",
+		bio: `Professor | Researcher | Artificial Intelligence | NLP | ML | DL`,
+		title: "Professor | Artificial Intelligence",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "moez_ben_haj_hmida",
+		twitterUsername: "Moez ben haj hmida",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/pr3bm77.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/pr3bm77.jpg",
+		},
+	},
+	{
+		enabled: true,
+		name: "Oussama Chelly",
+		bio: `Founder of Deepvolt, ML Cloud Solution Architect`,
+		title: "Founder of Deepvolt, ML Cloud Solution Architect",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "OussamaChelly",
+		twitterUsername: "Oussama Chelly",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/e5IsSEu.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/e5IsSEu.jpg",
+		},
+	},
+	{
+		enabled: true,
+		name: "Aladdin Ayesh",
+		bio: `Professor of Artificial Intelligence and Vice Dean for Joint Institute of Data Sciences and Artificial Intelligence`,
+		title: "Professor of Artificial Intelligence",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "AladdinAyesh",
+		twitterUsername: "Aladdin Ayesh",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/7Zeu7ak.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/7Zeu7ak.jpg",
 		},
 	},
 ];

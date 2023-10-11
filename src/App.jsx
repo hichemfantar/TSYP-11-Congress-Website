@@ -41,7 +41,7 @@ const router = createBrowserRouter([
 				element: <TunisiaPage />,
 			},
 			{
-				path: "sponsors",
+				path: "partners-sponsors",
 				element: <SponsorsPage />,
 			},
 			{
@@ -49,7 +49,7 @@ const router = createBrowserRouter([
 				element: <SchedulePage />,
 			},
 			{
-				path: "sponsors/:companySlug",
+				path: "partners-sponsors/:companySlug",
 				element: <ExpoDetailsPage />,
 			},
 			{

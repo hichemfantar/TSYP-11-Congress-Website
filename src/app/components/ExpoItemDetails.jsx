@@ -18,9 +18,14 @@ export default function ExpoItemDetails() {
 	return (
 		<div className="mx-auto max-w-3xl">
 			<div className="mb-8 inline-block text-sm">
-				<Link to="/sponsors" className="text-gray-700 dark:text-gray-300">
+				<Link
+					to="/partners-sponsors"
+					className="text-gray-700 dark:text-gray-300"
+				>
 					<FontAwesomeIcon icon={faChevronLeft} />{" "}
-					<span className="font-bold hover:underline">Back to Sponsors</span>
+					<span className="font-bold hover:underline">
+						Back to Partners & Sponsors
+					</span>
 				</Link>
 			</div>
 
@@ -39,7 +44,7 @@ function ExpoDetails({ data }) {
 					alt=""
 					className="mx-auto aspect-video h-48 rounded-lg bg-gray-50 object-contain p-6"
 				/>
-				{data.type === "section-partner" && (
+				{false && data.type === "section-partner" && (
 					<img
 						src={tn_flag}
 						className="absolute top-5 left-5 aspect-video h-5 rounded-md object-cover"

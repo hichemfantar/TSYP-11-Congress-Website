@@ -103,9 +103,11 @@ export default function HomePage() {
 							IEEE Tunisian Students & Young Professionals Congress
 						</h1>
 
-						<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-							Medina Congress Center, Yasmine Hammamet
-						</h1>
+						{true && (
+							<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+								Medina Congress Center, Yasmine Hammamet
+							</h1>
+						)}
 
 						<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 							<q>Silicon valley is a mindset, not a location.</q>
@@ -224,28 +226,30 @@ export default function HomePage() {
 					<Team limit={5} />
 				</section>
 			</Fade>
-			<Fade>
-				<section className="py-8 md:py-28">
-					<div className="mx-auto">
-						<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-							Find us here.
-						</h1>
-						<iframe
-							title="tsyp location"
-							src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12851.062625886407!2d10.5328555!3d36.3664548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13029e020677bc0d%3A0x82fe8c3faf57e873!2sDiar%20Lemdina!5e0!3m2!1sen!2stn!4v1682280141809!5m2!1sen!2stn"
-							className="w-full rounded-2xl shadow-lg"
-							height="500"
-							style={{
-								border: 0,
-								// width: "100%",
-							}}
-							allowFullScreen=""
-							loading=""
-							referrerPolicy="no-referrer-when-downgrade"
-						></iframe>
-					</div>
-				</section>
-			</Fade>
+			{true && (
+				<Fade>
+					<section className="py-8 md:py-28">
+						<div className="mx-auto">
+							<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+								Find us here.
+							</h1>
+							<iframe
+								title="tsyp location"
+								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12851.062625886407!2d10.5328555!3d36.3664548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13029e020677bc0d%3A0x82fe8c3faf57e873!2sDiar%20Lemdina!5e0!3m2!1sen!2stn!4v1682280141809!5m2!1sen!2stn"
+								className="w-full rounded-2xl shadow-lg"
+								height="500"
+								style={{
+									border: 0,
+									// width: "100%",
+								}}
+								allowFullScreen=""
+								loading=""
+								referrerPolicy="no-referrer-when-downgrade"
+							></iframe>
+						</div>
+					</section>
+				</Fade>
+			)}
 
 			{/* <SparrowSurvey /> */}
 		</div>
@@ -309,14 +313,15 @@ export function AboutTunisiaSection(params) {
 					About IEEE Tunisia Section.
 				</h1>
 				<h1 className="mb-4 text-lg font-medium  lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-					The IEEE Tunisian Section aims to disseminate IEEE activities to all
-					corners of the country through educational and technical activities,
-					networking of people, and developing technology and its applications
-					for humanitarian challenges. The section supports chapters, special
-					interest groups, student activities, and student awards. IEEE is
-					anchored in the Tunisian engineering landscape with more than 43
-					Student Branches' spread over the different engineering schools,
-					faculties and universities
+					Founded in 2008, the IEEE Tunisia Section is dedicated to spreading
+					IEEE initiatives throughout Tunisia. This is achieved through
+					educational and technical programs, networking opportunities, and the
+					advancement of technology and its applications to address humanitarian
+					challenges. The section actively supports chapters, special interest
+					groups, student activities, and student awards. IEEE has firmly
+					established its presence in the Tunisian engineering community, with
+					over 43 Student Branches located across various engineering schools,
+					faculties, and universities.
 				</h1>
 				<div>
 					<Link
@@ -361,12 +366,12 @@ export function AboutTSYP() {
 					About IEEE TSYP Congress.
 				</h1>
 				<p className="mb-4  text-lg font-medium lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-					Tunisian Students and Young Professionals, is the annual congress that
-					brings together IEEE members in Tunisia. We are talking about the 11th
-					edition which is organized by IEEE ESSTHS SB. It is an excellent
-					opportunity to discuss current and future challenges in science and
-					engineering, to immerse yourself in the IEEE national network and to
-					exchange experiences.
+					The Tunisian Students and Young Professionals (TSYP) Congress is an
+					annual gathering of IEEE members in Tunisia. Organized by IEEE ESSTHS
+					Student Branch and IEEE Tunisia Section, the 11th edition provides a
+					unique opportunity to delve into current and future challenges in
+					science and engineering, connect with the national and international
+					IEEE network, and share experiences, under the theme Silicon Valley.
 				</p>
 			</div>
 		</section>

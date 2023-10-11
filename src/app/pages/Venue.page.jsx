@@ -15,6 +15,7 @@ export default function VenuePage() {
 						<h1 className="text-3xl font-bold tracking-tight   lg:text-5xl lg:font-extrabold lg:leading-none">
 							Medina Congress Center, Yasmine Hammamet.
 						</h1>
+
 						{/* <Link to={"https://diarlemdina.medinahotelsandresorts.com/en"}>
 							<FontAwesomeIcon icon={faExternalLink} className="h-5 w-5" />
 						</Link> */}
