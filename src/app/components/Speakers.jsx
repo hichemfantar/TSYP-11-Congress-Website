@@ -519,8 +519,8 @@ export const speakersData = [
 	{
 		enabled: true,
 		name: "Oussama Chelly",
-		bio: `Founder of Deepvolt, ML Cloud Solution Architect`,
-		title: "Founder of Deepvolt, ML Cloud Solution Architect",
+		bio: `Co-Founder of Deepvolt, ML Cloud Solution Architect`,
+		title: "Co-Founder of Deepvolt, ML Cloud Solution Architect",
 		talk: {
 			title: "Keynote",
 			description:
