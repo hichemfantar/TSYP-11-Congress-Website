@@ -54,8 +54,20 @@ export default function ChallengesList() {
 
 export const challengesData = [
 	{
+		enabled: true,
+		name: "IEEE PES and IES Tunisia Technical Challenge",
+		goal: "Fix the world",
+		description:
+			"PES & IES is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		slug: "PES-&-IES-Challenge",
+		logo: {
+			url: "https://i.imgur.com/s2Da1Xb.png",
+		},
+		link: "https://bit.ly/PES-IES",
+	},
+
+	{
 		enabled: false,
-		// type: "global-ieee-partner",
 		name: "SIGHT Challenge",
 		goal: "Fix the world",
 		description:
@@ -68,7 +80,6 @@ export const challengesData = [
 	},
 	{
 		enabled: false,
-		// type: "global-ieee-partner",
 		name: "CS & YP Challenge",
 		goal: "Fix the world",
 		description:
@@ -81,7 +92,6 @@ export const challengesData = [
 	},
 	{
 		enabled: true,
-		// type: "global-ieee-partner",
 		name: "IEEE SMC and EdSoc Tunisia Technical Challenge",
 		goal: "Fix the world",
 		description: "Understanding Student Well-being: A Holistic Approach",
@@ -93,7 +103,6 @@ export const challengesData = [
 	},
 	{
 		enabled: false,
-		// type: "global-ieee-partner",
 		name: "EMBS Challenge",
 		goal: "Fix the world",
 		description:
@@ -106,7 +115,6 @@ export const challengesData = [
 	},
 	{
 		enabled: false,
-		// type: "global-ieee-partner",
 		name: "SSCS Challenge",
 		goal: "Fix the world",
 		description:
@@ -119,7 +127,6 @@ export const challengesData = [
 	},
 	{
 		enabled: false,
-		// type: "global-ieee-partner",
 		name: "AESS Challenge",
 		goal: "Fix the world",
 		description:
@@ -132,7 +139,6 @@ export const challengesData = [
 	},
 	{
 		enabled: false,
-		// type: "global-ieee-partner",
 		name: "WIE Challenge",
 		goal: "Fix the world",
 		description:
@@ -145,21 +151,7 @@ export const challengesData = [
 	},
 
 	{
-		enabled: true,
-		// type: "global-ieee-partner",
-		name: "IEEE PES and IES Tunisia Technical Challenge",
-		goal: "Fix the world",
-		description:
-			"PES & IES is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
-		slug: "PES-&-IES-Challenge",
-		logo: {
-			url: "https://i.imgur.com/s2Da1Xb.png",
-		},
-		link: "https://bit.ly/PES-IES",
-	},
-	{
 		enabled: false,
-		// type: "global-ieee-partner",
 		name: "IEEE RAS Tunisia Technical Challenge",
 		goal: "Fix the world",
 		description:
@@ -172,7 +164,6 @@ export const challengesData = [
 	},
 	{
 		enabled: true,
-		// type: "global-ieee-partner",
 		name: "IEEE IAS Tunisia Technical Challenge",
 		goal: "Fix the world",
 		description:
