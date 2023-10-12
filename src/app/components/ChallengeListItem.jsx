@@ -11,7 +11,7 @@ export default function ChallengeListItem({ data, classNames, imgClassNames }) {
 			to={data.link}
 			target="_blank"
 			className={twMerge(
-				"block rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:p-6",
+				"block h-full rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:p-6",
 				classNames
 			)}
 		>

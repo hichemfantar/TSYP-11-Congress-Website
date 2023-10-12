@@ -97,8 +97,7 @@ export const challengesData = [
 		// type: "global-ieee-partner",
 		name: "IEEE SMC and EdSoc Tunisia Technical Challenge",
 		goal: "Fix the world",
-		description:
-			"SMC & EDUCATION is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		description: "Understanding Student Well-being: A Holistic Approach",
 		slug: "SMC-&-EDUCATION-Challenge",
 		logo: {
 			url: "https://i.imgur.com/LQf7kWn.png",
