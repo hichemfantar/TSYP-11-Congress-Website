@@ -56,19 +56,6 @@ export const challengesData = [
 	{
 		enabled: false,
 		// type: "global-ieee-partner",
-		name: "IEEE IAS Tunisia Technical Challenge",
-		goal: "Fix the world",
-		description:
-			"IAS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
-		slug: "IAS-Challenge",
-		logo: {
-			url: "https://i.imgur.com/aidaut9.png",
-		},
-		link: "https://bit.ly/3PMSCaa",
-	},
-	{
-		enabled: false,
-		// type: "global-ieee-partner",
 		name: "SIGHT Challenge",
 		goal: "Fix the world",
 		description:
@@ -156,19 +143,7 @@ export const challengesData = [
 		},
 		link: "https://drive.google.com/file/d/1uQ8WdPrNJRy5iAKdP3rzMWnqMGIK5lsI/view?usp=drive_link",
 	},
-	{
-		enabled: false,
-		// type: "global-ieee-partner",
-		name: "RAS Challenge",
-		goal: "Fix the world",
-		description:
-			"RAS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
-		slug: "RAS-Challenge",
-		logo: {
-			url: "https://i.imgur.com/lFtMuPA.png",
-		},
-		link: "https://drive.google.com/file/d/13LOQMU3oD3XItxe6cLFMb5g8ZeehD06q/view?usp=drive_link",
-	},
+
 	{
 		enabled: true,
 		// type: "global-ieee-partner",
@@ -181,5 +156,31 @@ export const challengesData = [
 			url: "https://i.imgur.com/s2Da1Xb.png",
 		},
 		link: "https://bit.ly/PES-IES",
+	},
+	{
+		enabled: false,
+		// type: "global-ieee-partner",
+		name: "IEEE RAS Tunisia Technical Challenge",
+		goal: "Fix the world",
+		description:
+			"RAS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		slug: "RAS-Challenge",
+		logo: {
+			url: "https://i.imgur.com/jt2LCLt.png",
+		},
+		link: "https://bit.ly/46PhYv5",
+	},
+	{
+		enabled: true,
+		// type: "global-ieee-partner",
+		name: "IEEE IAS Tunisia Technical Challenge",
+		goal: "Fix the world",
+		description:
+			"IAS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		slug: "IAS-Challenge",
+		logo: {
+			url: "https://i.imgur.com/aidaut9.png",
+		},
+		link: "https://bit.ly/3PMSCaa",
 	},
 ];
