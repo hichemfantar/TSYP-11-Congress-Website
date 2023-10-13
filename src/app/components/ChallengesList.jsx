@@ -37,13 +37,16 @@ export default function ChallengesList() {
 							IEEE Global Partners
 						</div> */}
 						<div className="grid grid-cols-12 gap-y-4 md:gap-4">
-							{enabledChallenges.map((e) => {
-								return (
-									<div className="col-span-12 md:col-span-4" key={e.slug}>
-										<ChallengeListItem data={e} />
-									</div>
-								);
-							})}
+							{enabledChallenges
+								.slice()
+								.reverse()
+								.map((e) => {
+									return (
+										<div className="col-span-12 md:col-span-4" key={e.slug}>
+											<ChallengeListItem data={e} />
+										</div>
+									);
+								})}
 						</div>
 					</div>
 				)}
@@ -151,18 +154,6 @@ export const challengesData = [
 	},
 
 	{
-		enabled: false,
-		name: "IEEE RAS Tunisia Technical Challenge",
-		goal: "Fix the world",
-		description:
-			"RAS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
-		slug: "RAS-Challenge",
-		logo: {
-			url: "https://i.imgur.com/jt2LCLt.png",
-		},
-		link: "https://bit.ly/46PhYv5",
-	},
-	{
 		enabled: true,
 		name: "IEEE IAS Tunisia Technical Challenge",
 		goal: "Fix the world",
@@ -173,5 +164,17 @@ export const challengesData = [
 			url: "https://i.imgur.com/aidaut9.png",
 		},
 		link: "https://bit.ly/3PMSCaa",
+	},
+	{
+		enabled: true,
+		name: "IEEE RAS Tunisia Technical Challenge",
+		goal: "Fix the world",
+		description:
+			"RAS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		slug: "RAS-Challenge",
+		logo: {
+			url: "https://i.imgur.com/jt2LCLt.png",
+		},
+		link: "https://bit.ly/46PhYv5",
 	},
 ];
