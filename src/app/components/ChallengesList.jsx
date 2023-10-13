@@ -104,18 +104,7 @@ export const challengesData = [
 		},
 		link: "https://bit.ly/3QbG3GU",
 	},
-	{
-		enabled: false,
-		name: "EMBS Challenge",
-		goal: "Fix the world",
-		description:
-			"EMBS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
-		slug: "EMBS-Challenge",
-		logo: {
-			url: "https://i.imgur.com/qsBZD6s.jpg",
-		},
-		link: "https://drive.google.com/file/d/1cPTfWgMq0Ee8qs49enxsTvKoYhqKg0bW/view?usp=drive_link",
-	},
+
 	{
 		enabled: false,
 		name: "SSCS Challenge",
@@ -176,5 +165,17 @@ export const challengesData = [
 			url: "https://i.imgur.com/jt2LCLt.png",
 		},
 		link: "https://bit.ly/46PhYv5",
+	},
+	{
+		enabled: true,
+		name: "IEEE EMBS Tunisia Technical Challenge",
+		goal: "Fix the world",
+		description:
+			"EMBS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		slug: "EMBS-Challenge",
+		logo: {
+			url: "https://i.imgur.com/n6aU8Sm.png",
+		},
+		link: "https://tinyurl.com/22fdb2cs",
 	},
 ];
