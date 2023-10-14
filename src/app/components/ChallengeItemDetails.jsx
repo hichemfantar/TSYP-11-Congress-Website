@@ -10,10 +10,25 @@ import ExpoDetailsResources from "./ExpoDetailsResources";
 import StyledButton from "./StyledButton";
 import CustomImage from "./CustomImage";
 import tn_flag from "../../assets/Flag_of_Tunisia.svg";
-import { challengesData } from "./ChallengesList";
+
+import { useEffect, useState } from "react";
 
 export default function ChallengeItemDetails() {
 	const { challengeSlug } = useParams();
+
+	const [challengesData, setChallengesData] = useState([]);
+
+	useEffect(() => {
+		const getData = async () => {
+			fetch("/assets/challenges.json")
+				.then((response) => response.json())
+				.then((response) => {
+					setChallengesData(response);
+				})
+				.catch((err) => console.error(err));
+		};
+		getData();
+	}, []);
 
 	const currentCompany = challengesData.find((s) => s.slug === challengeSlug);
 
