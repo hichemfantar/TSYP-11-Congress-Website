@@ -112,9 +112,14 @@ export default function HomePage() {
 						<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 							<q>Silicon valley is a mindset, not a location.</q>
 						</h1>
-						<h1 className="mb-8 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-							18 - 20 December <span className="xtext-[#3a55b4]">2023</span>
-						</h1>
+						<div className="mb-8 text-center lg:mb-7">
+							<span className="text-xl font-bold tracking-tight lg:text-2xl lg:font-extrabold lg:leading-none">
+								18 - 20 December <span className="xtext-[#3a55b4]">2023</span>,{" "}
+							</span>
+							<span className="text-xl font-bold tracking-tight lg:text-2xl lg:font-extrabold lg:leading-none">
+								Registrations Opening Soon
+							</span>
+						</div>
 						<div className="flex flex-wrap items-center justify-center gap-8">
 							<div className="xtext-[#3a55b4] mb-4 ">
 								<h1 className="mb-2 text-center text-xl font-bold tracking-tight text-[#3a55b4] dark:text-[#4967d0] lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
@@ -141,17 +146,27 @@ export default function HomePage() {
 								<span className="mt-1 font-bold uppercase">Speakers</span>
 							</div>
 						</div>
-						<div className="flex justify-center gap-6">
-							<Link to={"/sponsor-us"} className="mt-8 flex justify-center">
+						<div className="mt-8 flex flex-wrap justify-center gap-6">
+							{/* <Link to={"/sponsor-us"} className="flex justify-center">
 								<StyledButton
 									message={"Registrations Opening Soon"}
 									// icon={<FontAwesomeIcon icon={faExternalLink} />}
 								/>
-							</Link>
-							<Link to={"/sponsor-us"} className="mt-8 flex justify-center">
+							</Link> */}
+							<Link to={"/sponsor-us"} className="flex justify-center">
 								<StyledButton
 									message={"Become a Sponsor"}
 									// icon={<FontAwesomeIcon icon={faExternalLink} />}
+								/>
+							</Link>
+							<Link
+								to={"https://forms.gle/Q88TpsVymyvDYQPBA"}
+								target="_blank"
+								className="flex justify-center"
+							>
+								<StyledButton
+									message={"Become an ambassador"}
+									icon={<FontAwesomeIcon icon={faExternalLink} />}
 								/>
 							</Link>
 						</div>
@@ -169,10 +184,15 @@ export default function HomePage() {
 			</Fade>
 
 			<Fade>
-				<CustomImage
+				{/* <CustomImage
 					src={logoBar}
 					alt=""
 					className="hidden h-52 object-contain dark:invert lg:block"
+				/> */}
+				<CustomImage
+					src={"https://i.imgur.com/Ug8E3Nh.png"}
+					alt=""
+					className="mx-auto hidden h-28 object-contain invert dark:invert-0 lg:block"
 				/>
 			</Fade>
 

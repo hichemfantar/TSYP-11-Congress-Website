@@ -72,6 +72,7 @@ export default function Footer() {
 							.map((route) => (
 								<li className="" key={route.title}>
 									<NavLink
+										target={route.external && "_blank"}
 										className={({ isActive, isPending }) =>
 											twMerge(
 												"hover: focus: block p-4 px-4 text-gray-600 transition-all duration-75 hover:underline focus:font-bold dark:text-gray-400 dark:hover:text-gray-200",
