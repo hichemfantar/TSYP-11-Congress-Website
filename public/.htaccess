@@ -61,4 +61,9 @@ ServerSignature Off
     <filesMatch ".(css)$">
         Header set Cache-Control "max-age=604800, public"
     </filesMatch>
+
+    <Files challenges.json>
+        Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+    </Files>
+
 </ifModule>
