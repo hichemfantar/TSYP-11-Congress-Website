@@ -94,6 +94,7 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 														.map((route) => (
 															<li className="" key={route.title}>
 																<NavLink
+																	target={route.external && "_blank"}
 																	className={({ isActive, isPending }) =>
 																		twMerge(
 																			"block w-full p-4 px-0 transition-all duration-75 hover:font-bold dark:text-gray-400 dark:hover:text-gray-200",

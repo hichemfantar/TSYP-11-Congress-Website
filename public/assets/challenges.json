@@ -9,15 +9,6 @@
 		"link": "https://bit.ly/PES-IES"
 	},
 	{
-		"enabled": false,
-		"name": "SIGHT Challenge",
-		"goal": "Fix the world",
-		"description": "SIGHT is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
-		"slug": "SIGHT-Challenge",
-		"logo": { "url": "https://i.imgur.com/U3PXO5v.png" },
-		"link": "https://drive.google.com/file/d/1VHZpVnigBXIrYbw1pkNKwJF5kBHTngvl/view?usp=drive_link"
-	},
-	{
 		"enabled": true,
 		"name": "IEEE SMC and EdSoc Tunisia Technical Challenge",
 		"goal": "Fix the world",
@@ -25,15 +16,6 @@
 		"slug": "SMC-&-EDUCATION-Challenge",
 		"logo": { "url": "https://i.imgur.com/LQf7kWn.png" },
 		"link": "https://bit.ly/3QbG3GU"
-	},
-	{
-		"enabled": false,
-		"name": "SSCS Challenge",
-		"goal": "Fix the world",
-		"description": "SSCS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
-		"slug": "SSCS-Challenge",
-		"logo": { "url": "https://i.imgur.com/URPRAP2.gif" },
-		"link": "https://drive.google.com/file/d/1zr3bgm-XaKMaW9_fTkj3hx4IE3wiKghb/view?usp=drive_link"
 	},
 	{
 		"enabled": false,
@@ -88,5 +70,23 @@
 		"slug": "CS-&-YP-Challenge",
 		"logo": { "url": "https://i.imgur.com/3hzl3jP.png" },
 		"link": "https://bit.ly/CSYP-PDF"
+	},
+	{
+		"enabled": true,
+		"name": "IEEE SIGHT Tunisia & IEEE R8 Entrepreneurship Technical Challenge",
+		"goal": "Fix the world",
+		"description": "SIGHT is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "SIGHT-Challenge",
+		"logo": { "url": "https://i.imgur.com/S7FPJMu.png" },
+		"link": "https://bit.ly/SIGHT-PDF"
+	},
+	{
+		"enabled": true,
+		"name": "IEEE SSCS Tunisia Technical Challenge",
+		"goal": "Fix the world",
+		"description": "SSCS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "SSCS-Challenge",
+		"logo": { "url": "https://i.imgur.com/Awodjzx.png" },
+		"link": "https://bit.ly/3PTriHn"
 	}
 ]

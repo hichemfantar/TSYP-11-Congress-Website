@@ -54,6 +54,11 @@ const routes = [
 		title: "Partners",
 		href: "/partners-sponsors",
 	},
+	{
+		title: "Ambassadors",
+		href: "https://forms.gle/Q88TpsVymyvDYQPBA",
+		external: true,
+	},
 	// {
 	// 	title: "Expo",
 	// 	href: "/expo",
