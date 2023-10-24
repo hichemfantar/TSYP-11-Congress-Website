@@ -67,49 +67,98 @@ export default function Speakers({ limit = 0 }) {
 
 export const speakersData = [
 	{
-		enabled: false,
-		name: "Thomas Coughlin",
-		bio: "An experienced owner in the digital storage industry with a strong background in HDDs, SSDs, SAN, NAS, and cloud storage. He holds a Ph.D. in Electrical and Electronics Engineering from Shinshu University.",
-		title: "IEEE President-Elect",
+		enabled: true,
+		name: "Khaled Letaief",
+		bio: "New Bright Professor of Engineering, HKUST, Hong Kong Member, United States National Academy of Engineering (NAE) President, IEEE Communications Society (2018-19).",
+		title: "Division Director III, IEEE Board of Directors",
 		talk: {
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
-		slug: "Thomas Coughlin",
-		twitterUsername: "Thomas Coughlin",
+		slug: "Khaled Letaief",
+		twitterUsername: "Khaled Letaief",
 		company: {
-			name: "Vercel",
+			name: "Google",
 		},
 		image: {
-			url: ThomasCoughlin,
+			url: KhaledLetaief,
 		},
 		imageSmall: {
-			url: ThomasCoughlin,
+			url: KhaledLetaief,
 		},
 	},
 	{
 		enabled: true,
-		name: "Mohamed Baha Ben Ticha",
-		bio: "Doctoral Researcher in Computational Neuroscience",
-		title: "Researcher, Computational Neuroscience",
+		name: "Deepak Mathur",
+		bio: "Deepak Mathur served as Director of IEEE Region 10. He has also served in many leadership roles in IEEE at Section, Council, Region and MGA (Member Geographic Activities). Deepak was IEEE India Council Chair in 2015-2016. Deepak, former Chief General Manager of ONGC (India’s premier public sector company engaged in exploration and exploitation of hydrocarbons), has more than 37-years of professional experience in fields of electronics, telecommunication, IT infrastructure and has held various engineering and managerial positions.",
+		title: "IEEE Vice President Elect - MGA",
 		talk: {
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
-		slug: "Mohamed Baha Ben Ticha",
-		twitterUsername: "Mohamed Baha Ben Ticha",
+		slug: "Deepak Mathur",
+		twitterUsername: "Deepak Mathur",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: MathurDeepak,
+		},
+		imageSmall: {
+			url: MathurDeepak,
+		},
+	},
+	{
+		enabled: true,
+		name: "Maurizio Bozzi",
+		bio: `Prof. Bozzi is the 2023 President Elect of the IEEE Microwave Theory and Technology Society (MTT-S). He was an elected Member of the Administrative Committee of MTT-S for years 2017–2022, the MTT-S Treasurer for years 2020–2022, the Chair of the Meetings and Symposia Committee of MTT-S AdCom for years 2018-2019, and the Secretary of MTT-S for year 2016. He was also a member of the General Assembly (GA) of the European Microwave Association (EuMA) for the term 2014–2016.
+		He served as a Track Editor of the IEEE Transactions on Microwave Theory and Techniques and as an Associate Editor of the IEEE Microwave and Wireless Components Letters, the IET Microwaves, Antennas and Propagation, and the IET Electronics Letters.
+		He was the General Chair of the IEEE MTT-S International Microwave Workshop Series-Advanced Materials and Processes (IMWS-AMP 2017), Pavia, Italy, 2017, of the inaugural edition of the IEEE International Conference on Numerical Electromagnetic Modeling and Optimization, NEMO2014 (Pavia, Italy, May 14-16, 2014), and of the IEEE MTT-S International Microwave Workshop Series on Millimeter Wave Integration Technologies (Sitges, Spain, Sept. 15-16, 2011).
+		`,
+		title: "President-Elect MTT-S",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Maurizio_Bozzi",
+		twitterUsername: "Maurizio_Bozzi",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: Maurizio_Bozzi,
+		},
+		imageSmall: {
+			url: Maurizio_Bozzi,
+		},
+	},
+	{
+		enabled: true,
+		name: "Mike Hinchey",
+		bio: "Mike Hinchey is a Professor of Software Engineering at the University of Limerick. He previously directed the NASA Software Engineering Laboratory and continues to be a NASA Expert. Hinchey is a renowned innovator, holding degrees from prestigious universities and publishing extensively in the field. He has held esteemed positions worldwide and is recognized as a Chartered Engineer and Fellow of professional societies. Currently, he serves as President of IFIP and Vice-Chair of IEEE UK & Ireland section.",
+		title: "IEEE R8 Director-Elect",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Mike Hinchey",
+		twitterUsername: "Mike Hinchey",
 		company: {
 			name: "Vercel",
 		},
 		image: {
-			url: "https://i.imgur.com/x4KLefk.jpg",
+			url: MikeHinchey,
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/x4KLefk.jpg",
+			url: MikeHinchey,
 		},
 	},
 	{
@@ -159,6 +208,77 @@ export const speakersData = [
 		},
 	},
 	{
+		enabled: true,
+		name: "Laura Meyer",
+		bio: `LLM Candidate, Public International Law - Law of the Sea and Environmental Law specialization | Planet Positive 2030 Initiative by IEEE`,
+		title:
+			"Co-chair, Ocean Decade initiative / IEEE Oceanic engineering society",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "LauraMeyer",
+		twitterUsername: "Hasala_Dharmawardena",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/X1fTvTg.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/X1fTvTg.jpg",
+		},
+	},
+	{
+		enabled: false,
+		name: "Thomas Coughlin",
+		bio: "An experienced owner in the digital storage industry with a strong background in HDDs, SSDs, SAN, NAS, and cloud storage. He holds a Ph.D. in Electrical and Electronics Engineering from Shinshu University.",
+		title: "IEEE President-Elect",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Thomas Coughlin",
+		twitterUsername: "Thomas Coughlin",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: ThomasCoughlin,
+		},
+		imageSmall: {
+			url: ThomasCoughlin,
+		},
+	},
+	{
+		enabled: true,
+		name: "Mohamed Baha Ben Ticha",
+		bio: "Doctoral Researcher in Computational Neuroscience",
+		title: "Researcher, Computational Neuroscience",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Mohamed Baha Ben Ticha",
+		twitterUsername: "Mohamed Baha Ben Ticha",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://i.imgur.com/x4KLefk.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/x4KLefk.jpg",
+		},
+	},
+
+	{
 		enabled: false,
 		name: "Srikanth Pillai",
 		bio: "Srikanth Vasudevan Pillai is a Ph.D. candidate and research assistant at McMaster University's MARC, specializing in the design and control of electric motors for EV and aerospace applications. At MARC, he is responsible for designing and testing high-speed machines for aerospace use. Srikanth's research focuses on machine control, and he has prior experience as an Assistant Professor at Amrita University. He is an active volunteer for IEEE and has organized and participated in international conferences. Srikanth's interests include playing the violin, reading, and watching TV. His programming skills include PIC microcontrollers and C, and he is proficient in MATLAB, PSIM, JMag, and ANSYS.",
@@ -181,29 +301,7 @@ export const speakersData = [
 			url: SrikanthPillai,
 		},
 	},
-	{
-		enabled: true,
-		name: "Mike Hinchey",
-		bio: "Mike Hinchey is a Professor of Software Engineering at the University of Limerick. He previously directed the NASA Software Engineering Laboratory and continues to be a NASA Expert. Hinchey is a renowned innovator, holding degrees from prestigious universities and publishing extensively in the field. He has held esteemed positions worldwide and is recognized as a Chartered Engineer and Fellow of professional societies. Currently, he serves as President of IFIP and Vice-Chair of IEEE UK & Ireland section.",
-		title: "IEEE R8 Director-Elect",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "Mike Hinchey",
-		twitterUsername: "Mike Hinchey",
-		company: {
-			name: "Vercel",
-		},
-		image: {
-			url: MikeHinchey,
-		},
-		imageSmall: {
-			url: MikeHinchey,
-		},
-	},
+
 	{
 		enabled: true,
 		name: "Khaled Sliti",
@@ -227,52 +325,7 @@ export const speakersData = [
 			url: KhaledSliti,
 		},
 	},
-	{
-		enabled: true,
-		name: "Khaled Letaief",
-		bio: "New Bright Professor of Engineering, HKUST, Hong Kong Member, United States National Academy of Engineering (NAE) President, IEEE Communications Society (2018-19).",
-		title: "Division Director III, IEEE Board of Directors",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "Khaled Letaief",
-		twitterUsername: "Khaled Letaief",
-		company: {
-			name: "Google",
-		},
-		image: {
-			url: KhaledLetaief,
-		},
-		imageSmall: {
-			url: KhaledLetaief,
-		},
-	},
-	{
-		enabled: true,
-		name: "Deepak Mathur",
-		bio: "Deepak Mathur served as Director of IEEE Region 10. He has also served in many leadership roles in IEEE at Section, Council, Region and MGA (Member Geographic Activities). Deepak was IEEE India Council Chair in 2015-2016. Deepak, former Chief General Manager of ONGC (India’s premier public sector company engaged in exploration and exploitation of hydrocarbons), has more than 37-years of professional experience in fields of electronics, telecommunication, IT infrastructure and has held various engineering and managerial positions.",
-		title: "IEEE Vice President Elect - MGA",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "Deepak Mathur",
-		twitterUsername: "Deepak Mathur",
-		company: {
-			name: "Google",
-		},
-		image: {
-			url: MathurDeepak,
-		},
-		imageSmall: {
-			url: MathurDeepak,
-		},
-	},
+
 	{
 		enabled: false,
 		name: "Hamza Abdelhedi",
@@ -302,32 +355,7 @@ export const speakersData = [
 			url: hamza_abdelhedi,
 		},
 	},
-	{
-		enabled: true,
-		name: "Maurizio Bozzi",
-		bio: `Prof. Bozzi is the 2023 President Elect of the IEEE Microwave Theory and Technology Society (MTT-S). He was an elected Member of the Administrative Committee of MTT-S for years 2017–2022, the MTT-S Treasurer for years 2020–2022, the Chair of the Meetings and Symposia Committee of MTT-S AdCom for years 2018-2019, and the Secretary of MTT-S for year 2016. He was also a member of the General Assembly (GA) of the European Microwave Association (EuMA) for the term 2014–2016.
-		He served as a Track Editor of the IEEE Transactions on Microwave Theory and Techniques and as an Associate Editor of the IEEE Microwave and Wireless Components Letters, the IET Microwaves, Antennas and Propagation, and the IET Electronics Letters.
-		He was the General Chair of the IEEE MTT-S International Microwave Workshop Series-Advanced Materials and Processes (IMWS-AMP 2017), Pavia, Italy, 2017, of the inaugural edition of the IEEE International Conference on Numerical Electromagnetic Modeling and Optimization, NEMO2014 (Pavia, Italy, May 14-16, 2014), and of the IEEE MTT-S International Microwave Workshop Series on Millimeter Wave Integration Technologies (Sitges, Spain, Sept. 15-16, 2011).
-		`,
-		title: "President-Elect MTT-S",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "Maurizio_Bozzi",
-		twitterUsername: "Maurizio_Bozzi",
-		company: {
-			name: "Google",
-		},
-		image: {
-			url: Maurizio_Bozzi,
-		},
-		imageSmall: {
-			url: Maurizio_Bozzi,
-		},
-	},
+
 	{
 		enabled: false,
 		name: "Hasala Dharmawardena",
@@ -377,30 +405,7 @@ export const speakersData = [
 			url: "https://i.imgur.com/59V4bgW.jpg",
 		},
 	},
-	{
-		enabled: true,
-		name: "Laura Meyer",
-		bio: `LLM Candidate, Public International Law - Law of the Sea and Environmental Law specialization | Planet Positive 2030 Initiative by IEEE`,
-		title:
-			"Co-chair, Ocean Decade initiative / IEEE Oceanic engineering society",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "LauraMeyer",
-		twitterUsername: "Hasala_Dharmawardena",
-		company: {
-			name: "Google",
-		},
-		image: {
-			url: "https://i.imgur.com/X1fTvTg.jpg",
-		},
-		imageSmall: {
-			url: "https://i.imgur.com/X1fTvTg.jpg",
-		},
-	},
+
 	{
 		enabled: true,
 		name: "Zied Bouida",
@@ -427,8 +432,8 @@ export const speakersData = [
 	{
 		enabled: true,
 		name: "Sabine Bastisch",
-		bio: `𝗦𝗼𝗳𝘁 𝗦𝗸𝗶𝗹𝗹𝘀 𝗘𝘅𝗽𝗲𝗿𝘁 𝗙𝗼𝗿 𝗖𝗼𝗿𝗽𝗼𝗿𝗮𝘁𝗲 & 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝘃𝗲 𝗧𝗲𝗮𝗺𝘀 – 𝗛𝗲𝗮𝗱 𝗼𝗳 𝗖𝗼𝗮𝗰𝗵𝗶𝗻𝗴 𝗮𝘁 𝗦𝗮𝗺𝗮𝗿𝗶 𝗖𝗼𝗻𝘀𝘂𝗹𝘁𝗶𝗻𝗴`,
-		title: "𝗦𝗮𝗺𝗮𝗿𝗶 𝗖𝗼𝗻𝘀𝘂𝗹𝘁𝗶𝗻𝗴, 𝗛𝗲𝗮𝗱 𝗼𝗳 𝗖𝗼𝗮𝗰𝗵𝗶𝗻𝗴",
+		bio: `Soft skills expert for corporate & executive teams  head of coaching at samari consulting`,
+		title: "Samari consulting, head of coaching",
 		talk: {
 			title: "Keynote",
 			description:
