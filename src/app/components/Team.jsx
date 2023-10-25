@@ -371,7 +371,7 @@ export const teamData = [
 		active: true,
 		name: "Manar Bouaouina",
 		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
-		title: "Abassador Coordinator",
+		title: "Ambassador Coordinator",
 		talk: {
 			title: "Keynote",
 			description:
