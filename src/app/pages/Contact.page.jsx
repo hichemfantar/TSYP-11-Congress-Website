@@ -102,7 +102,7 @@ export function ContactDetails({ title = "Reach us" }) {
 							// width: "100%",
 						}}
 						allowFullScreen=""
-						loading=""
+						loading="lazy"
 						referrerPolicy="no-referrer-when-downgrade"
 					></iframe>
 				</div>

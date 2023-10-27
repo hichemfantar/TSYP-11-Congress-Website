@@ -36,7 +36,7 @@ export default function Speakers({ limit = 0 }) {
 								<CustomImage
 									src={speaker.imageSmall.url}
 									alt=""
-									className="mb-2 aspect-square w-full rounded-lg object-cover md:h-64"
+									className="mb-2 aspect-[12/16] w-full rounded-lg object-cover sm:aspect-[12/16]"
 									loading=""
 								/>
 								<div className="font-bold">{speaker.name}</div>
