@@ -25,9 +25,9 @@ export default function ChallengesList() {
 	return (
 		<div>
 			<div className="mb-8">
-				<div className="mb-4 text-4xl font-bold">Technical challenges</div>
+				<div className="mb-4 text-4xl font-bold">Challenges</div>
 				<div className="text-gray-600 dark:text-gray-400">
-					Learn more about our technical challenges.
+					Learn more about our technical and non-technical challenges.
 				</div>
 			</div>
 
