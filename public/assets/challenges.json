@@ -88,5 +88,14 @@
 		"slug": "WIE-Challenge",
 		"logo": { "url": "https://i.imgur.com/mA2vXVz.png" },
 		"link": "https://bit.ly/3FxyT9D"
+	},
+	{
+		"enabled": true,
+		"name": "IEEE SAC Tunisia Challenge",
+		"goal": "Fix the world",
+		"description": "WIE is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "WIE-Challenge",
+		"logo": { "url": "https://i.imgur.com/mNban7J.png" },
+		"link": "https://bit.ly/3s8LmgW"
 	}
 ]
