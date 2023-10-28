@@ -68,8 +68,9 @@ const routes = [
 		href: "/about-us",
 	},
 	// {
-	// 	title: "Virtual",
-	// 	href: "/virtual",
+	// 	title: "Reveal",
+	// 	href: "/reveal",
+	// 	external: true,
 	// },
 	{
 		title: "Contact us",

@@ -233,6 +233,19 @@ export default function HomePage() {
 			</Fade>
 			<Fade>
 				<section className="py-8 md:py-10">
+					<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-10">
+						<Link
+							className="flex max-w-7xl items-center justify-center gap-4 px-6 lg:px-8"
+							to={`/partners-sponsors`}
+						>
+							<h2 className="text-center text-4xl font-bold">Our Sponsors</h2>
+							<FontAwesomeIcon icon={faExternalLink} className="h-5 w-5" />
+						</Link>
+					</div>
+				</section>
+			</Fade>
+			<Fade>
+				<section className="py-8 md:py-10">
 					<Speakers limit={5} />
 				</section>
 			</Fade>

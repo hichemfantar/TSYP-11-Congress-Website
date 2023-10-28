@@ -714,7 +714,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/2eb8yOz.jpg",
+			url: "https://i.imgur.com/fHOyF8i.jpg",
 		},
 	},
 	{
@@ -852,7 +852,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: "",
+			url: "https://i.imgur.com/qhHl7sn.png",
 		},
 	},
 ];
