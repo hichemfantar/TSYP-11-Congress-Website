@@ -56,7 +56,7 @@ export default function Speakers({ limit = 0 }) {
 						to={`/speakers`}
 						className="col-span-6 flex flex-col items-center justify-center rounded-xl border-2 p-6 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
 					>
-						<FontAwesomeIcon icon={faExternalLink} className="mb-4 h-6 w-6" />
+						<FontAwesomeIcon icon={faExternalLink} className="mb-2 h-6 w-6" />
 						<div className="font-bold">See more</div>
 					</Link>
 				) : null}

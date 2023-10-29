@@ -59,28 +59,28 @@ export function Countdown(props) {
 					<div className="relative flex h-[100px] w-[100px] flex-col items-center justify-center pt-[0px] text-2xl font-bold leading-[30px]">
 						<SVGCircle radius={daysRadius} />
 						{days}
-						<span className="mt-1 text-xs font-bold uppercase">days</span>
+						<span className="text-xs font-bold uppercase">days</span>
 					</div>
 				)}
 				{"hours" && (
 					<div className="relative flex h-[100px] w-[100px] flex-col items-center justify-center pt-[0px] text-2xl font-bold leading-[30px]">
 						<SVGCircle radius={hoursRadius} />
 						{hours}
-						<span className="mt-1 text-xs font-bold uppercase">hours</span>
+						<span className="text-xs font-bold uppercase">hours</span>
 					</div>
 				)}
 				{"minutes" && (
 					<div className="relative flex h-[100px] w-[100px] flex-col items-center justify-center pt-[0px] text-2xl font-bold leading-[30px]">
 						<SVGCircle radius={minutesRadius} />
 						{minutes}
-						<span className="mt-1 text-xs font-bold uppercase">minutes</span>
+						<span className="text-xs font-bold uppercase">minutes</span>
 					</div>
 				)}
 				{"seconds" && (
 					<div className="relative flex h-[100px] w-[100px] flex-col items-center justify-center pt-[0px] text-2xl font-bold leading-[30px]">
 						<SVGCircle radius={secondsRadius} />
 						{seconds}
-						<span className="mt-1 text-xs font-bold uppercase">seconds</span>
+						<span className="text-xs font-bold uppercase">seconds</span>
 					</div>
 				)}
 			</div>
