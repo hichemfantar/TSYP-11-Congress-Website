@@ -12,6 +12,7 @@ import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import CustomImage from "./CustomImage";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navigation() {
 	const [toggleModal, setToggleModal] = useState(false);
@@ -161,10 +162,17 @@ export default function Navigation() {
 							</ul>
 						</div>
 
+						{true && (
+							<Link to="/reveal" target="_blank">
+								<FontAwesomeIcon
+									icon={faPlay}
+									className="block h-5 w-5 -rotate-90 p-2 transition hover:scale-110"
+								/>
+							</Link>
+						)}
 						<div className="hidden lg:block">
 							<ThemeToggle />
 						</div>
-
 						{false && (
 							<Link
 								to="https://github.com/hichemfantar/TSYP-11-Website-Virtual-Game-Hub"

@@ -27,7 +27,7 @@ export default function ChallengesList() {
 			<div className="mb-8">
 				<div className="mb-4 text-4xl font-bold">Challenges</div>
 				<div className="text-gray-600 dark:text-gray-400">
-					Learn more about our chapter challenges.
+					Learn more about our technical and non-technical challenges.
 				</div>
 			</div>
 

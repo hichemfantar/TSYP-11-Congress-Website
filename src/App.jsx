@@ -104,6 +104,10 @@ const router = createBrowserRouter([
 				path: "stage",
 				element: <Phase />,
 			},
+			{
+				path: "*",
+				element: <HomePage />,
+			},
 		],
 	},
 	{
