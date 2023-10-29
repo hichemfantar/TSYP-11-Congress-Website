@@ -96,7 +96,7 @@ export default function SponsorsList() {
 				)}
 
 				{!!academicPartners?.length && (
-					<div>
+					<div id="ExclusiveAcademicPartner">
 						<div className="sticky top-0 bg-gray-50 py-4 text-2xl font-bold dark:bg-black">
 							Exclusive Academic Partner
 						</div>

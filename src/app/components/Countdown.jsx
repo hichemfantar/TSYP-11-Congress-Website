@@ -1,5 +1,6 @@
 import moment from "moment";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const useCountdown = (targetDate) => {
 	const countDownDate = new Date(targetDate).getTime();
@@ -94,16 +95,30 @@ const SVGCircle = ({ radius }) => {
 		nRadius = 359.999;
 	}
 	// return null;
+	const transition = { duration: 0.5, yoyo: Infinity, ease: "easeInOut" };
 
 	return (
 		<svg className="absolute top-0 left-0 h-[100px] w-[100px]">
-			<path
+			<motion.path
 				className="stroke-gray-900 dark:stroke-gray-400"
 				// className="stroke-[#3a55b4] dark:stroke-gray-400"
 				fill="none"
 				// stroke="#333"
-				stroke-width="4"
+				strokeWidth="4"
 				d={describeArc(50, 50, 48, 0, nRadius)}
+				// animate={{
+				// 	d: [
+				// 		"M 40,40 Q 160,40 160,160",
+				// 		"M 160,40 Q 100,100 40,160",
+				// 		"M 160,160 Q 100,160 40,160",
+				// 		"M 160,40 Q 100,160 40,40",
+				// 		"M 160,40 Q 100,40 40,40",
+				// 		"M 40,40 Q 160,40 160,160",
+				// 	],
+				// }}
+				// initial={{ pathLength: 0 }}
+				// animate={{ pathLength: 1 }}
+				// transition={transition}
 			/>
 		</svg>
 	);

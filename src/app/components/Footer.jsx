@@ -61,7 +61,13 @@ export default function Footer() {
 							/>
 						</Link>
 					)}
-					<div className="font-semibold">© 2023 All rights reserved.</div>
+					<Link
+						to={"https://hichemfantar.com/"}
+						target="_blank"
+						className="font-semibold"
+					>
+						© 2023 All rights reserved.
+					</Link>
 				</div>
 
 				<div className="hidden items-center gap-4 md:flex">
