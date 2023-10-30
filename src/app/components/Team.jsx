@@ -300,7 +300,7 @@ export const teamData = [
 	},
 	{
 		active: true,
-		name: "Bakhta Nairouz",
+		name: "Bakhta Nairouz Ben Hadj Slema",
 		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
 		title: "24/7 Team",
 		talk: {
