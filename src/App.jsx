@@ -24,12 +24,14 @@ import TicketPage from "./app/pages/Ticket.page.jsx";
 import VenuePage from "./app/pages/Venue.page.jsx";
 import { ChallengesPage } from "./app/pages/Challenges.jsx";
 import ChallengeDetailsPage from "./app/pages/ChallengeDetails.page.jsx";
+import { ErrorPage } from "./app/error-page.jsx";
 
 setInitialTheme();
 
 const router = createBrowserRouter([
 	{
 		element: <AppLayout></AppLayout>,
+		errorElement: <ErrorPage />,
 		children: [
 			{
 				path: "/",
@@ -117,6 +119,7 @@ const router = createBrowserRouter([
 				<ThreeExperience />
 			</Suspense>
 		),
+		errorElement: <ErrorPage />,
 	},
 ]);
 

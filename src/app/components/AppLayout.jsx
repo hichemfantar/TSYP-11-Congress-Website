@@ -26,6 +26,7 @@ const pageTransition = {
 
 export default function AppLayout({ children }) {
 	const { pathname } = useLocation();
+
 	return (
 		<>
 			{/* <div
