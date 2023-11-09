@@ -291,7 +291,7 @@ export const sponsorsData = [
 		slug: "IEEE-entrepreneurship",
 
 		logo: {
-			url: "https://entrepreneurship.ieee.org/wp-content/uploads/2020/07/ieee-entrepreneurship-logo.png",
+			url: "https://entrepreneurship.ieeer8.org/wp-content/uploads/sites/30/logo300.png",
 		},
 		website: "https://entrepreneurship.ieee.org/",
 	},
