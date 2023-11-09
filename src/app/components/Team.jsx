@@ -505,7 +505,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: elyess,
+			url: "https://i.imgur.com/PF7sfN7.jpg" || elyess,
 		},
 	},
 
