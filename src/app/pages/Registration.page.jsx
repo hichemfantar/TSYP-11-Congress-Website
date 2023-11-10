@@ -93,7 +93,11 @@ export default function RegistrationPage() {
 						</div> */}
 
 						<div className="mt-16 flex flex-wrap justify-center gap-6">
-							<Link to={""} className="flex justify-center" target="_blank">
+							<Link
+								to={"https://bit.ly/tsyp-pre-registration"}
+								className="flex justify-center"
+								target="_blank"
+							>
 								<StyledButton
 									message={"Pre-Register Now"}
 									icon={
