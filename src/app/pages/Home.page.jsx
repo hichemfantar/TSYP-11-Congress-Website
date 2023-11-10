@@ -871,7 +871,7 @@ function SponsorsPreview() {
 				className="flex max-w-7xl items-center justify-center gap-3 px-6 lg:px-8"
 				to={`/partners-sponsors#ExclusiveAcademicPartner`}
 			>
-				<h2 className="text-center text-4xl font-bold">Our Sponsors</h2>
+				<h2 className="text-center text-4xl font-bold">Sponsored by</h2>
 				<FontAwesomeIcon icon={faExternalLink} className="h-5 w-5" />
 			</Link>
 			<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
@@ -879,7 +879,7 @@ function SponsorsPreview() {
 					href="https://www.orange.tn/"
 					target="_blank"
 					rel="noreferrer"
-					className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+					className="overflow-hidden rounded-full bg-white p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 				>
 					<CustomImage
 						className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 md:h-[160px] md:w-[160px] lg:col-span-1"
@@ -896,7 +896,7 @@ function SponsorsPreview() {
 					href="https://www.polytecsousse.tn/"
 					target="_blank"
 					rel="noreferrer"
-					className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+					className="overflow-hidden rounded-full bg-white p-4 shadow-md shadow-gray-200 transition hover:scale-105"
 				>
 					<CustomImage
 						className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 md:h-[160px] md:w-[160px] lg:col-span-1"

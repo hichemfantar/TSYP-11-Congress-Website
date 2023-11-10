@@ -53,7 +53,14 @@ import { useMediaQuery } from "usehooks-ts";
 import { Countdown } from "../components/Countdown";
 import StyledButton from "../components/StyledButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLink, faTicket } from "@fortawesome/free-solid-svg-icons";
+import {
+	faExternalLink,
+	faMap,
+	faMapLocationDot,
+	faPhone,
+	faPhoneSquare,
+	faTicket,
+} from "@fortawesome/free-solid-svg-icons";
 import CustomImage from "../components/CustomImage";
 import { Fade } from "react-awesome-reveal";
 
@@ -112,7 +119,7 @@ export default function RegistrationPage() {
 							Registrations are open now!
 						</h1>
 
-						<div className="flex justify-center">
+						{/* <div className="flex justify-center">
 							<div>
 								<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:leading-none">
 									Join your fellow volunteers and participate in:
@@ -127,9 +134,9 @@ export default function RegistrationPage() {
 									</ul>
 								</div>
 							</div>
-						</div>
+						</div> */}
 
-						<div className="mt-8 flex flex-wrap justify-center gap-6">
+						<div className="mt-16 flex flex-wrap justify-center gap-6">
 							<Link to={""} className="flex justify-center" target="_blank">
 								<StyledButton
 									message={"Register Now"}
@@ -139,18 +146,24 @@ export default function RegistrationPage() {
 									className="min-w-[16rem] py-3 text-base"
 								/>
 							</Link>
-							{false && (
-								<Link
-									to={"https://forms.gle/Q88TpsVymyvDYQPBA"}
-									target="_blank"
-									className="flex justify-center"
-								>
-									<StyledButton
-										message={"Become an ambassador"}
-										icon={<FontAwesomeIcon icon={faExternalLink} />}
-									/>
-								</Link>
-							)}
+						</div>
+
+						<div className="mt-16 flex flex-wrap justify-center gap-8">
+							<Link
+								className="flex flex-col gap-4 transition hover:scale-105"
+								href="https://diarlemdina.medinahotelsandresorts.com/en"
+								target="_blank"
+							>
+								<FontAwesomeIcon icon={faMapLocationDot} className="h-20" />
+								<div className="font-bold">Medina Congress Center</div>
+							</Link>
+
+							<div className="flex flex-col gap-4">
+								<FontAwesomeIcon icon={faPhoneSquare} className="h-20" />
+								<div className="max-w-[14rem] text-center font-bold">
+									Contact your ambassador for further details
+								</div>
+							</div>
 						</div>
 					</div>
 					{/* <div className="col-span-6">
