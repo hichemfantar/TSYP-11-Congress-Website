@@ -1090,7 +1090,7 @@ function IEEEPartners() {
 					<CustomImage
 						className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition dark:shadow-gray-800 md:h-[180px] md:w-[180px] lg:col-span-1"
 						src={
-							"https://entrepreneurship.ieee.org/wp-content/uploads/2020/07/ieee-entrepreneurship-logo.png"
+							"https://entrepreneurship.ieeer8.org/wp-content/uploads/sites/30/logo300.png"
 						}
 						alt="Transistor"
 						// width={200}
