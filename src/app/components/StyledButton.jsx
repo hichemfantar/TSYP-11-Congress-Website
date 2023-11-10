@@ -6,7 +6,7 @@ function StyledButton({
 	fluid,
 	icon,
 	message,
-	classNames,
+	className,
 	isLoading,
 	style,
 	children,
@@ -37,7 +37,7 @@ function StyledButton({
 					!isDanger && !isSuccess && !isWarning
 						? "dark:bg-black dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
 						: ""
-				} ${disabled || isLoading ? "cursor-not-allowed" : ""} ${classNames}`
+				} ${disabled || isLoading ? "cursor-not-allowed" : ""} ${className}`
 			)}
 			style={style}
 			disabled={disabled || isLoading}

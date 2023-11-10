@@ -57,7 +57,7 @@ import { faExternalLink, faTicket } from "@fortawesome/free-solid-svg-icons";
 import CustomImage from "../components/CustomImage";
 import { Fade } from "react-awesome-reveal";
 
-export default function HomePage() {
+export default function RegistrationPage() {
 	const matches = useMediaQuery("(min-width: 768px)");
 
 	return (
@@ -99,72 +99,44 @@ export default function HomePage() {
 
 						{/* <h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none"> */}
 						<h1 className="mb-8 text-center text-4xl font-bold tracking-tight lg:mb-8 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
-							<span className="text-[#3a55b4] dark:text-[#4967d0]">11th</span>{" "}
-							IEEE Tunisian Students & Young Professionals Congress
+							IEEE Tunisian Students & Young Professionals Congress{" "}
+							<span className="text-[#3a55b4] dark:text-[#4967d0]">2023</span>
 						</h1>
-
-						{true && (
-							<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-								Medina Congress Center, Yasmine Hammamet
-							</h1>
-						)}
 
 						<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-							<q>Silicon valley is a mindset, not a location.</q>
+							From 18th to 20th December, 2023 in Medina Congress Center,
+							Yasmine Hammamet, Tunisia
 						</h1>
-						<div className="mb-8 text-center lg:mb-7">
-							<span className="text-xl font-bold tracking-tight lg:text-2xl lg:font-extrabold lg:leading-none">
-								18 - 20 December <span className="xtext-[#3a55b4]">2023</span>,{" "}
-							</span>
-							<span className="text-xl font-bold tracking-tight lg:text-2xl lg:font-extrabold lg:leading-none">
-								Registration Opening Soon
-							</span>
-						</div>
-						<div className="flex flex-wrap items-center justify-center gap-8">
-							<div className="xtext-[#3a55b4] mb-4 ">
-								<h1 className="mb-2 text-center text-xl font-bold tracking-tight text-[#3a55b4] dark:text-[#4967d0] lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-									1200+
+
+						<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+							Registrations are open now!
+						</h1>
+
+						<div className="flex justify-center">
+							<div>
+								<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:leading-none">
+									Join your fellow volunteers and participate in:
 								</h1>
-								<span className="mt-1 font-bold uppercase">Participants</span>
-							</div>
-							<div className="w-full md:hidden">
-								<div className="xbg-[#3a55b4] mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
-							</div>
-							<div className="xbg-[#3a55b4] hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
-							<Countdown
-								timeTillDate="12 18 2023, 6:00 am"
-								timeFormat="MM DD YYYY, h:mm a"
-							/>
-							<div className="w-full md:hidden">
-								<div className="xbg-[#3a55b4] mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
-							</div>
-							<div className="xbg-[#3a55b4] hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
-							<div className="mb-4 ">
-								<h1 className="mb-2 text-center text-xl font-bold tracking-tight text-[#3a55b4] dark:text-[#4967d0] lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-									50+
-								</h1>
-								<span className="mt-1 font-bold uppercase">Speakers</span>
+								<div className="prose font-semibold marker:text-black dark:text-gray-200 dark:marker:text-gray-200">
+									<ul>
+										<li>Exhibitions</li>
+										<li>Engaging training opportunities</li>
+										<li>Panel sessions</li>
+										<li>Networking sessions</li>
+										<li>IEEE leadership sessions</li>
+									</ul>
+								</div>
 							</div>
 						</div>
+
 						<div className="mt-8 flex flex-wrap justify-center gap-6">
-							{/* <Link to={"/sponsor-us"} className="flex justify-center">
-								<StyledButton
-									message={"Registration Opening Soon"}
-									// icon={<FontAwesomeIcon icon={faExternalLink} />}
-								/>
-							</Link> */}
-							<Link to={"/registration"} className="flex justify-center">
+							<Link to={""} className="flex justify-center" target="_blank">
 								<StyledButton
 									message={"Register Now"}
 									icon={
 										<FontAwesomeIcon className="-rotate-45" icon={faTicket} />
 									}
-								/>
-							</Link>
-							<Link to={"/sponsor-us"} className="flex justify-center">
-								<StyledButton
-									message={"Become a Sponsor"}
-									// icon={<FontAwesomeIcon icon={faExternalLink} />}
+									className="min-w-[16rem] py-3 text-base"
 								/>
 							</Link>
 							{false && (
@@ -192,112 +164,6 @@ export default function HomePage() {
 			</div> */}
 				</section>
 			</Fade>
-
-			<Fade>
-				{/* <CustomImage
-					src={logoBar}
-					alt=""
-					className="hidden h-52 object-contain dark:invert lg:block"
-				/> */}
-				<CustomImage
-					src={"https://i.imgur.com/1g9qxwz.png"}
-					alt=""
-					className="mx-auto hidden h-28 object-contain invert dark:invert-0 lg:block"
-				/>
-			</Fade>
-
-			<Fade>
-				<AboutTSYP />
-			</Fade>
-
-			<Fade>
-				<AboutTunisiaSection />
-			</Fade>
-			<Fade>
-				<AboutESSTHSSB />
-			</Fade>
-			<Fade>
-				<section className="py-8 md:py-10">
-					<AboutCongress />
-				</section>
-			</Fade>
-			<Fade>
-				<section className="py-8 md:py-10">
-					<PreviousEditions />
-				</section>
-			</Fade>
-			<Fade>
-				<section className="py-8 md:py-10">
-					<Memories />
-				</section>
-			</Fade>
-			<Fade>
-				<section className="py-8 md:py-10">
-					<PoweredBy />
-				</section>
-			</Fade>
-			<Fade>
-				<section className="py-8 md:py-10">
-					<IEEEPartners />
-				</section>
-			</Fade>
-			<Fade>
-				<section className="py-8 md:py-10">
-					<SponsorsPreview />
-					{false && (
-						<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-10">
-							<Link
-								className="flex max-w-7xl items-center justify-center gap-3 px-6 lg:px-8"
-								to={`/partners-sponsors`}
-							>
-								<h2 className="text-center text-4xl font-bold">Our Sponsors</h2>
-								<FontAwesomeIcon icon={faExternalLink} className="h-5 w-5" />
-							</Link>
-						</div>
-					)}
-				</section>
-			</Fade>
-			<Fade>
-				<section className="py-8 md:py-10">
-					<Speakers limit={5} />
-				</section>
-			</Fade>
-			<Fade>
-				<div className="hidden md:block">
-					<ScheduleOverview />
-				</div>
-			</Fade>
-			<Fade>
-				<section className="py-8 md:py-28">
-					<Team limit={5} />
-				</section>
-			</Fade>
-			{true && (
-				<Fade>
-					<section className="py-8 md:py-28">
-						<div className="mx-auto">
-							<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-								Find us here.
-							</h1>
-							<iframe
-								title="tsyp location"
-								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12851.062625886407!2d10.5328555!3d36.3664548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13029e020677bc0d%3A0x82fe8c3faf57e873!2sDiar%20Lemdina!5e0!3m2!1sen!2stn!4v1682280141809!5m2!1sen!2stn"
-								className="w-full rounded-2xl shadow-lg"
-								height="500"
-								style={{
-									border: 0,
-									// width: "100%",
-								}}
-								allowFullScreen=""
-								loading=""
-								referrerPolicy="no-referrer-when-downgrade"
-							></iframe>
-						</div>
-					</section>
-				</Fade>
-			)}
-
-			{/* <SparrowSurvey /> */}
 		</div>
 	);
 }

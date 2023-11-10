@@ -66,14 +66,14 @@ function ChallengeDetails({ data }) {
 				<div className="mt-4 ">
 					<a href={data.website} target="_blank" rel="noreferrer">
 						<StyledButton
-							classNames={"w-full"}
+							className={"w-full"}
 							message={"Download PDF"}
 							icon={<FontAwesomeIcon icon={faDownload} />}
 						/>
 					</a>
 					<a href={data.website} target="_blank" rel="noreferrer">
 						<StyledButton
-							classNames={"w-full mt-2"}
+							className={"mt-2 w-full"}
 							message={"Upload Submission"}
 							icon={<FontAwesomeIcon icon={faUpload} />}
 						/>

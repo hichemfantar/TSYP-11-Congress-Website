@@ -49,16 +49,20 @@ const routes = [
 		href: "/venue",
 		mobileOnly: true,
 	},
-
 	{
 		title: "Partners",
 		href: "/partners-sponsors",
 	},
 	{
-		title: "Ambassadors",
-		href: "https://forms.gle/Q88TpsVymyvDYQPBA",
-		external: true,
+		title: "Registration",
+		href: "/registration",
+		mobileOnly: true,
 	},
+	// {
+	// 	title: "Ambassadors",
+	// 	href: "https://forms.gle/Q88TpsVymyvDYQPBA",
+	// 	external: true,
+	// },
 	// {
 	// 	title: "Expo",
 	// 	href: "/expo",

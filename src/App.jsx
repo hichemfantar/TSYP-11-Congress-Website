@@ -25,6 +25,7 @@ import VenuePage from "./app/pages/Venue.page.jsx";
 import { ChallengesPage } from "./app/pages/Challenges.jsx";
 import ChallengeDetailsPage from "./app/pages/ChallengeDetails.page.jsx";
 import { ErrorPage } from "./app/error-page.jsx";
+import RegistrationPage from "./app/pages/Registration.page.jsx";
 
 setInitialTheme();
 
@@ -38,6 +39,12 @@ const router = createBrowserRouter([
 				// index: true,
 				element: <HomePage />,
 			},
+			{
+				path: "/registration",
+				// index: true,
+				element: <RegistrationPage />,
+			},
+
 			{
 				path: "tunisia",
 				element: <TunisiaPage />,

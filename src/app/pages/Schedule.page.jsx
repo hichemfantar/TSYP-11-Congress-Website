@@ -164,10 +164,10 @@ export default function SchedulePage() {
 							Career Fair.
 						</h1>
 						<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-							This session will present an opportunity to Youngrofessionals and
-							Students looking for a job or seeking an internship allowing them
-							to interact directly with our exhibitors. Many companies will be
-							presented and you can discover their field of activity. During
+							This session will present an opportunity to young professionals
+							and Students looking for a job or seeking an internship allowing
+							them to interact directly with our exhibitors. Many companies will
+							be presented and you can discover their field of activity. During
 							this session, some interviews will be held and you can even submit
 							your CV!
 						</h1>
