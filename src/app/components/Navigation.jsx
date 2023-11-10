@@ -211,7 +211,7 @@ export default function Navigation() {
 							> */}
 								<div className="relative flex items-center justify-center gap-2 rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
 									{/* <FontAwesomeIcon className="-rotate-45" icon={faTicket} /> */}
-									<span className="">Register Now</span>
+									<span className="">Pre-Register Now</span>
 								</div>
 								{/* </button> */}
 							</Link>

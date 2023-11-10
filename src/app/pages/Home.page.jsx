@@ -155,7 +155,7 @@ export default function HomePage() {
 							</Link> */}
 							<Link to={"/registration"} className="flex justify-center">
 								<StyledButton
-									message={"Register Now"}
+									message={"Pre-Register Now"}
 									icon={
 										<FontAwesomeIcon className="-rotate-45" icon={faTicket} />
 									}
