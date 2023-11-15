@@ -8,21 +8,21 @@ export default function AboutUs() {
 		<div>
 			<Fade>
 				<AboutESSTHSSB />
-				<AboutTunisiaSection />{" "}
+				<AboutTunisiaSection />
 			</Fade>
 
 			<Fade>
-				<AboutTSYP />{" "}
+				<AboutTSYP />
 			</Fade>
 
 			<Fade>
-				<Team />{" "}
+				<Team />
 			</Fade>
 
 			<Fade>
 				<div className="mt-4">
 					<ContactDetails />
-				</div>{" "}
+				</div>
 			</Fade>
 
 			<Fade>

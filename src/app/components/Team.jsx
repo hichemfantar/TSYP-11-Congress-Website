@@ -45,7 +45,7 @@ export default function Team({ limit = 0 }) {
 										src={speaker.imageSmall.url}
 										alt=""
 										className="mb-2 aspect-[12/16] w-full rounded-lg object-cover sm:aspect-[12/16]"
-										loading=""
+										loading="lazy"
 									/>
 									<div className="flex flex-wrap items-center gap-1">
 										<span className="font-bold">{speaker.name}</span>
