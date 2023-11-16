@@ -803,10 +803,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/DcN2WgB.jpg",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/kR7UULZ.png",
+			url: "https://i.imgur.com/DcN2WgB.jpg",
 		},
 	},
 	{
