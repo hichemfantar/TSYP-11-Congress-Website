@@ -185,7 +185,7 @@ export const speakersData = [
 		},
 	},
 	{
-		enabled: true,
+		enabled: false,
 		name: "Braham Himed",
 		bio: "Dr. Himed has been an active member of the IEEE Aerospace and Electronic Systems Radar Systems Panel since 2001, initially serving as vice-chair from 2014 to 2016, and later as panel chair from 2016 to 2018. Currently, he holds the position of past-chair and chair of the Warren White Award for excellence in radar engineering. Dr. Himed is a distinguished Fellow of the IEEE since 2007 and also received the prestigious IEEE Warren White Award in 2012. He is also recognized as a Fellow of AFRL (Air Force Research Laboratory) since 2013.",
 		title: "IEEE AESS Vice President Conferences",
@@ -207,6 +207,76 @@ export const speakersData = [
 			url: BrahamHimed,
 		},
 	},
+	{
+		enabled: true,
+		name: "Nita Patel",
+		bio: `Nita Patel is senior director of engineering at Otis, Farmington, Bedford, NH 03110 USA. Her research interests include product capabilities in connected, smart, the Internet of Things-based platforms. Patel received an M.S. in computer engineering from Southern Methodist University. Contact her at nita.patel@ieee.org`,
+		title: "Chair @IEEE CS",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Nita_Patel",
+		twitterUsername: "Nita Patel",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/E14FaYO.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/E14FaYO.jpg",
+		},
+	},
+	{
+		enabled: true,
+		name: "Antonio Luque",
+		bio: `Antonio Luque (Senior Member, IEEE) is currently an Associate Professor with the Department of Electronics Engineering, University of Seville. He has been an Invited Researcher and a Teacher at the Swiss Federal Institute of Technology Lausanne (Switzerland), Auburn University (AL, USA), the Delft University of Technology (The Netherlands), Jade University (Germany), the Harbin Institute of Technology (China), and the Tecnológico de Monterrey (Mexico). He has authored 20 journal articles, 40 conference papers, three book chapters, and a textbook, in addition to supervising two Ph.D. students. He is a member of the IEEE Board of Directors.`,
+		title: "Associate Professor at the University of Seville",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Antonio_Luque",
+		twitterUsername: "Antonio Luque",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/PutidhY.png",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/PutidhY.png",
+		},
+	},
+	{
+		enabled: true,
+		name: "Lwanga Herbert",
+		bio: `Chair @IEEE Humanitarian Technologies Board (IEEE HTB)`,
+		title: "Chair @IEEE HTB",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Lwanga_Herbert",
+		twitterUsername: "Lwanga Herbert",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/e8e9IWt.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/e8e9IWt.jpg",
+		},
+	},
+
 	{
 		enabled: true,
 		name: "Laura Meyer",
@@ -254,29 +324,6 @@ export const speakersData = [
 			url: ThomasCoughlin,
 		},
 	},
-	{
-		enabled: true,
-		name: "Mohamed Baha Ben Ticha",
-		bio: "Doctoral Researcher in Computational Neuroscience",
-		title: "Researcher, Computational Neuroscience",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "Mohamed Baha Ben Ticha",
-		twitterUsername: "Mohamed Baha Ben Ticha",
-		company: {
-			name: "Vercel",
-		},
-		image: {
-			url: "https://i.imgur.com/x4KLefk.jpg",
-		},
-		imageSmall: {
-			url: "https://i.imgur.com/x4KLefk.jpg",
-		},
-	},
 
 	{
 		enabled: false,
@@ -299,30 +346,6 @@ export const speakersData = [
 		},
 		imageSmall: {
 			url: SrikanthPillai,
-		},
-	},
-
-	{
-		enabled: true,
-		name: "Khaled Sliti",
-		bio: "Khaled Sliti serves as a software engineer at Google. He studied Software Engineering at the university of SUP'COM.",
-		title: "Software Engineer, Google",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "Khaled Sliti",
-		twitterUsername: "Khaled Sliti",
-		company: {
-			name: "Google",
-		},
-		image: {
-			url: KhaledSliti,
-		},
-		imageSmall: {
-			url: KhaledSliti,
 		},
 	},
 
@@ -476,6 +499,98 @@ export const speakersData = [
 	},
 	{
 		enabled: true,
+		name: "Aladdin Ayesh",
+		bio: `Professor of Artificial Intelligence and Vice Dean for Joint Institute of Data Sciences and Artificial Intelligence`,
+		title: "Professor of Artificial Intelligence",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "AladdinAyesh",
+		twitterUsername: "Aladdin Ayesh",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/7Zeu7ak.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/7Zeu7ak.jpg",
+		},
+	},
+	{
+		enabled: true,
+		name: "Franceso Maurelli",
+		bio: `Professor in Marine Systems with focus on Marine Robotics`,
+		title: "OES YP @IEEE",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Franceso_Maurelli",
+		twitterUsername: "Franceso Maurelli",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/eLfRVe7.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/eLfRVe7.jpg",
+		},
+	},
+	{
+		enabled: true,
+		name: "Sajith Wijesuriya",
+		bio: `Postdoctoral Researcher at NREL| Clean Energy Solutions Center (CESC), NICE Future, 21 CPP Initiatives at Clean Energy Ministerial| Chair of IEEE YP Climate and Sustainability Task Force`,
+		title: "Postdoctoral Researcher @NREL",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Sajith_Wijesuriya",
+		twitterUsername: "Sajith Wijesuriya",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/fkJfqPu.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/fkJfqPu.jpg",
+		},
+	},
+	{
+		enabled: true,
+		name: "Olfa Kanoun",
+		bio: `Full Professor bei Technische Universität Chemnitz`,
+		title: "Professor at Technische Universität Chemnitz",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Olfa_Kanoun",
+		twitterUsername: "Olfa Kanoun",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/M30EVD9.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/M30EVD9.jpg",
+		},
+	},
+	{
+		enabled: true,
 		name: "Hatem Haddad",
 		bio: `Entrepreneur, professor and researcher in artificial intelligence and NLPs`,
 		title: "Professor, ISAMM",
@@ -522,52 +637,6 @@ export const speakersData = [
 	},
 	{
 		enabled: true,
-		name: "Oussama Chelly",
-		bio: `Co-Founder of Deepvolt, ML Cloud Solution Architect`,
-		title: "Co-Founder of Deepvolt, ML Cloud Solution Architect",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "OussamaChelly",
-		twitterUsername: "Oussama Chelly",
-		company: {
-			name: "Google",
-		},
-		image: {
-			url: "https://i.imgur.com/e5IsSEu.jpg",
-		},
-		imageSmall: {
-			url: "https://i.imgur.com/e5IsSEu.jpg",
-		},
-	},
-	{
-		enabled: true,
-		name: "Aladdin Ayesh",
-		bio: `Professor of Artificial Intelligence and Vice Dean for Joint Institute of Data Sciences and Artificial Intelligence`,
-		title: "Professor of Artificial Intelligence",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "AladdinAyesh",
-		twitterUsername: "Aladdin Ayesh",
-		company: {
-			name: "Google",
-		},
-		image: {
-			url: "https://i.imgur.com/7Zeu7ak.jpg",
-		},
-		imageSmall: {
-			url: "https://i.imgur.com/7Zeu7ak.jpg",
-		},
-	},
-	{
-		enabled: true,
 		name: "Houman Zolfaghari",
 		bio: `Game changing solutions using Artificial Intelligence for challenging problems. As director, scientist, architect and programmer.`,
 		title: "Scientific Director at CRIM",
@@ -587,6 +656,29 @@ export const speakersData = [
 		},
 		imageSmall: {
 			url: "https://i.imgur.com/glR4kyZ.jpg",
+		},
+	},
+	{
+		enabled: true,
+		name: "Khaled Sliti",
+		bio: "Khaled Sliti serves as a software engineer at Google. He studied Software Engineering at the university of SUP'COM.",
+		title: "Software Engineer, Google",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Khaled Sliti",
+		twitterUsername: "Khaled Sliti",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: KhaledSliti,
+		},
+		imageSmall: {
+			url: KhaledSliti,
 		},
 	},
 	{
@@ -637,6 +729,52 @@ export const speakersData = [
 	},
 	{
 		enabled: true,
+		name: "Oussama Chelly",
+		bio: `Co-Founder of Deepvolt, ML Cloud Solution Architect`,
+		title: "Co-Founder of Deepvolt, ML Cloud Solution Architect",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "OussamaChelly",
+		twitterUsername: "Oussama Chelly",
+		company: {
+			name: "Google",
+		},
+		image: {
+			url: "https://i.imgur.com/e5IsSEu.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/e5IsSEu.jpg",
+		},
+	},
+	{
+		enabled: true,
+		name: "Mohamed Baha Ben Ticha",
+		bio: "Doctoral Researcher in Computational Neuroscience",
+		title: "Researcher, Computational Neuroscience",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "Mohamed Baha Ben Ticha",
+		twitterUsername: "Mohamed Baha Ben Ticha",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://i.imgur.com/x4KLefk.jpg",
+		},
+		imageSmall: {
+			url: "https://i.imgur.com/x4KLefk.jpg",
+		},
+	},
+	{
+		enabled: true,
 		name: "Inés Boujmil",
 		bio: `R&D&I Project Coordinator at AquaBioTech | EU BlueMed Ambassador in Tunisia | ECOP North Africa - Mediterranean Sub-regional Node coordinator | Blue Economy | Science-Policy-Business interfaces`,
 		title: "Coordinator @ECOP North Africa - Mediterranean Sub-regional Node",
@@ -660,98 +798,6 @@ export const speakersData = [
 	},
 	{
 		enabled: true,
-		name: "Franceso Maurelli",
-		bio: `Professor in Marine Systems with focus on Marine Robotics`,
-		title: "OES YP @IEEE",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "Franceso_Maurelli",
-		twitterUsername: "Franceso Maurelli",
-		company: {
-			name: "Google",
-		},
-		image: {
-			url: "https://i.imgur.com/eLfRVe7.jpg",
-		},
-		imageSmall: {
-			url: "https://i.imgur.com/eLfRVe7.jpg",
-		},
-	},
-	{
-		enabled: true,
-		name: "Lwanga Herbert",
-		bio: `Chair @IEEE Humanitarian Technologies Board (IEEE HTB)`,
-		title: "Chair @IEEE HTB",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "Lwanga_Herbert",
-		twitterUsername: "Lwanga Herbert",
-		company: {
-			name: "Google",
-		},
-		image: {
-			url: "https://i.imgur.com/e8e9IWt.jpg",
-		},
-		imageSmall: {
-			url: "https://i.imgur.com/e8e9IWt.jpg",
-		},
-	},
-	{
-		enabled: true,
-		name: "Sajith Wijesuriya",
-		bio: `Postdoctoral Researcher at NREL| Clean Energy Solutions Center (CESC), NICE Future, 21 CPP Initiatives at Clean Energy Ministerial| Chair of IEEE YP Climate and Sustainability Task Force`,
-		title: "Postdoctoral Researcher @NREL",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "Sajith_Wijesuriya",
-		twitterUsername: "Sajith Wijesuriya",
-		company: {
-			name: "Google",
-		},
-		image: {
-			url: "https://i.imgur.com/fkJfqPu.jpg",
-		},
-		imageSmall: {
-			url: "https://i.imgur.com/fkJfqPu.jpg",
-		},
-	},
-	{
-		enabled: true,
-		name: "Nita Patel",
-		bio: `Nita Patel is senior director of engineering at Otis, Farmington, Bedford, NH 03110 USA. Her research interests include product capabilities in connected, smart, the Internet of Things-based platforms. Patel received an M.S. in computer engineering from Southern Methodist University. Contact her at nita.patel@ieee.org`,
-		title: "Chair @IEEE CS",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "Nita_Patel",
-		twitterUsername: "Nita Patel",
-		company: {
-			name: "Google",
-		},
-		image: {
-			url: "https://i.imgur.com/E14FaYO.jpg",
-		},
-		imageSmall: {
-			url: "https://i.imgur.com/E14FaYO.jpg",
-		},
-	},
-	{
-		enabled: true,
 		name: "Ichraf Jarray",
 		bio: `Hive12 Founder | Entrepreneur | IT Business Developer | Mentor | Growth Hacker | Computer Engineer | Social activist | Head hunter`,
 		title: "Founder @Hive12",
@@ -771,52 +817,6 @@ export const speakersData = [
 		},
 		imageSmall: {
 			url: "https://i.imgur.com/5VRwwzm.jpg",
-		},
-	},
-	{
-		enabled: true,
-		name: "Olfa Kanoun",
-		bio: `Full Professor bei Technische Universität Chemnitz`,
-		title: "Professor at Technische Universität Chemnitz",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "Olfa_Kanoun",
-		twitterUsername: "Olfa Kanoun",
-		company: {
-			name: "Google",
-		},
-		image: {
-			url: "https://i.imgur.com/M30EVD9.jpg",
-		},
-		imageSmall: {
-			url: "https://i.imgur.com/M30EVD9.jpg",
-		},
-	},
-	{
-		enabled: true,
-		name: "Antonio Luque",
-		bio: `Antonio Luque (Senior Member, IEEE) is currently an Associate Professor with the Department of Electronics Engineering, University of Seville. He has been an Invited Researcher and a Teacher at the Swiss Federal Institute of Technology Lausanne (Switzerland), Auburn University (AL, USA), the Delft University of Technology (The Netherlands), Jade University (Germany), the Harbin Institute of Technology (China), and the Tecnológico de Monterrey (Mexico). He has authored 20 journal articles, 40 conference papers, three book chapters, and a textbook, in addition to supervising two Ph.D. students. He is a member of the IEEE Board of Directors.`,
-		title: "Associate Professor at the University of Seville",
-		talk: {
-			title: "Keynote",
-			description:
-				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
-		},
-		slug: "Antonio_Luque",
-		twitterUsername: "Antonio Luque",
-		company: {
-			name: "Google",
-		},
-		image: {
-			url: "https://i.imgur.com/PutidhY.png",
-		},
-		imageSmall: {
-			url: "https://i.imgur.com/PutidhY.png",
 		},
 	},
 ];

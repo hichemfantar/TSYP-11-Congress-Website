@@ -259,7 +259,7 @@ export default function HomePage() {
 			</Fade>
 			<Fade>
 				<section className="py-8 md:py-10">
-					<Speakers limit={5} />
+					<Speakers limit={8} />
 				</section>
 			</Fade>
 			<Fade>
