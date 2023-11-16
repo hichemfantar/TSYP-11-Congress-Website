@@ -567,7 +567,7 @@ export const speakersData = [
 		},
 	},
 	{
-		enabled: true,
+		enabled: false,
 		name: "Olfa Kanoun",
 		bio: `Full Professor bei Technische Universität Chemnitz`,
 		title: "Professor at Technische Universität Chemnitz",
