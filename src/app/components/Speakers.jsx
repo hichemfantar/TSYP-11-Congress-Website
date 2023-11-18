@@ -211,7 +211,7 @@ export const speakersData = [
 		enabled: true,
 		name: "Nita Patel",
 		bio: `Nita Patel is senior director of engineering at Otis, Farmington, Bedford, NH 03110 USA. Her research interests include product capabilities in connected, smart, the Internet of Things-based platforms. Patel received an M.S. in computer engineering from Southern Methodist University. Contact her at nita.patel@ieee.org`,
-		title: "Chair @IEEE CS",
+		title: "President @IEEE CS",
 		talk: {
 			title: "Keynote",
 			description:
