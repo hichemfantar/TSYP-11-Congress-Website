@@ -53,7 +53,11 @@ import { useMediaQuery } from "usehooks-ts";
 import { Countdown } from "../components/Countdown";
 import StyledButton from "../components/StyledButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLink, faTicket } from "@fortawesome/free-solid-svg-icons";
+import {
+	faExternalLink,
+	faRocket,
+	faTicket,
+} from "@fortawesome/free-solid-svg-icons";
 import CustomImage from "../components/CustomImage";
 import { Fade } from "react-awesome-reveal";
 
@@ -153,6 +157,16 @@ export default function HomePage() {
 									// icon={<FontAwesomeIcon icon={faExternalLink} />}
 								/>
 							</Link> */}
+							<Link
+								to={"https://forms.gle/ahXMJsQGwxHS9Hac6"}
+								className="flex justify-center"
+								target="_blank"
+							>
+								<StyledButton
+									message={"Register a startup"}
+									icon={<FontAwesomeIcon icon={faRocket} />}
+								/>
+							</Link>
 							<Link to={"/registration"} className="flex justify-center">
 								<StyledButton
 									message={"Pre-Register Now"}
@@ -161,6 +175,7 @@ export default function HomePage() {
 									}
 								/>
 							</Link>
+
 							<Link to={"/sponsor-us"} className="flex justify-center">
 								<StyledButton
 									message={"Become a Sponsor"}
