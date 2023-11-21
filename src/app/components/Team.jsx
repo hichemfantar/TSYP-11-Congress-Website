@@ -803,10 +803,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://i.imgur.com/DcN2WgB.jpg",
+			url: "https://i.imgur.com/jlZG2X3.jpg",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/DcN2WgB.jpg",
+			url: "https://i.imgur.com/jlZG2X3.jpg",
 		},
 	},
 	{

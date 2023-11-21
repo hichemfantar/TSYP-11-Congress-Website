@@ -452,7 +452,7 @@ export const speakersData = [
 		},
 	},
 	{
-		enabled: true,
+		enabled: false,
 		name: "Sabine Bastisch",
 		bio: `Soft skills expert for corporate & executive teams  head of coaching at samari consulting`,
 		title: "Samari consulting, head of coaching",
