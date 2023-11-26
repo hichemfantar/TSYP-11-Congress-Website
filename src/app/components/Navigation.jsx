@@ -163,7 +163,7 @@ export default function Navigation() {
 						</div>
 
 						{true && (
-							<Link to="/reveal" target="_blank">
+							<Link className="hidden md:block" to="/reveal" target="_blank">
 								<FontAwesomeIcon
 									icon={faPlay}
 									className="block h-5 w-5 -rotate-90 p-2 transition hover:scale-110"
