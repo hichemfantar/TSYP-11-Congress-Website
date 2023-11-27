@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 import routes from "../routes";
@@ -16,6 +16,22 @@ import { faPlay, faTicket } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navigation() {
 	const [toggleModal, setToggleModal] = useState(false);
+
+	const [appConfig, setAppConfig] = useState([]);
+
+	const isEventLive = !!appConfig.isEventLive;
+
+	useEffect(() => {
+		const getData = async () => {
+			fetch("/assets/app-config.json")
+				.then((response) => response.json())
+				.then((response) => {
+					setAppConfig(response);
+				})
+				.catch((err) => console.error(err));
+		};
+		getData();
+	}, []);
 
 	return (
 		<div>
@@ -200,7 +216,7 @@ export default function Navigation() {
 								{/* </button> */}
 							</Link>
 						)}
-						{true && (
+						{!isEventLive && (
 							<Link
 								to="/registration"
 								className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium  transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500  dark:focus:ring-purple-800"
@@ -213,6 +229,23 @@ export default function Navigation() {
 									{/* <FontAwesomeIcon className="-rotate-45" icon={faTicket} /> */}
 									<span className="hidden md:block">Pre-Register Now</span>
 									<span className="md:hidden">Pre-Register</span>
+								</div>
+								{/* </button> */}
+							</Link>
+						)}
+						{isEventLive && (
+							<Link
+								to="/live-event-space"
+								className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium  transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500  dark:focus:ring-purple-800"
+							>
+								{/* <button
+								type="button"
+								className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium  transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500  dark:focus:ring-purple-800"
+							> */}
+								<div className="relative flex items-center justify-center gap-2 rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+									{/* <FontAwesomeIcon className="-rotate-45" icon={faTicket} /> */}
+									<span className="hidden md:block">We're Live!</span>
+									<span className="md:hidden">We're Live!</span>
 								</div>
 								{/* </button> */}
 							</Link>

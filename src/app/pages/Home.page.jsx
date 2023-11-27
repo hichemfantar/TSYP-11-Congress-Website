@@ -278,7 +278,7 @@ export default function HomePage() {
 				</section>
 			</Fade>
 			<Fade>
-				<div className="hidden md:block">
+				<div className="hidden md:mt-8 md:block">
 					<ScheduleOverview />
 				</div>
 			</Fade>

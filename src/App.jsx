@@ -26,6 +26,10 @@ import { ChallengesPage } from "./app/pages/Challenges.jsx";
 import ChallengeDetailsPage from "./app/pages/ChallengeDetails.page.jsx";
 import { ErrorPage } from "./app/error-page.jsx";
 import RegistrationPage from "./app/pages/Registration.page.jsx";
+import VirtualGamePage from "./app/pages/VirtualGame.page.jsx";
+import Schedule from "./app/components/Schedule.jsx";
+import LiveEventSpacePage from "./app/pages/LiveEventSpace.page.jsx";
+import SessionsPage from "./app/pages/Sessions.page.jsx";
 
 setInitialTheme();
 
@@ -41,10 +45,12 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "/registration",
-				// index: true,
 				element: <RegistrationPage />,
 			},
-
+			{
+				path: "/virtual-game",
+				element: <VirtualGamePage />,
+			},
 			{
 				path: "tunisia",
 				element: <TunisiaPage />,
@@ -85,10 +91,18 @@ const router = createBrowserRouter([
 			// 	path: "team",
 			// 	element: <Team />,
 			// },
-			// {
-			// 	path: "virtual",
-			// 	element: <Phase />,
-			// },
+			{
+				path: "virtual",
+				element: <Schedule />,
+			},
+			{
+				path: "live-event-space",
+				element: <LiveEventSpacePage />,
+			},
+			{
+				path: "sessions",
+				element: <SessionsPage />,
+			},
 			// {
 			// 	path: "team/:teamMemberSlug",
 			// 	element: <TeamMember />,

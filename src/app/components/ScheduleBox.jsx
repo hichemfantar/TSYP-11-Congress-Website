@@ -2,6 +2,7 @@ import { differenceInMinutes, format, formatDistance } from "date-fns";
 import React from "react";
 import { twMerge } from "tailwind-merge";
 import CustomImage from "./CustomImage";
+import { Link } from "react-router-dom";
 
 export default function ScheduleBox({ data, classNames }) {
 	return (
@@ -29,16 +30,18 @@ export default function ScheduleBox({ data, classNames }) {
 				<div className="flex flex-wrap items-center gap-2">
 					<div className="flex -space-x-4">
 						{data.speaker.map((e) => (
-							<CustomImage
-								loading=""
-								key={e.name}
-								className="h-10 w-10 rounded-full border border-white object-cover dark:border-gray-800"
-								src={
-									e.image.url + "?h=192&w=192" ||
-									"https://flowbite.com/docs/images/people/profile-picture-4.jpg"
-								}
-								alt=""
-							/>
+							<Link to={`/speakers/${"Khaled%20Letaief"}`}>
+								<CustomImage
+									loading=""
+									key={e.name}
+									className="h-10 w-10 rounded-full border border-white object-cover dark:border-gray-800"
+									src={
+										e.image.url + "?h=192&w=192" ||
+										"https://flowbite.com/docs/images/people/profile-picture-4.jpg"
+									}
+									alt=""
+								/>
+							</Link>
 						))}
 					</div>
 

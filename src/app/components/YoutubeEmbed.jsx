@@ -3,9 +3,7 @@ import React from "react";
 export default function YoutubeEmbed() {
 	return (
 		<iframe
-			className="h-96 w-full rounded-2xl border-0 shadow-lg md:h-[40rem]"
-			// width={560}
-			// height={450}
+			className="aspect-video w-full rounded-2xl border-0 shadow-lg"
 			src="https://www.youtube.com/embed/Tuw8hxrFBH8"
 			title="YouTube video player"
 			frameBorder={0}

@@ -23,7 +23,7 @@ export default function Phase() {
 
 export const stagesData = [
 	{
-		name: "Keynote",
+		name: "Day 1",
 		slug: "keynote",
 		stream: "https://www.youtube.com/embed/NiknNI_0J48?autoplay=1&loop=1",
 		discord: "https://discord.gg/fake",
@@ -121,7 +121,7 @@ export const stagesData = [
 		],
 	},
 	{
-		name: "Stage J",
+		name: "Day 2",
 		slug: "j",
 		stream: "https://www.youtube.com/embed/qe6kkw2ut_Q?autoplay=1&loop=1",
 		discord: "https://discord.gg/fake",
@@ -397,7 +397,7 @@ export const stagesData = [
 		],
 	},
 	{
-		name: "Stage S",
+		name: "Day 3",
 		slug: "s",
 		stream: "https://www.youtube.com/embed/RwyaNPWMiwU?autoplay=1&loop=1",
 		discord: "https://discord.gg/fake",

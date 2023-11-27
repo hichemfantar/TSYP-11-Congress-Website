@@ -3,7 +3,11 @@ import ScheduleBox from "../ScheduleBox";
 import TimelineShedule from "../timeline-view/TimelineShedule";
 import { dec18Schedule, dec19Schedule, dec20Schedule } from "./scheduleItems";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlusCircle } from "@fortawesome/free-solid-svg-icons";
+import {
+	faCircleHalfStroke,
+	faPlusCircle,
+} from "@fortawesome/free-solid-svg-icons";
+import { twMerge } from "tailwind-merge";
 
 export default function ScheduleList() {
 	return (
@@ -1156,16 +1160,29 @@ export const stagesData = [
 
 export function ScheduleOverview({ showTimeline }) {
 	const [isSeeMore, setIsSeeMore] = useState(false);
+	const [isTimeLineView, setIsTimeLineView] = useState(showTimeline);
 
 	return (
 		<section>
-			<div className="mb-16 text-center text-4xl font-bold">
-				Schedule Overview
+			<div className="flex items-center justify-center">
+				<button
+					className="mb-16 flex flex-col items-center justify-center gap-4 md:flex"
+					onClick={() => setIsTimeLineView(!isTimeLineView)}
+				>
+					<FontAwesomeIcon
+						icon={faCircleHalfStroke}
+						className={twMerge(
+							`animate-pulse text-2xl transition-all`,
+							isTimeLineView ? "rotate-180" : ""
+						)}
+					/>
+					<div className="text-4xl font-bold">Schedule Overview</div>
+				</button>
 			</div>
 
-			{showTimeline && <TimelineShedule />}
+			{isTimeLineView && <TimelineShedule />}
 
-			{!showTimeline && (
+			{!isTimeLineView && (
 				<div className="flex flex-col gap-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
 					<section className="flex flex-col">
 						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black">
