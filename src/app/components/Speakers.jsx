@@ -1,19 +1,8 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
-import ThomasCoughlin from "../../assets/people/Thomas Coughlin.webp";
-import AbdulateefAliyu from "../../assets/people/Abdulateef Aliyu.webp";
-import BrahamHimed from "../../assets/people/Braham Himed.jpg";
-import SrikanthPillai from "../../assets/people/Srikanth Pillai.jpg";
-import MikeHinchey from "../../assets/people/Mike Hinchey.webp";
-import KhaledSliti from "../../assets/people/Khaled Sliti.jpg";
-import KhaledLetaief from "../../assets/people/Khaled Letaief.jpg";
-import MathurDeepak from "../../assets/people/mathur-deepak.webp";
-import Maurizio_Bozzi from "../../assets/people/Maurizio_Bozzi.jpg";
-import hamza_abdelhedi from "../../assets/people/hamza_abdelhedi.jpg";
-import Dharmawardena_hasala from "../../assets/people/Dharmawardena_hasala.jpg";
+import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLink, faPlus } from "@fortawesome/free-solid-svg-icons";
+
 import CustomImage from "./CustomImage";
 
 export default function Speakers({ limit = 0 }) {
@@ -83,16 +72,23 @@ export const speakersData = [
 			name: "Google",
 		},
 		image: {
-			url: KhaledLetaief,
+			url: "/assets/people/Khaled Letaief.jpg",
 		},
 		imageSmall: {
-			url: KhaledLetaief,
+			url: "/assets/people/Khaled Letaief.jpg",
 		},
 	},
 	{
 		enabled: true,
 		name: "Deepak Mathur",
-		bio: "Deepak Mathur served as Director of IEEE Region 10. He has also served in many leadership roles in IEEE at Section, Council, Region and MGA (Member Geographic Activities). Deepak was IEEE India Council Chair in 2015-2016. Deepak, former Chief General Manager of ONGC (India’s premier public sector company engaged in exploration and exploitation of hydrocarbons), has more than 37-years of professional experience in fields of electronics, telecommunication, IT infrastructure and has held various engineering and managerial positions.",
+		bio: `Mr Deepak Mathur has served as the Director of IEEE Region 10 (Asia-Pacific) in 2021-2022. He is presently IEEE Vice President-Elect of Member Geographic Activities (MGA) and he will be serving as its Vice President in 2024. 
+		IEEE (Institute of Electrical and Electronics Engineers) is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+		Mr Mathur has also served in various volunteer leadership roles within IEEE at Section, Council, Region and MGA (Member Geographic Activities). Previously, he was the IEEE India Council Chair in 2015-16.
+		Mr Mathur, a former Chief General Manager of ONGC (India’s premier public sector company engaged in exploration and exploitation of hydrocarbons), has more than 37-years of professional experience in fields of electronics, telecommunication, IT infrastructure and has held various engineering and managerial positions during his career. He has successfully conducted planning and executions of several IT projects like SCADA, on-line/real-time monitoring systems, IT infrastructure creation, Wi-Max based broadband wireless access system, GPS/GSM based vehicle tracking system etc. and has led teams of IT professionals and multi-disciplinary teams. He also has the experience of managing and working on Hi-Tech (Oil) Well Logging Systems which analyzes the properties of subsurface to explore the possibility of hydrocarbons. 
+		Deepak holds a Bachelor of Engineering degree in Electronics and Communications from Indian Institute of Technology (IIT), Roorkee and an MBA. He has also completed Advance Management Program from India Institute of Management (IIM), Calcutta.
+		In his IEEE journey, Deepak has been the recipient of various IEEE recognitions including the prestigious IEEE Region 10 Outstanding Volunteer Award, IEEE MGA Achievement Award and IEEE India Council Life Time Achievement award.
+		He is also a member of the highly acclaimed international honor society IEEE-HKN or Eta Kappa Nu (ΗΚΝ), which is known to promote excellence in profession and in education through an emphasis on scholarship, character, and attitude. Its membership is a lifelong designation for individuals who have distinguished themselves as students or as professionals in electrical engineering, computer engineering, computer science, and other fields of IEEE’s interest.
+		`,
 		title: "IEEE Vice President Elect - MGA",
 		talk: {
 			title: "Keynote",
@@ -106,19 +102,17 @@ export const speakersData = [
 			name: "Google",
 		},
 		image: {
-			url: MathurDeepak,
+			url: "/assets/people/mathur-deepak.webp",
 		},
 		imageSmall: {
-			url: MathurDeepak,
+			url: "/assets/people/mathur-deepak.webp",
 		},
 	},
 	{
 		enabled: true,
 		name: "Maurizio Bozzi",
-		bio: `Prof. Bozzi is the 2023 President Elect of the IEEE Microwave Theory and Technology Society (MTT-S). He was an elected Member of the Administrative Committee of MTT-S for years 2017–2022, the MTT-S Treasurer for years 2020–2022, the Chair of the Meetings and Symposia Committee of MTT-S AdCom for years 2018-2019, and the Secretary of MTT-S for year 2016. He was also a member of the General Assembly (GA) of the European Microwave Association (EuMA) for the term 2014–2016.
-		He served as a Track Editor of the IEEE Transactions on Microwave Theory and Techniques and as an Associate Editor of the IEEE Microwave and Wireless Components Letters, the IET Microwaves, Antennas and Propagation, and the IET Electronics Letters.
-		He was the General Chair of the IEEE MTT-S International Microwave Workshop Series-Advanced Materials and Processes (IMWS-AMP 2017), Pavia, Italy, 2017, of the inaugural edition of the IEEE International Conference on Numerical Electromagnetic Modeling and Optimization, NEMO2014 (Pavia, Italy, May 14-16, 2014), and of the IEEE MTT-S International Microwave Workshop Series on Millimeter Wave Integration Technologies (Sitges, Spain, Sept. 15-16, 2011).
-		`,
+		bio: `Maurizio Bozzi received the Ph.D. degree in electronics and computer science from the University of Pavia, Pavia, Italy, in 2000. Currently, he is a full professor of electromagnetic fields at the University of Pavia. His main research interests concern the computational electromagnetics, the substrate integrated waveguide technology, and the use of novel materials and fabrication technologies for microwave circuits. 
+		Prof. Bozzi is the 2023 President Elect of the IEEE Microwave Theory and Technology Society (MTT-S). He is a Fellow of IEEE.`,
 		title: "President-Elect MTT-S",
 		talk: {
 			title: "Keynote",
@@ -132,10 +126,10 @@ export const speakersData = [
 			name: "Google",
 		},
 		image: {
-			url: Maurizio_Bozzi,
+			url: "/assets/people/Maurizio_Bozzi.jpg",
 		},
 		imageSmall: {
-			url: Maurizio_Bozzi,
+			url: "/assets/people/Maurizio_Bozzi.jpg",
 		},
 	},
 	{
@@ -155,16 +149,22 @@ export const speakersData = [
 			name: "Vercel",
 		},
 		image: {
-			url: MikeHinchey,
+			url: "/assets/people/Mike Hinchey.webp",
 		},
 		imageSmall: {
-			url: MikeHinchey,
+			url: "/assets/people/Mike Hinchey.webp",
 		},
 	},
 	{
 		enabled: true,
 		name: "Abdulateef Aliyu",
-		bio: "Abdullateef is the General Manager of projects at Phase 3 Telecom and Senior VP of IEEE Smart Village. With a strong background in telecom, he has led high-profile projects in Africa. Abdullateef holds a bachelor's degree, a master's degree with Honors, and multiple certifications. He has received several awards for his leadership and contributions.",
+		bio: `Abdullateef is an accomplished General Manager of Projects at Phase 3 Telecom. He holds a bachelor’s degree in electrical engineering from Bayero University Kano (BUK) and a master's degree in information and communication technology (ICT) with Honors from the Northern University of Malaysia. He is also a certified business analyst and has completed certification from the United States Telecommunication Training Institute (USTTI) in Washington DC.
+
+		Highlights of Abdullateef's career include a senior management role at Suburban West Africa before joining Phase 3 Telecom in 2013. He has played a vital role in expanding the company's optical aerial and underground infrastructure, which now spans over 6000 km. He has also led the successful implementation of the Phase 3 Telecom 100G transmission network backbone nationwide between 2019 and 2022. Abdullateef has contributed to the deployment of numerous high-profile projects for Mobile Network Operators (MNOs) across Nigeria and Sub-Saharan Africa, earning him industry recognition.
+		
+		He is a Senior member of the Institute of Electrical and Electronics Engineers (IEEE) the world's largest technical organization, serving as the chair of the IEEE Student Activities Committee in Europe, Middle East, and Africa (EMEA) – also known as Region 8. He founded the IEEE Smart Village Africa Working Group in 2020, which has grown to have about 1,000 members from 44 countries in Africa. He is also involved in several committees and boards related to engineering, technology, and humanitarian initiatives. He holds numerous certifications, including Certified Scrum Master (CSM), Project Manager Professional (PMP), Certified Business Analysis Professional, and Certified Quality Improvement Associate (CQIA). He is a Chartered Engineer and a member of the Nigeria Society of Engineers, a member of the Council for Regulations of Engineering in Nigeria (COREN), and a Professional Member of the Eta Chapter of the Board of Governors.
+		
+		Abdullateef’s contributions to his field have been widely recognized, and he is the recipient of several awards and accolades. These include the Leadership and Innovative Award, Best Creativity Award, and Excellence in Leadership Award from Phase 3 Telecom and IEEE Smart Village, as well as the Award of Excellence from IEEE Nigeria Section, NSE Maitama branch, MGA Board Young Professionals Achievement Award, and Outstanding Volunteer of IEEE R8 ASYP Congress (EMEA) in various years.`,
 		title: "IEEE R8 SAC Chair",
 		talk: {
 			title: "Keynote",
@@ -178,10 +178,10 @@ export const speakersData = [
 			name: "Vercel",
 		},
 		image: {
-			url: AbdulateefAliyu,
+			url: "/assets/people/Abdulateef Aliyu.webp",
 		},
 		imageSmall: {
-			url: AbdulateefAliyu,
+			url: "/assets/people/Abdulateef Aliyu.webp",
 		},
 	},
 	{
@@ -201,16 +201,16 @@ export const speakersData = [
 			name: "Vercel",
 		},
 		image: {
-			url: BrahamHimed,
+			url: "/assets/people/Braham Himed.jpg",
 		},
 		imageSmall: {
-			url: BrahamHimed,
+			url: "/assets/people/Braham Himed.jpg",
 		},
 	},
 	{
 		enabled: true,
 		name: "Nita Patel",
-		bio: `Nita Patel is senior director of engineering at Otis, Farmington, Bedford, NH 03110 USA. Her research interests include product capabilities in connected, smart, the Internet of Things-based platforms. Patel received an M.S. in computer engineering from Southern Methodist University. Contact her at nita.patel@ieee.org`,
+		bio: `Nita Patel is Senior Director at Otis's lead design center in Farmington, where she is leading global engineering development and providing new capabilities in connected, smart, IoT-based platforms. Nita is 2023 President of the IEEE Computer Society. Nita has served in many IEEE volunteer roles: IEEE Foundation Director, founder of the IEEE Women in Engineering International Leadership Conference (WIE ILC), past Women in Engineering International Chair, Eta Kappa Nu Board of Governors, IEEE-USA Vice President and more. Nita received her MS Computer Engineering, BS Electrical Engineering and BS Mathematics from Southern Methodist University in Dallas.`,
 		title: "President @IEEE CS",
 		talk: {
 			title: "Keynote",
@@ -318,10 +318,10 @@ export const speakersData = [
 			name: "Vercel",
 		},
 		image: {
-			url: ThomasCoughlin,
+			url: "/assets/people/Thomas Coughlin.webp",
 		},
 		imageSmall: {
-			url: ThomasCoughlin,
+			url: "/assets/people/Thomas Coughlin.webp",
 		},
 	},
 
@@ -342,10 +342,10 @@ export const speakersData = [
 			name: "Vercel",
 		},
 		image: {
-			url: SrikanthPillai,
+			url: "/assets/people/Srikanth Pillai.jpg",
 		},
 		imageSmall: {
-			url: SrikanthPillai,
+			url: "/assets/people/Srikanth Pillai.jpg",
 		},
 	},
 
@@ -372,10 +372,10 @@ export const speakersData = [
 			name: "Google",
 		},
 		image: {
-			url: hamza_abdelhedi,
+			url: "/assets/people/hamza_abdelhedi.jpg",
 		},
 		imageSmall: {
-			url: hamza_abdelhedi,
+			url: "/assets/people/hamza_abdelhedi.jpg",
 		},
 	},
 
@@ -399,16 +399,16 @@ export const speakersData = [
 			name: "Google",
 		},
 		image: {
-			url: Dharmawardena_hasala,
+			url: "/assets/people/Dharmawardena_hasala.jpg",
 		},
 		imageSmall: {
-			url: Dharmawardena_hasala,
+			url: "/assets/people/Dharmawardena_hasala.jpg",
 		},
 	},
 	{
 		enabled: true,
 		name: "Eric Berkowitz",
-		bio: `I’m a seasoned membership marketing executive, leader and strategist. I’m an expert in member recruitment, retention and engagement. I develop and execute strategic marketing plans and programs to build awareness of organizational activities and increase revenue. I have direct experience with building integrated direct marketing campaigns that include direct mail, telemarketing, email, advertising, and social media for both member acquisition and retention.`,
+		bio: `Eric has nearly 30 years’ experience in progressively responsible positions related to global membership marketing, brand development and non-dues generation with three national and international professional membership organizations. Eric is currently the Director of Membership and Education for the IEEE Computer Society where he is responsible for the overall IEEE Computer Society membership experience.`,
 		title: "Director of Membership - IEEE Computer Society",
 		talk: {
 			title: "Keynote",
@@ -431,7 +431,7 @@ export const speakersData = [
 	{
 		enabled: true,
 		name: "Zied Bouida",
-		bio: `Experienced Senior Researcher with a demonstrated history of working in academic institutions with a strong collaboration with Industry Partners. Skilled in the design, deployment, and performance analysis of Wireless Sensor Networks. Extensive project management experience as a Manager of the MiGen Smart Grid Project (Carleton Team) and as the Cisco Chair Technical Manager with The Internet of Things (IoT) Lab at Carleton University.`,
+		bio: `Dr. BOUIDA is an Assistant Professor at Kuwait College of Science and Technology (KCST), Kuwait. Before that, he served as the Cisco Chair Technical Manager and Senior Research Associate at the Internet of Things Lab at Carleton University, Ottawa, ON, Canada. He is a Senior Member of the IEEE, HKN Professional Member, and Professional Engineer in Ontario. He served as IEEE Qatar YPs Committee Chair in 2016, IEEE Ottawa YP Chair from 2016 to 2017, and as IEEE Canada (R7) YPs Committee Chair from 2017 to 2021.`,
 		title: "Senior Research Associate, Ericsson-Carleton Mobile Wireless Lab",
 		talk: {
 			title: "Keynote",
@@ -477,7 +477,18 @@ export const speakersData = [
 	{
 		enabled: true,
 		name: "Ljiljana Trajkovic",
-		bio: `Professor of Engineering Science`,
+		bio: `Ljiljana Trajkovic received the Dipl. Ing. degree from University of Pristina, Yugoslavia,
+		the M.Sc. degrees in electrical engineering and computer engineering from Syracuse
+		University, Syracuse, NY, and the Ph.D. degree in electrical engineering from University
+		of California at Los Angeles. She is currently a professor in the School of Engineering
+		Science, Simon Fraser University, Burnaby, British Columbia, Canada. Her research
+		interests include communication networks and dynamical systems. She served as IEEE
+		Division X Delegate/Director and President of the IEEE Systems, Man, and Cybernetics
+		Society and the IEEE Circuits and Systems Society. Dr. Trajkovic serves as Editor-in-
+		Chief of the IEEE Transactions on Human-Machine Systems and Associate Editor-in-
+		Chief of the IEEE Open Journal of Systems Engineering. She is a Distinguished
+		Lecturer of the IEEE Circuits and System Society, a Distinguished Lecturer of the IEEE
+		Systems, Man, and Cybernetics Society, and a Fellow of the IEEE.`,
 		title: "Professor of Engineering Science",
 		talk: {
 			title: "Keynote",
@@ -592,7 +603,9 @@ export const speakersData = [
 	{
 		enabled: true,
 		name: "Hatem Haddad",
-		bio: `Entrepreneur, professor and researcher in artificial intelligence and NLPs`,
+		bio: `Hatem Haddad received a doctorate in Computer Science and Information Systems from University Grenoble Alpes, France. He was a Postdoctoral Fellow at VTT Technical Research Center of Finland and at Norwegian University of Science and Technology. 
+		He occupied assistant professor positions at Grenoble Alpes university (France), at UAEU (EAU), at Sousse university (Tunisia), at Mevlana university (Turkey) and at ULB (Belgium). He worked for industrial corporations in R&D at VTT Technical Research Centre of Finland and Institute for Infocomm Research, Image Processing and Applications Lab of Singapore. He was an invited researcher at Leibniz-Fachhochschule School of Business (Germany) and Polytechnic Institute of Coimbra (Portugal). 
+		His current research interests include Natural Language Processing, Machine Learning and Deep Learning. He is a Program Chair in various global conferences and serves as a reviewer for relevant journals and conferences in the Artificial Intelligence field. He is a board member of Masakhane and WiNLP (Widening NLP).`,
 		title: "Professor, ISAMM",
 		talk: {
 			title: "Keynote",
@@ -615,7 +628,10 @@ export const speakersData = [
 	{
 		enabled: true,
 		name: "Moez ben haj hmida",
-		bio: `Professor | Researcher | Artificial Intelligence | NLP | ML | DL`,
+		bio: `Moez is an associate professor at National Engineering School of Tunis (or ENIT as we say) in Tunisia. Here I teach Big Data and IoT for students in Information and Communication Technologies (ICT) and other engineering fields. I am involved in projects around multilingual and dialectal natural languages processing (NLP) and Generative AI. I come from the computer sciences field, and I am focused on Digital Humanism. I have worked Big Data Mining and analytics, distributed and high performance
+		computing, and software development. Before visiting UC Berkeley I held a COO position at
+		iCompass, a startup specialized in Artificial Intelligence Systems.
+		In 2018, Moez held an appointment of visiting scholar at University of California at Berkeley. He serves as a PC member of international conferences and serves as a reviewer for international journals. In 2022, Moez received a Fulbright Award to spend a year in California studying Deep Learning models explainability at UC Berkeley.`,
 		title: "Professor | Artificial Intelligence",
 		talk: {
 			title: "Keynote",
@@ -638,7 +654,7 @@ export const speakersData = [
 	{
 		enabled: true,
 		name: "Houman Zolfaghari",
-		bio: `Game changing solutions using Artificial Intelligence for challenging problems. As director, scientist, architect and programmer.`,
+		bio: `Houman Zolfaghari, Scientific Director at CRIM. Over twenty years of experience in artificial intelligence in the industry where he worked as a developer, researcher, and director. After his Ph.D. in mathematics from the University of Montreal in logic and category theory, he dedicated his career to various aspects of artificial intelligence, including machine learning, natural language processing, knowledge acquisition and modeling.`,
 		title: "Scientific Director at CRIM",
 		talk: {
 			title: "Keynote",
@@ -675,10 +691,10 @@ export const speakersData = [
 			name: "Google",
 		},
 		image: {
-			url: KhaledSliti,
+			url: "/assets/people/Khaled Sliti.jpg",
 		},
 		imageSmall: {
-			url: KhaledSliti,
+			url: "/assets/people/Khaled Sliti.jpg",
 		},
 	},
 	{
@@ -730,8 +746,8 @@ export const speakersData = [
 	{
 		enabled: true,
 		name: "Oussama Chelly",
-		bio: `Co-Founder of Deepvolt, ML Cloud Solution Architect`,
-		title: "Co-Founder of Deepvolt, ML Cloud Solution Architect",
+		bio: `ML Cloud Solution Architect`,
+		title: "ML Cloud Solution Architect",
 		talk: {
 			title: "Keynote",
 			description:
@@ -753,7 +769,7 @@ export const speakersData = [
 	{
 		enabled: true,
 		name: "Mohamed Baha Ben Ticha",
-		bio: "Doctoral Researcher in Computational Neuroscience",
+		bio: "I finished my Engineering degree at Sup'Com Tunis in 2019 and then I started in a position of Research assistant at Grenoble institute of Neuroscience at 2021 followed by a PhD curriculum at the same institute on the field of Speech Brain Computer Interface. Currently I am at the 3rd year of my PhD.",
 		title: "Researcher, Computational Neuroscience",
 		talk: {
 			title: "Keynote",
@@ -799,7 +815,8 @@ export const speakersData = [
 	{
 		enabled: true,
 		name: "Ichraf Jarray",
-		bio: `Hive12 Founder | Entrepreneur | IT Business Developer | Mentor | Growth Hacker | Computer Engineer | Social activist | Head hunter`,
+		bio: `I’m an entrepreneur, computer engineer, venture builder, and community catalyst, enthusiastic about innovation and technology.
+		Founder of Hive12 Hub, initiator of various entrepreneurship and incubation programs for startups. US.ExchangeAlumni (PFP & TechWomen).`,
 		title: "Founder @Hive12",
 		talk: {
 			title: "Keynote",

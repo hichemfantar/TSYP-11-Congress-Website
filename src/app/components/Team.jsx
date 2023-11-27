@@ -1,23 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import asma from "../../assets/OC pictures/asma.png";
-import bachar from "../../assets/OC pictures/bachar.png";
-import bassem from "../../assets/OC pictures/bassem.png";
-import elyess from "../../assets/OC pictures/elyess.png";
-import fatma from "../../assets/OC pictures/fatma.png";
-import gdoura from "../../assets/OC pictures/gdoura.png";
-import kayoum from "../../assets/OC pictures/kayoum.png";
-import lina from "../../assets/OC pictures/lina.png";
-import loua from "../../assets/OC pictures/loua.png";
-import mariemSidia from "../../assets/OC pictures/mariem sidia.png";
-import oussema from "../../assets/OC pictures/oussema.png";
-import safa from "../../assets/OC pictures/safa.png";
-import sarry from "../../assets/OC pictures/sarry.png";
-import skouz from "../../assets/OC pictures/skouz.png";
-import wijdene from "../../assets/OC pictures/wijdene.png";
-import hichem from "../../assets/OC pictures/hichem.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 import CustomImage from "./CustomImage";
 
 export default function Team({ limit = 0 }) {
@@ -129,10 +112,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/jauVf0G.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/QK2ghM3.png",
+			url: "https://i.imgur.com/jauVf0G.png",
 		},
 	},
 	{
@@ -152,10 +135,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/9OgXH1M.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/wEXHJqy.png",
+			url: "https://i.imgur.com/9OgXH1M.png",
 		},
 	},
 	{
@@ -175,10 +158,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/hLQ2Fui.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/iKtMOsx.png",
+			url: "https://i.imgur.com/hLQ2Fui.png",
 		},
 	},
 	{
@@ -202,7 +185,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/705cP50.jpg" || hichem,
+			url: "https://i.imgur.com/705cP50.jpg",
 		},
 	},
 	{
@@ -225,7 +208,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/Cwt2f4w.jpg",
+			url: "https://i.imgur.com/j5OEQq2.jpg",
 		},
 	},
 
@@ -246,10 +229,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/Nn2rfWS.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/vrZ4Rzb.png",
+			url: "https://i.imgur.com/Nn2rfWS.png",
 		},
 	},
 	{
@@ -269,10 +252,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/zjeS2Eu.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/YrZ5UFF.png",
+			url: "https://i.imgur.com/zjeS2Eu.png",
 		},
 	},
 	{
@@ -292,10 +275,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/0MslOky.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/18lc3f8.png",
+			url: "https://i.imgur.com/0MslOky.png",
 		},
 	},
 	{
@@ -315,10 +298,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/edvpiHU.jpg",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/OBHrRZj.jpg",
+			url: "https://i.imgur.com/edvpiHU.jpg",
 		},
 	},
 	{
@@ -338,10 +321,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/WUEE5nd.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/DDUHaXR.png",
+			url: "https://i.imgur.com/WUEE5nd.png",
 		},
 	},
 	{
@@ -361,10 +344,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/0Q2pbuH.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/t20ynfX.png",
+			url: "https://i.imgur.com/0Q2pbuH.png",
 		},
 	},
 	{
@@ -384,10 +367,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/dIJO2lp.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/k1c4MD9.png",
+			url: "https://i.imgur.com/dIJO2lp.png",
 		},
 	},
 	{
@@ -407,10 +390,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/5kDu6uw.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/fPYhmFj.png",
+			url: "https://i.imgur.com/5kDu6uw.png",
 		},
 	},
 
@@ -431,10 +414,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/CiVPM6m.jpg",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/FkTOV4r.jpg" || safa,
+			url: "https://i.imgur.com/CiVPM6m.jpg",
 		},
 	},
 	{
@@ -454,11 +437,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/yJScGeG.jpg",
 		},
 		imageSmall: {
-			url:
-				"https://i.imgur.com/9V6izKV.jpg" || "https://i.imgur.com/uOrcK7C.jpg",
+			url: "https://i.imgur.com/yJScGeG.jpg",
 		},
 	},
 	{
@@ -478,10 +460,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/pMm1bi2.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/WOmCbKA.png",
+			url: "https://i.imgur.com/pMm1bi2.png",
 		},
 	},
 
@@ -502,10 +484,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/lliaUZb.jpg",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/PF7sfN7.jpg" || elyess,
+			url: "https://i.imgur.com/lliaUZb.jpg",
 		},
 	},
 
@@ -550,10 +532,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/Chdcvil.jpg",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/VVJX3zP.png" || gdoura,
+			url: "https://i.imgur.com/Chdcvil.jpg",
 		},
 	},
 	{
@@ -573,10 +555,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/LZfH3jn.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/sgw7JVz.png",
+			url: "https://i.imgur.com/LZfH3jn.png",
 		},
 	},
 	{
@@ -596,10 +578,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/ZyOGdL8.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/QpwhSPc.png",
+			url: "https://i.imgur.com/ZyOGdL8.png",
 		},
 	},
 	{
@@ -619,10 +601,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/tMetidB.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/2nHSr7P.png",
+			url: "https://i.imgur.com/tMetidB.png",
 		},
 	},
 	{
@@ -665,10 +647,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/WpmW7Q5.jpg",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/0YlJoTu.jpg" || mariemSidia,
+			url: "https://i.imgur.com/WpmW7Q5.jpg",
 		},
 	},
 	{
@@ -688,10 +670,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/iNuxnKe.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/ZuQ5E9S.png",
+			url: "https://i.imgur.com/iNuxnKe.png",
 		},
 	},
 	{
@@ -711,10 +693,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/3dYqGXc.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/Sj4iRcn.png",
+			url: "https://i.imgur.com/3dYqGXc.png",
 		},
 	},
 	{
@@ -734,10 +716,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/KDLcimE.jpg",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/fHOyF8i.jpg",
+			url: "https://i.imgur.com/KDLcimE.jpg",
 		},
 	},
 	{
@@ -757,10 +739,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/Vl7jTIB.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/Ux2QKXR.png",
+			url: "https://i.imgur.com/Vl7jTIB.png",
 		},
 	},
 	{
@@ -780,10 +762,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/AzDu3NV.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/mmQGJlY.png",
+			url: "https://i.imgur.com/AzDu3NV.png",
 		},
 	},
 	{
@@ -803,10 +785,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://i.imgur.com/jlZG2X3.jpg",
+			url: "https://i.imgur.com/mXJK0ci.jpg",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/jlZG2X3.jpg",
+			url: "https://i.imgur.com/mXJK0ci.jpg",
 		},
 	},
 	{
@@ -826,10 +808,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/JU3xW1K.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/4x0VJ6e.png",
+			url: "https://i.imgur.com/JU3xW1K.png",
 		},
 	},
 	{
@@ -849,10 +831,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/PBWIFAh.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/9UJ2np7.png",
+			url: "https://i.imgur.com/PBWIFAh.png",
 		},
 	},
 	{
@@ -872,10 +854,10 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://i.imgur.com/oyg2byM.png",
 		},
 		imageSmall: {
-			url: "https://i.imgur.com/qhHl7sn.png",
+			url: "https://i.imgur.com/oyg2byM.png",
 		},
 	},
 ];

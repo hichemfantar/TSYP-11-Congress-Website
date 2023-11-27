@@ -4,10 +4,12 @@ import TimelineShedule from "../timeline-view/TimelineShedule";
 import { dec18Schedule, dec19Schedule, dec20Schedule } from "./scheduleItems";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faCircleHalfStroke,
 	faPlusCircle,
+	faTableColumns,
+	faTimeline,
 } from "@fortawesome/free-solid-svg-icons";
 import { twMerge } from "tailwind-merge";
+import StyledButton from "../StyledButton";
 
 export default function ScheduleList() {
 	return (
@@ -1164,22 +1166,76 @@ export function ScheduleOverview({ showTimeline }) {
 
 	return (
 		<section>
-			<div className="flex items-center justify-center">
-				<button
-					className="mb-16 flex flex-col items-center justify-center gap-4 md:flex"
+			<div className="mb-14 flex flex-col items-center justify-center gap-8">
+				<div className="text-4xl font-bold">Schedule Overview</div>
+				<div className="flex">
+					{/* <StyledButton
+						onClick={() => setIsTimeLineView(!isTimeLineView)}
+						icon={
+							<FontAwesomeIcon
+								icon={!isTimeLineView ? faTimeline : faTableColumns}
+								className={twMerge(
+									`text-lg transition-all`,
+									!isTimeLineView ? "-rotate-90" : ""
+								)}
+							/>
+						}
+						message={!isTimeLineView ? "Timeline View" : "List View"}
+					/> */}
+					<StyledButton
+						className={twMerge(
+							"min-w-[1rem] rounded-l-md rounded-r-none border-r-[1px]"
+						)}
+						onClick={() => setIsTimeLineView(true)}
+						icon={
+							<FontAwesomeIcon
+								icon={faTimeline}
+								className={twMerge(`-rotate-90 text-base transition-all`)}
+							/>
+						}
+						message={isTimeLineView && "Timeline View"}
+					/>
+					<StyledButton
+						className={twMerge(
+							"min-w-[1rem] rounded-r-md rounded-l-none border-l-[1px]"
+						)}
+						onClick={() => setIsTimeLineView(false)}
+						icon={
+							<FontAwesomeIcon
+								icon={faTableColumns}
+								className={twMerge(`text-lg transition-all`)}
+							/>
+						}
+						message={!isTimeLineView && "List View"}
+					/>
+				</div>
+				{/* <button
+					className="flex items-center justify-center gap-4 font-medium md:flex"
 					onClick={() => setIsTimeLineView(!isTimeLineView)}
 				>
 					<FontAwesomeIcon
-						icon={faCircleHalfStroke}
+						icon={!isTimeLineView ? faTimeline : faTableColumns}
 						className={twMerge(
-							`animate-pulse text-2xl transition-all`,
-							isTimeLineView ? "rotate-180" : ""
+							`text-2xl transition-all`,
+							!isTimeLineView ? "-rotate-90" : ""
 						)}
 					/>
-					<div className="text-4xl font-bold">Schedule Overview</div>
-				</button>
+					{!isTimeLineView ? "Timeline View" : "List View"}
+				</button> */}
 			</div>
-
+			{/* <button
+				className="mb-16 flex flex-col items-center justify-center gap-4 md:flex"
+				onClick={() => setIsTimeLineView(!isTimeLineView)}
+			>
+				<FontAwesomeIcon
+					icon={isTimeLineView ? faTimeline : faTableColumns}
+					className={twMerge(
+						`animate-pulse text-2xl transition-all`,
+						isTimeLineView ? "-rotate-90" : ""
+					)}
+				/>
+				{isTimeLineView ? "Timeline View" : "List View"}
+			</button> */}
 			{isTimeLineView && <TimelineShedule />}
 
 			{!isTimeLineView && (

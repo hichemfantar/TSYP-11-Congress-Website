@@ -1,6 +1,7 @@
 import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { twMerge } from "tailwind-merge";
+import { motion } from "framer-motion";
 
 function StyledButton({
 	fluid,
@@ -17,11 +18,11 @@ function StyledButton({
 	...restOfProps
 }) {
 	return (
-		<button
+		<motion.button
 			type="button"
 			className={twMerge(
 				fluid ? "w-full" : "",
-				`relative flex min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400  ${
+				`relative flex min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition-all hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400  ${
 					isDanger
 						? "dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
 						: ""
@@ -58,10 +59,10 @@ function StyledButton({
 					/> */}
 					</>
 				)}
-				<span className="">{message}</span>
+				{message && <span className="">{message}</span>}
 				{children}
 			</div>
-		</button>
+		</motion.button>
 	);
 }
 
