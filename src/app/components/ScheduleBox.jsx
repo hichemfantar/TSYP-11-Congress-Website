@@ -32,7 +32,6 @@ export default function ScheduleBox({ data, classNames }) {
 						{data.speaker.map((e) => (
 							<Link to={`/speakers/${"Khaled%20Letaief"}`}>
 								<CustomImage
-									loading=""
 									key={e.name}
 									className="h-10 w-10 rounded-full border border-white object-cover dark:border-gray-800"
 									src={

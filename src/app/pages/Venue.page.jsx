@@ -34,9 +34,9 @@ export default function VenuePage() {
 									border: 0,
 									// width: "100%",
 								}}
-								allowFullScreen=""
-								loading=""
+								allowFullScreen
 								referrerPolicy="no-referrer-when-downgrade"
+								loading="lazy"
 							></iframe>
 						</div>
 					</section>

@@ -17,7 +17,6 @@ export default function ChallengeListItem({ data, classNames, imgClassNames }) {
 		>
 			<div className={twMerge("mb-4 rounded-lg bg-gray-50 p-6 py-8")}>
 				<CustomImage
-					loading=""
 					src={data.logo.url || data.logo}
 					alt=""
 					className={twMerge(

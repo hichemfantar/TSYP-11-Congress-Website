@@ -73,7 +73,7 @@ export default function TimelineShedule() {
 													{/* <CustomImage
 														src="/themes/satoripop-2019/images/services/smartphone-4.svg"
 														alt="Design"
-					loading=""
+					
 													/> */}
 												</div>
 											</div>

@@ -297,6 +297,7 @@ export function ContactForm({ title = "Contact us" }) {
 				src="https://docs.google.com/forms/d/e/1FAIpQLSfZLf1IajhxhCG89BGdzBye6t6HGNvYqJmGQ4I2bgyGcfvloQ/viewform?embedded=true"
 				width="640"
 				height="1561"
+			loading="lazy"
 				frameBorder="0"
 				marginHeight="0"
 				marginWidth="0"

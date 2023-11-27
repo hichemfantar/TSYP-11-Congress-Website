@@ -51,7 +51,6 @@ function ChallengeDetails({ data }) {
 		<div className="grid grid-cols-12 gap-y-8 md:gap-x-8">
 			<div className="relative col-span-full md:col-span-5">
 				<CustomImage
-					loading=""
 					src={data.logo.url || data.logo}
 					alt=""
 					className="mx-auto aspect-video h-48 rounded-lg bg-gray-50 object-contain p-6"

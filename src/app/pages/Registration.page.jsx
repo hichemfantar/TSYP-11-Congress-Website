@@ -43,13 +43,11 @@ export default function RegistrationPage() {
 									src={Logo}
 									className="mx-auto mb-8 hidden h-52 object-contain dark:block dark:invert sm:h-48"
 									alt="TSYP 11"
-									loading=""
 								/>
 								<CustomImage
 									src={LightLogo}
 									className="mx-auto h-56 object-contain dark:hidden sm:h-52"
 									alt="TSYP 11"
-									loading=""
 								/>
 							</>
 						)}

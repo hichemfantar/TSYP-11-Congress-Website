@@ -84,13 +84,11 @@ export default function HomePage() {
 									src={Logo}
 									className="mx-auto mb-8 hidden h-52 object-contain dark:block dark:invert sm:h-48"
 									alt="TSYP 11"
-									loading=""
 								/>
 								<CustomImage
 									src={LightLogo}
 									className="mx-auto h-56 object-contain dark:hidden sm:h-52"
 									alt="TSYP 11"
-									loading=""
 								/>
 							</>
 						)}
@@ -295,6 +293,7 @@ export default function HomePage() {
 								Find us here.
 							</h1>
 							<iframe
+								loading="lazy"
 								title="tsyp location"
 								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12851.062625886407!2d10.5328555!3d36.3664548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13029e020677bc0d%3A0x82fe8c3faf57e873!2sDiar%20Lemdina!5e0!3m2!1sen!2stn!4v1682280141809!5m2!1sen!2stn"
 								className="w-full rounded-2xl shadow-lg"
@@ -304,7 +303,6 @@ export default function HomePage() {
 									// width: "100%",
 								}}
 								allowFullScreen=""
-								loading=""
 								referrerPolicy="no-referrer-when-downgrade"
 							></iframe>
 						</div>
@@ -325,7 +323,6 @@ export function AboutESSTHSSB(params) {
 					src={SBGroupPic}
 					className="mx-auto h-56 rounded-2xl object-cover shadow-lg sm:h-96"
 					alt="TSYP 11"
-					loading=""
 				/>
 			</div>
 			<div className="col-span-6">
@@ -366,7 +363,6 @@ export function AboutTunisiaSection(params) {
 					src={IeeeTunisia}
 					className="mx-auto h-52 object-contain sm:h-96"
 					alt="TSYP 11"
-					loading=""
 				/>
 			</div>
 			<div className="col-span-6">
@@ -412,14 +408,12 @@ export function AboutTSYP() {
 						LogoOnBlack ? "" : "dark:invert"
 					} sm:h-48`}
 					alt="TSYP 11"
-					loading=""
 				/>
 
 				<CustomImage
 					src={LightLogo}
 					className="mx-auto h-56 object-contain dark:hidden sm:h-60"
 					alt="TSYP 11"
-					loading=""
 				/>
 			</div>
 			<div className="col-span-6">
@@ -452,7 +446,6 @@ function Memories() {
 							className="h-full w-full rounded-2xl object-cover"
 							src={memory10}
 							alt=""
-							loading=""
 						/>
 					</div>
 					<div>
@@ -460,7 +453,6 @@ function Memories() {
 							className="h-full w-full rounded-2xl object-cover"
 							src={memory2}
 							alt=""
-							loading=""
 						/>
 					</div>
 					<div>
@@ -468,7 +460,6 @@ function Memories() {
 							className="h-full w-full rounded-2xl object-cover"
 							src={memory3}
 							alt=""
-							loading=""
 						/>
 					</div>
 				</div>
@@ -478,7 +469,6 @@ function Memories() {
 							className="h-full w-full rounded-2xl object-cover"
 							src={memory4}
 							alt=""
-							loading=""
 						/>
 					</div>
 					<div>
@@ -486,7 +476,6 @@ function Memories() {
 							className="h-full w-full rounded-2xl object-cover"
 							src={memory5}
 							alt=""
-							loading=""
 						/>
 					</div>
 					<div>
@@ -494,7 +483,6 @@ function Memories() {
 							className="h-full w-full rounded-2xl object-cover"
 							src={memory6}
 							alt=""
-							loading=""
 						/>
 					</div>
 				</div>
@@ -504,7 +492,6 @@ function Memories() {
 							className="h-full w-full rounded-2xl object-cover"
 							src={memory7}
 							alt=""
-							loading=""
 						/>
 					</div>
 					<div>
@@ -512,7 +499,6 @@ function Memories() {
 							className="h-full w-full rounded-2xl object-cover"
 							src={memory8}
 							alt=""
-							loading=""
 						/>
 					</div>
 					<div>
@@ -520,7 +506,6 @@ function Memories() {
 							className="hidden h-full w-full rounded-2xl object-cover md:block "
 							src={memory9}
 							alt=""
-							loading=""
 						/>
 					</div>
 				</div>
@@ -597,7 +582,6 @@ function PreviousEditions() {
 								alt="TSYP2022"
 								// width={200}
 								// height={200}
-								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2022</h1>
@@ -614,7 +598,6 @@ function PreviousEditions() {
 								alt="TSYP2021Dark"
 								// width={200}
 								// height={200}
-								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2021</h1>
@@ -631,7 +614,6 @@ function PreviousEditions() {
 								alt="TSYP2020"
 								// width={200}
 								// height={200}
-								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2020</h1>
@@ -649,7 +631,6 @@ function PreviousEditions() {
 								alt="TSYP2019"
 								// width={200}
 								// height={200}
-								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2019</h1>
@@ -666,7 +647,6 @@ function PreviousEditions() {
 								alt="TSYP2018"
 								// width={200}
 								// height={200}
-								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2018</h1>
@@ -683,7 +663,6 @@ function PreviousEditions() {
 								alt="TSYP2017"
 								// width={200}
 								// height={200}
-								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2017</h1>
@@ -700,7 +679,6 @@ function PreviousEditions() {
 								alt="TSYP2016"
 								// width={200}
 								// height={200}
-								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2016</h1>
@@ -717,7 +695,6 @@ function PreviousEditions() {
 								alt="IeeeTunisia"
 								// width={200}
 								// height={200}
-								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2015</h1>
@@ -734,7 +711,6 @@ function PreviousEditions() {
 								alt="TSYP2014"
 								// width={200}
 								// height={200}
-								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2014</h1>
@@ -747,7 +723,6 @@ function PreviousEditions() {
 								alt="IeeeTunisia"
 								// width={200}
 								// height={200}
-								loading=""
 							/>
 						</a>
 						<h1 className="mt-4 text-center font-extrabold">2013</h1>
@@ -775,7 +750,6 @@ function PoweredBy() {
 						alt="IeeeTunisia"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 				{true && (
@@ -791,7 +765,6 @@ function PoweredBy() {
 							alt="YpTunisia"
 							// width={200}
 							// height={200}
-							loading=""
 						/>
 					</a>
 				)}
@@ -807,7 +780,6 @@ function PoweredBy() {
 						alt="essthsLogo"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 				<a
@@ -822,7 +794,6 @@ function PoweredBy() {
 						alt="university of sousse"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 				{false && (
@@ -838,7 +809,6 @@ function PoweredBy() {
 							alt="IEEE Region 8"
 							// width={200}
 							// height={200}
-							loading=""
 						/>
 					</a>
 				)}
@@ -854,7 +824,6 @@ function PoweredBy() {
 						alt="IEEE ESSTHS SB"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 				{false && (
@@ -870,7 +839,6 @@ function PoweredBy() {
 							alt="IEEE"
 							// width={200}
 							// height={200}
-							loading=""
 						/>
 					</a>
 				)}
@@ -904,7 +872,6 @@ function SponsorsPreview() {
 						alt="Orange"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 				<a
@@ -921,7 +888,6 @@ function SponsorsPreview() {
 						alt="polytecsousse"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 			</div>
@@ -947,7 +913,6 @@ function IEEEPartners() {
 							alt="IEEE"
 							// width={200}
 							// height={200}
-							loading=""
 						/>
 					</a>
 				)}
@@ -964,7 +929,6 @@ function IEEEPartners() {
 							alt="YpTunisia"
 							// width={200}
 							// height={200}
-							loading=""
 						/>
 					</a>
 				)}
@@ -980,7 +944,6 @@ function IEEEPartners() {
 						alt="Transistor"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 				<a
@@ -995,7 +958,6 @@ function IEEEPartners() {
 						alt="Transistor"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 				<a
@@ -1010,7 +972,6 @@ function IEEEPartners() {
 						alt="Transistor"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 				<a
@@ -1027,7 +988,6 @@ function IEEEPartners() {
 						alt="Transistor"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 				{false && (
@@ -1043,7 +1003,6 @@ function IEEEPartners() {
 							alt="Transistor"
 							// width={200}
 							// height={200}
-							loading=""
 						/>
 					</a>
 				)}
@@ -1059,7 +1018,6 @@ function IEEEPartners() {
 						alt="Transistor"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 				<a
@@ -1076,7 +1034,6 @@ function IEEEPartners() {
 						alt="Transistor"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 				<a
@@ -1093,7 +1050,6 @@ function IEEEPartners() {
 						alt="Transistor"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 				<a
@@ -1110,7 +1066,6 @@ function IEEEPartners() {
 						alt="Transistor"
 						// width={200}
 						// height={200}
-						loading=""
 					/>
 				</a>
 				{false && (
@@ -1128,7 +1083,6 @@ function IEEEPartners() {
 							alt="Transistor"
 							// width={200}
 							// height={200}
-							loading=""
 						/>
 					</a>
 				)}

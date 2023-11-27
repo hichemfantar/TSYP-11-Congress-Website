@@ -17,12 +17,12 @@ export default function SchedulePage() {
 							className="w-full rounded-2xl shadow-lg"
 							height="400"
 							width="100%"
+							loading="lazy"
 							style={{
 								border: 0,
 								width: "100%",
 							}}
 							allowFullScreen=""
-							loading=""
 							referrerPolicy="no-referrer-when-downgrade"
 						></iframe>
 					</div>
@@ -50,7 +50,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">
@@ -81,7 +80,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">
@@ -105,7 +103,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">
@@ -131,7 +128,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">
@@ -156,7 +152,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">
@@ -184,7 +179,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">
@@ -210,7 +204,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">
@@ -236,7 +229,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">
@@ -261,7 +253,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">
@@ -285,7 +276,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">
@@ -311,7 +301,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">
@@ -335,7 +324,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">
@@ -359,7 +347,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">
@@ -390,7 +377,6 @@ export default function SchedulePage() {
 							}
 							className="mx-auto aspect-video rounded-2xl object-cover"
 							alt="TSYP 11"
-							loading=""
 						/>
 					</div>
 					<div className="col-span-6">

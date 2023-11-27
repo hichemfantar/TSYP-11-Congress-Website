@@ -28,7 +28,6 @@ export default function Speaker() {
 			<div className="grid grid-cols-12 gap-y-8 md:gap-x-8">
 				<div className="col-span-full md:col-span-4">
 					<CustomImage
-						loading=""
 						src={currentSpeaker.imageSmall.url}
 						alt=""
 						className="mx-auto h-60 rounded-lg object-cover"

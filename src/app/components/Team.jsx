@@ -65,7 +65,6 @@ export default function Team({ limit = 0 }) {
 									src={speaker.imageSmall.url}
 									alt=""
 									className="mb-2 aspect-[12/16] w-full rounded-lg object-cover sm:aspect-[12/16]"
-									loading=""
 								/>
 								<div className="font-bold">{speaker.name}</div>
 								{/* <div className="mb-2 text-sm text-gray-600 dark:text-gray-400">
