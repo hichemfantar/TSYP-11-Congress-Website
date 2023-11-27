@@ -1,19 +1,29 @@
 import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import {
-	faChevronLeft,
-	faExternalLink,
-	faPlay,
-} from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faPlay } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 import { Link, useParams } from "react-router-dom";
-import StyledButton from "./StyledButton";
-import { teamData } from "./Team";
 import CustomImage from "./CustomImage";
+import StyledButton from "./StyledButton";
+import { useEffect, useState } from "react";
 
 export default function TeamMember() {
 	const { teamMemberSlug } = useParams();
-	const currentTeamMember = teamData.find((s) => s.name === teamMemberSlug);
+
+	const [ocTeam, setOcTeam] = useState([]);
+
+	useEffect(() => {
+		const getData = async () => {
+			fetch("/assets/oc_team.json")
+				.then((response) => response.json())
+				.then((response) => {
+					setOcTeam(response);
+				})
+				.catch((err) => console.error(err));
+		};
+		getData();
+	}, []);
+
+	const currentTeamMember = ocTeam?.find((s) => s.name === teamMemberSlug);
 
 	return (
 		<div className="mx-auto max-w-3xl">
