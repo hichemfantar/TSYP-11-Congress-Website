@@ -123,7 +123,7 @@ export default function RegistrationPage() {
 							>
 								<FontAwesomeIcon icon={faPhoneSquare} className="h-20" />
 								<div className="max-w-[14rem] text-center font-bold">
-									Contact your ambassador for further details
+									Contact an ambassador
 								</div>
 							</Link>
 						</div>
