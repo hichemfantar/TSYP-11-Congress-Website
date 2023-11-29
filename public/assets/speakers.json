@@ -76,8 +76,8 @@
 		"slug": "Abdulateef Aliyu",
 		"twitterUsername": "Abdulateef Aliyu",
 		"company": { "name": "Vercel" },
-		"image": { "url": "https://i.imgur.com/oyWa9DE.jpg" },
-		"imageSmall": { "url": "https://i.imgur.com/oyWa9DE.jpg" }
+		"image": { "url": "https://i.imgur.com/XfeuIbE.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/XfeuIbE.jpg" }
 	},
 	{
 		"enabled": false,
@@ -284,8 +284,8 @@
 		"slug": "LjiljanaTrajkovic",
 		"twitterUsername": "Ljiljana Trajkovic",
 		"company": { "name": "Google" },
-		"image": { "url": "https://i.imgur.com/WH0yn6Z.jpg" },
-		"imageSmall": { "url": "https://i.imgur.com/WH0yn6Z.jpg" }
+		"image": { "url": "https://i.imgur.com/BetTteE.png" },
+		"imageSmall": { "url": "https://i.imgur.com/BetTteE.png" }
 	},
 	{
 		"enabled": true,
@@ -353,6 +353,23 @@
 	},
 	{
 		"enabled": true,
+		"name": "Khaled Sliti",
+		"bio": "Khaled Sliti serves as a software engineer at Google. He studied Software Engineering at the university of SUP'COM.",
+		"title": "Software Engineer, Google",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Khaled Sliti",
+		"twitterUsername": "Khaled Sliti",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/VFAXABE.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/VFAXABE.jpg" }
+	},
+
+	{
+		"enabled": true,
 		"name": "Hatem Haddad",
 		"bio": "Hatem Haddad received a doctorate in Computer Science and Information Systems from University Grenoble Alpes, France. He was a Postdoctoral Fellow at VTT Technical Research Center of Finland and at Norwegian University of Science and Technology. \n\t\tHe occupied assistant professor positions at Grenoble Alpes university (France), at UAEU (EAU), at Sousse university (Tunisia), at Mevlana university (Turkey) and at ULB (Belgium). He worked for industrial corporations in R&D at VTT Technical Research Centre of Finland and Institute for Infocomm Research, Image Processing and Applications Lab of Singapore. He was an invited researcher at Leibniz-Fachhochschule School of Business (Germany) and Polytechnic Institute of Coimbra (Portugal). \n\t\tHis current research interests include Natural Language Processing, Machine Learning and Deep Learning. He is a Program Chair in various global conferences and serves as a reviewer for relevant journals and conferences in the Artificial Intelligence field. He is a board member of Masakhane and WiNLP (Widening NLP).",
 		"title": "Professor, ISAMM",
@@ -369,22 +386,6 @@
 	},
 	{
 		"enabled": true,
-		"name": "Moez ben haj hmida",
-		"bio": "Moez is an associate professor at National Engineering School of Tunis (or ENIT as we say) in Tunisia. Here I teach Big Data and IoT for students in Information and Communication Technologies (ICT) and other engineering fields. I am involved in projects around multilingual and dialectal natural languages processing (NLP) and Generative AI. I come from the computer sciences field, and I am focused on Digital Humanism. I have worked Big Data Mining and analytics, distributed and high performance\n\t\tcomputing, and software development. Before visiting UC Berkeley I held a COO position at\n\t\tiCompass, a startup specialized in Artificial Intelligence Systems.\n\t\tIn 2018, Moez held an appointment of visiting scholar at University of California at Berkeley. He serves as a PC member of international conferences and serves as a reviewer for international journals. In 2022, Moez received a Fulbright Award to spend a year in California studying Deep Learning models explainability at UC Berkeley.",
-		"title": "Professor of AI, ENIT",
-		"talk": {
-			"title": "Keynote",
-			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
-		},
-		"slug": "moez_ben_haj_hmida",
-		"twitterUsername": "Moez ben haj hmida",
-		"company": { "name": "Google" },
-		"image": { "url": "https://i.imgur.com/M8zhAuc.jpg" },
-		"imageSmall": { "url": "https://i.imgur.com/M8zhAuc.jpg" }
-	},
-	{
-		"enabled": true,
 		"name": "Houman Zolfaghari",
 		"bio": "Houman Zolfaghari, Scientific Director at CRIM. Over twenty years of experience in artificial intelligence in the industry where he worked as a developer, researcher, and director. After his Ph.D. in mathematics from the University of Montreal in logic and category theory, he dedicated his career to various aspects of artificial intelligence, including machine learning, natural language processing, knowledge acquisition and modeling.",
 		"title": "Scientific Director, CRIM",
@@ -396,24 +397,8 @@
 		"slug": "Houman_Zolfaghari",
 		"twitterUsername": "Houman Zolfaghari",
 		"company": { "name": "Google" },
-		"image": { "url": "https://i.imgur.com/TYZvc9G.jpg" },
-		"imageSmall": { "url": "https://i.imgur.com/TYZvc9G.jpg" }
-	},
-	{
-		"enabled": true,
-		"name": "Khaled Sliti",
-		"bio": "Khaled Sliti serves as a software engineer at Google. He studied Software Engineering at the university of SUP'COM.",
-		"title": "Software Engineer, Google",
-		"talk": {
-			"title": "Keynote",
-			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
-		},
-		"slug": "Khaled Sliti",
-		"twitterUsername": "Khaled Sliti",
-		"company": { "name": "Google" },
-		"image": { "url": "https://i.imgur.com/VFAXABE.jpg" },
-		"imageSmall": { "url": "https://i.imgur.com/VFAXABE.jpg" }
+		"image": { "url": "https://i.imgur.com/AXxQ0wA.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/AXxQ0wA.jpg" }
 	},
 	{
 		"enabled": true,
@@ -508,8 +493,8 @@
 		"slug": "Ichraf_Jarray",
 		"twitterUsername": "Ichraf Jarray",
 		"company": { "name": "Google" },
-		"image": { "url": "https://i.imgur.com/M5h7aXQ.jpg" },
-		"imageSmall": { "url": "https://i.imgur.com/M5h7aXQ.jpg" }
+		"image": { "url": "https://i.imgur.com/2y05iyC.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/2y05iyC.jpg" }
 	},
 	{
 		"enabled": true,
@@ -558,5 +543,37 @@
 		"company": { "name": "Google" },
 		"image": { "url": "https://i.imgur.com/2yFEB7h.jpg" },
 		"imageSmall": { "url": "https://i.imgur.com/2yFEB7h.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Moez ben haj hmida",
+		"bio": "Moez is an associate professor at National Engineering School of Tunis (or ENIT as we say) in Tunisia. Here I teach Big Data and IoT for students in Information and Communication Technologies (ICT) and other engineering fields. I am involved in projects around multilingual and dialectal natural languages processing (NLP) and Generative AI. I come from the computer sciences field, and I am focused on Digital Humanism. I have worked Big Data Mining and analytics, distributed and high performance\n\t\tcomputing, and software development. Before visiting UC Berkeley I held a COO position at\n\t\tiCompass, a startup specialized in Artificial Intelligence Systems.\n\t\tIn 2018, Moez held an appointment of visiting scholar at University of California at Berkeley. He serves as a PC member of international conferences and serves as a reviewer for international journals. In 2022, Moez received a Fulbright Award to spend a year in California studying Deep Learning models explainability at UC Berkeley.",
+		"title": "Professor of AI, ENIT",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "moez_ben_haj_hmida",
+		"twitterUsername": "Moez ben haj hmida",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/H57ZXuM.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/H57ZXuM.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Salah Dabbech",
+		"bio": "I'm Salah Dabbech , a software engineer with a passion for creating, innovating and staying at the forefront of advancements, translating them into tangible, impactful solutions. Currently, I serve as the Entrepreneurship Coordinator for the Tunisia section, where my focus is on fostering a vibrant community. I believe in the power of community and collaboration to empower young entrepreneurs, and I'm committed to facilitating an environment where ideas flourish into successful ventures.",
+		"title": "Coordinator, IEEE Entrepreneurship",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Salah_Dabbech",
+		"twitterUsername": "Salah Dabbech",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/y0UiDiT.png" },
+		"imageSmall": { "url": "https://i.imgur.com/y0UiDiT.png" }
 	}
 ]
