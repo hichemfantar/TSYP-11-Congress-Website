@@ -5,16 +5,30 @@ import {
 	faPlay,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { speakersData } from "./Speakers";
 import StyledButton from "./StyledButton";
 import CustomImage from "./CustomImage";
 
 export default function Speaker() {
 	const { speakerSlug } = useParams();
 
+	const [speakersData, setSpeakersData] = useState([]);
+
+	useEffect(() => {
+		const getData = async () => {
+			fetch("/assets/speakers.json")
+				.then((response) => response.json())
+				.then((response) => {
+					setSpeakersData(response);
+				})
+				.catch((err) => console.error(err));
+		};
+		getData();
+	}, []);
+
 	const currentSpeaker = speakersData?.find((s) => s.slug === speakerSlug);
+	if (!currentSpeaker) return null;
 
 	return (
 		<div className="mx-auto max-w-3xl">

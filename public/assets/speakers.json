@@ -1,0 +1,562 @@
+[
+	{
+		"enabled": true,
+		"name": "Khaled Letaief",
+		"bio": "New Bright Professor of Engineering, HKUST, Hong Kong Member, United States National Academy of Engineering (NAE) President, IEEE Communications Society (2018-19).",
+		"title": "Division Director III, IEEE Board of Directors",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Khaled Letaief",
+		"twitterUsername": "Khaled Letaief",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/ApEAVIX.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/ApEAVIX.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Deepak Mathur",
+		"bio": "Mr Deepak Mathur has served as the Director of IEEE Region 10 (Asia-Pacific) in 2021-2022. He is presently IEEE Vice President-Elect of Member Geographic Activities (MGA) and he will be serving as its Vice President in 2024. \n\t\tIEEE (Institute of Electrical and Electronics Engineers) is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.\n\t\tMr Mathur has also served in various volunteer leadership roles within IEEE at Section, Council, Region and MGA (Member Geographic Activities). Previously, he was the IEEE India Council Chair in 2015-16.\n\t\tMr Mathur, a former Chief General Manager of ONGC (India’s premier public sector company engaged in exploration and exploitation of hydrocarbons), has more than 37-years of professional experience in fields of electronics, telecommunication, IT infrastructure and has held various engineering and managerial positions during his career. He has successfully conducted planning and executions of several IT projects like SCADA, on-line/real-time monitoring systems, IT infrastructure creation, Wi-Max based broadband wireless access system, GPS/GSM based vehicle tracking system etc. and has led teams of IT professionals and multi-disciplinary teams. He also has the experience of managing and working on Hi-Tech (Oil) Well Logging Systems which analyzes the properties of subsurface to explore the possibility of hydrocarbons. \n\t\tDeepak holds a Bachelor of Engineering degree in Electronics and Communications from Indian Institute of Technology (IIT), Roorkee and an MBA. He has also completed Advance Management Program from India Institute of Management (IIM), Calcutta.\n\t\tIn his IEEE journey, Deepak has been the recipient of various IEEE recognitions including the prestigious IEEE Region 10 Outstanding Volunteer Award, IEEE MGA Achievement Award and IEEE India Council Life Time Achievement award.\n\t\tHe is also a member of the highly acclaimed international honor society IEEE-HKN or Eta Kappa Nu (ΗΚΝ), which is known to promote excellence in profession and in education through an emphasis on scholarship, character, and attitude. Its membership is a lifelong designation for individuals who have distinguished themselves as students or as professionals in electrical engineering, computer engineering, computer science, and other fields of IEEE’s interest.\n\t\t",
+		"title": "Vice President Elect - MGA, IEEE",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Deepak Mathur",
+		"twitterUsername": "Deepak Mathur",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/LLocrey.png" },
+		"imageSmall": { "url": "https://i.imgur.com/LLocrey.png" }
+	},
+	{
+		"enabled": true,
+		"name": "Maurizio Bozzi",
+		"bio": "Maurizio Bozzi received the Ph.D. degree in electronics and computer science from the University of Pavia, Pavia, Italy, in 2000. Currently, he is a full professor of electromagnetic fields at the University of Pavia. His main research interests concern the computational electromagnetics, the substrate integrated waveguide technology, and the use of novel materials and fabrication technologies for microwave circuits. \n\t\tProf. Bozzi is the 2023 President Elect of the IEEE Microwave Theory and Technology Society (MTT-S). He is a Fellow of IEEE.",
+		"title": "President-Elect, IEEE MTT-S",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Maurizio_Bozzi",
+		"twitterUsername": "Maurizio_Bozzi",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/0o3r0SR.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/0o3r0SR.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Mike Hinchey",
+		"bio": "Mike Hinchey is a Professor of Software Engineering at the University of Limerick. He previously directed the NASA Software Engineering Laboratory and continues to be a NASA Expert. Hinchey is a renowned innovator, holding degrees from prestigious universities and publishing extensively in the field. He has held esteemed positions worldwide and is recognized as a Chartered Engineer and Fellow of professional societies. Currently, he serves as President of IFIP and Vice-Chair of IEEE UK & Ireland section.",
+		"title": "Director-Elect, IEEE R8",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Mike Hinchey",
+		"twitterUsername": "Mike Hinchey",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/yn9XTGf.png" },
+		"imageSmall": { "url": "https://i.imgur.com/yn9XTGf.png" }
+	},
+	{
+		"enabled": true,
+		"name": "Abdulateef Aliyu",
+		"bio": "Abdullateef is an accomplished General Manager of Projects at Phase 3 Telecom. He holds a bachelor’s degree in electrical engineering from Bayero University Kano (BUK) and a master's degree in information and communication technology (ICT) with Honors from the Northern University of Malaysia. He is also a certified business analyst and has completed certification from the United States Telecommunication Training Institute (USTTI) in Washington DC.\n\n\t\tHighlights of Abdullateef's career include a senior management role at Suburban West Africa before joining Phase 3 Telecom in 2013. He has played a vital role in expanding the company's optical aerial and underground infrastructure, which now spans over 6000 km. He has also led the successful implementation of the Phase 3 Telecom 100G transmission network backbone nationwide between 2019 and 2022. Abdullateef has contributed to the deployment of numerous high-profile projects for Mobile Network Operators (MNOs) across Nigeria and Sub-Saharan Africa, earning him industry recognition.\n\t\t\n\t\tHe is a Senior member of the Institute of Electrical and Electronics Engineers (IEEE) the world's largest technical organization, serving as the chair of the IEEE Student Activities Committee in Europe, Middle East, and Africa (EMEA) – also known as Region 8. He founded the IEEE Smart Village Africa Working Group in 2020, which has grown to have about 1,000 members from 44 countries in Africa. He is also involved in several committees and boards related to engineering, technology, and humanitarian initiatives. He holds numerous certifications, including Certified Scrum Master (CSM), Project Manager Professional (PMP), Certified Business Analysis Professional, and Certified Quality Improvement Associate (CQIA). He is a Chartered Engineer and a member of the Nigeria Society of Engineers, a member of the Council for Regulations of Engineering in Nigeria (COREN), and a Professional Member of the Eta Chapter of the Board of Governors.\n\t\t\n\t\tAbdullateef’s contributions to his field have been widely recognized, and he is the recipient of several awards and accolades. These include the Leadership and Innovative Award, Best Creativity Award, and Excellence in Leadership Award from Phase 3 Telecom and IEEE Smart Village, as well as the Award of Excellence from IEEE Nigeria Section, NSE Maitama branch, MGA Board Young Professionals Achievement Award, and Outstanding Volunteer of IEEE R8 ASYP Congress (EMEA) in various years.",
+		"title": "SAC Chair, IEEE R8",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Abdulateef Aliyu",
+		"twitterUsername": "Abdulateef Aliyu",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/oyWa9DE.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/oyWa9DE.jpg" }
+	},
+	{
+		"enabled": false,
+		"name": "Braham Himed",
+		"bio": "Dr. Himed has been an active member of the IEEE Aerospace and Electronic Systems Radar Systems Panel since 2001, initially serving as vice-chair from 2014 to 2016, and later as panel chair from 2016 to 2018. Currently, he holds the position of past-chair and chair of the Warren White Award for excellence in radar engineering. Dr. Himed is a distinguished Fellow of the IEEE since 2007 and also received the prestigious IEEE Warren White Award in 2012. He is also recognized as a Fellow of AFRL (Air Force Research Laboratory) since 2013.",
+		"title": "Vice President, IEEE AESS Conferences",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Braham Himed",
+		"twitterUsername": "Braham Himed",
+		"company": { "name": "Vercel" },
+		"image": { "url": "/assets/people/Braham Himed.jpg" },
+		"imageSmall": { "url": "/assets/people/Braham Himed.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Nita Patel",
+		"bio": "Nita Patel is Senior Director at Otis's lead design center in Farmington, where she is leading global engineering development and providing new capabilities in connected, smart, IoT-based platforms. Nita is 2023 President of the IEEE Computer Society. Nita has served in many IEEE volunteer roles: IEEE Foundation Director, founder of the IEEE Women in Engineering International Leadership Conference (WIE ILC), past Women in Engineering International Chair, Eta Kappa Nu Board of Governors, IEEE-USA Vice President and more. Nita received her MS Computer Engineering, BS Electrical Engineering and BS Mathematics from Southern Methodist University in Dallas.",
+		"title": "President, IEEE CS",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Nita_Patel",
+		"twitterUsername": "Nita Patel",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/7jIyg8I.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/7jIyg8I.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Antonio Luque",
+		"bio": "Antonio Luque (Senior Member, IEEE) is currently an Associate Professor with the Department of Electronics Engineering, University of Seville. He has been an Invited Researcher and a Teacher at the Swiss Federal Institute of Technology Lausanne (Switzerland), Auburn University (AL, USA), the Delft University of Technology (The Netherlands), Jade University (Germany), the Harbin Institute of Technology (China), and the Tecnológico de Monterrey (Mexico). He has authored 20 journal articles, 40 conference papers, three book chapters, and a textbook, in addition to supervising two Ph.D. students. He is a member of the IEEE Board of Directors.",
+		"title": "Associate Professor, University of Seville",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Antonio_Luque",
+		"twitterUsername": "Antonio Luque",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/t8NpgHG.png" },
+		"imageSmall": { "url": "https://i.imgur.com/t8NpgHG.png" }
+	},
+	{
+		"enabled": true,
+		"name": "Lwanga Herbert",
+		"bio": "Lwanga Herbert, is a Technology promoter, innovator, researcher, entrepreneur and enthusiast best known for promoting technology, innovation and entrepreneurship for the benefit of communities and society as whole. Additionally, he puts his emphasis on promoting those technologies that address humanitarian challenges that prevail with diverse communities and the world at large. Lwanga Herbert currently serves a Global chair of the IEEE Humanitarian Technologies Board (HTB) that focuses on supporting impactful and ethically informed volunteer-led initiatives, programs and projects, and mutually beneficial partnerships, as well as to inform policy formulation that harness technology and innovation to address societal challenges in a responsive, effective, and sustainable way. Previously (2021 - 2022) he served as a Global Chair of IEEE SIGHT. He has also previously served in various positions within the IEEE\\n        \\n\\t\\tThrough his able stewardship, he successfully contributed towards the establishment of IEEE Subsection which subsequently became a full section. His continued guidance resulted into transforming the section into one of the most active and fasting growing organizational units in region 8. In the same respect he has passionately and openly shared his project management skills which has enabled other IEEE volunteers to implement humanitarian projects and solutions that have impacted and benefited communities globally.\\n\\t\\t\\n\\t\\tDue to his strong passion for STEM and humanity, Lwanga co-founded Log’el Science Foundation, a non-profit organization which focuses on conducting research, development and innovation activities whose end results are aimed to benefit humanity. Through the foundation, he continues to encourage, inspire and motivate young learner’s to pursue STEM driven career paths while at the same time enabling engineering and technology students to utilize their innovative knowledge and skills to address real-life challenges in communities using humanistic approaches.\\n\\t\\t\\n\\t\\tIn his career development, he also co-founded LOG'EL GROUP Ltd a technology company which emphasizes use of local talent to develop technology solutions that address locally based challenges and concerns. Through this approach, the local talent is bound to grow and develop as it addresses societal challenges using a home grown approach. Previously, he has won different awards among others which includes the Ugandan Presidential Innovation Award 2005 – that focused on rewarding young innovators\\n\\t\\t\\n\\t\\t",
+		"title": "Chair, IEEE HTB",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Lwanga_Herbert",
+		"twitterUsername": "Lwanga Herbert",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/exoX4CP.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/exoX4CP.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Laura Meyer",
+		"bio": "LLM Candidate, Public International Law - Law of the Sea and Environmental Law specialization | Planet Positive 2030 Initiative by IEEE",
+		"title": "Co-chair, Ocean Decade initiative / IEEE Oceanic engineering society",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "LauraMeyer",
+		"twitterUsername": "Hasala_Dharmawardena",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/SaeSwrl.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/SaeSwrl.jpg" }
+	},
+	{
+		"enabled": false,
+		"name": "Thomas Coughlin",
+		"bio": "An experienced owner in the digital storage industry with a strong background in HDDs, SSDs, SAN, NAS, and cloud storage. He holds a Ph.D. in Electrical and Electronics Engineering from Shinshu University.",
+		"title": "President-Elect, IEEE",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Thomas Coughlin",
+		"twitterUsername": "Thomas Coughlin",
+		"company": { "name": "Vercel" },
+		"image": { "url": "/assets/people/Thomas Coughlin.webp" },
+		"imageSmall": { "url": "/assets/people/Thomas Coughlin.webp" }
+	},
+	{
+		"enabled": false,
+		"name": "Srikanth Pillai",
+		"bio": "Srikanth Vasudevan Pillai is a Ph.D. candidate and research assistant at McMaster University's MARC, specializing in the design and control of electric motors for EV and aerospace applications. At MARC, he is responsible for designing and testing high-speed machines for aerospace use. Srikanth's research focuses on machine control, and he has prior experience as an Assistant Professor at Amrita University. He is an active volunteer for IEEE and has organized and participated in international conferences. Srikanth's interests include playing the violin, reading, and watching TV. His programming skills include PIC microcontrollers and C, and he is proficient in MATLAB, PSIM, JMag, and ANSYS.",
+		"title": "CMD Chair, IEEE IAS",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Srikanth Pillai",
+		"twitterUsername": "Srikanth Pillai",
+		"company": { "name": "Vercel" },
+		"image": { "url": "/assets/people/Srikanth Pillai.jpg" },
+		"imageSmall": { "url": "/assets/people/Srikanth Pillai.jpg" }
+	},
+	{
+		"enabled": false,
+		"name": "Hamza Abdelhedi",
+		"bio": "Hamza Abdelhedi is computer science research master's student at the University of Montreal, specializing in the field of neuro-AI. He holds a telecommunications engineering diploma from the Higher School of Communication of Tunis (SUPCOM) with a background in mathematics from his pre-engineering studies. He is a Graduate Research Assistant at the Cognitive & Computational Neuroscience Lab supervised by Dr. Karim Jerbi. Hamza's primary focus is on exploring the integration of artificial and biological neural networks in face recognition, utilizing deep learning techniques and Magnetoencephalography (MEG) for analyzing internal representations with the aim of contributing to our understanding of the brain's complexities..\n\n\t\tHamza's master's project has received significant support from prestigious scholarships such as the Cerebrum Neuro-AI Scholarship and the UNIQUE Excellence Scholarship (MSc level). These scholarships exemplify his commitment to excellence and his unwavering dedication to pushing the boundaries of neuro-AI research.\n\t\t\n\t\tBeyond academia, Hamza actively engages in social sector initiatives. Currently, he serves as a member of the scientific committee responsible for linking scientific research with student affairs at the UNIQUE Research Center. Notably, Hamza's leadership skills were recognized during his tenure as Chairman at the IEEE SUPCOM Student Branch. Under his guidance, the branch successfully organized the inaugural edition of the Deep Learning IndabaX in Tunisia, the largest AI event in Africa, in 2018. In 2020, Hamza's entrepreneurial spirit earned him the third prize in the SUPCOM entrepreneurship challenge and the distinction of being named the best IEEE Region 8 (EMEA) entrepreneurship initiative ambassador.\n\t\t\n\t\t",
+		"title": "Neuro-AI Research",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "hamza_abdelhedi",
+		"twitterUsername": "hamza_abdelhedi",
+		"company": { "name": "Google" },
+		"image": { "url": "/assets/people/hamza_abdelhedi.jpg" },
+		"imageSmall": { "url": "/assets/people/hamza_abdelhedi.jpg" }
+	},
+	{
+		"enabled": false,
+		"name": "Hasala Dharmawardena",
+		"bio": "I believe in the vision that it is possible to design a sustainable power grid that provides electric power to satisfy all basic needs of every human on the earth. In realizing this mission, my interests run from technical to socio-economic aspects of the power system. \n\n\t\tHaving lived on four continents, I am well versed in effectively working in different environments and thrive in working in inter-disciplinary, multi-cultural teams. I have a proven track record of leadership, having started and led many successful initiatives in IEEE and Toastmasters International. I lead IEEE Young Professionals (2023) and serve as liaison to the IEEE Board of Directors.\n\t\t",
+		"title": "Chair, IEEE Young Professionals",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Hasala_Dharmawardena",
+		"twitterUsername": "Hasala_Dharmawardena",
+		"company": { "name": "Google" },
+		"image": { "url": "/assets/people/Dharmawardena_hasala.jpg" },
+		"imageSmall": { "url": "/assets/people/Dharmawardena_hasala.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Eric Berkowitz",
+		"bio": "Eric has nearly 30 years’ experience in progressively responsible positions related to global membership marketing, brand development and non-dues generation with three national and international professional membership organizations. Eric is currently the Director of Membership and Education for the IEEE Computer Society where he is responsible for the overall IEEE Computer Society membership experience.",
+		"title": "Director of Membership, IEEE Computer Society",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "EricBerkowitz",
+		"twitterUsername": "Hasala_Dharmawardena",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/tZgqUVZ.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/tZgqUVZ.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Zied Bouida",
+		"bio": "Dr. BOUIDA is an Assistant Professor at Kuwait College of Science and Technology (KCST), Kuwait. Before that, he served as the Cisco Chair Technical Manager and Senior Research Associate at the Internet of Things Lab at Carleton University, Ottawa, ON, Canada. He is a Senior Member of the IEEE, HKN Professional Member, and Professional Engineer in Ontario. He served as IEEE Qatar YPs Committee Chair in 2016, IEEE Ottawa YP Chair from 2016 to 2017, and as IEEE Canada (R7) YPs Committee Chair from 2017 to 2021.",
+		"title": "Senior Research Associate, Ericsson-Carleton Mobile Wireless Lab",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "ZiedBouida",
+		"twitterUsername": "Zied Bouida",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/lk6SfIU.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/lk6SfIU.jpg" }
+	},
+	{
+		"enabled": false,
+		"name": "Sabine Bastisch",
+		"bio": "Soft skills expert for corporate & executive teams  head of coaching at samari consulting",
+		"title": "Head of coaching, Samari consulting",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "SabineBastisch",
+		"twitterUsername": "Sabine Bastisch",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/S3wPvSs.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/S3wPvSs.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Ljiljana Trajkovic",
+		"bio": "Ljiljana Trajkovic received the Dipl. Ing. degree from University of Pristina, Yugoslavia,\n\t\tthe M.Sc. degrees in electrical engineering and computer engineering from Syracuse\n\t\tUniversity, Syracuse, NY, and the Ph.D. degree in electrical engineering from University\n\t\tof California at Los Angeles. She is currently a professor in the School of Engineering\n\t\tScience, Simon Fraser University, Burnaby, British Columbia, Canada. Her research\n\t\tinterests include communication networks and dynamical systems. She served as IEEE\n\t\tDivision X Delegate/Director and President of the IEEE Systems, Man, and Cybernetics\n\t\tSociety and the IEEE Circuits and Systems Society. Dr. Trajkovic serves as Editor-in-\n\t\tChief of the IEEE Transactions on Human-Machine Systems and Associate Editor-in-\n\t\tChief of the IEEE Open Journal of Systems Engineering. She is a Distinguished\n\t\tLecturer of the IEEE Circuits and System Society, a Distinguished Lecturer of the IEEE\n\t\tSystems, Man, and Cybernetics Society, and a Fellow of the IEEE.",
+		"title": "Professor of Engineering Science, University of Pristina",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "LjiljanaTrajkovic",
+		"twitterUsername": "Ljiljana Trajkovic",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/WH0yn6Z.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/WH0yn6Z.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Aladdin Ayesh",
+		"bio": "Professor of Artificial Intelligence and Vice Dean for Joint Institute of Data Sciences and Artificial Intelligence",
+		"title": "Professor of AI, Institute of Data Sciences and Artificial Intelligence",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "AladdinAyesh",
+		"twitterUsername": "Aladdin Ayesh",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/WHM9JfG.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/WHM9JfG.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Franceso Maurelli",
+		"bio": "Professor in Marine Systems with focus on Marine Robotics",
+		"title": "OES YP, IEEE",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Franceso_Maurelli",
+		"twitterUsername": "Franceso Maurelli",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/6fSci87.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/6fSci87.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Sajith Wijesuriya",
+		"bio": "Postdoctoral Researcher at NREL| Clean Energy Solutions Center (CESC), NICE Future, 21 CPP Initiatives at Clean Energy Ministerial| Chair of IEEE YP Climate and Sustainability Task Force",
+		"title": "Postdoctoral Researcher, NREL",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Sajith_Wijesuriya",
+		"twitterUsername": "Sajith Wijesuriya",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/hy9S0pz.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/hy9S0pz.jpg" }
+	},
+	{
+		"enabled": false,
+		"name": "Olfa Kanoun",
+		"bio": "Full Professor bei Technische Universität Chemnitz",
+		"title": "Professor, Technische Universität Chemnitz",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Olfa_Kanoun",
+		"twitterUsername": "Olfa Kanoun",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/M30EVD9.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/M30EVD9.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Hatem Haddad",
+		"bio": "Hatem Haddad received a doctorate in Computer Science and Information Systems from University Grenoble Alpes, France. He was a Postdoctoral Fellow at VTT Technical Research Center of Finland and at Norwegian University of Science and Technology. \n\t\tHe occupied assistant professor positions at Grenoble Alpes university (France), at UAEU (EAU), at Sousse university (Tunisia), at Mevlana university (Turkey) and at ULB (Belgium). He worked for industrial corporations in R&D at VTT Technical Research Centre of Finland and Institute for Infocomm Research, Image Processing and Applications Lab of Singapore. He was an invited researcher at Leibniz-Fachhochschule School of Business (Germany) and Polytechnic Institute of Coimbra (Portugal). \n\t\tHis current research interests include Natural Language Processing, Machine Learning and Deep Learning. He is a Program Chair in various global conferences and serves as a reviewer for relevant journals and conferences in the Artificial Intelligence field. He is a board member of Masakhane and WiNLP (Widening NLP).",
+		"title": "Professor, ISAMM",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "HatemHaddad",
+		"twitterUsername": "Hatem Haddad",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/hskwCXq.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/hskwCXq.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Moez ben haj hmida",
+		"bio": "Moez is an associate professor at National Engineering School of Tunis (or ENIT as we say) in Tunisia. Here I teach Big Data and IoT for students in Information and Communication Technologies (ICT) and other engineering fields. I am involved in projects around multilingual and dialectal natural languages processing (NLP) and Generative AI. I come from the computer sciences field, and I am focused on Digital Humanism. I have worked Big Data Mining and analytics, distributed and high performance\n\t\tcomputing, and software development. Before visiting UC Berkeley I held a COO position at\n\t\tiCompass, a startup specialized in Artificial Intelligence Systems.\n\t\tIn 2018, Moez held an appointment of visiting scholar at University of California at Berkeley. He serves as a PC member of international conferences and serves as a reviewer for international journals. In 2022, Moez received a Fulbright Award to spend a year in California studying Deep Learning models explainability at UC Berkeley.",
+		"title": "Professor of AI, ENIT",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "moez_ben_haj_hmida",
+		"twitterUsername": "Moez ben haj hmida",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/M8zhAuc.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/M8zhAuc.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Houman Zolfaghari",
+		"bio": "Houman Zolfaghari, Scientific Director at CRIM. Over twenty years of experience in artificial intelligence in the industry where he worked as a developer, researcher, and director. After his Ph.D. in mathematics from the University of Montreal in logic and category theory, he dedicated his career to various aspects of artificial intelligence, including machine learning, natural language processing, knowledge acquisition and modeling.",
+		"title": "Scientific Director, CRIM",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Houman_Zolfaghari",
+		"twitterUsername": "Houman Zolfaghari",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/TYZvc9G.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/TYZvc9G.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Khaled Sliti",
+		"bio": "Khaled Sliti serves as a software engineer at Google. He studied Software Engineering at the university of SUP'COM.",
+		"title": "Software Engineer, Google",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Khaled Sliti",
+		"twitterUsername": "Khaled Sliti",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/VFAXABE.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/VFAXABE.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Mohamed Amine Ben Temim",
+		"bio": "Telecommunication Engineer at Telnet",
+		"title": "Telecommunication Engineer, Telnet",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Mohamed_Amine_Ben_Temim",
+		"twitterUsername": "Mohamed Amine Ben Temim",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/G6CQL1A.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/G6CQL1A.jpg" }
+	},
+	{
+		"enabled": false,
+		"name": "Rihab Lajmi",
+		"bio": "Investor 📈 | 🎥Youtuber | 📸 Content Creator | 🖊️Writer | Explorer 🧭 | Podcaster | I work @google",
+		"title": "Cloud Space Architect, Google",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Rihab_Lajmi",
+		"twitterUsername": "Rihab Lajmi",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/cvaMD9D.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/cvaMD9D.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Oussama Chelly",
+		"bio": "ML Cloud Solution Architect, AWS",
+		"title": "ML Cloud Solution Architect, AWS",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "OussamaChelly",
+		"twitterUsername": "Oussama Chelly",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/7Zr1ggY.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/7Zr1ggY.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Mohamed Baha Ben Ticha",
+		"bio": "I finished my Engineering degree at Sup'Com Tunis in 2019 and then I started in a position of Research assistant at Grenoble institute of Neuroscience at 2021 followed by a PhD curriculum at the same institute on the field of Speech Brain Computer Interface. Currently I am at the 3rd year of my PhD.",
+		"title": "Researcher, Computational Neuroscience",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Mohamed Baha Ben Ticha",
+		"twitterUsername": "Mohamed Baha Ben Ticha",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/W4uopIt.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/W4uopIt.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Inés Boujmil",
+		"bio": "R&D&I Project Coordinator at AquaBioTech | EU BlueMed Ambassador in Tunisia | ECOP North Africa - Mediterranean Sub-regional Node coordinator | Blue Economy | Science-Policy-Business interfaces",
+		"title": "Coordinator, ECOP North Africa - Mediterranean Sub-regional Node",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Inés_Boujmil",
+		"twitterUsername": "Inés Boujmil",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/M8s15gV.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/M8s15gV.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Ichraf Jarray",
+		"bio": "I’m an entrepreneur, computer engineer, venture builder, and community catalyst, enthusiastic about innovation and technology.\n\t\tFounder of Hive12 Hub, initiator of various entrepreneurship and incubation programs for startups. US.ExchangeAlumni (PFP & TechWomen).",
+		"title": "Founder, Hive12",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Ichraf_Jarray",
+		"twitterUsername": "Ichraf Jarray",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/M5h7aXQ.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/M5h7aXQ.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Ala Chalghaf",
+		"bio": "Ala Chalghaf is a 25 y/o, freshly graduated Software Engineer specializing in Data Science & MLOps, currently works with a Tunisian Start-up, DeepVolt, As a Lead Data Scientist, the promising start-up is Empowering E-Mobility with AI Solutions. Ala is an active IEEE volunteer since 2020, most notably as IEEE ESPRIT SB Chair in 2021/2022 term, Chair of the 10th edition for the Tunisian SYP Congress in 2022 in conjunction with the Young Professional in Space congress and as of 2023 the Chair of the IES Student Activities Committee and a crsp member in the region 8 WIE Committee.",
+		"title": "Lead Data Scientist, DeepVolt",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Ala_Chalghaf",
+		"twitterUsername": "Ala Chalghaf",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/qLLgUQ4.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/qLLgUQ4.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Mourad Zerai",
+		"bio": "Mourad Zéraï: Engineer, Mathematician, Educator, and AI Researcher\\n\\nMourad Zéraï is an engineering graduate from the École Nationale d'Ingénieurs de Tunis and holds a doctorate in Applied Mathematics. Currently, he is a teacher and researcher at ESPRIT, where he also leads the AI program. His work focuses on processing multidimensional data on Riemannian manifolds, with practical applications in AI that span machine learning, medical imaging, and nonlinear signal processing. As a collaborator with the Nvidia Deep Learning Institute, Mourad serves as a University Ambassador, sharing knowledge and fostering learning in the field of AI. He also engages in exploring the ethical dimensions of AI, drawing from his interest in philosophy and the history of science to understand and reflect on AI's role in society.Mourad Zéraï combines his expertise in engineering and mathematics with a dedication to teaching and ethical inquiry, contributing to the evolving conversation around AI and its impact.\\n",
+		"title": "Researcher, ESPRIT",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Mourad_Zerai",
+		"twitterUsername": "Mourad Zerai",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/5QH7NVf.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/5QH7NVf.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Fawzi Behmann",
+		"bio": "Fawzi is currently the founder and president of TelNet Management Consulting Inc. offering\\ninternational professional services in the areas of technology trends; positioning and building\\nsmart networking ecosystem solutions in key markets. Prior, Fawzi held various executive and\\nleadership positions with Tier 1 companies in the areas of communications and networking in\\nCanada and US. He championed the development of Telecom Network Management systems,\\nled efforts in rolling out product releases for network edge and core and marketing SoC product\\nline and roadmap.\\nFawzi is a distinguished Lecturer and keynote speaker at several national and international\\nconferences and events. He has several publications, co-authored a book “Collaborative\\nInternet of Things for Future Smart Connected Life and Business” published by Wiley. Fawzi is a\\nCo-founder of “IoT in Healthcare Consortium” of Intelligent Health Association (IHA) and is a\\nfaculty advisor with Texas State school of Engineering with Capstone Senior Design program.\\nFawzi is serving second term as ComSoc North America Director and ComSoc BoG member. He\\nis a voting member of IEEE Conference Committee &amp; finance Ad Hoc committee, Future\\nNetworks Technical Community Chair elect, Co-Chair of Future Network Education working\\ngroup, Co-Chair of IEEE Transdisciplinary Framework working group. Fawzi chaired several\\nconferences, summits, and panels. Among the most recent is the General Chair of IEEE WCNC\\n2022. Fawzi received multiple awards for his professional leadership, including the IEEE USA\\nprofessional leadership award, IEEE Communications Society NAB Exceptional Service Award,\\nand several regional outstanding services award. Fawzi has MBA, master’s in computer science,\\nbachelor’s in science with Honours in Mathematics with Distinction.",
+		"title": "Founder, TelNet Management Consulting Inc.",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Fawzi_Behmann",
+		"twitterUsername": "Fawzi Behmann",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/2yFEB7h.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/2yFEB7h.jpg" }
+	}
+]
