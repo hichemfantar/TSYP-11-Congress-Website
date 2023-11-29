@@ -321,6 +321,23 @@
 	},
 	{
 		"enabled": true,
+		"name": "Salah Dabbech",
+		"bio": "I'm Salah Dabbech , a software engineer with a passion for creating, innovating and staying at the forefront of advancements, translating them into tangible, impactful solutions. Currently, I serve as the Entrepreneurship Coordinator for the Tunisia section, where my focus is on fostering a vibrant community. I believe in the power of community and collaboration to empower young entrepreneurs, and I'm committed to facilitating an environment where ideas flourish into successful ventures.",
+		"title": "Coordinator, IEEE Entrepreneurship",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Salah_Dabbech",
+		"twitterUsername": "Salah Dabbech",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/y0UiDiT.png" },
+		"imageSmall": { "url": "https://i.imgur.com/y0UiDiT.png" }
+	},
+
+	{
+		"enabled": true,
 		"name": "Sajith Wijesuriya",
 		"bio": "Postdoctoral Researcher at NREL| Clean Energy Solutions Center (CESC), NICE Future, 21 CPP Initiatives at Clean Energy Ministerial| Chair of IEEE YP Climate and Sustainability Task Force",
 		"title": "Postdoctoral Researcher, NREL",
@@ -559,21 +576,5 @@
 		"company": { "name": "Google" },
 		"image": { "url": "https://i.imgur.com/H57ZXuM.jpg" },
 		"imageSmall": { "url": "https://i.imgur.com/H57ZXuM.jpg" }
-	},
-	{
-		"enabled": true,
-		"name": "Salah Dabbech",
-		"bio": "I'm Salah Dabbech , a software engineer with a passion for creating, innovating and staying at the forefront of advancements, translating them into tangible, impactful solutions. Currently, I serve as the Entrepreneurship Coordinator for the Tunisia section, where my focus is on fostering a vibrant community. I believe in the power of community and collaboration to empower young entrepreneurs, and I'm committed to facilitating an environment where ideas flourish into successful ventures.",
-		"title": "Coordinator, IEEE Entrepreneurship",
-		"talk": {
-			"title": "Keynote",
-			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
-		},
-		"slug": "Salah_Dabbech",
-		"twitterUsername": "Salah Dabbech",
-		"company": { "name": "Google" },
-		"image": { "url": "https://i.imgur.com/y0UiDiT.png" },
-		"imageSmall": { "url": "https://i.imgur.com/y0UiDiT.png" }
 	}
 ]
