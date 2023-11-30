@@ -56,19 +56,14 @@ export default function SchedulePage() {
 						<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 							Opening Ceremony.
 						</h1>
-						<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-							The opening ceremony will be held at the Theater of regions in the
-							city of culture . It will contain a variety of speeches delivered
-							by guests across the Region 8, artistic shows from contemporary
-							and traditional eras and a preview of what’s awaiting you during
-							the days of the congress It will be held in the City of Culture,
-							one of the most prestigious cultural complexes in Tunisia, at the
-							Theater of regions which has a capacity of 700 seats. The hall is
-							equipped with an orchestra pit and the most modern technical
-							equipment.
+						<h1 className="mb-4 text-lg font-medium lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+							The opening ceremony will be held at Medina Congress Center,
+							Yasmine Hammamet. It will contain a variety of speeches delivered
+							by guests across the Region 8, and shows from contemporary and
+							traditional eras.
 						</h1>
 					</div>
-				</section>{" "}
+				</section>
 			</Fade>
 
 			<Fade>
