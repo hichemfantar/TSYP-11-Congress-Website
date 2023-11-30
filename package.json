@@ -33,6 +33,7 @@
 		"@tanstack/react-query-devtools": "^4.24.4",
 		"@types/three": "^0.148.0",
 		"@use-gesture/react": "^10.2.24",
+		"@vercel/analytics": "^1.1.1",
 		"date-fns": "^2.29.3",
 		"framer-motion": "^9.0.2",
 		"moment": "^2.29.4",
