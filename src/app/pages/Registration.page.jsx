@@ -70,7 +70,7 @@ export default function RegistrationPage() {
 						</h1>
 
 						<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-							Registrations are open now!
+							Registrations are now open!
 						</h1>
 
 						{/* <div className="flex justify-center">
@@ -92,12 +92,12 @@ export default function RegistrationPage() {
 
 						<div className="mt-16 flex flex-wrap justify-center gap-6">
 							<Link
-								to={"https://bit.ly/tsyp-pre-registration"}
+								to={"https://forms.gle/VJDweQNxu77FLGDVA"}
 								className="flex justify-center"
 								target="_blank"
 							>
 								<StyledButton
-									message={"Pre-Register Now"}
+									message={"Register Now"}
 									icon={
 										<FontAwesomeIcon className="-rotate-45" icon={faTicket} />
 									}
