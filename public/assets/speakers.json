@@ -115,7 +115,7 @@
 		"enabled": true,
 		"name": "Antonio Luque",
 		"bio": "Antonio Luque (Senior Member, IEEE) is currently an Associate Professor with the Department of Electronics Engineering, University of Seville. He has been an Invited Researcher and a Teacher at the Swiss Federal Institute of Technology Lausanne (Switzerland), Auburn University (AL, USA), the Delft University of Technology (The Netherlands), Jade University (Germany), the Harbin Institute of Technology (China), and the Tecnológico de Monterrey (Mexico). He has authored 20 journal articles, 40 conference papers, three book chapters, and a textbook, in addition to supervising two Ph.D. students. He is a member of the IEEE Board of Directors.",
-		"title": "Associate Professor, University of Seville",
+		"title": "Past Region 8 Director",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -275,7 +275,7 @@
 		"enabled": true,
 		"name": "Ljiljana Trajkovic",
 		"bio": "Ljiljana Trajkovic received the Dipl. Ing. degree from University of Pristina, Yugoslavia,\n\t\tthe M.Sc. degrees in electrical engineering and computer engineering from Syracuse\n\t\tUniversity, Syracuse, NY, and the Ph.D. degree in electrical engineering from University\n\t\tof California at Los Angeles. She is currently a professor in the School of Engineering\n\t\tScience, Simon Fraser University, Burnaby, British Columbia, Canada. Her research\n\t\tinterests include communication networks and dynamical systems. She served as IEEE\n\t\tDivision X Delegate/Director and President of the IEEE Systems, Man, and Cybernetics\n\t\tSociety and the IEEE Circuits and Systems Society. Dr. Trajkovic serves as Editor-in-\n\t\tChief of the IEEE Transactions on Human-Machine Systems and Associate Editor-in-\n\t\tChief of the IEEE Open Journal of Systems Engineering. She is a Distinguished\n\t\tLecturer of the IEEE Circuits and System Society, a Distinguished Lecturer of the IEEE\n\t\tSystems, Man, and Cybernetics Society, and a Fellow of the IEEE.",
-		"title": "Professor of Engineering Science, University of Pristina",
+		"title": "DL SMC",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -291,7 +291,7 @@
 		"enabled": true,
 		"name": "Aladdin Ayesh",
 		"bio": "Professor of Artificial Intelligence and Vice Dean for Joint Institute of Data Sciences and Artificial Intelligence",
-		"title": "Professor of AI, Institute of Data Sciences and Artificial Intelligence",
+		"title": "DL CS",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -533,7 +533,7 @@
 		"enabled": true,
 		"name": "Mourad Zerai",
 		"bio": "Mourad Zéraï: Engineer, Mathematician, Educator, and AI Researcher\\n\\nMourad Zéraï is an engineering graduate from the École Nationale d'Ingénieurs de Tunis and holds a doctorate in Applied Mathematics. Currently, he is a teacher and researcher at ESPRIT, where he also leads the AI program. His work focuses on processing multidimensional data on Riemannian manifolds, with practical applications in AI that span machine learning, medical imaging, and nonlinear signal processing. As a collaborator with the Nvidia Deep Learning Institute, Mourad serves as a University Ambassador, sharing knowledge and fostering learning in the field of AI. He also engages in exploring the ethical dimensions of AI, drawing from his interest in philosophy and the history of science to understand and reflect on AI's role in society.Mourad Zéraï combines his expertise in engineering and mathematics with a dedication to teaching and ethical inquiry, contributing to the evolving conversation around AI and its impact.\\n",
-		"title": "Researcher, ESPRIT",
+		"title": "Nvidia DLI Ambassador",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -549,7 +549,7 @@
 		"enabled": true,
 		"name": "Fawzi Behmann",
 		"bio": "Fawzi is currently the founder and president of TelNet Management Consulting Inc. offering\\ninternational professional services in the areas of technology trends; positioning and building\\nsmart networking ecosystem solutions in key markets. Prior, Fawzi held various executive and\\nleadership positions with Tier 1 companies in the areas of communications and networking in\\nCanada and US. He championed the development of Telecom Network Management systems,\\nled efforts in rolling out product releases for network edge and core and marketing SoC product\\nline and roadmap.\\nFawzi is a distinguished Lecturer and keynote speaker at several national and international\\nconferences and events. He has several publications, co-authored a book “Collaborative\\nInternet of Things for Future Smart Connected Life and Business” published by Wiley. Fawzi is a\\nCo-founder of “IoT in Healthcare Consortium” of Intelligent Health Association (IHA) and is a\\nfaculty advisor with Texas State school of Engineering with Capstone Senior Design program.\\nFawzi is serving second term as ComSoc North America Director and ComSoc BoG member. He\\nis a voting member of IEEE Conference Committee &amp; finance Ad Hoc committee, Future\\nNetworks Technical Community Chair elect, Co-Chair of Future Network Education working\\ngroup, Co-Chair of IEEE Transdisciplinary Framework working group. Fawzi chaired several\\nconferences, summits, and panels. Among the most recent is the General Chair of IEEE WCNC\\n2022. Fawzi received multiple awards for his professional leadership, including the IEEE USA\\nprofessional leadership award, IEEE Communications Society NAB Exceptional Service Award,\\nand several regional outstanding services award. Fawzi has MBA, master’s in computer science,\\nbachelor’s in science with Honours in Mathematics with Distinction.",
-		"title": "Founder, TelNet Management Consulting Inc.",
+		"title": "IEEE COMSOC DL",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
