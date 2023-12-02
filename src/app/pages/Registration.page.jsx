@@ -10,6 +10,7 @@ import Logo from "../../assets/main logo black (Custom).png";
 import { Link } from "react-router-dom";
 // import ThreeExperience from "../components/ThreeExperience";
 import {
+	faGraduationCap,
 	faMapLocationDot,
 	faPhoneSquare,
 	faTicket,
@@ -97,10 +98,25 @@ export default function RegistrationPage() {
 								target="_blank"
 							>
 								<StyledButton
-									message={"Register Now"}
+									message={
+										"Register Now as an IEEE Professional and non-student"
+									}
 									icon={
 										<FontAwesomeIcon className="-rotate-45" icon={faTicket} />
 									}
+									className="min-w-[16rem] py-3 text-base"
+								/>
+							</Link>
+							<Link
+								to={
+									"https://docs.google.com/spreadsheets/d/15ToIJFgaeBhgeTjNTsHv_Si09VSpgomOQYKcg3fIFIo/edit?usp=sharing"
+								}
+								className="flex justify-center"
+								target="_blank"
+							>
+								<StyledButton
+									message={"Contact an ambassador to register as a student"}
+									icon={<FontAwesomeIcon icon={faGraduationCap} />}
 									className="min-w-[16rem] py-3 text-base"
 								/>
 							</Link>
