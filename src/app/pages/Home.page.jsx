@@ -111,16 +111,16 @@ export default function HomePage() {
 							</h1>
 						)}
 
-						<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+						<h1 className="mb-4 hidden text-center text-xl font-bold tracking-tight md:block lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 							<q>Silicon valley is a mindset, not a location.</q>
 						</h1>
 						<div className="mb-8 text-center lg:mb-7">
 							<span className="text-xl font-bold tracking-tight lg:text-2xl lg:font-extrabold lg:leading-none">
-								18 - 20 December <span className="xtext-[#3a55b4]">2023</span>,{" "}
+								18 - 20 December <span className="xtext-[#3a55b4]">2023</span>
 							</span>
-							<span className="text-xl font-bold tracking-tight lg:text-2xl lg:font-extrabold lg:leading-none">
+							{/* <span className="text-xl font-bold tracking-tight lg:text-2xl lg:font-extrabold lg:leading-none">
 								Registration Opening Soon
-							</span>
+							</span> */}
 						</div>
 						<div className="flex flex-wrap items-center justify-center gap-8">
 							<div className="xtext-[#3a55b4] mb-4 ">

@@ -47,7 +47,7 @@ export default function Speakers({ limit = 0 }) {
 								{/* <div className="mb-2 text-sm text-gray-600 dark:text-gray-400">
 								@{speaker.twitterUsername}
 							</div> */}
-								<div className="text-sm">{speaker.title}</div>
+								<div className="text-sm line-clamp-2">{speaker.title}</div>
 								{/* <div className="text-sm">
 								{speaker.title}, {speaker.company.name}
 							</div> */}

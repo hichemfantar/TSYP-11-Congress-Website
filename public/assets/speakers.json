@@ -99,7 +99,7 @@
 		"enabled": true,
 		"name": "Nita Patel",
 		"bio": "Nita Patel is Senior Director at Otis's lead design center in Farmington, where she is leading global engineering development and providing new capabilities in connected, smart, IoT-based platforms. Nita is 2023 President of the IEEE Computer Society. Nita has served in many IEEE volunteer roles: IEEE Foundation Director, founder of the IEEE Women in Engineering International Leadership Conference (WIE ILC), past Women in Engineering International Chair, Eta Kappa Nu Board of Governors, IEEE-USA Vice President and more. Nita received her MS Computer Engineering, BS Electrical Engineering and BS Mathematics from Southern Methodist University in Dallas.",
-		"title": "President, IEEE CS",
+		"title": "President, IEEE Computer Society",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -115,7 +115,7 @@
 		"enabled": true,
 		"name": "Antonio Luque",
 		"bio": "Antonio Luque (Senior Member, IEEE) is currently an Associate Professor with the Department of Electronics Engineering, University of Seville. He has been an Invited Researcher and a Teacher at the Swiss Federal Institute of Technology Lausanne (Switzerland), Auburn University (AL, USA), the Delft University of Technology (The Netherlands), Jade University (Germany), the Harbin Institute of Technology (China), and the Tecnológico de Monterrey (Mexico). He has authored 20 journal articles, 40 conference papers, three book chapters, and a textbook, in addition to supervising two Ph.D. students. He is a member of the IEEE Board of Directors.",
-		"title": "Past Region 8 Director",
+		"title": "Past Director, Region 8 / Vice President, Membership Activities of the IEEE IES society",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -131,7 +131,7 @@
 		"enabled": true,
 		"name": "Lwanga Herbert",
 		"bio": "Lwanga Herbert, is a Technology promoter, innovator, researcher, entrepreneur and enthusiast best known for promoting technology, innovation and entrepreneurship for the benefit of communities and society as whole. Additionally, he puts his emphasis on promoting those technologies that address humanitarian challenges that prevail with diverse communities and the world at large. Lwanga Herbert currently serves a Global chair of the IEEE Humanitarian Technologies Board (HTB) that focuses on supporting impactful and ethically informed volunteer-led initiatives, programs and projects, and mutually beneficial partnerships, as well as to inform policy formulation that harness technology and innovation to address societal challenges in a responsive, effective, and sustainable way. Previously (2021 - 2022) he served as a Global Chair of IEEE SIGHT. He has also previously served in various positions within the IEEE\\n        \\n\\t\\tThrough his able stewardship, he successfully contributed towards the establishment of IEEE Subsection which subsequently became a full section. His continued guidance resulted into transforming the section into one of the most active and fasting growing organizational units in region 8. In the same respect he has passionately and openly shared his project management skills which has enabled other IEEE volunteers to implement humanitarian projects and solutions that have impacted and benefited communities globally.\\n\\t\\t\\n\\t\\tDue to his strong passion for STEM and humanity, Lwanga co-founded Log’el Science Foundation, a non-profit organization which focuses on conducting research, development and innovation activities whose end results are aimed to benefit humanity. Through the foundation, he continues to encourage, inspire and motivate young learner’s to pursue STEM driven career paths while at the same time enabling engineering and technology students to utilize their innovative knowledge and skills to address real-life challenges in communities using humanistic approaches.\\n\\t\\t\\n\\t\\tIn his career development, he also co-founded LOG'EL GROUP Ltd a technology company which emphasizes use of local talent to develop technology solutions that address locally based challenges and concerns. Through this approach, the local talent is bound to grow and develop as it addresses societal challenges using a home grown approach. Previously, he has won different awards among others which includes the Ugandan Presidential Innovation Award 2005 – that focused on rewarding young innovators\\n\\t\\t\\n\\t\\t",
-		"title": "Chair, IEEE HTB",
+		"title": "Global chair, IEEE Humanitarian Technologies Board (HTB)/ Former Global Chair, IEEE SIGHT",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -227,7 +227,7 @@
 		"enabled": true,
 		"name": "Eric Berkowitz",
 		"bio": "Eric has nearly 30 years’ experience in progressively responsible positions related to global membership marketing, brand development and non-dues generation with three national and international professional membership organizations. Eric is currently the Director of Membership and Education for the IEEE Computer Society where he is responsible for the overall IEEE Computer Society membership experience.",
-		"title": "Director of Membership, IEEE Computer Society",
+		"title": "Director of Membership and Education for the IEEE Computer Society",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -243,7 +243,7 @@
 		"enabled": true,
 		"name": "Zied Bouida",
 		"bio": "Dr. BOUIDA is an Assistant Professor at Kuwait College of Science and Technology (KCST), Kuwait. Before that, he served as the Cisco Chair Technical Manager and Senior Research Associate at the Internet of Things Lab at Carleton University, Ottawa, ON, Canada. He is a Senior Member of the IEEE, HKN Professional Member, and Professional Engineer in Ontario. He served as IEEE Qatar YPs Committee Chair in 2016, IEEE Ottawa YP Chair from 2016 to 2017, and as IEEE Canada (R7) YPs Committee Chair from 2017 to 2021.",
-		"title": "Senior Research Associate, Ericsson-Carleton Mobile Wireless Lab",
+		"title": "Former Cisco Chair Technical Manager and Senior Research Associate at the Internet of Things Lab at Carleton University, Ottawa, ON, Canada. Senior Member of the IEEE",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -321,9 +321,25 @@
 	},
 	{
 		"enabled": true,
+		"name": "Ala Chalghaf",
+		"bio": "Ala Chalghaf is a 25 y/o, freshly graduated Software Engineer specializing in Data Science & MLOps, currently works with a Tunisian Start-up, DeepVolt, As a Lead Data Scientist, the promising start-up is Empowering E-Mobility with AI Solutions. Ala is an active IEEE volunteer since 2020, most notably as IEEE ESPRIT SB Chair in 2021/2022 term, Chair of the 10th edition for the Tunisian SYP Congress in 2022 in conjunction with the Young Professional in Space congress and as of 2023 the Chair of the IES Student Activities Committee and a crsp member in the region 8 WIE Committee.",
+		"title": "Chair, IES Student Activities Committee",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Ala_Chalghaf",
+		"twitterUsername": "Ala Chalghaf",
+		"company": { "name": "Google" },
+		"image": { "url": "https://i.imgur.com/qLLgUQ4.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/qLLgUQ4.jpg" }
+	},
+	{
+		"enabled": true,
 		"name": "Salah Dabbech",
 		"bio": "I'm Salah Dabbech , a software engineer with a passion for creating, innovating and staying at the forefront of advancements, translating them into tangible, impactful solutions. Currently, I serve as the Entrepreneurship Coordinator for the Tunisia section, where my focus is on fostering a vibrant community. I believe in the power of community and collaboration to empower young entrepreneurs, and I'm committed to facilitating an environment where ideas flourish into successful ventures.",
-		"title": "Coordinator, IEEE Entrepreneurship",
+		"title": "Entrepreneurship Coordinator, IEEE Tunisia section",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -389,7 +405,7 @@
 		"enabled": true,
 		"name": "Hatem Haddad",
 		"bio": "Hatem Haddad received a doctorate in Computer Science and Information Systems from University Grenoble Alpes, France. He was a Postdoctoral Fellow at VTT Technical Research Center of Finland and at Norwegian University of Science and Technology. \n\t\tHe occupied assistant professor positions at Grenoble Alpes university (France), at UAEU (EAU), at Sousse university (Tunisia), at Mevlana university (Turkey) and at ULB (Belgium). He worked for industrial corporations in R&D at VTT Technical Research Centre of Finland and Institute for Infocomm Research, Image Processing and Applications Lab of Singapore. He was an invited researcher at Leibniz-Fachhochschule School of Business (Germany) and Polytechnic Institute of Coimbra (Portugal). \n\t\tHis current research interests include Natural Language Processing, Machine Learning and Deep Learning. He is a Program Chair in various global conferences and serves as a reviewer for relevant journals and conferences in the Artificial Intelligence field. He is a board member of Masakhane and WiNLP (Widening NLP).",
-		"title": "Professor, ISAMM",
+		"title": "Expert in NLP",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -452,8 +468,8 @@
 	{
 		"enabled": true,
 		"name": "Oussama Chelly",
-		"bio": "ML Cloud Solution Architect, AWS",
-		"title": "ML Cloud Solution Architect, AWS",
+		"bio": "AI and Cloud Solutions Architect, previously at Microsoft and currently at AWS",
+		"title": "AI and ML Cloud Solution Architect, AWS",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -469,7 +485,7 @@
 		"enabled": true,
 		"name": "Mohamed Baha Ben Ticha",
 		"bio": "I finished my Engineering degree at Sup'Com Tunis in 2019 and then I started in a position of Research assistant at Grenoble institute of Neuroscience at 2021 followed by a PhD curriculum at the same institute on the field of Speech Brain Computer Interface. Currently I am at the 3rd year of my PhD.",
-		"title": "Researcher, Computational Neuroscience",
+		"title": "Research assistant, Grenoble institute of Neuroscience",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -500,8 +516,8 @@
 	{
 		"enabled": true,
 		"name": "Ichraf Jarray",
-		"bio": "I’m an entrepreneur, computer engineer, venture builder, and community catalyst, enthusiastic about innovation and technology.\n\t\tFounder of Hive12 Hub, initiator of various entrepreneurship and incubation programs for startups. US.ExchangeAlumni (PFP & TechWomen).",
-		"title": "Founder, Hive12",
+		"bio": "I'm an entrepreneur, computer engineer, venture builder, and community catalyst, enthusiastic about innovation and technology.\n\t\tFounder of Hive12 Hub, initiator of various entrepreneurship and incubation programs for startups. US.ExchangeAlumni (PFP & TechWomen).",
+		"title": "Founder, Hive12 Hub",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -515,25 +531,9 @@
 	},
 	{
 		"enabled": true,
-		"name": "Ala Chalghaf",
-		"bio": "Ala Chalghaf is a 25 y/o, freshly graduated Software Engineer specializing in Data Science & MLOps, currently works with a Tunisian Start-up, DeepVolt, As a Lead Data Scientist, the promising start-up is Empowering E-Mobility with AI Solutions. Ala is an active IEEE volunteer since 2020, most notably as IEEE ESPRIT SB Chair in 2021/2022 term, Chair of the 10th edition for the Tunisian SYP Congress in 2022 in conjunction with the Young Professional in Space congress and as of 2023 the Chair of the IES Student Activities Committee and a crsp member in the region 8 WIE Committee.",
-		"title": "Lead Data Scientist, DeepVolt",
-		"talk": {
-			"title": "Keynote",
-			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
-		},
-		"slug": "Ala_Chalghaf",
-		"twitterUsername": "Ala Chalghaf",
-		"company": { "name": "Google" },
-		"image": { "url": "https://i.imgur.com/qLLgUQ4.jpg" },
-		"imageSmall": { "url": "https://i.imgur.com/qLLgUQ4.jpg" }
-	},
-	{
-		"enabled": true,
 		"name": "Mourad Zerai",
 		"bio": "Mourad Zéraï: Engineer, Mathematician, Educator, and AI Researcher\\n\\nMourad Zéraï is an engineering graduate from the École Nationale d'Ingénieurs de Tunis and holds a doctorate in Applied Mathematics. Currently, he is a teacher and researcher at ESPRIT, where he also leads the AI program. His work focuses on processing multidimensional data on Riemannian manifolds, with practical applications in AI that span machine learning, medical imaging, and nonlinear signal processing. As a collaborator with the Nvidia Deep Learning Institute, Mourad serves as a University Ambassador, sharing knowledge and fostering learning in the field of AI. He also engages in exploring the ethical dimensions of AI, drawing from his interest in philosophy and the history of science to understand and reflect on AI's role in society.Mourad Zéraï combines his expertise in engineering and mathematics with a dedication to teaching and ethical inquiry, contributing to the evolving conversation around AI and its impact.\\n",
-		"title": "Nvidia DLI Ambassador",
+		"title": "Nvidia Deep Learning Ambassador",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -565,7 +565,7 @@
 		"enabled": true,
 		"name": "Moez ben haj hmida",
 		"bio": "Moez is an associate professor at National Engineering School of Tunis (or ENIT as we say) in Tunisia. Here I teach Big Data and IoT for students in Information and Communication Technologies (ICT) and other engineering fields. I am involved in projects around multilingual and dialectal natural languages processing (NLP) and Generative AI. I come from the computer sciences field, and I am focused on Digital Humanism. I have worked Big Data Mining and analytics, distributed and high performance\n\t\tcomputing, and software development. Before visiting UC Berkeley I held a COO position at\n\t\tiCompass, a startup specialized in Artificial Intelligence Systems.\n\t\tIn 2018, Moez held an appointment of visiting scholar at University of California at Berkeley. He serves as a PC member of international conferences and serves as a reviewer for international journals. In 2022, Moez received a Fulbright Award to spend a year in California studying Deep Learning models explainability at UC Berkeley.",
-		"title": "Professor of AI, ENIT",
+		"title": "Former COO at Icompass / PC member of international conferences / serves as a reviewer for international journals",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
