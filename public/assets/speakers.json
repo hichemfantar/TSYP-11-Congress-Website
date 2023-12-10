@@ -79,6 +79,7 @@
 		"image": { "url": "https://i.imgur.com/XfeuIbE.jpg" },
 		"imageSmall": { "url": "https://i.imgur.com/XfeuIbE.jpg" }
 	},
+
 	{
 		"enabled": false,
 		"name": "Braham Himed",
@@ -239,6 +240,151 @@
 		"image": { "url": "https://i.imgur.com/tZgqUVZ.jpg" },
 		"imageSmall": { "url": "https://i.imgur.com/tZgqUVZ.jpg" }
 	},
+	{
+		"enabled": true,
+		"name": "Ramesh Ramadoss",
+		"bio": "Chair IEEE Blockchain Technical Community",
+		"title": "Chair, IEEE Blockchain Technical Community",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Ramesh Ramadoss",
+		"twitterUsername": "Ramesh Ramadoss",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/h6waHOn.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/h6waHOn.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Gora Datta",
+		"bio": "Vice Chair at IEEE Blockchain Technical Community & visiting scholar at the University of California Berkeley",
+		"title": "Vice Chair, IEEE Blockchain Technical Community",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Gora Datta",
+		"twitterUsername": "Gora Datta",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/31HOdfl.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/31HOdfl.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Mohamed Ali Zormati",
+		"bio": "Mohamed Ali Zormati is a freshly graduated ICT Engineer from INSAT, Tunisia. He works in the field of IoT networks R&D, with recent publications in this topic. In addition to his academic career, Mohamed Ali is an active volunteer within IEEE. He has held several positions in his student branch, section, and region. He was the INSAT Student Branch Chair for 2021-2022, hosting the 2022 IEEE Region 8 SYP Congress. He currently serves as the Volunteer Tools Coordinator in the IEEE Tunisia Section and as the Student Branch Chapters Coordinator in IEEE Region 8. He is also a member of the European Union Jeel Connect Network.",
+		"title": "Volunteer Tools Coordinator, IEEE Tunisia Section & Student Branch Chapters Coordinator in IEEE Region 8.",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Mohamed Ali Zormati",
+		"twitterUsername": "Mohamed Ali Zormati",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/6zXONYg.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/6zXONYg.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Dominic Damoah",
+		"bio": "Academic Dean, Valley View University, Ghana",
+		"title": "Academic Dean, Valley View University, Ghana",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Dominic Damoah",
+		"twitterUsername": "Dominic Damoah",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/RlvpGFI.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/RlvpGFI.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Oludele Awodele",
+		"bio": "Professor, Babcock University, Nigeria",
+		"title": "Professor, Babcock University, Nigeria",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Oludele Awodele",
+		"twitterUsername": "Oludele Awodele",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/BqJuUDm.png" },
+		"imageSmall": { "url": "https://i.imgur.com/BqJuUDm.png" }
+	},
+	{
+		"enabled": true,
+		"name": "Mohamed Hamdi",
+		"bio": "Cybersecurity Expert at arab ICT organization. Cybersecurity Expert at arab ICT organization. Full Professor at SUP’COM, Tunisia",
+		"title": "Cybersecurity Expert at arab ICT organization",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Mohamed Hamdi",
+		"twitterUsername": "Mohamed Hamdi",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/MdVHvKi.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/MdVHvKi.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Tarek Kammoun",
+		"bio": "CEO K2LIS",
+		"title": "CEO K2LIS",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Tarek Kammoun",
+		"twitterUsername": "Tarek Kammoun",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/ph8TiId.png" },
+		"imageSmall": { "url": "https://i.imgur.com/ph8TiId.png" }
+	},
+	{
+		"enabled": true,
+		"name": "Razvan Mihai",
+		"bio": "Financial Sector Expert, Romania and PhD Candidate",
+		"title": "Financial Sector Expert",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Razvan Mihai",
+		"twitterUsername": "Razvan Mihai",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/OIujRmO.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/OIujRmO.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Omer Faruk Ozkul",
+		"bio": "Full Stack Developer, Edusoft Technologies, Romania",
+		"title": "Full Stack Developer, Edusoft Technologies, Romania",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Omer Faruk Ozkul",
+		"twitterUsername": "Omer Faruk Ozkul",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/h189HQw.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/h189HQw.jpg" }
+	},
+
 	{
 		"enabled": true,
 		"name": "Zied Bouida",
@@ -499,7 +645,7 @@
 	},
 	{
 		"enabled": true,
-		"name": "Inés Boujmil",
+		"name": "Ines Boujmil",
 		"bio": "R&D&I Project Coordinator at AquaBioTech | EU BlueMed Ambassador in Tunisia | ECOP North Africa - Mediterranean Sub-regional Node coordinator | Blue Economy | Science-Policy-Business interfaces",
 		"title": "Coordinator, ECOP North Africa - Mediterranean Sub-regional Node",
 		"talk": {
@@ -507,8 +653,8 @@
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
 			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
 		},
-		"slug": "Inés_Boujmil",
-		"twitterUsername": "Inés Boujmil",
+		"slug": "Ines_Boujmil",
+		"twitterUsername": "Ines Boujmil",
 		"company": { "name": "Google" },
 		"image": { "url": "https://i.imgur.com/M8s15gV.jpg" },
 		"imageSmall": { "url": "https://i.imgur.com/M8s15gV.jpg" }
