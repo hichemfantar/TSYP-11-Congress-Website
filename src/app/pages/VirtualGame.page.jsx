@@ -7,7 +7,7 @@ import StyledButton from "../components/StyledButton";
 export default function VirtualGamePage() {
 	return (
 		<div>
-			<Fade>
+			<Fade triggerOnce>
 				<Details />
 			</Fade>
 		</div>

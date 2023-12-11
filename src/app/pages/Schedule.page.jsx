@@ -8,7 +8,7 @@ export default function SchedulePage() {
 		<>
 			<ScheduleList />
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="order-last col-span-6">
 						<iframe
@@ -41,7 +41,7 @@ export default function SchedulePage() {
 				</section>{" "}
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto">
 						<CustomImage
@@ -66,7 +66,7 @@ export default function SchedulePage() {
 				</section>
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto md:order-last">
 						<CustomImage
@@ -89,7 +89,7 @@ export default function SchedulePage() {
 				</section>{" "}
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto">
 						<CustomImage
@@ -114,7 +114,7 @@ export default function SchedulePage() {
 				</section>{" "}
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto md:order-last">
 						<CustomImage
@@ -138,7 +138,7 @@ export default function SchedulePage() {
 				</section>{" "}
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto">
 						<CustomImage
@@ -165,7 +165,7 @@ export default function SchedulePage() {
 				</section>{" "}
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto md:order-last">
 						<CustomImage
@@ -190,7 +190,7 @@ export default function SchedulePage() {
 				</section>{" "}
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto">
 						<CustomImage
@@ -215,7 +215,7 @@ export default function SchedulePage() {
 				</section>{" "}
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto md:order-last">
 						<CustomImage
@@ -239,7 +239,7 @@ export default function SchedulePage() {
 				</section>{" "}
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto">
 						<CustomImage
@@ -262,7 +262,7 @@ export default function SchedulePage() {
 				</section>{" "}
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto md:order-last">
 						<CustomImage
@@ -287,7 +287,7 @@ export default function SchedulePage() {
 				</section>{" "}
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto">
 						<CustomImage
@@ -310,7 +310,7 @@ export default function SchedulePage() {
 				</section>{" "}
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto md:order-last">
 						<CustomImage
@@ -333,7 +333,7 @@ export default function SchedulePage() {
 				</section>{" "}
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto">
 						<CustomImage
@@ -363,7 +363,7 @@ export default function SchedulePage() {
 				</section>{" "}
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-16 py-8 md:grid-cols-12 md:py-16">
 					<div className="col-span-6 mx-auto md:order-last">
 						<CustomImage

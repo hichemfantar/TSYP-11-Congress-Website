@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export default function VenuePage() {
 	return (
 		<>
-			<Fade>
+			<Fade triggerOnce>
 				<section className="mt-10">
 					<div className="xflex mb-8 items-center justify-center gap-2 text-center lg:mb-7">
 						<h1 className="text-3xl font-bold tracking-tight   lg:text-5xl lg:font-extrabold lg:leading-none">

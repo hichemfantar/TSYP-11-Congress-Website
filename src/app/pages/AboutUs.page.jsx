@@ -6,26 +6,26 @@ import { Fade } from "react-awesome-reveal";
 export default function AboutUs() {
 	return (
 		<div>
-			<Fade>
+			<Fade triggerOnce>
 				<AboutESSTHSSB />
 				<AboutTunisiaSection />
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<AboutTSYP />
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<Team />
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<div className="mt-4">
 					<ContactDetails />
 				</div>
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<ContactForm />
 			</Fade>
 		</div>

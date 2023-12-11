@@ -57,7 +57,7 @@ export default function HomePage() {
 				</Suspense>
 			)} */}
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid grid-cols-12 items-center justify-center py-10 md:py-12">
 					<div className="col-span-12 mx-auto">
 						{false && (
@@ -189,7 +189,7 @@ export default function HomePage() {
 				</section>
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				{/* <CustomImage
 					src={logoBar}
 					alt=""
@@ -202,42 +202,42 @@ export default function HomePage() {
 				/>
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<AboutTSYP />
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<AboutTunisiaSection />
 			</Fade>
-			<Fade>
+			<Fade triggerOnce>
 				<AboutESSTHSSB />
 			</Fade>
-			<Fade>
+			<Fade triggerOnce>
 				<section className="py-8 md:py-10">
 					<AboutCongress />
 				</section>
 			</Fade>
-			<Fade>
+			<Fade triggerOnce>
 				<section className="py-8 md:py-10">
 					<PreviousEditions />
 				</section>
 			</Fade>
-			<Fade>
+			<Fade triggerOnce>
 				<section className="py-8 md:py-10">
 					<Memories />
 				</section>
 			</Fade>
-			<Fade>
+			<Fade triggerOnce>
 				<section className="py-8 md:py-10">
 					<PoweredBy />
 				</section>
 			</Fade>
-			<Fade>
+			<Fade triggerOnce>
 				<section className="py-8 md:py-10">
 					<IEEEPartners />
 				</section>
 			</Fade>
-			<Fade>
+			<Fade triggerOnce>
 				<section className="py-8 md:py-10">
 					<SponsorsPreview />
 					{false && (
@@ -253,23 +253,23 @@ export default function HomePage() {
 					)}
 				</section>
 			</Fade>
-			<Fade>
+			<Fade triggerOnce>
 				<section className="py-8 md:py-10">
 					<Speakers limit={8} />
 				</section>
 			</Fade>
-			<Fade>
+			<Fade triggerOnce>
 				<div className="hidden md:mt-8 md:block">
 					<ScheduleOverview />
 				</div>
 			</Fade>
-			<Fade>
+			<Fade triggerOnce>
 				<section className="py-8 md:py-28">
 					<Team limit={5} />
 				</section>
 			</Fade>
 			{true && (
-				<Fade>
+				<Fade triggerOnce>
 					<section className="py-8 md:py-28">
 						<div className="mx-auto">
 							<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">

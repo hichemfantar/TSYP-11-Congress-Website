@@ -13,7 +13,7 @@ export default function TunisiaPage() {
 
 	return (
 		<div className="h-full">
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid grid-cols-12 items-center justify-center md:pt-32">
 					<div className="col-span-12 md:mx-auto">
 						<h1 className="mb-4 text-start text-4xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
@@ -26,7 +26,7 @@ export default function TunisiaPage() {
 				</section>
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-12 py-8 md:grid-cols-12 md:py-28">
 					<div className="col-span-6">
 						<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
@@ -67,7 +67,7 @@ export default function TunisiaPage() {
 				</section>
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="py-8 md:py-28">
 					<div className="grid grid-cols-1 gap-4 md:grid-cols-3">
 						<div className="grid gap-4">
@@ -145,7 +145,7 @@ export default function TunisiaPage() {
 				</section>
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="grid items-center justify-center gap-12 py-8 md:grid-cols-12 md:py-28">
 					<div className="col-span-6">
 						<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
@@ -226,7 +226,7 @@ export default function TunisiaPage() {
 				</section>
 			</Fade>
 
-			<Fade>
+			<Fade triggerOnce>
 				<section className="py-8 md:py-28">
 					<div className="mx-auto">
 						<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
