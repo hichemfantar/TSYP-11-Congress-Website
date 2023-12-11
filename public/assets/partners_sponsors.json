@@ -1,0 +1,288 @@
+[
+	{
+		"enabled": true,
+		"type": "global-ieee-partner",
+		"name": "IEEE Region 8",
+		"description": "Welcome to Region 8 (Europe, Middle East and Africa) of the Institute of Electrical and Electronics Engineers (IEEE). The IEEE is the world’s largest technical professional society, and comprises more than 360,000 members who conduct and participate in its activities in 150 countries.",
+		"slug": "IEEE-Region-8",
+		"logo": { "url": "https://i.imgur.com/mFTrYL2.png" },
+		"website": "https://ieeer8.org/"
+	},
+	{
+		"enabled": true,
+		"type": "global-ieee-partner",
+		"name": "IEEE Spax",
+		"description": "The Student Professional Activities (SPAx) Committee is responsible primarily for developing, implementing, and promoting activities among Student Members of the IEEE. This committee coordinates lists of top speakers, and funding to facilitate the hosting of a SPAx event at student branches around the world. This program has an emphasis on professional awareness, but may include broad technical topics.",
+		"slug": "IEEE-SPAX",
+		"logo": { "url": "https://i.imgur.com/Ez3yT80.jpg" },
+		"website": "https://students.ieee.org/student-opportunities/professional-awareness/spax-committee/"
+	},
+	{
+		"enabled": true,
+		"type": "global-ieee-partner",
+		"name": "IEEE Young Professionals",
+		"description": "IEEE Young Professionals is an international community of enthusiastic, dynamic, and innovative members and volunteers. IEEE is committed to helping young professionals evaluate their career goals, polish their professional image, and create the building blocks of a lifelong and diverse professional network.",
+		"slug": "IEEE-Young-Professionals",
+		"logo": { "url": "https://i.imgur.com/rJu8XVi.png" },
+		"website": "https://yp.ieee.org/"
+	},
+	{
+		"enabled": true,
+		"type": "section-partner",
+		"name": "IEEE Young Professionals",
+		"description": "IEEE Young Professionals is an international community of enthusiastic, dynamic, and innovative members and volunteers. IEEE is committed to helping young professionals evaluate their career goals, polish their professional image, and create the building blocks of a lifelong and diverse professional network.",
+		"slug": "IEEE-Young-Professionals-tn",
+		"logo": { "url": "https://i.imgur.com/0JYgUki.png" },
+		"website": "https://yp.ieee.org/"
+	},
+	{
+		"enabled": true,
+		"type": "global-ieee-partner",
+		"name": "IAS",
+		"description": "IEEE IAS is a volunteer-driven organization for engineering professionals looking to advance the theory and practice of electrical and electronic systems.",
+		"slug": "IAS-tn",
+		"logo": { "url": "https://i.imgur.com/y2PtVJQ.png" },
+		"website": "https://ias.ieee.tn/"
+	},
+	{
+		"enabled": true,
+		"type": "global-ieee-partner",
+		"name": "IEEE R8 SAC",
+		"description": "SAC is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff.",
+		"slug": "IEEE-R8-SAC",
+		"logo": { "url": "https://i.imgur.com/uO5riCW.png" },
+		"website": "https://ieeer8.org/student-activities/sa-committee/sac/"
+	},
+	{
+		"enabled": true,
+		"type": "global-ieee-partner",
+		"name": "IEEE Entrepreneurship",
+		"description": "We invite you to take the leap…The IEEE Entrepreneurship community is at the forefront of turning ideas into successful businesses. We make it a priority to help our members not just launch, but grow their ventures and facilitate the networking and mentoring of those who have the passion to translate their vision into reality.",
+		"slug": "IEEE-entrepreneurship",
+		"logo": { "url": "https://i.imgur.com/cpdzd8G.png" },
+		"website": "https://entrepreneurship.ieee.org/"
+	},
+	{
+		"enabled": true,
+		"type": "global-ieee-partner",
+		"name": "IEEE Life Members",
+		"description": "IEEE Life Members are technology influencers, pioneers, and valuable partners – sharing over one million years of experience with the next generation of innovators.",
+		"slug": "IEEE-Life-Members",
+		"logo": { "url": "https://i.imgur.com/y3Ulw1e.png" },
+		"website": "https://life.ieee.org/"
+	},
+	{
+		"enabled": true,
+		"type": "global-ieee-partner",
+		"name": "IES",
+		"description": "The Industrial Electronics Society through its members encompasses a diverse range of technical activities devoted to the application of electronics and electrical sciences for the enhancement of industrial and manufacturing processes. These technical activities address the latest developments in intelligent and computer control systems, robotics, factory communications and automation, flexible manufacturing, data acquisition and signal processing, vision systems, and power electronics. The Society continually updates its program of technical activities to meet the needs of modern industry.",
+		"slug": "IES",
+		"logo": { "url": "https://i.imgur.com/Usd3WQr.png" },
+		"website": "https://www.ieee-ies.org/"
+	},
+	{
+		"enabled": true,
+		"type": "global-ieee-partner",
+		"name": "AESS",
+		"description": "The mission of the AESS is to provide a responsive and relevant professional society that attracts, engages, aids, and retains a diverse set of members (age, culture, community – theoretical, managerial and applications) worldwide in the areas of our fields of interest as defined in our constitution. AESS will accomplish this through technical, chapter and society activities in the areas of conferences, publications, education, technical operations, industry relations, and member services.",
+		"slug": "AESS",
+		"logo": { "url": "https://i.imgur.com/cV1QOQg.png" },
+		"website": "https://ieee-aess.org/"
+	},
+	{
+		"enabled": true,
+		"type": "section-partner",
+		"name": "AESS",
+		"description": "The mission of the AESS is to provide a responsive and relevant professional society that attracts, engages, aids, and retains a diverse set of members (age, culture, community – theoretical, managerial and applications) worldwide in the areas of our fields of interest as defined in our constitution. AESS will accomplish this through technical, chapter and society activities in the areas of conferences, publications, education, technical operations, industry relations, and member services.",
+		"slug": "AESS-TN",
+		"logo": { "url": "https://i.imgur.com/zYTSsp2.png" },
+		"website": "https://ieee-aess.org/"
+	},
+	{
+		"enabled": true,
+		"type": "section-partner",
+		"name": "SIGHT",
+		"description": "A network of IEEE volunteers partnering with underserved communities & local organizations to leverage technology for sustainable development.",
+		"slug": "SIGHT-TN",
+		"logo": { "url": "https://i.imgur.com/H1iQWmZ.png" },
+		"website": "https://sight.ieee.org/"
+	},
+	{
+		"enabled": true,
+		"type": "section-partner",
+		"name": "IAS",
+		"description": "IEEE IAS is a volunteer-driven organization for engineering professionals looking to advance the theory and practice of electrical and electronic systems.",
+		"slug": "IAS-tn",
+		"logo": { "url": "https://i.imgur.com/QA095zp.png" },
+		"website": "https://ias.ieee.tn/"
+	},
+	{
+		"enabled": true,
+		"type": "section-partner",
+		"name": "SSCS",
+		"description": "Focuses are on the design, implementation, and application of solid-state integrated circuits for all applications, including computers, communications, signal processing, and optoelectronics.",
+		"slug": "SSCS-tn",
+		"logo": { "url": "https://i.imgur.com/ZO9liP6.png" },
+		"website": "https://sscs.ieee.org/"
+	},
+	{
+		"enabled": true,
+		"type": "section-partner",
+		"name": "PES",
+		"description": "The IEEE Power & Energy Society, formerly the IEEE Power Engineering Society, is the oldest society of the Institute of Electrical and Electronics Engineers focused on the scientific and engineering knowledge about electric power and energy.",
+		"slug": "PES-tn",
+		"logo": { "url": "https://i.imgur.com/WcVsIb9.jpg" },
+		"website": "https://ieee-pes.org/"
+	},
+	{
+		"enabled": true,
+		"type": "section-partner",
+		"name": "RAS",
+		"description": "The IEEE Robotics and Automation Society is a professional society of the IEEE that supports the development and the exchange of scientific knowledge in the fields of robotics and automation, including applied and theoretical issues.",
+		"slug": "RAS-tn",
+		"logo": { "url": "https://i.imgur.com/4oEw00m.png" },
+		"website": "https://www.ieee-ras.org/"
+	},
+	{
+		"enabled": true,
+		"type": "section-partner",
+		"name": "WIE",
+		"description": "IEEE WIE is one of the world’s leaders in changing the face of engineering. Our global network connects over 40,000 members in over 125 countries to advance women in technology at all points in their lives and careers. IEEE WIE members make lifelong friendships, acquire influential mentors, and make a difference for the benefit of humanity.",
+		"slug": "WIE-tn",
+		"logo": { "url": "https://i.imgur.com/BMNELzZ.png" },
+		"website": "https://wie.ieee.org/"
+	},
+	{
+		"enabled": true,
+		"type": "section-partner",
+		"name": "EMBS",
+		"description": "In an era where technology is expanding at a rapid rate and the needs for medical application of these technologies has never been greater, the intersection between engineering, medicine and biology is a critical place to be. The IEEE Engineering in Medicine and Biology Society is well-positioned to serve as a central gathering point for both of these major disciplines.",
+		"slug": "EMBS-tn",
+		"logo": { "url": "https://i.imgur.com/nbNJg82.png" },
+		"website": "https://www.embs.org/"
+	},
+	{
+		"enabled": true,
+		"type": "section-partner",
+		"name": "CS",
+		"description": "Serving more than 60,000 members, the IEEE Computer Society is the trusted information, networking, and career-development source for a global community of technology leaders that includes researchers, educators, software engineers, IT professionals, employers, and students.",
+		"slug": "CS-tn",
+		"logo": { "url": "https://i.imgur.com/88XtjGw.png" },
+		"website": "https://computer.ieee.tn/"
+	},
+	{
+		"enabled": true,
+		"type": "global-ieee-partner",
+		"name": "MTTS",
+		"description": "Established in 1952, the MTT-S has worked to advance the professional standing of its members and enhance the quality of life for all people through the development and application of microwave technology.",
+		"slug": "MTTS",
+		"logo": { "url": "https://i.imgur.com/zGQmYnj.jpg" },
+		"website": "https://mtt.org/"
+	},
+	{
+		"enabled": true,
+		"type": "section-partner",
+		"name": "SMC",
+		"description": "The mission of the Systems, Man, and Cybernetics Society is to serve the interests of its members and the community at large by promoting the theory, practice, and interdisciplinary aspects of systems science and engineering, human-machine systems, and cybernetics. It is accomplished through conferences, publications, and other activities that contribute to the professional needs of its members.",
+		"slug": "SMC-tn",
+		"logo": { "url": "https://i.imgur.com/ABdMAlo.png" },
+		"website": "https://www.ieeesmc.org/"
+	},
+	{
+		"enabled": true,
+		"type": "section-partner",
+		"name": "Education Society",
+		"description": "The IEEE Education Society (EduSoc) is a society of the IEEE that focuses on the theory and practice of engineering education and educational technology involved in the effective delivery of domain knowledge of all fields within the scope of interest of IEEE.",
+		"slug": "ES-tn",
+		"logo": { "url": "https://i.imgur.com/tEwIILU.png" },
+		"website": "https://education.ieee.tn/"
+	},
+	{
+		"enabled": true,
+		"type": "section-partner",
+		"name": "IES",
+		"description": "The Industrial Electronics Society through its members encompasses a diverse range of technical activities devoted to the application of electronics and electrical sciences for the enhancement of industrial and manufacturing processes. These technical activities address the latest developments in intelligent and computer control systems, robotics, factory communications and automation, flexible manufacturing, data acquisition and signal processing, vision systems, and power electronics. The Society continually updates its program of technical activities to meet the needs of modern industry.",
+		"slug": "IES-tn",
+		"logo": { "url": "https://i.imgur.com/iaSetxx.png" },
+		"website": "https://www.ieee-ies.org/"
+	},
+	{
+		"enabled": true,
+		"name": "IEEE ESSTHS SB",
+		"description": "Founded in 2020, with over 260 enthusiastic members all with one vision “advancing students carrer's in technology, for the benefit of humanity“",
+		"slug": "IEEE-ESSTHS-SB",
+		"tierRank": 0,
+		"logo": { "url": "https://i.imgur.com/Sdkbxfe.png" },
+		"website": "https://essths.ieee.tn/"
+	},
+	{
+		"enabled": true,
+		"name": "IEEE Tunisia Section",
+		"description": "IEEE Tunisia Section aims to spread IEEE Activities to all corners of the country by educational and technical activities, human networking, and to develop technology and its applications for humanitarian challenges. The section supports Chapters, special interest groups, student activities and student awards.",
+		"slug": "IEEE-Tunisia-Section",
+		"tierRank": 0,
+		"logo": { "url": "https://i.imgur.com/EpXVkCB.png" },
+		"website": "https://ieee.tn/"
+	},
+	{
+		"enabled": true,
+		"name": "Sartex Group",
+		"description": "Sartex is the garment manufacturer of “Denim with Integrity and Principles. Eco-friendly production utilizing cutting-edge technologies based in state-of-the-art facilities in Tunisia.",
+		"slug": "sartex-group",
+		"tierRank": 4,
+		"logo": { "url": "https://i.imgur.com/BSFYlw8.png" },
+		"website": "https://sartexgroup.com/"
+	},
+	{
+		"enabled": true,
+		"name": "Belkhiria Services & Conseils",
+		"description": "Belkhiria Services & Conseils",
+		"slug": "Belkhiria-Services-&-Conseils",
+		"tierRank": 4,
+		"logo": { "url": "https://i.imgur.com/abF2xHX.png" },
+		"website": ""
+	},
+	{
+		"enabled": true,
+		"name": "Orange",
+		"description": "Orange Tunisia acquired a license in Tunisia on 5 May 2010, making it the leading 3G mobile operator with Divona Telecom, the second landline operator and the third mobile phone operator in Tunisia",
+		"slug": "orange",
+		"tierRank": 6,
+		"logo": { "url": "https://i.imgur.com/UZd4FrX.png" },
+		"website": "https://www.orange.tn/"
+	},
+	{
+		"enabled": true,
+		"name": "Ecole Polytechnique Sousse",
+		"description": "Connue pour ses engagements socio-académiques, l'Ecole Polytechnique de Sousse est plus qu'une école d'ingénieurs et d'architecture.",
+		"slug": "Ecole-Polytechnique-Sousse",
+		"tierRank": 5,
+		"logo": { "url": "https://i.imgur.com/2AKS7s7.png" },
+		"website": "https://www.polytecsousse.tn/"
+	},
+	{
+		"enabled": true,
+		"name": "SMOFT",
+		"description": "Une solution cloud ERP personnalisable en fonction des besoins de votre entreprise.",
+		"slug": "smoft",
+		"tierRank": 2,
+		"logo": { "url": "https://i.imgur.com/9HIuiNn.jpg" },
+		"website": "https://www.smoft.tn/"
+	},
+	{
+		"enabled": true,
+		"name": "University of Sousse",
+		"description": "The University of Sousse is a distinguished institution of higher learning situated in the vibrant city of Sousse, Tunisia. Renowned for its commitment to academic excellence and innovation, the university stands as a beacon of knowledge, research, and cultural enrichment within the region and beyond.\n\n\t\t\tEstablished with a strong emphasis on fostering holistic development, the University of Sousse offers a diverse array of academic programs spanning various disciplines. These encompass fields such as engineering, humanities, natural sciences, social sciences, arts, and more. The university's comprehensive curriculum is designed to provide students with both theoretical foundations and practical skills, enabling them to thrive in an ever-evolving global landscape.\n\t\t\t\n\t\t\t",
+		"slug": "university-of-sousse",
+		"tierRank": 1,
+		"logo": { "url": "https://i.imgur.com/HalSgE1.png" },
+		"website": "https://uso.rnu.tn/"
+	},
+	{
+		"name": "ESports TN",
+		"description": "ESports TN (ESports By TT) is the official portal for gamers in Tunisia. Play matches in League of Legends, Teamfight Tactics, Valorant, and much more, to earn points and win prizes!",
+		"slug": "esportstn",
+		"tierRank": 1,
+		"logo": { "url": "https://i.imgur.com/BJwI0qC.png" }
+	}
+]

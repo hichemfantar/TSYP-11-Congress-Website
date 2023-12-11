@@ -3,17 +3,31 @@ import {
 	faExternalLink,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import ExpoDetailsResources from "./ExpoDetailsResources";
-import { sponsorsData } from "./SponsorsList";
-import StyledButton from "./StyledButton";
-import CustomImage from "./CustomImage";
 import tn_flag from "../../assets/Flag_of_Tunisia.svg";
+import CustomImage from "./CustomImage";
+import ExpoDetailsResources from "./ExpoDetailsResources";
+import StyledButton from "./StyledButton";
 
 export default function ExpoItemDetails() {
 	const { companySlug } = useParams();
 
-	const currentCompany = sponsorsData.find((s) => s.slug === companySlug);
+	const [sponsorsData, setSponsorsData] = useState([]);
+
+	useEffect(() => {
+		const getData = async () => {
+			fetch("/assets/partners_sponsors.json")
+				.then((response) => response.json())
+				.then((response) => {
+					setSponsorsData(response);
+				})
+				.catch((err) => console.error(err));
+		};
+		getData();
+	}, []);
+
+	const currentCompany = sponsorsData?.find((s) => s.slug === companySlug);
 
 	return (
 		<div className="mx-auto max-w-3xl">
