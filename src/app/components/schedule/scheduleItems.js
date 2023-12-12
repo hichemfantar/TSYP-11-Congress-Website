@@ -61,7 +61,7 @@ export const dec19Schedule = [
 		icon: faUtensils,
 	},
 	{
-		title: "IEEE challenges, Partner challenges, workshops & panels",
+		title: "IEEE challenges, Partner challenges, Workshops & panels",
 		startTime: "9:00AM",
 		endTime: "10:30AM",
 		timeZone: "GMT+1",
@@ -75,7 +75,7 @@ export const dec19Schedule = [
 		icon: faMugHot,
 	},
 	{
-		title: "IEEE challenges, Partner challenges, workshops & panels",
+		title: "IEEE challenges, Partner challenges, Workshops & panels",
 		startTime: "10:35AM",
 		endTime: "12:00PM",
 		timeZone: "GMT+1",
@@ -89,7 +89,7 @@ export const dec19Schedule = [
 		icon: faUtensils,
 	},
 	{
-		title: "IEEE challenges, Partner challenges, workshops & panels",
+		title: "IEEE challenges, Partner challenges, Workshops & panels",
 		startTime: "2:00PM",
 		endTime: "3:30PM",
 		timeZone: "GMT+1",
@@ -103,7 +103,7 @@ export const dec19Schedule = [
 		icon: faMugHot,
 	},
 	{
-		title: "IEEE challenges, Partner challenges, workshops & panels",
+		title: "IEEE challenges, Partner challenges, Workshops & panels",
 		startTime: "3:35PM",
 		endTime: "5:05PM",
 		timeZone: "GMT+1",
@@ -117,7 +117,7 @@ export const dec19Schedule = [
 		icon: faMugHot,
 	},
 	{
-		title: "IEEE challenges, Partner challenges, workshops & panels",
+		title: "IEEE challenges, Partner challenges, Workshops & panels",
 		startTime: "5:10PM",
 		endTime: "6:40PM",
 		timeZone: "GMT+1",
@@ -195,5 +195,508 @@ export const dec20Schedule = [
 		endTime: "1:00PM",
 		timeZone: "GMT+1",
 		icon: faPersonWalkingDashedLineArrowRight,
+	},
+];
+
+export const areAllLocationsSame = (activities) => {
+	if (activities.length <= 1) {
+		// If there's only one or zero activities, they are considered to have the same location.
+		return true;
+	}
+
+	const firstLocation = activities[0].location;
+
+	for (let i = 1; i < activities.length; i++) {
+		if (activities[i].location !== firstLocation) {
+			return false;
+		}
+	}
+
+	return true;
+};
+
+export const dec18ScheduleRevamped = [
+	{
+		timeSlotStart: "8:00 AM",
+		timeSlotEnd: "1:00 PM",
+		activities: [
+			{
+				title: "Check-in",
+				icon: faPersonWalkingArrowRight,
+				location: "Medina Hall “Espace Jardin”",
+			},
+			{
+				title: "Sb’s booth setup",
+				icon: faPersonWalkingArrowRight,
+				location: "Booths Hall",
+			},
+		],
+	},
+	{
+		timeSlotStart: "2:00 PM",
+		timeSlotEnd: "4:50 PM",
+		activities: [
+			{
+				title: "Opening ceremony",
+				icon: faMicrophone,
+				location: "Hannibal Congress Room",
+			},
+			{
+				title: "Guest interventions",
+				icon: faMicrophone,
+				location: "Hannibal Congress Room",
+			},
+			{
+				title: "Panel discussions",
+				icon: faMicrophone,
+				location: "Hannibal Congress Room",
+			},
+		],
+	},
+	{
+		timeSlotStart: "4:50 PM",
+		timeSlotEnd: "5:00 PM",
+		activities: [
+			{
+				title: "Coffee break",
+				icon: faMicrophone,
+				location: "Booths Hall  and “Espace Jardin” ",
+			},
+		],
+	},
+	{
+		timeSlotStart: "5:00 PM",
+		timeSlotEnd: "8:00 PM",
+		activities: [
+			{
+				title: "Booths Expo and Job Fair",
+				icon: faMicrophone,
+				location: "Booths Hall  and “Espace Jardin” ",
+			},
+		],
+	},
+	{
+		timeSlotStart: "7:00 PM",
+		timeSlotEnd: "10:00 PM",
+		activities: [
+			{
+				title: "Dinner",
+				icon: faMicrophone,
+				location: "Medina Restaurants",
+			},
+		],
+	},
+	{
+		timeSlotStart: "10:00 PM",
+		timeSlotEnd: "12:00 AM",
+		activities: [
+			{
+				title: "Surprise Challenge Announcement, Party, and Social Activities",
+				icon: faMicrophone,
+				location: "Hannibal Congress Room - Booths Hall",
+			},
+		],
+	},
+];
+
+export const dec19ScheduleRevamped = [
+	{
+		timeSlotStart: "7:00 AM",
+		timeSlotEnd: "9:00 AM",
+		activities: [
+			{
+				title: "Breakfast",
+				icon: faMicrophone,
+				location: "Medina Resturants",
+			},
+		],
+	},
+	{
+		timeSlotStart: "9:00 AM",
+		timeSlotEnd: "10:30 AM",
+		activities: [
+			{
+				title: "Breakout Session 1",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Workshops",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Embs Global Healthcare Forum",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Challenges",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Panel discussions",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Booths Expo and Job Fair",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+		],
+	},
+	{
+		timeSlotStart: "10:30 AM",
+		timeSlotEnd: "11:00 AM",
+		activities: [
+			{
+				title: "Coffee Break",
+				icon: faMicrophone,
+				location: "Booths Hall and “Espace Jardin”",
+			},
+		],
+	},
+	{
+		timeSlotStart: "11:00 AM",
+		timeSlotEnd: "12:30 PM",
+		activities: [
+			{
+				title: "Breakout Session 2",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Workshops",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Embs Global Healthcare Forum",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Challenges",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Panel discussions",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Booths Expo and Job Fair",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+		],
+	},
+	{
+		timeSlotStart: "12:30 PM",
+		timeSlotEnd: "2:30 PM",
+		activities: [
+			{
+				title: "Lunch",
+				icon: faMicrophone,
+				location: "Medina Restaurants",
+			},
+		],
+	},
+	{
+		timeSlotStart: "2:30 PM",
+		timeSlotEnd: "4:00 PM",
+		activities: [
+			{
+				title: "Breakout Session 3",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Workshops",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Embs Global Healthcare Forum",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Challenges",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Panel discussions",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Booths Expo and Job Fair",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+		],
+	},
+	{
+		timeSlotStart: "4:00 PM",
+		timeSlotEnd: "4:30 PM",
+		activities: [
+			{
+				title: "Coffee Break",
+				icon: faMicrophone,
+				location: "Booths Hall and “Espace Jardin”",
+			},
+		],
+	},
+	{
+		timeSlotStart: "4:30 PM",
+		timeSlotEnd: "6:00 PM",
+		activities: [
+			{
+				title: "Breakout Session 4",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Workshops",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Embs Global Healthcare Forum",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Challenges",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Panel discussions",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Booths Expo and Job Fair",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+		],
+	},
+	{
+		timeSlotStart: "6:00 PM",
+		timeSlotEnd: "6:20 PM",
+		activities: [
+			{
+				title: "Break",
+				icon: faMicrophone,
+				location: "Booths Hall and “Espace Jardin”",
+			},
+		],
+	},
+	{
+		timeSlotStart: "6:20 PM",
+		timeSlotEnd: "7:20 PM",
+		activities: [
+			{
+				title: "Breakout Session 5",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Workshops",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Embs Global Healthcare Forum",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Challenges",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Panel discussions",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+			{
+				title: "Booths Expo and Job Fair",
+				icon: faMicrophone,
+				location: "Medina Conventions Center",
+			},
+		],
+	},
+	{
+		timeSlotStart: "7:20 PM",
+		timeSlotEnd: "9:30 PM",
+		activities: [
+			{
+				title: "Dinner",
+				icon: faMicrophone,
+				location: "Medina Restaurants",
+			},
+		],
+	},
+	{
+		timeSlotStart: "9:30 PM",
+		timeSlotEnd: "10:15 PM",
+		activities: [
+			{
+				title: "Talent Show",
+				icon: faMicrophone,
+				location: "Hannibal Congress Room",
+			},
+		],
+	},
+	{
+		timeSlotStart: "10:15 PM",
+		timeSlotEnd: "11:15 PM",
+		activities: [
+			{
+				title: "Awards Ceremony",
+				icon: faMicrophone,
+				location: "Hannibal Congress Room",
+			},
+			{
+				title: "Challenge Awards",
+				icon: faMicrophone,
+				location: "Hannibal Congress Room",
+			},
+			{
+				title: "Individual Awards",
+				icon: faMicrophone,
+				location: "Hannibal Congress Room",
+			},
+			{
+				title: "TSYP Awards",
+				icon: faMicrophone,
+				location: "Hannibal Congress Room",
+			},
+			{
+				title: "Finalists Announcement",
+				icon: faMicrophone,
+				location: "Hannibal Congress Room",
+			},
+		],
+	},
+	{
+		timeSlotStart: "11:15 PM",
+		timeSlotEnd: "12:00 AM",
+		activities: [
+			{
+				title: "Party and Social Activities",
+				icon: faMicrophone,
+				location: "Hannibal Congress Room - Booths Hall",
+			},
+		],
+	},
+];
+
+export const dec20ScheduleRevamped = [
+	{
+		timeSlotStart: "7:00 AM",
+		timeSlotEnd: "9:00 AM",
+		activities: [
+			{
+				title: "Breakfast",
+				icon: faUtensils,
+				location: "Medina Restaurants",
+			},
+		],
+	},
+	{
+		timeSlotStart: "9:00 AM",
+		timeSlotEnd: "9:45 AM",
+		activities: [
+			{
+				title: "Awards Ceremony",
+				icon: faUtensils,
+				location: "Hannibal Congress Room",
+			},
+			{
+				title: "Section Awards",
+				icon: faUtensils,
+				location: "Hannibal Congress Room",
+			},
+			{
+				title: "SPC Awards",
+				icon: faUtensils,
+				location: "Hannibal Congress Room",
+			},
+		],
+	},
+	{
+		timeSlotStart: "9:45 AM",
+		timeSlotEnd: "10:15 AM",
+		activities: [
+			{
+				title: "Discussion Panel",
+				icon: faUtensils,
+				location: "Hannibal Congress Room",
+			},
+		],
+	},
+	{
+		timeSlotStart: "10:15 AM",
+		timeSlotEnd: "11:30 AM",
+		activities: [
+			{
+				title: "Finalist Pitch and Voting",
+				icon: faUtensils,
+				location: "Hannibal Congress Room",
+			},
+		],
+	},
+	{
+		timeSlotStart: "11:30 AM",
+		timeSlotEnd: "12:30 PM",
+		activities: [
+			{
+				title: "Closing Ceremony",
+				icon: faUtensils,
+				location: "Hannibal Congress Room",
+			},
+			{
+				title: "Winner's Announcement",
+				icon: faUtensils,
+				location: "Hannibal Congress Room",
+			},
+			{
+				title: "Celebration",
+				icon: faUtensils,
+				location: "Hannibal Congress Room",
+			},
+		],
+	},
+	{
+		timeSlotStart: "12:30 PM",
+		timeSlotEnd: "1:00 PM",
+		activities: [
+			{
+				title: "Group Photo",
+				icon: faUtensils,
+				location: "Hannibal Congress Room",
+			},
+		],
+	},
+	{
+		timeSlotStart: "1:00 PM",
+		timeSlotEnd: "2:00 PM",
+		activities: [
+			{
+				title: "Check-out",
+				icon: faUtensils,
+				location: "Medina Hall “Espace Jardin”",
+			},
+		],
 	},
 ];

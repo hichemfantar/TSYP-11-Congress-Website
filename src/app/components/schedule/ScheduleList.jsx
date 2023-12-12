@@ -1,7 +1,15 @@
 import { useState } from "react";
 import ScheduleBox from "../ScheduleBox";
-import TimelineShedule from "../timeline-view/TimelineShedule";
-import { dec18Schedule, dec19Schedule, dec20Schedule } from "./scheduleItems";
+import TimelineSchedule from "../timeline-view/TimelineShedule";
+import {
+	areAllLocationsSame,
+	dec18Schedule,
+	dec18ScheduleRevamped,
+	dec19Schedule,
+	dec19ScheduleRevamped,
+	dec20Schedule,
+	dec20ScheduleRevamped,
+} from "./scheduleItems";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faPlusCircle,
@@ -1164,6 +1172,47 @@ export function ScheduleOverview({ showTimeline }) {
 	const [isSeeMore, setIsSeeMore] = useState(false);
 	const [isTimeLineView, setIsTimeLineView] = useState(showTimeline);
 
+	function renderDaySchedule(day) {
+		return day?.map((e, idx) => {
+			const allLocationsSame = areAllLocationsSame(e.activities);
+			const currentLocation = e.activities[0]?.location;
+
+			return (
+				<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
+					{idx > 0 && (
+						<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+					)}
+					<p className="mb-2 font-mono text-base text-slate-600">
+						{e.timeSlotStart + " - " + e.timeSlotEnd}
+					</p>
+					{allLocationsSame && currentLocation && (
+						<div className="mb-2 font-medium tracking-wide underline">
+							{currentLocation}
+						</div>
+					)}
+					<div className="flex flex-col gap-4">
+						{e.activities?.map((activity, idx) => {
+							return (
+								<div className="">
+									<h4 className="text-lg font-semibold tracking-tight ">
+										{activity.title}
+									</h4>
+									{!allLocationsSame && (
+										<div className="font-medium tracking-wide">
+											{activity.location}
+										</div>
+									)}
+								</div>
+							);
+						})}
+					</div>
+
+					{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
+				</li>
+			);
+		});
+	}
+
 	return (
 		<section>
 			<div className="mb-14 flex flex-col items-center justify-center gap-8">
@@ -1236,7 +1285,7 @@ export function ScheduleOverview({ showTimeline }) {
 				/>
 				{isTimeLineView ? "Timeline View" : "List View"}
 			</button> */}
-			{isTimeLineView && <TimelineShedule />}
+			{isTimeLineView && <TimelineSchedule />}
 
 			{!isTimeLineView && (
 				<div className="flex flex-col gap-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
@@ -1248,40 +1297,10 @@ export function ScheduleOverview({ showTimeline }) {
 						The first day of the conference is focused on ecommerce.
 					</p> */}
 						<ol className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500">
-							{dec18Schedule?.map((e, idx) => (
-								<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
-									{idx > 0 && (
-										<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-									)}
-									<h4 className="text-lg font-semibold tracking-tight ">
-										{e.title}
-									</h4>
-									{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
-									<p className="mt-1 font-mono text-sm text-slate-500">
-										<time dateTime="2022-04-04T9:00AM-08:00">
-											{e.startTime}
-										</time>{" "}
-										{/* */}-{/* */}{" "}
-										<time dateTime="2022-04-04T10:00AM-08:00">{e.endTime}</time>{" "}
-										{/* */}
-										{e.timeZone}
-									</p>
-								</li>
-							))}
-						</ol>
-					</section>
+							{renderDaySchedule(dec18ScheduleRevamped)}
 
-					<section className="flex flex-col">
-						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black ">
-							<time dateTime="2022-04-05">December 19</time>
-						</h3>
-						{/* <p className="mt-1.5 text-base tracking-tight ">
-						Next we spend the day talking about people with technology.
-					</p> */}
-						<ol className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500">
-							{dec19Schedule
-								?.slice(0, isSeeMore ? undefined : 6)
-								?.map((e, idx) => (
+							{false &&
+								dec18Schedule?.map((e, idx) => (
 									<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
 										{idx > 0 && (
 											<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
@@ -1303,6 +1322,44 @@ export function ScheduleOverview({ showTimeline }) {
 										</p>
 									</li>
 								))}
+						</ol>
+					</section>
+
+					<section className="flex flex-col">
+						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black ">
+							<time dateTime="2022-04-05">December 19</time>
+						</h3>
+						{/* <p className="mt-1.5 text-base tracking-tight ">
+						Next we spend the day talking about people with technology.
+					</p> */}
+						<ol className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500">
+							{renderDaySchedule(dec19ScheduleRevamped)}
+
+							{false &&
+								dec19Schedule
+									?.slice(0, isSeeMore ? undefined : 6)
+									?.map((e, idx) => (
+										<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
+											{idx > 0 && (
+												<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+											)}
+											<h4 className="text-lg font-semibold tracking-tight ">
+												{e.title}
+											</h4>
+											{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
+											<p className="mt-1 font-mono text-sm text-slate-500">
+												<time dateTime="2022-04-04T9:00AM-08:00">
+													{e.startTime}
+												</time>{" "}
+												{/* */}-{/* */}{" "}
+												<time dateTime="2022-04-04T10:00AM-08:00">
+													{e.endTime}
+												</time>{" "}
+												{/* */}
+												{e.timeZone}
+											</p>
+										</li>
+									))}
 							{!isSeeMore && (
 								<li onClick={() => setIsSeeMore(!isSeeMore)}>
 									<button className="mx-auto mt-4 flex items-center justify-center gap-2 text-center text-gray-500 dark:text-gray-400">
@@ -1322,26 +1379,31 @@ export function ScheduleOverview({ showTimeline }) {
 						We close out the event previewing techniques in development.
 					</p> */}
 						<ol className="bbackdrop-blur mt-10 flex-1 space-y-8 rounded-xl border-2 bg-white/60 p-2 px-10 py-14 text-center shadow-xl shadow-blue-900/5 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500">
-							{dec20Schedule?.map((e, idx) => (
-								<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
-									{idx > 0 && (
-										<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
-									)}
-									<h4 className="text-lg font-semibold tracking-tight ">
-										{e.title}
-									</h4>
-									{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
-									<p className="mt-1 font-mono text-sm text-slate-500">
-										<time dateTime="2022-04-04T9:00AM-08:00">
-											{e.startTime}
-										</time>{" "}
-										{/* */}-{/* */}{" "}
-										<time dateTime="2022-04-04T10:00AM-08:00">{e.endTime}</time>{" "}
-										{/* */}
-										{e.timeZone}
-									</p>
-								</li>
-							))}
+							{renderDaySchedule(dec20ScheduleRevamped)}
+
+							{false &&
+								dec20Schedule?.map((e, idx) => (
+									<li aria-label="Steven McHail talking about one-time payments at 9:00AM - 10:00AM GMT+1">
+										{idx > 0 && (
+											<div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+										)}
+										<h4 className="text-lg font-semibold tracking-tight ">
+											{e.title}
+										</h4>
+										{/* <p className="mt-1 tracking-tight ">One-time payments</p> */}
+										<p className="mt-1 font-mono text-sm text-slate-500">
+											<time dateTime="2022-04-04T9:00AM-08:00">
+												{e.startTime}
+											</time>{" "}
+											{/* */}-{/* */}{" "}
+											<time dateTime="2022-04-04T10:00AM-08:00">
+												{e.endTime}
+											</time>{" "}
+											{/* */}
+											{e.timeZone}
+										</p>
+									</li>
+								))}
 						</ol>
 					</section>
 				</div>

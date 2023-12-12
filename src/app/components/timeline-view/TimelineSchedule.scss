@@ -1,4 +1,4 @@
-#fzefzefze {
+#timeline-schedule-design {
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -37,8 +37,8 @@
 		align-content: center;
 		align-items: center;
 		position: absolute;
-		height: 200px;
-		width: 200px;
+		height: 220px;
+		width: 220px;
 		border-width: 1px;
 		border-style: solid;
 		border-radius: 50%;
@@ -78,8 +78,8 @@
 	@media (max-width: 767.98px) {
 		.c-process-steps .circle {
 			position: relative;
-			width: 150px;
-			height: 150px;
+			width: 220px;
+			height: 220px;
 			left: 0;
 		}
 
@@ -235,8 +235,8 @@
 	@media (max-width: 767.98px) {
 		.c-process-steps--aligned .circle {
 			position: relative;
-			width: 150px;
-			height: 150px;
+			width: 220px;
+			height: 220px;
 			left: 0;
 		}
 	}
@@ -411,7 +411,7 @@
 	}
 
 	.b-step-content__description {
-		min-height: 200px;
+		min-height: 100px;
 		font-size: 1.0625rem;
 		line-height: 1.47;
 		color: #757575;
@@ -422,6 +422,20 @@
 	@media (max-width: 767.98px) {
 		.b-step-content__description {
 			padding-left: 0;
+		}
+	}
+
+	.b-step-content__description__location {
+		min-height: 100px;
+		font-size: 1.0625rem;
+		line-height: 1.47;
+		text-align: left;
+		padding-left: 4.0625rem;
+	}
+
+	@media (max-width: 767.98px) {
+		.b-step-content__description__location {
+			padding-left: 5px;
 		}
 	}
 
