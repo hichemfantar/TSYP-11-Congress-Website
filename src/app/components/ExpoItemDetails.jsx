@@ -29,6 +29,8 @@ export default function ExpoItemDetails() {
 
 	const currentCompany = sponsorsData?.find((s) => s.slug === companySlug);
 
+	if (!currentCompany) return null;
+
 	return (
 		<div className="mx-auto max-w-3xl">
 			<div className="mb-8 inline-block text-sm">
@@ -49,6 +51,8 @@ export default function ExpoItemDetails() {
 }
 
 function ExpoDetails({ data }) {
+	if (!data) return null;
+
 	return (
 		<div className="grid grid-cols-12 gap-y-8 md:gap-x-8">
 			<div className="relative col-span-full md:col-span-5">

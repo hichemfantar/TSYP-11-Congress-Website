@@ -125,8 +125,8 @@
 		"slug": "Antonio_Luque",
 		"twitterUsername": "Antonio Luque",
 		"company": { "name": "Google" },
-		"image": { "url": "https://i.imgur.com/t8NpgHG.png" },
-		"imageSmall": { "url": "https://i.imgur.com/t8NpgHG.png" }
+		"image": { "url": "https://i.imgur.com/HWy2W6p.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/HWy2W6p.jpg" }
 	},
 	{
 		"enabled": true,
@@ -271,6 +271,38 @@
 		"company": { "name": "Vercel" },
 		"image": { "url": "https://i.imgur.com/31HOdfl.jpg" },
 		"imageSmall": { "url": "https://i.imgur.com/31HOdfl.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Seif EL HAJJEM",
+		"bio": "Seif El HAJJEM is a Tunisian Industrial Engineer who graduated from ENIT, the National Engineering School of Tunis, in 2015. He currently works as an SAP (System Application Products) Functional Consultant at WYNSYS Tunisia, where he has been involved in the roll-out and implementation of SAP for various companies across diverse industry sectors. In addition to his professional endeavors, Seif dedicates his free time to volunteering for IEEE. He has held multiple positions within the organization, starting as the Chair of the IEEE ENIT Student Branch in 2013-2014 and progressing to the role of Vice Chair Member Activities for the IEEE Tunisia Section in 2021-2022. Currently, he contributes as a member of the IEEE Region 8 Young Professionals Subcommittee.",
+		"title": "IEEE Region 8 Young Professionals Subcommittee.",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Seif EL HAJJEM",
+		"twitterUsername": "Seif EL HAJJEM",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/UkdGa6o.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/UkdGa6o.jpg" }
+	},
+	{
+		"enabled": true,
+		"name": "Oussama LAAJILI",
+		"bio": "Oussama LAAJILI is a Tunisian engineering professional endowed with a foundation in Information Technology. He pursued his studies at the Private Higher School of Engineering and Technology in Tunis. Demonstrating an enduring allegiance to the Institute of Electrical and Electronics Engineers community, he has invested numerous years in various capacities within the organization. His roles have encompassed positions including IEEE ESPRIT SB Chair and Section Student Representative. Currently, he upholds the responsibility of YP Tunisia Treasurer, persisting in his dedication to the IEEE community.",
+		"title": "Treasurer, YP Tunisia Section",
+		"talk": {
+			"title": "Keynote",
+			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
+		},
+		"slug": "Oussama LAAJILI",
+		"twitterUsername": "Oussama LAAJILI",
+		"company": { "name": "Vercel" },
+		"image": { "url": "https://i.imgur.com/aiIzupR.png" },
+		"imageSmall": { "url": "https://i.imgur.com/aiIzupR.png" }
 	},
 	{
 		"enabled": true,
@@ -656,8 +688,8 @@
 		"slug": "Ines_Boujmil",
 		"twitterUsername": "Ines Boujmil",
 		"company": { "name": "Google" },
-		"image": { "url": "https://i.imgur.com/M8s15gV.jpg" },
-		"imageSmall": { "url": "https://i.imgur.com/M8s15gV.jpg" }
+		"image": { "url": "https://i.imgur.com/gNT0zyp.jpg" },
+		"imageSmall": { "url": "https://i.imgur.com/gNT0zyp.jpg" }
 	},
 	{
 		"enabled": true,

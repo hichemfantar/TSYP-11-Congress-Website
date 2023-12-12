@@ -19,7 +19,7 @@ export default function Navigation() {
 
 	const [appConfig, setAppConfig] = useState([]);
 
-	const isEventLive = !!appConfig.isEventLive;
+	const isEventLive = appConfig.eventStatus === "live";
 
 	useEffect(() => {
 		const getData = async () => {

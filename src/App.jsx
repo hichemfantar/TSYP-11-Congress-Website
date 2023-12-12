@@ -30,6 +30,7 @@ import VirtualGamePage from "./app/pages/VirtualGame.page.jsx";
 import Schedule from "./app/components/Schedule.jsx";
 import LiveEventSpacePage from "./app/pages/LiveEventSpace.page.jsx";
 import SessionsPage from "./app/pages/Sessions.page.jsx";
+import EventSatisfactionFormPage from "./app/pages/EventSatisfactionForm.page.jsx";
 
 setInitialTheme();
 
@@ -110,6 +111,10 @@ const router = createBrowserRouter([
 			{
 				path: "contact",
 				element: <ContactPage />,
+			},
+			{
+				path: "event-feedback",
+				element: <EventSatisfactionFormPage />,
 			},
 			{
 				path: "sponsor-us",

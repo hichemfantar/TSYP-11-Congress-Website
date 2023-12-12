@@ -85,6 +85,11 @@ const routes = [
 		href: "/contact",
 	},
 	// {
+	// 	title: "Event Feedback",
+	// 	href: "/event-feedback",
+	// 	eventStatus: "ended",
+	// },
+	// {
 	// 	title: "Game",
 	// 	href: "/game",
 	// },
