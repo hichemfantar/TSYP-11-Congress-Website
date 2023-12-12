@@ -226,7 +226,7 @@ export const dec18ScheduleRevamped = [
 				location: "Medina Hall “Espace Jardin”",
 			},
 			{
-				title: "Sb’s booth setup",
+				title: "SB's booth setup",
 				icon: faPersonWalkingArrowRight,
 				location: "Booths Hall",
 			},
@@ -237,17 +237,17 @@ export const dec18ScheduleRevamped = [
 		timeSlotEnd: "4:50 PM",
 		activities: [
 			{
-				title: "Opening ceremony",
+				title: "Opening Ceremony",
 				icon: faMicrophone,
 				location: "Hannibal Congress Room",
 			},
 			{
-				title: "Guest interventions",
+				title: "Guest Interventions",
 				icon: faMicrophone,
 				location: "Hannibal Congress Room",
 			},
 			{
-				title: "Panel discussions",
+				title: "Panel Discussions",
 				icon: faMicrophone,
 				location: "Hannibal Congress Room",
 			},
@@ -258,7 +258,7 @@ export const dec18ScheduleRevamped = [
 		timeSlotEnd: "5:00 PM",
 		activities: [
 			{
-				title: "Coffee break",
+				title: "Coffee Break",
 				icon: faMicrophone,
 				location: "Booths Hall  and “Espace Jardin” ",
 			},
@@ -307,7 +307,7 @@ export const dec19ScheduleRevamped = [
 			{
 				title: "Breakfast",
 				icon: faMicrophone,
-				location: "Medina Resturants",
+				location: "Medina Restaurants",
 			},
 		],
 	},
@@ -326,7 +326,7 @@ export const dec19ScheduleRevamped = [
 				location: "Medina Conventions Center",
 			},
 			{
-				title: "Embs Global Healthcare Forum",
+				title: "EMBS Global Healthcare Forum",
 				icon: faMicrophone,
 				location: "Medina Conventions Center",
 			},
@@ -336,7 +336,7 @@ export const dec19ScheduleRevamped = [
 				location: "Medina Conventions Center",
 			},
 			{
-				title: "Panel discussions",
+				title: "Panel Discussions",
 				icon: faMicrophone,
 				location: "Medina Conventions Center",
 			},
@@ -373,7 +373,7 @@ export const dec19ScheduleRevamped = [
 				location: "Medina Conventions Center",
 			},
 			{
-				title: "Embs Global Healthcare Forum",
+				title: "EMBS Global Healthcare Forum",
 				icon: faMicrophone,
 				location: "Medina Conventions Center",
 			},
@@ -383,7 +383,7 @@ export const dec19ScheduleRevamped = [
 				location: "Medina Conventions Center",
 			},
 			{
-				title: "Panel discussions",
+				title: "Panel Discussions",
 				icon: faMicrophone,
 				location: "Medina Conventions Center",
 			},
@@ -420,7 +420,7 @@ export const dec19ScheduleRevamped = [
 				location: "Medina Conventions Center",
 			},
 			{
-				title: "Embs Global Healthcare Forum",
+				title: "EMBS Global Healthcare Forum",
 				icon: faMicrophone,
 				location: "Medina Conventions Center",
 			},
@@ -430,7 +430,7 @@ export const dec19ScheduleRevamped = [
 				location: "Medina Conventions Center",
 			},
 			{
-				title: "Panel discussions",
+				title: "Panel Discussions",
 				icon: faMicrophone,
 				location: "Medina Conventions Center",
 			},
@@ -467,7 +467,7 @@ export const dec19ScheduleRevamped = [
 				location: "Medina Conventions Center",
 			},
 			{
-				title: "Embs Global Healthcare Forum",
+				title: "EMBS Global Healthcare Forum",
 				icon: faMicrophone,
 				location: "Medina Conventions Center",
 			},
@@ -477,7 +477,7 @@ export const dec19ScheduleRevamped = [
 				location: "Medina Conventions Center",
 			},
 			{
-				title: "Panel discussions",
+				title: "Panel Discussions",
 				icon: faMicrophone,
 				location: "Medina Conventions Center",
 			},
@@ -514,7 +514,7 @@ export const dec19ScheduleRevamped = [
 				location: "Medina Conventions Center",
 			},
 			{
-				title: "Embs Global Healthcare Forum",
+				title: "EMBS Global Healthcare Forum",
 				icon: faMicrophone,
 				location: "Medina Conventions Center",
 			},
@@ -524,7 +524,7 @@ export const dec19ScheduleRevamped = [
 				location: "Medina Conventions Center",
 			},
 			{
-				title: "Panel discussions",
+				title: "Panel Discussions",
 				icon: faMicrophone,
 				location: "Medina Conventions Center",
 			},

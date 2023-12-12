@@ -1198,7 +1198,7 @@ export function ScheduleOverview({ showTimeline }) {
 										{activity.title}
 									</h4>
 									{!allLocationsSame && (
-										<div className="font-medium tracking-wide">
+										<div className="font-medium tracking-wide underline">
 											{activity.location}
 										</div>
 									)}
