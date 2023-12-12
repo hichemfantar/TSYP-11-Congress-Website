@@ -62,6 +62,10 @@ ServerSignature Off
         Header set Cache-Control "max-age=604800, public"
     </filesMatch>
 
+    <filesMatch ".(html)$">
+        Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+    </filesMatch>
+
     <Files challenges.json>
         Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
     </Files>
