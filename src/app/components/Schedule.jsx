@@ -15,15 +15,7 @@ export default function Schedule() {
 				onChange={(e) => setActiveStage(e.target.value)}
 				name="schedule"
 				id="schedule"
-				className="mb-4 block
-					rounded-lg
-					border
-					border-gray-300 bg-gray-50 shadow-sm
-					focus:border-indigo-300
-					focus:ring focus:ring-indigo-200 focus:ring-opacity-50 dark:border-gray-600
-					dark:bg-black
-					md:self-end
-				"
+				className="mb-4 block rounded-lg border border-gray-300 bg-gray-50 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 dark:border-gray-600 dark:bg-black md:self-end"
 				defaultValue={activeStage}
 			>
 				<option value={null} key={null}>

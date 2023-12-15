@@ -1,0 +1,705 @@
+[
+	{
+		"timeSlotStart": "7:00 AM",
+		"timeSlotEnd": "9:00 AM",
+		"activities": [
+			{
+				"title": "Breakfast",
+				"location": "Medina Restaurants"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "9:00 AM",
+		"timeSlotEnd": "10:30 AM",
+		"activities": [
+			{
+				"title": "Breakout Session 1",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Workshops",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "EMBS Global Healthcare Forum",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Challenges",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Panel Discussions",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Booths Expo and Job Fair",
+
+				"location": "Medina Conventions Center"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "Fundamentals Of Deep Learning 1",
+				"speakers": ["Mourad ZERAI"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Electronic Control Development and Testing: The V-Cycle",
+				"speakers": ["Tarek Lahdhiri"],
+				"type": "Workshops"
+			},
+			{
+				"title": "[YP] Rethinking AI: A Roundtable Discussion on Balancing Technical Progress with Ethical Imperatives",
+				"speakers": [
+					"Mme. Feyrouz Hamdaoui Mme",
+					"Hend Hcen",
+					"Mme. Fatma Sbiaa",
+					"M. Salah Gontara"
+				],
+				"type": "Workshops"
+			},
+			{
+				"title": "Advancing 5G technology innovations into the 6G Era",
+				"speakers": ["Mr. Fawzi Behmann"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Training for IEEE OU volunteers about Vtools, elections.. etc, by SAC",
+				"speakers": ["Mohamed Neji", "SAC Team"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Young Professionals in Tunisia and Beyond",
+				"speakers": [" Oussama Laajili", "Seif El hajjem"],
+				"type": "Workshops"
+			},
+			{
+				"title": "IEEE IES African Continent Chapters Workshops",
+				"speakers": ["IES MD VP", "IES African Chapters Representatives"],
+				"type": "IES Conjunction"
+			},
+			{
+				"title": "CS & YP Challenge 1",
+				"speakers": ["Oussama Fitouri"],
+				"type": "Challenges"
+			},
+			{
+				"title": "SIGHT Challenge",
+				"speakers": ["Nour Sbaoulji "],
+				"type": "Challenges"
+			},
+			{
+				"title": "IAS Technical Challenge 1",
+				"speakers": ["Achref Selmi"],
+				"type": "Challenges"
+			},
+			{
+				"title": "PES Challenge 1",
+				"speakers": ["Madiha Neifar"],
+				"type": "Challenges"
+			},
+			{
+				"title": "SSCS challenge",
+				"speakers": ["Brahim Mezghani "],
+				"type": "Challenges"
+			},
+			{
+				"title": "SMC & Education Challenge",
+				"speakers": ["Ilhem Kallel  "],
+				"type": "Challenges"
+			},
+			{
+				"title": "Global Health Forum",
+				"description": "Opening Remarks\nMetin Akay (University of Houston, IEEE EMBS Past President, USA) \nHabib M. Kammoun (FSS Computer Science Department head, University of Sfax, IEEE Tunisia Section chair, Tunisia)\nKeynote Talks\n-Pursuit of Precision Health: The Digital Twin Opportunity, by Roderic Pettigrew\n-MHealth4Afrika – Co-designing an Integrated Solution for Resource Constrained Environments, by Paul Cunningham ",
+				"type": "Panel Discussions"
+			},
+			{
+				"title": "Navigating the AI Landscape: Insights and Innovations in AI from Academia to Industry",
+				"speakers": [
+					"Hatem Haddad",
+					"Moez Ben Haj Hmida",
+					"Houman Zolfaghari",
+					"Aladdin ayech "
+				],
+				"type": "Panel Discussions"
+			},
+			{
+				"title": "Job Fair",
+				"description": "Startups, Polytech , Spons",
+				"type": "Job Fair"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "10:30 AM",
+		"timeSlotEnd": "11:00 AM",
+		"activities": [
+			{
+				"title": "Coffee Break",
+
+				"location": "Booths Hall and “Espace Jardin”"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "11:00 AM",
+		"timeSlotEnd": "12:30 PM",
+		"activities": [
+			{
+				"title": "Breakout Session 2",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Workshops",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "EMBS Global Healthcare Forum",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Challenges",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Panel Discussions",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Booths Expo and Job Fair",
+
+				"location": "Medina Conventions Center"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "Fundamentals Of Deep Learning 2",
+				"speakers": ["Mourad ZERAI"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Designing and Developing  AI projects for the Real-World Scenarios",
+				"speakers": ["Houman Zolfaghari"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Section Finance Platform (for SB chairs & Treasurers)",
+				"speakers": ["Mohamed Ali Zormati"],
+				"type": "Workshops"
+			},
+			{
+				"title": "SPAxCreativity is intelligence having fun",
+				"speakers": ["Ichraf Jarray"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Decoding speech in real-time",
+				"speakers": ["Mohamed Baha Ben Ticha"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Introduction to  Industrial Electronics Society ",
+				"speakers": ["Antonio Luque", "Ala Chalghaf"],
+				"type": "Workshops"
+			},
+			{
+				"title": "IEEE IES African Continent Chapters Workshops ",
+				"speakers": ["IES Committee"],
+				"type": "IES Conjunction"
+			},
+			{
+				"title": "SIGHT Challenge 2",
+				"speakers": ["Nour Sbaoulji"],
+				"type": "Challenges"
+			},
+			{
+				"title": "CS & YP Challenge 2",
+				"speakers": ["Oussama Fitouri"],
+				"type": "Challenges"
+			},
+			{
+				"title": "IAS Technical Challenge 2",
+				"speakers": ["Achref Selmi"],
+				"type": "Challenges"
+			},
+			{
+				"title": "PES Challenge 2",
+				"speakers": ["Imen Werda"],
+				"type": "Challenges"
+			},
+			{
+				"title": "CAS & RFID Challenge",
+				"speakers": ["Mourad Loulou"],
+				"type": "Challenges"
+			},
+			{
+				"title": "SMC & Education Challenge 2",
+				"speakers": ["Ilhem Kallel"],
+				"type": "Challenges"
+			},
+			{
+				"title": "IEEE BLOCKCHAIN – AROUND THE WORLD & AFRICA HIGHLIGHT",
+				"speakers": [
+					"Ramesh Ramadoss",
+					"Gora Datta",
+					"Prof Dominic Damoah",
+					"Prof Oludele Awodele",
+					"Prof Mohamed Hamdi",
+					"Tarek Kammoun",
+					"Nihel Ben Youssef",
+					"Imen RIABI"
+				],
+				"type": "Panel Discussions"
+			},
+			{
+				"title": "Global Health Forum",
+				"description": "Plenary Talks\n-Pioneering Deep Health: Deﬁning Health and Distinguishing Disease with Metabolomics and Artiﬁcial Intelligence at Disruptive Scalability and Cost, by Ali Tinazli \n-An Approach to Precise, Predictable and Personalized Cancer Care and Drug Development, by Colin Brenan",
+				"type": "Global Health Forum"
+			},
+			{
+				"title": "Job Fair",
+				"description": "Startups, Polytech , Spons",
+				"type": "Job Fair"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "12:30 PM",
+		"timeSlotEnd": "2:30 PM",
+		"activities": [
+			{
+				"title": "Lunch",
+
+				"location": "Medina Restaurants"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "2:30 PM",
+		"timeSlotEnd": "4:00 PM",
+		"activities": [
+			{
+				"title": "Breakout Session 3",
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Workshops",
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "EMBS Global Healthcare Forum",
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Challenges",
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Panel Discussions",
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Booths Expo and Job Fair",
+				"location": "Medina Conventions Center"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "Fundamentals Of Deep Learning 3",
+				"speakers": ["Mourad ZERAI"],
+				"type": "Workshops"
+			},
+			{
+				"title": "From BMC to Pitch: Crafting Compelling Project Presentations – A Workshop in Entrepreneurial Communication",
+				"speakers": ["Hend Hacen"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Ethics in AI",
+				"speakers": ["Oussama Chelly"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Tunisian dialect NLP journey as low-resourced language",
+				"speakers": ["Hatem Haddad"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Machine Learning for Detecting Internet Traffic Anomalies",
+				"speakers": ["Ljiljana Trajkovic"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Generative AI powered Chatbots ",
+				"speakers": ["Moez ben Hadj Hmida"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Efficient ML Workflows: A Kubeflow MLOps Workshop",
+				"speakers": ["Salah Gontara"],
+				"type": "Workshops"
+			},
+			{
+				"title": "3D Printing",
+				"speakers": ["Zakaria Ben Younes"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Project Management",
+				"speakers": ["Abdulateef Aliyu"],
+				"type": "Workshops"
+			},
+			{
+				"title": "IEEE IES African Continent Chapters Workshops ",
+				"speakers": ["IES Committee"],
+				"type": "IES Conjunction"
+			},
+			{
+				"title": "WIE Challenge part 1",
+				"speakers": ["Arij Souai"],
+				"type": "Challenges"
+			},
+			{
+				"title": "RAS Challenge 1",
+				"speakers": ["Ahmed Aouididi"],
+				"type": "Challenges"
+			},
+			{
+				"title": "AESS Challenge part 1",
+				"speakers": ["Tarak Loukil"],
+				"type": "Challenges"
+			},
+			{
+				"title": "Global Health Forum",
+				"description": "Plenary Talks\nHealthtech Innovation Generation with a Purpose and Method, by Michael Friebe (Innovator, Entrepreneur, Distinguished Professor, Poland and Germany)\nPrecision medicine through health data integration: the PRECIOUS example, by Dimitris Fotiadis (Professor, Innovator and EIC Research Institute, FORTH-IMBB, Greece)",
+				"type": "Global Health Forum"
+			},
+			{
+				"title": "Job Fair",
+				"description": "Startups, Polytech , Spons",
+				"type": "Job Fair"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "4:00 PM",
+		"timeSlotEnd": "4:30 PM",
+		"activities": [
+			{
+				"title": "Coffee Break",
+				"location": "Booths Hall and “Espace Jardin”"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "4:30 PM",
+		"timeSlotEnd": "6:00 PM",
+		"activities": [
+			{
+				"title": "Breakout Session 4",
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Workshops",
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "EMBS Global Healthcare Forum",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Challenges",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Panel Discussions",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Booths Expo and Job Fair",
+
+				"location": "Medina Conventions Center"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "Ocean Decade Initiative: Shaping a Sustainable Future - A Session on Global Collaboration and Early Career  Empowerment",
+				"speakers": ["Laura Meyer", "Francesco Maurelli", "Ines Boujmil"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Fundamentals Of Deep Learning 4",
+				"speakers": ["Mourad ZERAI"],
+				"type": "Workshops"
+			},
+			{
+				"title": "IEEE Education Society Virtual Graduate Study Consortium Initiative",
+				"speakers": ["Hamadou Saliah-Hassane"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Non-Terrestrial Networks (NTN): Enabling Communication for Remote and Unconnected Areas (Focus on the Internet of Things)",
+				"speakers": ["Zied Bouida"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Empathic AI: Human Factors, System Assessm",
+				"speakers": ["Aladdin Ayesh"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Containerize the MEAN Stack (Kubernetes & Docker)",
+				"speakers": ["Malek El Ayeb"],
+				"type": "Workshops"
+			},
+			{
+				"title": "AI-EMPOWERED 6G NETWORKS FOR AN INTELLIGENT AND CONNECTED WORLD",
+				"speakers": ["Khaled Letaief"],
+				"type": "Workshops"
+			},
+			{
+				"title": "How to build your game",
+				"speakers": ["Marouen Khadhar"],
+				"type": "Workshops"
+			},
+			{
+				"title": "3D Printing",
+				"speakers": ["Zakaria Ben Younes"],
+				"type": "Workshops"
+			},
+			{
+				"title": "IEEE IES African Continent Chapters Workshops",
+				"speakers": ["IES Committee"],
+				"type": "IES Conjunction"
+			},
+			{
+				"title": "WIE Challenge part 2",
+				"speakers": ["Arij Souai"],
+				"type": "Challenges"
+			},
+			{
+				"title": "RAS Challenge 2",
+				"speakers": ["Ahmed Aouididi"],
+				"type": "Challenges"
+			},
+			{
+				"title": "AESS Challenge part 2",
+				"speakers": ["Tarak Loukil"],
+				"type": "Challenges"
+			},
+			{
+				"title": "EMBS Challenge part 1",
+				"speakers": ["Asma Nsiri"],
+				"type": "Global Health Forum"
+			},
+			{
+				"title": "Job Fair",
+				"description": "Startups, Polytech , Spons",
+				"type": "Job Fair"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "6:00 PM",
+		"timeSlotEnd": "6:20 PM",
+		"activities": [
+			{
+				"title": "Break",
+
+				"location": "Booths Hall and “Espace Jardin”"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "6:20 PM",
+		"timeSlotEnd": "7:20 PM",
+		"activities": [
+			{
+				"title": "Breakout Session 5",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Workshops",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "EMBS Global Healthcare Forum",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Challenges",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Panel Discussions",
+
+				"location": "Medina Conventions Center"
+			},
+			{
+				"title": "Booths Expo and Job Fair",
+
+				"location": "Medina Conventions Center"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "Fundamentals Of Deep Learning 4",
+				"speakers": ["Mourad ZERAI"],
+				"type": "Workshops"
+			},
+			{
+				"title": "HTB Capacity Building Workshop",
+				"speakers": ["Lwanga Herbert"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Novel Solutions for Microwave Sensors",
+				"speakers": ["Maurizio Bozzi"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Leadership",
+				"speakers": ["Nita Patel"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Unlocking The Membership Potential",
+				"speakers": ["Eric Berkowitz"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Start from Scratch: Building Your Business 101",
+				"speakers": ["Mahmoud ibrahim"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Koltin Once Run Twice",
+				"speakers": ["Oussama Aroua"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Unleashing Innovation and Navigating Disruption content",
+				"speakers": ["Salah Dabbech"],
+				"type": "Workshops"
+			},
+			{
+				"title": "3D Printing",
+				"speakers": ["Zakaria Ben Younes"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Containerize the MEAN Stack (Kubernetes & Docker) Part 2",
+				"speakers": ["Malek El Ayeb"],
+				"type": "Workshops"
+			},
+			{
+				"title": "Presentation for the IEEE Region 8 Humanitarian Activities Committee",
+				"speakers": ["Nour Sbaoulji"],
+				"type": "Workshops"
+			},
+			{
+				"title": "IEEE IES African Continent Chapters Workshops",
+				"speakers": ["IES Committee"],
+				"type": "IES Conjunction"
+			},
+			{
+				"title": "WIE Challenge part 3",
+				"speakers": ["Arij Souai"],
+				"type": "Challenges"
+			},
+			{
+				"title": "EMBS Challenge part 2",
+				"speakers": ["Asma Nsiri"],
+				"type": "Global Health Forum"
+			},
+			{
+				"title": "Job Fair",
+				"description": "Startups, Polytech , Spons",
+				"type": "Job Fair"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "7:20 PM",
+		"timeSlotEnd": "9:30 PM",
+		"activities": [
+			{
+				"title": "Dinner",
+
+				"location": "Medina Restaurants"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "9:30 PM",
+		"timeSlotEnd": "10:15 PM",
+		"activities": [
+			{
+				"title": "Talent Show",
+
+				"location": "Hannibal Congress Room"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "10:15 PM",
+		"timeSlotEnd": "11:15 PM",
+		"activities": [
+			{
+				"title": "Awards Ceremony",
+
+				"location": "Hannibal Congress Room"
+			},
+			{
+				"title": "Challenge Awards",
+
+				"location": "Hannibal Congress Room"
+			},
+			{
+				"title": "Individual Awards",
+
+				"location": "Hannibal Congress Room"
+			},
+			{
+				"title": "TSYP Awards",
+
+				"location": "Hannibal Congress Room"
+			},
+			{
+				"title": "Finalists Announcement",
+
+				"location": "Hannibal Congress Room"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "11:15 PM",
+		"timeSlotEnd": "12:00 AM",
+		"activities": [
+			{
+				"title": "Party and Social Activities",
+
+				"location": "Hannibal Congress Room - Booths Hall"
+			}
+		]
+	}
+]

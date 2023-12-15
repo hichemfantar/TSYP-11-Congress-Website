@@ -483,7 +483,7 @@
 	},
 	{
 		"enabled": true,
-		"name": "Franceso Maurelli",
+		"name": "Francesco Maurelli",
 		"bio": "Professor in Marine Systems with focus on Marine Robotics",
 		"title": "OES YP, IEEE",
 		"talk": {
@@ -491,8 +491,8 @@
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
 			"youtube": "https://www.youtube.com/watch?v=NiknNI_0J48"
 		},
-		"slug": "Franceso_Maurelli",
-		"twitterUsername": "Franceso Maurelli",
+		"slug": "Francesco_Maurelli",
+		"twitterUsername": "Francesco Maurelli",
 		"company": { "name": "Google" },
 		"image": { "url": "https://i.imgur.com/6fSci87.jpg" },
 		"imageSmall": { "url": "https://i.imgur.com/6fSci87.jpg" }

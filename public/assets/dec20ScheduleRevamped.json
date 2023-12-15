@@ -1,0 +1,99 @@
+[
+	{
+		"timeSlotStart": "7:00 AM",
+		"timeSlotEnd": "9:00 AM",
+		"activities": [
+			{
+				"title": "Breakfast",
+
+				"location": "Medina Restaurants"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "9:00 AM",
+		"timeSlotEnd": "9:45 AM",
+		"activities": [
+			{
+				"title": "Awards Ceremony",
+
+				"location": "Hannibal Congress Room"
+			},
+			{
+				"title": "Section Awards",
+
+				"location": "Hannibal Congress Room"
+			},
+			{
+				"title": "SPC Awards",
+
+				"location": "Hannibal Congress Room"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "9:45 AM",
+		"timeSlotEnd": "10:15 AM",
+		"activities": [
+			{
+				"title": "Discussion Panel",
+
+				"location": "Hannibal Congress Room"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "10:15 AM",
+		"timeSlotEnd": "11:30 AM",
+		"activities": [
+			{
+				"title": "Finalist Pitch and Voting",
+
+				"location": "Hannibal Congress Room"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "11:30 AM",
+		"timeSlotEnd": "12:30 PM",
+		"activities": [
+			{
+				"title": "Closing Ceremony",
+
+				"location": "Hannibal Congress Room"
+			},
+			{
+				"title": "Winner's Announcement",
+
+				"location": "Hannibal Congress Room"
+			},
+			{
+				"title": "Celebration",
+
+				"location": "Hannibal Congress Room"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "12:30 PM",
+		"timeSlotEnd": "1:00 PM",
+		"activities": [
+			{
+				"title": "Group Photo",
+
+				"location": "Hannibal Congress Room"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "1:00 PM",
+		"timeSlotEnd": "2:00 PM",
+		"activities": [
+			{
+				"title": "Check-out",
+
+				"location": "Medina Hall “Espace Jardin”"
+			}
+		]
+	}
+]

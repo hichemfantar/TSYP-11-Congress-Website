@@ -41,9 +41,9 @@ export default function Navigation() {
 						<CustomImage
 							loading="eager"
 							src={LogoOnBlack || Logo}
-							className={`mr-3 hidden h-8 dark:block ${
+							className={`mr-3 hidden h-10 dark:block ${
 								LogoOnBlack ? "" : "dark:invert"
-							} sm:h-10`}
+							} sm:h-12`}
 							alt="TSYP 11"
 						/>
 						<CustomImage
@@ -217,21 +217,40 @@ export default function Navigation() {
 							</Link>
 						)}
 						{!isEventLive && (
-							<Link
-								to="/registration"
-								className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium  transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500  dark:focus:ring-purple-800"
-							>
-								{/* <button
+							<>
+								<Link
+									to="#"
+									className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium  transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500  dark:focus:ring-purple-800"
+								>
+									{/* <button
 								type="button"
 								className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium  transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500  dark:focus:ring-purple-800"
 							> */}
-								<div className="relative flex items-center justify-center gap-2 rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
-									{/* <FontAwesomeIcon className="-rotate-45" icon={faTicket} /> */}
-									<span className="hidden md:block">Register Now</span>
-									<span className="md:hidden">Register Now</span>
-								</div>
-								{/* </button> */}
-							</Link>
+									<div className="relative flex items-center justify-center gap-2 rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+										{/* <FontAwesomeIcon className="-rotate-45" icon={faTicket} /> */}
+										<span className="">Starting Soon</span>
+									</div>
+									{/* </button> */}
+								</Link>
+
+								{false && (
+									<Link
+										to="/registration"
+										className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium  transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500  dark:focus:ring-purple-800"
+									>
+										{/* <button
+								type="button"
+								className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium  transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500  dark:focus:ring-purple-800"
+							> */}
+										<div className="relative flex items-center justify-center gap-2 rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+											{/* <FontAwesomeIcon className="-rotate-45" icon={faTicket} /> */}
+											<span className="hidden md:block">Register Now</span>
+											<span className="md:hidden">Register Now</span>
+										</div>
+										{/* </button> */}
+									</Link>
+								)}
+							</>
 						)}
 						{isEventLive && (
 							<Link

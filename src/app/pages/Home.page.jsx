@@ -32,8 +32,10 @@ import Team from "../components/Team";
 // import ThreeExperience from "../components/ThreeExperience";
 import {
 	faExternalLink,
+	faMasksTheater,
 	faRocket,
 	faTicket,
+	faVrCardboard,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Fade } from "react-awesome-reveal";
@@ -138,31 +140,62 @@ export default function HomePage() {
 									// icon={<FontAwesomeIcon icon={faExternalLink} />}
 								/>
 							</Link> */}
-							<Link
-								to={"https://forms.gle/ahXMJsQGwxHS9Hac6"}
-								className="flex justify-center"
-								target="_blank"
-							>
+							{false && (
+								<Link
+									to={"https://forms.gle/ahXMJsQGwxHS9Hac6"}
+									className="flex justify-center"
+									target="_blank"
+								>
+									<StyledButton
+										message={"Register a startup"}
+										icon={<FontAwesomeIcon icon={faRocket} />}
+									/>
+								</Link>
+							)}
+							{false && (
+								<Link to={"/registration"} className="flex justify-center">
+									<StyledButton
+										message={"Register Now"}
+										icon={
+											<FontAwesomeIcon className="-rotate-45" icon={faTicket} />
+										}
+									/>
+								</Link>
+							)}
+
+							<Link to={"/virtual-game"} className="flex justify-center">
 								<StyledButton
-									message={"Register a startup"}
-									icon={<FontAwesomeIcon icon={faRocket} />}
-								/>
-							</Link>
-							<Link to={"/registration"} className="flex justify-center">
-								<StyledButton
-									message={"Register Now"}
+									message={"Virtual Space Registration"}
 									icon={
-										<FontAwesomeIcon className="-rotate-45" icon={faTicket} />
+										<FontAwesomeIcon
+											className="-rotate-45"
+											icon={faTicket}
+											// icon={faVrCardboard}
+										/>
 									}
 								/>
 							</Link>
 
-							<Link to={"/sponsor-us"} className="flex justify-center">
+							<Link
+								to={"https://forms.gle/YnGcgjhZnKmSK3p37"}
+								target="_blank"
+								className="flex justify-center"
+							>
 								<StyledButton
-									message={"Become a Sponsor"}
-									// icon={<FontAwesomeIcon icon={faExternalLink} />}
+									message={"Talent Show Registration"}
+									icon={<FontAwesomeIcon icon={faMasksTheater} />}
 								/>
 							</Link>
+
+							{false && (
+								<Link to={"/sponsor-us"} className="flex justify-center">
+									<StyledButton
+										message={"Become a Sponsor"}
+										// icon={<FontAwesomeIcon icon={faExternalLink} />}
+									/>
+								</Link>
+							)}
+
 							{false && (
 								<Link
 									to={"https://forms.gle/Q88TpsVymyvDYQPBA"}
@@ -200,6 +233,34 @@ export default function HomePage() {
 					alt=""
 					className="mx-auto hidden h-28 object-contain invert dark:invert-0 lg:block"
 				/>
+			</Fade>
+
+			<Fade triggerOnce>
+				<h1 className="mt-8 mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold">
+					In Conjunction with IES African Continent Chapter Workshop
+					<br />&{" "}
+					<Link
+						to={
+							"https://public-forum.embs.org/tunisia-na-healthcare-innovations-forum/"
+						}
+						target="_blank"
+						className="hover:underline"
+					>
+						IEEE EMBS Tunisia North Africa Forum on Healthcare Innovations
+					</Link>
+				</h1>
+				<div className="flex items-center justify-center gap-4">
+					<CustomImage
+						src={"https://i.imgur.com/Usd3WQr.png"}
+						alt=""
+						className="hidden aspect-video h-40 rounded-lg bg-white object-contain p-4 lg:block"
+					/>
+					<CustomImage
+						src={"https://i.imgur.com/Gu6u9NO.png"}
+						alt=""
+						className="hidden aspect-video h-40 rounded-lg bg-white object-contain p-4 lg:block"
+					/>
+				</div>
 			</Fade>
 
 			<Fade triggerOnce>

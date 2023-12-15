@@ -1,23 +1,48 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { twMerge } from "tailwind-merge";
-import {
-	areAllLocationsSame,
-	dec18ScheduleRevamped,
-	dec19ScheduleRevamped,
-	dec20ScheduleRevamped,
-} from "../schedule/scheduleItems";
+import { areAllLocationsSame } from "../schedule/scheduleItems";
 import "./TimelineSchedule.scss";
-
-const tabs = [
-	dec18ScheduleRevamped,
-	dec19ScheduleRevamped,
-	dec20ScheduleRevamped,
-];
 
 export default function TimelineSchedule() {
 	const [selectedTab, setSelectedTab] = useState(0);
+
+	const [dec18ScheduleRevamped, setDec18ScheduleRevamped] = useState([]);
+	const [dec19ScheduleRevamped, setDec19ScheduleRevamped] = useState([]);
+	const [dec20ScheduleRevamped, setDec20ScheduleRevamped] = useState([]);
+
+	useEffect(() => {
+		const getData = async () => {
+			await fetch("/assets/dec18ScheduleRevamped.json")
+				.then((response) => response.json())
+				.then((response) => {
+					setDec18ScheduleRevamped(response);
+				})
+				.catch((err) => console.error(err));
+			await fetch("/assets/dec19ScheduleRevamped.json")
+				.then((response) => response.json())
+				.then((response) => {
+					setDec19ScheduleRevamped(response);
+				})
+				.catch((err) => console.error(err));
+			await fetch("/assets/dec20ScheduleRevamped.json")
+				.then((response) => response.json())
+				.then((response) => {
+					setDec20ScheduleRevamped(response);
+				})
+				.catch((err) => console.error(err));
+		};
+		getData();
+	}, []);
+
+	const tabs = [
+		dec18ScheduleRevamped,
+		dec19ScheduleRevamped,
+		dec20ScheduleRevamped,
+	];
+
 	const selectedSchedule = tabs?.[selectedTab];
+
 	return (
 		<div id="timeline-schedule-design">
 			<div className="mb-6 flex w-full flex-wrap justify-around gap-6">

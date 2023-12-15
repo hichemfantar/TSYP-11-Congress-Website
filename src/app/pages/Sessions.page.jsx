@@ -13,7 +13,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import Schedule from "../components/Schedule";
+import SessionsSchedule from "../components/SessionsSchedule";
 
 export default function SessionsPage() {
-	return <Schedule />;
+	return <SessionsSchedule />;
 }

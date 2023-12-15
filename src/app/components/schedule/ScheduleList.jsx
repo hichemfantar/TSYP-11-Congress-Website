@@ -1,23 +1,23 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ScheduleBox from "../ScheduleBox";
 import TimelineSchedule from "../timeline-view/TimelineShedule";
 import {
 	areAllLocationsSame,
 	dec18Schedule,
-	dec18ScheduleRevamped,
 	dec19Schedule,
-	dec19ScheduleRevamped,
 	dec20Schedule,
-	dec20ScheduleRevamped,
 } from "./scheduleItems";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+	faChalkboardUser,
 	faPlusCircle,
 	faTableColumns,
 	faTimeline,
 } from "@fortawesome/free-solid-svg-icons";
 import { twMerge } from "tailwind-merge";
 import StyledButton from "../StyledButton";
+import SessionsSchedule from "../SessionsSchedule";
+import { useSearchParams } from "react-router-dom";
 
 export default function ScheduleList() {
 	return (
@@ -1170,10 +1170,47 @@ export const stagesData = [
 
 export function ScheduleOverview({ showTimeline }) {
 	const [isSeeMore, setIsSeeMore] = useState(false);
-	const [isTimeLineView, setIsTimeLineView] = useState(showTimeline);
+	const [viewMode, setViewMode] = useState("timeline");
+	const [searchParams, setSearchParams] = useSearchParams();
+
+	const [dec18ScheduleRevamped, setDec18ScheduleRevamped] = useState([]);
+	const [dec19ScheduleRevamped, setDec19ScheduleRevamped] = useState([]);
+	const [dec20ScheduleRevamped, setDec20ScheduleRevamped] = useState([]);
+
+	useEffect(() => {
+		const getData = async () => {
+			await fetch("/assets/dec18ScheduleRevamped.json")
+				.then((response) => response.json())
+				.then((response) => {
+					setDec18ScheduleRevamped(response);
+				})
+				.catch((err) => console.error(err));
+			await fetch("/assets/dec19ScheduleRevamped.json")
+				.then((response) => response.json())
+				.then((response) => {
+					setDec19ScheduleRevamped(response);
+				})
+				.catch((err) => console.error(err));
+			await fetch("/assets/dec20ScheduleRevamped.json")
+				.then((response) => response.json())
+				.then((response) => {
+					setDec20ScheduleRevamped(response);
+				})
+				.catch((err) => console.error(err));
+		};
+		getData();
+	}, []);
+
+	useEffect(() => {
+		if (searchParams.get("speaker")) {
+			setViewMode("session");
+		}
+
+		return () => {};
+	}, [searchParams]);
 
 	function renderDaySchedule(day) {
-		return day?.map((e, idx) => {
+		return day?.slice(0, isSeeMore ? undefined : 5)?.map((e, idx) => {
 			const allLocationsSame = areAllLocationsSame(e.activities);
 			const currentLocation = e.activities[0]?.location;
 
@@ -1235,27 +1272,38 @@ export function ScheduleOverview({ showTimeline }) {
 						className={twMerge(
 							"min-w-[1rem] rounded-l-md rounded-r-none border-r-[1px]"
 						)}
-						onClick={() => setIsTimeLineView(true)}
+						onClick={() => setViewMode("timeline")}
 						icon={
 							<FontAwesomeIcon
 								icon={faTimeline}
 								className={twMerge(`-rotate-90 text-base transition-all`)}
 							/>
 						}
-						message={isTimeLineView && "Timeline View"}
+						message={viewMode === "timeline" && "Timeline View"}
 					/>
 					<StyledButton
-						className={twMerge(
-							"min-w-[1rem] rounded-r-md rounded-l-none border-l-[1px]"
-						)}
-						onClick={() => setIsTimeLineView(false)}
+						className={twMerge("min-w-[1rem]  rounded-none border-l-[1px]")}
+						onClick={() => setViewMode("list")}
 						icon={
 							<FontAwesomeIcon
 								icon={faTableColumns}
 								className={twMerge(`text-lg transition-all`)}
 							/>
 						}
-						message={!isTimeLineView && "List View"}
+						message={viewMode === "list" && "List View"}
+					/>
+					<StyledButton
+						className={twMerge(
+							"min-w-[1rem] rounded-r-md rounded-l-none border-l-[1px]"
+						)}
+						onClick={() => setViewMode("session")}
+						icon={
+							<FontAwesomeIcon
+								icon={faChalkboardUser}
+								className={twMerge(`text-lg transition-all`)}
+							/>
+						}
+						message={viewMode === "session" && "Session View"}
 					/>
 				</div>
 				{/* <button
@@ -1285,9 +1333,9 @@ export function ScheduleOverview({ showTimeline }) {
 				/>
 				{isTimeLineView ? "Timeline View" : "List View"}
 			</button> */}
-			{isTimeLineView && <TimelineSchedule />}
+			{viewMode === "timeline" && <TimelineSchedule />}
 
-			{!isTimeLineView && (
+			{viewMode === "list" && (
 				<div className="flex flex-col gap-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
 					<section className="flex flex-col">
 						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black">
@@ -1322,6 +1370,27 @@ export function ScheduleOverview({ showTimeline }) {
 										</p>
 									</li>
 								))}
+
+							{!isSeeMore && (
+								<li
+									className="flex justify-center"
+									onClick={() => setIsSeeMore(!isSeeMore)}
+								>
+									<StyledButton
+										message={"Load more"}
+										icon={
+											<FontAwesomeIcon
+												icon={faPlusCircle}
+												// icon={faVrCardboard}
+											/>
+										}
+									/>
+									{/* <button className="mx-auto mt-4 flex items-center justify-center gap-2 text-center text-gray-500 dark:text-gray-400">
+										<FontAwesomeIcon icon={faPlusCircle} />
+										Load more
+									</button> */}
+								</li>
+							)}
 						</ol>
 					</section>
 
@@ -1361,11 +1430,23 @@ export function ScheduleOverview({ showTimeline }) {
 										</li>
 									))}
 							{!isSeeMore && (
-								<li onClick={() => setIsSeeMore(!isSeeMore)}>
-									<button className="mx-auto mt-4 flex items-center justify-center gap-2 text-center text-gray-500 dark:text-gray-400">
+								<li
+									className="flex justify-center"
+									onClick={() => setIsSeeMore(!isSeeMore)}
+								>
+									<StyledButton
+										message={"Load more"}
+										icon={
+											<FontAwesomeIcon
+												icon={faPlusCircle}
+												// icon={faVrCardboard}
+											/>
+										}
+									/>
+									{/* <button className="mx-auto mt-4 flex items-center justify-center gap-2 text-center text-gray-500 dark:text-gray-400">
 										<FontAwesomeIcon icon={faPlusCircle} />
 										Load more
-									</button>
+									</button> */}
 								</li>
 							)}
 						</ol>
@@ -1404,10 +1485,32 @@ export function ScheduleOverview({ showTimeline }) {
 										</p>
 									</li>
 								))}
+							{!isSeeMore && (
+								<li
+									className="flex justify-center"
+									onClick={() => setIsSeeMore(!isSeeMore)}
+								>
+									<StyledButton
+										message={"Load more"}
+										icon={
+											<FontAwesomeIcon
+												icon={faPlusCircle}
+												// icon={faVrCardboard}
+											/>
+										}
+									/>
+									{/* <button className="mx-auto mt-4 flex items-center justify-center gap-2 text-center text-gray-500 dark:text-gray-400">
+										<FontAwesomeIcon icon={faPlusCircle} />
+										Load more
+									</button> */}
+								</li>
+							)}
 						</ol>
 					</section>
 				</div>
 			)}
+
+			{viewMode === "session" && <SessionsSchedule />}
 		</section>
 	);
 }

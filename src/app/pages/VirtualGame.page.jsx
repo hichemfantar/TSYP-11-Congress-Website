@@ -18,7 +18,7 @@ function Details(params) {
 	return (
 		<section className="grid items-center justify-center gap-8 py-8 md:grid-cols-12 md:py-10">
 			<h1 className="col-span-12 mb-4 text-center text-4xl font-bold tracking-tight   lg:mb-7 lg:text-5xl lg:font-extrabold lg:leading-none">
-				Virtual TSYP for everyone.
+				Virtual TSYP Congress for everyone.
 			</h1>
 			<div className="col-span-12 mx-auto w-full md:col-span-6">
 				<iframe
@@ -61,7 +61,7 @@ function Details(params) {
 				<div>
 					<Link
 						// type="button"
-						to={"https://tsyp.ieee.tn/"}
+						to={"https://forms.gle/QJz35rDGZJnCAsJMA"}
 						target="_blank"
 						rel="noreferrer"
 					>

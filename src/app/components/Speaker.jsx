@@ -1,5 +1,6 @@
 import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import {
+	faChalkboardUser,
 	faChevronLeft,
 	faExternalLink,
 	faPlay,
@@ -78,7 +79,6 @@ export default function Speaker() {
 							{currentSpeaker.title} at {currentSpeaker.company.name}
 						</div> */}
 					</div>
-
 					<div>
 						<div className="font-semibold text-gray-600 dark:text-gray-400">
 							About
@@ -88,7 +88,14 @@ export default function Speaker() {
 								"Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions."}
 						</p>
 					</div>
-
+					<div>
+						<Link to={`/schedule?speaker=${currentSpeaker.name}`}>
+							<StyledButton
+								message={"Check Sessions"}
+								icon={<FontAwesomeIcon icon={faChalkboardUser} />}
+							/>
+						</Link>
+					</div>
 					{false && (
 						<>
 							<div>
