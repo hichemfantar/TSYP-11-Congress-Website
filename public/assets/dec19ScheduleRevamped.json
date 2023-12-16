@@ -48,11 +48,13 @@
 			{
 				"title": "Fundamentals Of Deep Learning 1",
 				"speakers": ["Mourad ZERAI"],
+				"location": "[120] Cesar 1",
 				"type": "Workshops"
 			},
 			{
 				"title": "Electronic Control Development and Testing: The V-Cycle",
 				"speakers": ["Tarek Lahdhiri"],
+				"location": "[50] Hannibal 1",
 				"type": "Workshops"
 			},
 			{
@@ -63,61 +65,73 @@
 					"Mme. Fatma Sbiaa",
 					"M. Salah Gontara"
 				],
+				"location": "[40] Cesar 4",
 				"type": "Workshops"
 			},
 			{
 				"title": "Advancing 5G technology innovations into the 6G Era",
 				"speakers": ["Mr. Fawzi Behmann"],
+				"location": "[50] Hannibal 2",
 				"type": "Workshops"
 			},
 			{
-				"title": "Training for IEEE OU volunteers about Vtools, elections.. etc, by SAC",
+				"title": "Effective Student Branch Management",
 				"speakers": ["Mohamed Neji", "SAC Team"],
+				"location": "[150] Oliver",
 				"type": "Workshops"
 			},
 			{
 				"title": "Young Professionals in Tunisia and Beyond",
 				"speakers": [" Oussama Laajili", "Seif El hajjem"],
+				"location": "[50] Hannibal 3",
 				"type": "Workshops"
 			},
 			{
 				"title": "IEEE IES African Continent Chapters Workshops",
 				"speakers": ["IES MD VP", "IES African Chapters Representatives"],
+				"location": "[20] Cesar 2",
 				"type": "IES Conjunction"
 			},
 			{
 				"title": "CS & YP Challenge 1",
 				"speakers": ["Oussama Fitouri"],
+				"location": "[40] Cesar 6",
 				"type": "Challenges"
 			},
 			{
 				"title": "SIGHT Challenge",
-				"speakers": ["Nour Sbaoulji "],
+				"speakers": ["Nour Sbaoulji"],
+				"location": "[50] Hannibal 4",
 				"type": "Challenges"
 			},
 			{
 				"title": "IAS Technical Challenge 1",
 				"speakers": ["Achref Selmi"],
+				"location": "[TH] Jupiter",
 				"type": "Challenges"
 			},
 			{
 				"title": "PES Challenge 1",
 				"speakers": ["Madiha Neifar"],
+				"location": "[40] Cesar 7",
 				"type": "Challenges"
 			},
 			{
 				"title": "SSCS challenge",
 				"speakers": ["Brahim Mezghani "],
+				"location": "[20] Cesar 3",
 				"type": "Challenges"
 			},
 			{
 				"title": "SMC & Education Challenge",
 				"speakers": ["Ilhem Kallel  "],
+				"location": "[20] Cesar 8",
 				"type": "Challenges"
 			},
 			{
 				"title": "Global Health Forum",
 				"description": "Opening Remarks\nMetin Akay (University of Houston, IEEE EMBS Past President, USA) \nHabib M. Kammoun (FSS Computer Science Department head, University of Sfax, IEEE Tunisia Section chair, Tunisia)\nKeynote Talks\n-Pursuit of Precision Health: The Digital Twin Opportunity, by Roderic Pettigrew\n-MHealth4Afrika – Co-designing an Integrated Solution for Resource Constrained Environments, by Paul Cunningham ",
+				"location": "[450] Cesar",
 				"type": "Panel Discussions"
 			},
 			{
@@ -128,11 +142,13 @@
 					"Houman Zolfaghari",
 					"Aladdin ayech "
 				],
+				"location": "[1200] Hannibal ( main congress venue)",
 				"type": "Panel Discussions"
 			},
 			{
 				"title": "Job Fair",
 				"description": "Startups, Polytech , Spons",
+				"location": "[1000] Medina Hall Espace Jardin",
 				"type": "Job Fair"
 			}
 		]
@@ -187,66 +203,79 @@
 			{
 				"title": "Fundamentals Of Deep Learning 2",
 				"speakers": ["Mourad ZERAI"],
+				"location": "[120] Cesar 1",
 				"type": "Workshops"
 			},
 			{
 				"title": "Designing and Developing  AI projects for the Real-World Scenarios",
 				"speakers": ["Houman Zolfaghari"],
+				"location": "[50] Hannibal 1",
 				"type": "Workshops"
 			},
 			{
 				"title": "Section Finance Platform (for SB chairs & Treasurers)",
 				"speakers": ["Mohamed Ali Zormati"],
+				"location": "[50] Hannibal 2",
 				"type": "Workshops"
 			},
 			{
 				"title": "SPAxCreativity is intelligence having fun",
 				"speakers": ["Ichraf Jarray"],
+				"location": "[50] Hannibal 3",
 				"type": "Workshops"
 			},
 			{
 				"title": "Decoding speech in real-time",
 				"speakers": ["Mohamed Baha Ben Ticha"],
+				"location": "[40] Cesar 4",
 				"type": "Workshops"
 			},
 			{
 				"title": "Introduction to  Industrial Electronics Society ",
 				"speakers": ["Antonio Luque", "Ala Chalghaf"],
+				"location": "[150] Oliver",
 				"type": "Workshops"
 			},
 			{
 				"title": "IEEE IES African Continent Chapters Workshops ",
 				"speakers": ["IES Committee"],
+				"location": "[20] Cesar 2",
 				"type": "IES Conjunction"
 			},
 			{
 				"title": "SIGHT Challenge 2",
 				"speakers": ["Nour Sbaoulji"],
+				"location": "[50] Hannibal 4",
 				"type": "Challenges"
 			},
 			{
 				"title": "CS & YP Challenge 2",
 				"speakers": ["Oussama Fitouri"],
+				"location": "[40] Cesar 6",
 				"type": "Challenges"
 			},
 			{
 				"title": "IAS Technical Challenge 2",
 				"speakers": ["Achref Selmi"],
+				"location": "[TH] Jupiter",
 				"type": "Challenges"
 			},
 			{
 				"title": "PES Challenge 2",
 				"speakers": ["Imen Werda"],
+				"location": "[40] Cesar 7",
 				"type": "Challenges"
 			},
 			{
 				"title": "CAS & RFID Challenge",
 				"speakers": ["Mourad Loulou"],
+				"location": "[20] Cesar 3",
 				"type": "Challenges"
 			},
 			{
 				"title": "SMC & Education Challenge 2",
 				"speakers": ["Ilhem Kallel"],
+				"location": "[20] Cesar 8",
 				"type": "Challenges"
 			},
 			{
@@ -261,16 +290,19 @@
 					"Nihel Ben Youssef",
 					"Imen RIABI"
 				],
+				"location": "[1200]Hannibal ( main congress venue)",
 				"type": "Panel Discussions"
 			},
 			{
 				"title": "Global Health Forum",
 				"description": "Plenary Talks\n-Pioneering Deep Health: Deﬁning Health and Distinguishing Disease with Metabolomics and Artiﬁcial Intelligence at Disruptive Scalability and Cost, by Ali Tinazli \n-An Approach to Precise, Predictable and Personalized Cancer Care and Drug Development, by Colin Brenan",
+				"location": "[450] Cesar",
 				"type": "Global Health Forum"
 			},
 			{
 				"title": "Job Fair",
 				"description": "Startups, Polytech , Spons",
+				"location": "[1000]Medina Hall Espace Jardin",
 				"type": "Job Fair"
 			}
 		]
@@ -319,76 +351,91 @@
 			{
 				"title": "Fundamentals Of Deep Learning 3",
 				"speakers": ["Mourad ZERAI"],
+				"location": "[120] Cesar 1",
 				"type": "Workshops"
 			},
 			{
 				"title": "From BMC to Pitch: Crafting Compelling Project Presentations – A Workshop in Entrepreneurial Communication",
-				"speakers": ["Hend Hacen"],
+				"speakers": ["Hend Hcen"],
+				"location": "[50] Hannibal 1",
 				"type": "Workshops"
 			},
 			{
 				"title": "Ethics in AI",
 				"speakers": ["Oussama Chelly"],
+				"location": "[50] Hannibal 2",
 				"type": "Workshops"
 			},
 			{
 				"title": "Tunisian dialect NLP journey as low-resourced language",
 				"speakers": ["Hatem Haddad"],
+				"location": "[50] Hannibal 3",
 				"type": "Workshops"
 			},
 			{
 				"title": "Machine Learning for Detecting Internet Traffic Anomalies",
 				"speakers": ["Ljiljana Trajkovic"],
+				"location": "[50] Hannibal 4",
 				"type": "Workshops"
 			},
 			{
 				"title": "Generative AI powered Chatbots ",
 				"speakers": ["Moez ben Hadj Hmida"],
+				"location": "[40] Cesar 6",
 				"type": "Workshops"
 			},
 			{
 				"title": "Efficient ML Workflows: A Kubeflow MLOps Workshop",
 				"speakers": ["Salah Gontara"],
+				"location": "[40] Cesar 4",
 				"type": "Workshops"
 			},
 			{
 				"title": "3D Printing",
 				"speakers": ["Zakaria Ben Younes"],
+				"location": "[20] Cesar 8",
 				"type": "Workshops"
 			},
 			{
 				"title": "Project Management",
 				"speakers": ["Abdulateef Aliyu"],
+				"location": "[150] Oliver",
 				"type": "Workshops"
 			},
 			{
 				"title": "IEEE IES African Continent Chapters Workshops ",
 				"speakers": ["IES Committee"],
+				"location": "[20] Cesar 2",
 				"type": "IES Conjunction"
 			},
 			{
 				"title": "WIE Challenge part 1",
 				"speakers": ["Arij Souai"],
+				"location": "[TH] Jupiter",
 				"type": "Challenges"
 			},
 			{
 				"title": "RAS Challenge 1",
 				"speakers": ["Ahmed Aouididi"],
+				"location": "[40] Cesar 7",
 				"type": "Challenges"
 			},
 			{
 				"title": "AESS Challenge part 1",
 				"speakers": ["Tarak Loukil"],
+				"location": "[20] Cesar 3",
 				"type": "Challenges"
 			},
 			{
 				"title": "Global Health Forum",
 				"description": "Plenary Talks\nHealthtech Innovation Generation with a Purpose and Method, by Michael Friebe (Innovator, Entrepreneur, Distinguished Professor, Poland and Germany)\nPrecision medicine through health data integration: the PRECIOUS example, by Dimitris Fotiadis (Professor, Innovator and EIC Research Institute, FORTH-IMBB, Greece)",
+				"location": "[450] Cesar",
 				"type": "Global Health Forum"
 			},
 			{
 				"title": "Job Fair",
 				"description": "Startups, Polytech , Spons",
+				"location": "[1000]Medina Hall Espace Jardin",
 				"type": "Job Fair"
 			}
 		]
@@ -440,76 +487,103 @@
 			{
 				"title": "Ocean Decade Initiative: Shaping a Sustainable Future - A Session on Global Collaboration and Early Career  Empowerment",
 				"speakers": ["Laura Meyer", "Francesco Maurelli", "Ines Boujmil"],
+				"location": "[150] Oliver",
 				"type": "Workshops"
 			},
 			{
 				"title": "Fundamentals Of Deep Learning 4",
 				"speakers": ["Mourad ZERAI"],
+				"location": "[120] Cesar 1",
 				"type": "Workshops"
 			},
 			{
 				"title": "IEEE Education Society Virtual Graduate Study Consortium Initiative",
 				"speakers": ["Hamadou Saliah-Hassane"],
+				"location": "[50] Hannibal 1",
 				"type": "Workshops"
 			},
 			{
 				"title": "Non-Terrestrial Networks (NTN): Enabling Communication for Remote and Unconnected Areas (Focus on the Internet of Things)",
 				"speakers": ["Zied Bouida"],
+				"location": "[50] Hannibal 2",
 				"type": "Workshops"
 			},
 			{
 				"title": "Empathic AI: Human Factors, System Assessm",
 				"speakers": ["Aladdin Ayesh"],
+				"location": "[50] Hannibal 4",
 				"type": "Workshops"
 			},
 			{
 				"title": "Containerize the MEAN Stack (Kubernetes & Docker)",
 				"speakers": ["Malek El Ayeb"],
+				"location": "[40] Cesar 6",
 				"type": "Workshops"
 			},
 			{
 				"title": "AI-EMPOWERED 6G NETWORKS FOR AN INTELLIGENT AND CONNECTED WORLD",
 				"speakers": ["Khaled Letaief"],
+				"location": "[50] Hannibal 3",
 				"type": "Workshops"
 			},
 			{
-				"title": "How to build your game",
-				"speakers": ["Marouen Khadhar"],
+				"title": "Koltin Once Run Twice",
+				"speakers": ["Oussama Aroua"],
+				"location": "[40] Cesar 4",
 				"type": "Workshops"
 			},
 			{
 				"title": "3D Printing",
 				"speakers": ["Zakaria Ben Younes"],
+				"location": "[20] Cesar 8",
 				"type": "Workshops"
 			},
 			{
 				"title": "IEEE IES African Continent Chapters Workshops",
 				"speakers": ["IES Committee"],
+				"location": "[20] Cesar 2",
 				"type": "IES Conjunction"
 			},
 			{
 				"title": "WIE Challenge part 2",
 				"speakers": ["Arij Souai"],
+				"location": "[TH] Jupiter",
 				"type": "Challenges"
 			},
 			{
 				"title": "RAS Challenge 2",
 				"speakers": ["Ahmed Aouididi"],
+				"location": "[40] Cesar 7",
 				"type": "Challenges"
 			},
 			{
 				"title": "AESS Challenge part 2",
 				"speakers": ["Tarak Loukil"],
+				"location": "[20] Cesar 3",
 				"type": "Challenges"
 			},
 			{
 				"title": "EMBS Challenge part 1",
 				"speakers": ["Asma Nsiri"],
+				"location": "[450] Cesar",
 				"type": "Global Health Forum"
+			},
+			{
+				"title": "SPAx Shaping Your Future: Navigating Career Paths in a Technologically Evolving World\n-How technology, automation, and changing job markets are impacting the future of work\n-How to plan and navigate a successful career path\n-How different educational and training options impact career choices and opportunities\n-Career Transition and Mid-life changes",
+				"speakers": [
+					"Oussama Chelly",
+					"Tarek Lahdiri",
+					"faten ayari",
+					"Mr. Salah Gontara",
+					"Moderator : Mahmoud Ibrahim"
+				],
+				"location": "[1200] Hannibal ( main congress venue)",
+				"type": "Panel Discussions"
 			},
 			{
 				"title": "Job Fair",
 				"description": "Startups, Polytech , Spons",
+				"location": "[1000] Medina Hall Espace Jardin",
 				"type": "Job Fair"
 			}
 		]
@@ -564,76 +638,97 @@
 			{
 				"title": "Fundamentals Of Deep Learning 4",
 				"speakers": ["Mourad ZERAI"],
+				"location": "[120] Cesar 1",
 				"type": "Workshops"
 			},
 			{
 				"title": "HTB Capacity Building Workshop",
 				"speakers": ["Lwanga Herbert"],
+				"location": "[150] Oliver",
 				"type": "Workshops"
 			},
 			{
 				"title": "Novel Solutions for Microwave Sensors",
 				"speakers": ["Maurizio Bozzi"],
+				"location": "[50] Hannibal 1",
 				"type": "Workshops"
 			},
 			{
 				"title": "Leadership",
 				"speakers": ["Nita Patel"],
+				"location": "[50] Hannibal 4",
 				"type": "Workshops"
 			},
 			{
 				"title": "Unlocking The Membership Potential",
 				"speakers": ["Eric Berkowitz"],
+				"location": "[50] Hannibal 3",
 				"type": "Workshops"
 			},
 			{
 				"title": "Start from Scratch: Building Your Business 101",
 				"speakers": ["Mahmoud ibrahim"],
+				"location": "[50] Hannibal 2",
 				"type": "Workshops"
 			},
 			{
-				"title": "Koltin Once Run Twice",
-				"speakers": ["Oussama Aroua"],
+				"title": "How to build your game",
+				"speakers": ["Marouen Khadhar"],
+				"location": "[40] Cesar 4",
 				"type": "Workshops"
 			},
 			{
 				"title": "Unleashing Innovation and Navigating Disruption content",
 				"speakers": ["Salah Dabbech"],
+				"location": "[20] Cesar 3",
 				"type": "Workshops"
 			},
 			{
 				"title": "3D Printing",
 				"speakers": ["Zakaria Ben Younes"],
+				"location": "[20] Cesar 8",
 				"type": "Workshops"
 			},
 			{
 				"title": "Containerize the MEAN Stack (Kubernetes & Docker) Part 2",
 				"speakers": ["Malek El Ayeb"],
+				"location": "[40] Cesar 6",
 				"type": "Workshops"
 			},
 			{
 				"title": "Presentation for the IEEE Region 8 Humanitarian Activities Committee",
 				"speakers": ["Nour Sbaoulji"],
+				"location": "[40] Cesar 7",
 				"type": "Workshops"
 			},
 			{
 				"title": "IEEE IES African Continent Chapters Workshops",
 				"speakers": ["IES Committee"],
+				"location": "[20] Cesar 2",
 				"type": "IES Conjunction"
 			},
 			{
 				"title": "WIE Challenge part 3",
 				"speakers": ["Arij Souai"],
+				"location": "[TH] Jupiter",
 				"type": "Challenges"
 			},
 			{
 				"title": "EMBS Challenge part 2",
 				"speakers": ["Asma Nsiri"],
+				"location": "[450] Cesar",
 				"type": "Global Health Forum"
+			},
+			{
+				"title": "Application of Blockchain in Financial Sector",
+				"speakers": ["Omer Faruk Ozkul", "Razvan Mihai"],
+				"location": "[1200] Hannibal ( main congress venue)",
+				"type": "Panel Discussions"
 			},
 			{
 				"title": "Job Fair",
 				"description": "Startups, Polytech , Spons",
+				"location": "[1000]Medina Hall Espace Jardin",
 				"type": "Job Fair"
 			}
 		]

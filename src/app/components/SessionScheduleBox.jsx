@@ -13,6 +13,31 @@ export default function SessionScheduleBox({ data, classNames }) {
 			)}
 		>
 			<div className="flex flex-col gap-2">
+				<div>
+					<span
+						className={twMerge(
+							"self-start rounded-md px-2.5 py-0.5 text-xs font-medium",
+							data.type === "Workshops" &&
+								"bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300",
+							data.type === "Challenges" &&
+								"bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300",
+							data.type === "Panel Discussions" &&
+								"bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300",
+							data.type === "Global Health Forum" &&
+								"bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300",
+							data.type === "Job Fair" &&
+								"bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300",
+							data.type === "Intervention" &&
+								"bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-300",
+							data.type === "IES Conjunction" &&
+								"bg-pink-100 text-pink-800 dark:bg-pink-900 dark:text-pink-300"
+						)}
+					>
+						{data.type}
+					</span>{" "}
+					<span className="flex-1 text-xs font-bold">{data.location}</span>
+				</div>
+
 				<div className="flex justify-between gap-3">
 					<h1 className="flex-1 font-bold">{data.title}</h1>
 					{/* <div className="flex-shrink-0 font-['space_mono']">
@@ -43,9 +68,12 @@ export default function SessionScheduleBox({ data, classNames }) {
 							))}
 						</div> */}
 
-					{data.speakers && data.speakers?.length === 1
+					{data.type !== "Challenges" &&
+					data.speakers &&
+					data.speakers?.length === 1
 						? data.speakers?.[0].name
-						: data.speakers && (
+						: data.type !== "Challenges" &&
+						  data.speakers && (
 								<div className="font-['space_mono'] text-gray-600 dark:text-gray-400">
 									{data.speakers?.length} speakers
 								</div>
@@ -53,16 +81,18 @@ export default function SessionScheduleBox({ data, classNames }) {
 
 					{data.description && <p>{data.description}</p>}
 
-					<div className="font-['space_mono']">
-						{data.speakers?.map((e, idx) => (
-							// <Link to={`/speakers/${"Khaled%20Letaief"}`}>
-							<span>
-								{e}
-								{idx !== data.speakers?.length - 1 && ", "}
-							</span>
-							// </Link>
-						))}
-					</div>
+					{data.type !== "Challenges" && (
+						<div className="font-['space_mono']">
+							{data.speakers?.map((e, idx) => (
+								// <Link to={`/speakers/${"Khaled%20Letaief"}`}>
+								<span>
+									{e}
+									{idx !== data.speakers?.length - 1 && ", "}
+								</span>
+								// </Link>
+							))}
+						</div>
+					)}
 				</div>
 			</div>
 		</div>

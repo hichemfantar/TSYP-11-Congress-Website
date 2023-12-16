@@ -55,6 +55,7 @@
 					"Abdulatif Aliyu",
 					"Seif El hajjem"
 				],
+				"location": "[1200]Hannibal ( main congress venue)",
 				"type": "Intervention"
 			},
 			{ "title": "Musical Intervention", "type": "Intervention" },
@@ -66,6 +67,7 @@
 					"Maurizio Bozzi",
 					"Lwanga herbert"
 				],
+				"location": "[1200]Hannibal ( main congress venue)",
 				"type": "Intervention"
 			}
 		]
