@@ -30,11 +30,11 @@ export default function LiveEventSpacePage() {
 							icon: faPersonRunning,
 							link: "/challenges",
 						},
-						{
-							name: "Sessions",
-							icon: faChalkboardUser,
-							link: "/sessions",
-						},
+						// {
+						// 	name: "Sessions",
+						// 	icon: faChalkboardUser,
+						// 	link: "/sessions",
+						// },
 						{
 							name: "Schedule",
 							icon: faCalendar,
@@ -53,11 +53,14 @@ export default function LiveEventSpacePage() {
 						{
 							name: "Virtual Game",
 							icon: faGamepad,
-							link: "/virtual-game",
+							link: "https://play.workadventu.re/@/ieee-essths/tsyp-11/registration_hall",
+							// link: "/virtual-game",
+							external: true,
 						},
 					].map((e) => (
 						<Link
 							to={e.link}
+							target={e.external ? "_blank" : ""}
 							className="flex items-center justify-center gap-2 rounded-2xl border-2 bg-gray-50 p-8 text-xl font-semibold transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:bg-black dark:hover:border-gray-600 dark:focus:border-gray-500"
 						>
 							<FontAwesomeIcon icon={e.icon} />

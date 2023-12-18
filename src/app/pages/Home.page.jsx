@@ -117,14 +117,19 @@ export default function HomePage() {
 							<div className="w-full md:hidden">
 								<div className="xbg-[#3a55b4] mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
 							</div>
-							<div className="xbg-[#3a55b4] hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
-							<Countdown
-								timeTillDate="12 18 2023, 6:00 am"
-								timeFormat="MM DD YYYY, h:mm a"
-							/>
-							<div className="w-full md:hidden">
+							{/* <div className="xbg-[#3a55b4] hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
+							<div className="text-center text-xl font-bold tracking-tight lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+								We're Live!
+							</div> */}
+							{false && (
+								<Countdown
+									timeTillDate="12 18 2023, 6:00 am"
+									timeFormat="MM DD YYYY, h:mm a"
+								/>
+							)}
+							{/* <div className="w-full md:hidden">
 								<div className="xbg-[#3a55b4] mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
-							</div>
+							</div> */}
 							<div className="xbg-[#3a55b4] hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
 							<div className="mb-4 ">
 								<h1 className="mb-2 text-center text-xl font-bold tracking-tight text-[#3a55b4] dark:text-[#4967d0] lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">

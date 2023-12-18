@@ -71,6 +71,7 @@
 		"name": "Loua Ben Afia",
 		"bio": "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
 		"title": "General Secretary",
+		"link": "https://www.linkedin.com/in/loua-ben-afia/",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
@@ -444,7 +445,7 @@
 		"active": true,
 		"name": "Elyes Jridi",
 		"bio": "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
-		"title": "24/7 Team",
+		"title": "Media Manager",
 		"talk": {
 			"title": "Keynote",
 			"description": "TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",

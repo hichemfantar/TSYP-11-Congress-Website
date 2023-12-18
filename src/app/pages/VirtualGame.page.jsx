@@ -61,12 +61,14 @@ function Details(params) {
 				<div>
 					<Link
 						// type="button"
-						to={"https://forms.gle/QJz35rDGZJnCAsJMA"}
+						to={
+							"https://play.workadventu.re/@/ieee-essths/tsyp-11/registration_hall"
+						}
 						target="_blank"
 						rel="noreferrer"
 					>
 						<StyledButton
-							message={"Register Now"}
+							message={"Join Now"}
 							icon={<FontAwesomeIcon icon={faRocket} />}
 						/>
 					</Link>

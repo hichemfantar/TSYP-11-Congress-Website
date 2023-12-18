@@ -10,6 +10,8 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faChalkboardUser,
+	faExternalLink,
+	faFilePdf,
 	faPlusCircle,
 	faTableColumns,
 	faTimeline,
@@ -1253,7 +1255,18 @@ export function ScheduleOverview({ showTimeline }) {
 	return (
 		<section>
 			<div className="mb-14 flex flex-col items-center justify-center gap-8">
-				<div className="text-4xl font-bold">Schedule Overview</div>
+				<div className="flex justify-center gap-2">
+					<div className="text-4xl font-bold">Schedule Overview</div>
+				</div>
+				<a
+					href="https://drive.google.com/file/d/13em2dUKV1UZfBJWmuhayoAy0ApT-I-8S/view?usp=sharing"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="flex items-center gap-2 font-bold"
+				>
+					<FontAwesomeIcon className="text-xl" icon={faFilePdf} />
+					Download PDF
+				</a>
 				<div className="flex">
 					{/* <StyledButton
 						onClick={() => setIsTimeLineView(!isTimeLineView)}
