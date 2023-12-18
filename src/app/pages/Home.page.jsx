@@ -910,7 +910,7 @@ function SponsorsPreview() {
 				>
 					<CustomImage
 						className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition hover:scale-105 dark:shadow-gray-800 md:h-[160px] md:w-[160px] lg:col-span-1"
-						src={"https://i.imgur.com/UZd4FrX.png"}
+						src={"https://i.imgur.com/FkG6VVq.png"}
 						alt="Orange"
 						// width={200}
 						// height={200}

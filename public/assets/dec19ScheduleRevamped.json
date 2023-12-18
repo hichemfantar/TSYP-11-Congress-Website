@@ -130,7 +130,7 @@
 			},
 			{
 				"title": "Global Health Forum",
-				"description": "Opening Remarks\nMetin Akay (University of Houston, IEEE EMBS Past President, USA) \nHabib M. Kammoun (FSS Computer Science Department head, University of Sfax, IEEE Tunisia Section chair, Tunisia)\nKeynote Talks\n-Pursuit of Precision Health: The Digital Twin Opportunity, by Roderic Pettigrew\n-MHealth4Afrika – Co-designing an Integrated Solution for Resource Constrained Environments, by Paul Cunningham ",
+				"description": "Opening Remarks\nKeynote Talks\n-Pursuit of Precision Health: The Digital Twin Opportunity, by Roderic Pettigrew\n-MHealth4Afrika – Co-designing an Integrated Solution for Resource Constrained Environments, by Paul Cunningham ",
 				"location": "[450] Cesar",
 				"type": "Panel Discussions"
 			},
@@ -295,7 +295,7 @@
 			},
 			{
 				"title": "Global Health Forum",
-				"description": "Plenary Talks\n-Pioneering Deep Health: Deﬁning Health and Distinguishing Disease with Metabolomics and Artiﬁcial Intelligence at Disruptive Scalability and Cost, by Ali Tinazli \n-An Approach to Precise, Predictable and Personalized Cancer Care and Drug Development, by Colin Brenan",
+				"description": "Plenary Talks",
 				"location": "[450] Cesar",
 				"type": "Global Health Forum"
 			},
@@ -428,7 +428,7 @@
 			},
 			{
 				"title": "Global Health Forum",
-				"description": "Plenary Talks\nHealthtech Innovation Generation with a Purpose and Method, by Michael Friebe (Innovator, Entrepreneur, Distinguished Professor, Poland and Germany)\nPrecision medicine through health data integration: the PRECIOUS example, by Dimitris Fotiadis (Professor, Innovator and EIC Research Institute, FORTH-IMBB, Greece)",
+				"description": "Plenary Talks\nHealthtech Innovation Generation with a Purpose and Method,\nPrecision medicine through health data integration: the PRECIOUS example",
 				"location": "[450] Cesar",
 				"type": "Global Health Forum"
 			},
@@ -636,7 +636,7 @@
 		],
 		"detailedActivities": [
 			{
-				"title": "Fundamentals Of Deep Learning 4",
+				"title": "Fundamentals Of Deep Learning 5",
 				"speakers": ["Mourad ZERAI"],
 				"location": "[120] Cesar 1",
 				"type": "Workshops"
