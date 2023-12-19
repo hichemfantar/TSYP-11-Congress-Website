@@ -169,19 +169,21 @@ function Scene() {
 					<meshStandardMaterial color="white" />
 				</Text3D>
 			</Center>
-			<Center top bottom position={[0, -3, 0]}>
-				<Text3D
-					size={0.7}
-					letterSpacing={-0.05}
-					height={0.05}
-					// font="/fonts/Inter_Bold_full_set.json"
-					font="/fonts/Inter_Bold_tsyp11.json"
-				>
-					Coming Soon
-					{/* {d} */}
-					<meshStandardMaterial color="white" />
-				</Text3D>
-			</Center>
+			{false && (
+				<Center top bottom position={[0, -3, 0]}>
+					<Text3D
+						size={0.7}
+						letterSpacing={-0.05}
+						height={0.05}
+						// font="/fonts/Inter_Bold_full_set.json"
+						font="/fonts/Inter_Bold_tsyp11.json"
+					>
+						Coming Soon
+						{/* {d} */}
+						<meshStandardMaterial color="white" />
+					</Text3D>
+				</Center>
+			)}
 			{/* Prism + blocks + reflect beam */}
 			<Beam ref={boxreflect} bounce={10} far={20}>
 				<Prism
