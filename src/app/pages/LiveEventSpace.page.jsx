@@ -26,11 +26,6 @@ export default function LiveEventSpacePage() {
 				</div>
 				<div className="grid gap-8 md:grid-cols-3">
 					{[
-						{
-							name: "Challenges",
-							icon: faPersonRunning,
-							link: "/challenges",
-						},
 						// {
 						// 	name: "Sessions",
 						// 	icon: faChalkboardUser,
@@ -40,16 +35,6 @@ export default function LiveEventSpacePage() {
 							name: "Schedule",
 							icon: faCalendar,
 							link: "/schedule",
-						},
-						{
-							name: "Partners & Sponsors",
-							icon: faHandshake,
-							link: "/partners-sponsors",
-						},
-						{
-							name: "Venue",
-							icon: faMapLocationDot,
-							link: "/venue",
 						},
 						{
 							name: "Virtual Game",
@@ -63,6 +48,21 @@ export default function LiveEventSpacePage() {
 							icon: faAward,
 							link: "/awards",
 							// link: "/virtual-game",
+						},
+						{
+							name: "Challenges",
+							icon: faPersonRunning,
+							link: "/challenges",
+						},
+						{
+							name: "Partners & Sponsors",
+							icon: faHandshake,
+							link: "/partners-sponsors",
+						},
+						{
+							name: "Venue",
+							icon: faMapLocationDot,
+							link: "/venue",
 						},
 					].map((e) => (
 						<Link
