@@ -1,13 +1,1 @@
-[
-	{
-		"enabled": true,
-		"name": "Next Edition Student Branch",
-		"title": "INSAT Student Branch",
-		"type": "congress",
-		"slug": "PES-&-IES-Challenge",
-		"logo": {
-			"url": "https://insat.ieee.tn/static/media/LOGO.76891b84684b7e0b444f.png"
-		},
-		"link": "https://bit.ly/PES-IES"
-	}
-]
+[]
