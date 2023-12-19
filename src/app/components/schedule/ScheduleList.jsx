@@ -1316,7 +1316,7 @@ export function ScheduleOverview({ showTimeline }) {
 					href="https://drive.google.com/file/d/13em2dUKV1UZfBJWmuhayoAy0ApT-I-8S/view?usp=sharing"
 					target="_blank"
 					rel="noopener noreferrer"
-					className="flex items-center gap-2 font-bold"
+					className="flex items-center gap-2 self-start font-bold"
 				>
 					<FontAwesomeIcon className="text-xl" icon={faFilePdf} />
 					Download PDF
