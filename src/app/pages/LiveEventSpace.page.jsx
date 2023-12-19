@@ -4,6 +4,7 @@ import { ContactDetails, ContactForm } from "./Contact.page";
 import { AboutESSTHSSB, AboutTSYP, AboutTunisiaSection } from "./Home.page";
 import { Fade } from "react-awesome-reveal";
 import {
+	faAward,
 	faCalendar,
 	faChalkboardUser,
 	faGamepad,
@@ -56,6 +57,12 @@ export default function LiveEventSpacePage() {
 							link: "https://play.workadventu.re/@/ieee-essths/tsyp-11/registration_hall",
 							// link: "/virtual-game",
 							external: true,
+						},
+						{
+							name: "Awards",
+							icon: faAward,
+							link: "/awards",
+							// link: "/virtual-game",
 						},
 					].map((e) => (
 						<Link

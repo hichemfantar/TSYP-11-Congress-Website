@@ -108,7 +108,7 @@ export default function HomePage() {
 							</span> */}
 						</div>
 						<div className="flex flex-wrap items-center justify-center gap-8">
-							<div className="xtext-[#3a55b4] mb-4 ">
+							<div className="xtext-[#3a55b4] ">
 								<h1 className="mb-2 text-center text-xl font-bold tracking-tight text-[#3a55b4] dark:text-[#4967d0] lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 									1200+
 								</h1>
@@ -131,7 +131,7 @@ export default function HomePage() {
 								<div className="xbg-[#3a55b4] mx-auto h-0.5 w-3/6 bg-black dark:bg-gray-300 md:block"></div>
 							</div> */}
 							<div className="xbg-[#3a55b4] hidden h-20 w-0.5 bg-black dark:bg-gray-300 md:block"></div>
-							<div className="mb-4 ">
+							<div className="">
 								<h1 className="mb-2 text-center text-xl font-bold tracking-tight text-[#3a55b4] dark:text-[#4967d0] lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 									50+
 								</h1>
@@ -168,30 +168,33 @@ export default function HomePage() {
 								</Link>
 							)}
 
-							<Link to={"/virtual-game"} className="flex justify-center">
-								<StyledButton
-									message={"Virtual Space Registration"}
-									icon={
-										<FontAwesomeIcon
-											className="-rotate-45"
-											icon={faTicket}
-											// icon={faVrCardboard}
-										/>
-									}
-								/>
-							</Link>
+							{false && (
+								<Link to={"/virtual-game"} className="flex justify-center">
+									<StyledButton
+										message={"Virtual Space Registration"}
+										icon={
+											<FontAwesomeIcon
+												className="-rotate-45"
+												icon={faTicket}
+												// icon={faVrCardboard}
+											/>
+										}
+									/>
+								</Link>
+							)}
 
-							<Link
-								to={"https://forms.gle/YnGcgjhZnKmSK3p37"}
-								target="_blank"
-								className="flex justify-center"
-							>
-								<StyledButton
-									message={"Talent Show Registration"}
-									icon={<FontAwesomeIcon icon={faMasksTheater} />}
-								/>
-							</Link>
-
+							{false && (
+								<Link
+									to={"https://forms.gle/YnGcgjhZnKmSK3p37"}
+									target="_blank"
+									className="flex justify-center"
+								>
+									<StyledButton
+										message={"Talent Show Registration"}
+										icon={<FontAwesomeIcon icon={faMasksTheater} />}
+									/>
+								</Link>
+							)}
 							{false && (
 								<Link to={"/sponsor-us"} className="flex justify-center">
 									<StyledButton

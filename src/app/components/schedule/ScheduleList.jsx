@@ -1258,15 +1258,7 @@ export function ScheduleOverview({ showTimeline }) {
 				<div className="flex justify-center gap-2">
 					<div className="text-4xl font-bold">Schedule Overview</div>
 				</div>
-				<a
-					href="https://drive.google.com/file/d/13em2dUKV1UZfBJWmuhayoAy0ApT-I-8S/view?usp=sharing"
-					target="_blank"
-					rel="noopener noreferrer"
-					className="flex items-center gap-2 font-bold"
-				>
-					<FontAwesomeIcon className="text-xl" icon={faFilePdf} />
-					Download PDF
-				</a>
+
 				<div className="flex">
 					{/* <StyledButton
 						onClick={() => setIsTimeLineView(!isTimeLineView)}
@@ -1319,6 +1311,16 @@ export function ScheduleOverview({ showTimeline }) {
 						message={viewMode === "session" && "Session View"}
 					/>
 				</div>
+
+				<a
+					href="https://drive.google.com/file/d/13em2dUKV1UZfBJWmuhayoAy0ApT-I-8S/view?usp=sharing"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="flex items-center gap-2 font-bold"
+				>
+					<FontAwesomeIcon className="text-xl" icon={faFilePdf} />
+					Download PDF
+				</a>
 				{/* <button
 					className="flex items-center justify-center gap-4 font-medium md:flex"
 					onClick={() => setIsTimeLineView(!isTimeLineView)}

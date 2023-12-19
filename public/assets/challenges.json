@@ -2,109 +2,120 @@
 	{
 		"enabled": true,
 		"name": "IEEE PES and IES Tunisia Technical Challenge",
-		"goal": "Fix the world",
 		"description": "PES & IES is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
 		"slug": "PES-&-IES-Challenge",
 		"logo": { "url": "https://i.imgur.com/2CAjaNE.png" },
-		"link": "https://bit.ly/PES-IES"
+		"link": "https://bit.ly/PES-IES",
+		"winnerImg": ""
 	},
 	{
 		"enabled": true,
 		"name": "IEEE SMC and EdSoc Tunisia Technical Challenge",
-		"goal": "Fix the world",
 		"description": "Understanding Student Well-being: A Holistic Approach",
 		"slug": "SMC-&-EDUCATION-Challenge",
 		"logo": { "url": "https://i.imgur.com/QwhCPMT.png" },
-		"link": "https://bit.ly/3QbG3GU"
+		"link": "https://bit.ly/3QbG3GU",
+		"winner": "",
+		"winnerImg": ""
 	},
 	{
 		"enabled": true,
 		"name": "IEEE IAS Tunisia Technical Challenge",
-		"goal": "Fix the world",
 		"description": "IAS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
 		"slug": "IAS-Challenge",
 		"logo": { "url": "https://i.imgur.com/pFMD6if.png" },
-		"link": "https://bit.ly/3PMSCaa"
+		"link": "https://bit.ly/3PMSCaa",
+		"winner": "",
+		"winnerImg": ""
 	},
 	{
 		"enabled": true,
 		"name": "IEEE RAS Tunisia Technical Challenge",
-		"goal": "Fix the world",
 		"description": "RAS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
 		"slug": "RAS-Challenge",
 		"logo": { "url": "https://i.imgur.com/5A0DAtu.png" },
-		"link": "https://bit.ly/46PhYv5"
+		"link": "https://bit.ly/46PhYv5",
+		"winner": "",
+		"winnerImg": ""
 	},
 	{
 		"enabled": true,
 		"name": "IEEE EMBS Tunisia Technical Challenge",
-		"goal": "Fix the world",
 		"description": "EMBS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
 		"slug": "EMBS-Challenge",
 		"logo": { "url": "https://i.imgur.com/IeXKVQ0.png" },
-		"link": "https://tinyurl.com/22fdb2cs"
+		"link": "https://tinyurl.com/22fdb2cs",
+		"winner": "",
+		"winnerImg": ""
 	},
 	{
 		"enabled": true,
 		"name": "IEEE AESS Tunisia Technical Challenge",
-		"goal": "Fix the world",
 		"description": "AESS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
 		"slug": "AESS-Challenge",
 		"logo": { "url": "https://i.imgur.com/09FsBT3.png" },
-		"link": "https://bit.ly/3rPXL9s"
+		"link": "https://bit.ly/3rPXL9s",
+		"winner": "",
+		"winnerImg": ""
 	},
 	{
 		"enabled": true,
 		"name": "IEEE CS and YP Tunisia Technical Challenge",
-		"goal": "Fix the world",
 		"description": "CS & YP is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
 		"slug": "CS-&-YP-Challenge",
 		"logo": { "url": "https://i.imgur.com/3hzl3jP.png" },
-		"link": "https://bit.ly/CSYP-PDF"
+		"link": "https://bit.ly/CSYP-PDF",
+		"winner": "",
+		"winnerImg": ""
 	},
 	{
 		"enabled": true,
 		"name": "IEEE SIGHT Tunisia & IEEE R8 Entrepreneurship Technical Challenge",
-		"goal": "Fix the world",
 		"description": "SIGHT is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
 		"slug": "SIGHT-Challenge",
 		"logo": { "url": "https://i.imgur.com/i4teEs2.png" },
-		"link": "https://bit.ly/SIGHT-PDF"
+		"link": "https://bit.ly/SIGHT-PDF",
+		"winner": "",
+		"winnerImg": ""
 	},
 	{
 		"enabled": true,
 		"name": "IEEE SSCS Tunisia Technical Challenge",
-		"goal": "Fix the world",
 		"description": "SSCS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
 		"slug": "SSCS-Challenge",
 		"logo": { "url": "https://i.imgur.com/4uV0iAT.png" },
-		"link": "https://bit.ly/3PTriHn"
+		"link": "https://bit.ly/3PTriHn",
+		"winner": "",
+		"winnerImg": ""
 	},
 	{
 		"enabled": true,
 		"name": "IEEE WIE Tunisia Affinity Group Technical Challenge",
-		"goal": "Fix the world",
 		"description": "WIE is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
 		"slug": "WIE-Challenge",
 		"logo": { "url": "https://i.imgur.com/kjMm6rQ.png" },
-		"link": "https://bit.ly/3FxyT9D"
+		"link": "https://bit.ly/3FxyT9D",
+		"winner": "",
+		"winnerImg": ""
 	},
 	{
 		"enabled": true,
 		"name": "IEEE SAC Tunisia Challenge",
-		"goal": "Fix the world",
 		"description": "WIE is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
 		"slug": "WIE-Challenge",
 		"logo": { "url": "https://i.imgur.com/5AIvGUs.png" },
-		"link": "https://bit.ly/3s8LmgW"
+		"link": "https://bit.ly/3s8LmgW",
+		"winner": "",
+		"winnerImg": ""
 	},
 	{
 		"enabled": true,
 		"name": "IEEE CAS & CRFID Tunisia Technical Challenge",
-		"goal": "Fix the world",
 		"description": "WIE is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
 		"slug": "WIE-Challenge",
 		"logo": { "url": "https://i.imgur.com/tuFDEhC.png" },
-		"link": "https://bit.ly/3MfAxk1"
+		"link": "https://bit.ly/3MfAxk1",
+		"winner": "",
+		"winnerImg": ""
 	}
 ]

@@ -34,6 +34,10 @@ const routes = [
 		],
 	},
 	{
+		title: "Awards",
+		href: "/awards",
+	},
+	{
 		title: "Schedule",
 		href: "/schedule",
 		mobileOnly: true,
@@ -57,11 +61,11 @@ const routes = [
 		title: "Partners",
 		href: "/partners-sponsors",
 	},
-	{
-		title: "Registration",
-		href: "/registration",
-		mobileOnly: true,
-	},
+	// {
+	// 	title: "Registration",
+	// 	href: "/registration",
+	// 	mobileOnly: true,
+	// },
 	// {
 	// 	title: "Ambassadors",
 	// 	href: "https://forms.gle/Q88TpsVymyvDYQPBA",

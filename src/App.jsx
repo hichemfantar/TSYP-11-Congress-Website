@@ -31,6 +31,8 @@ import Schedule from "./app/components/Schedule.jsx";
 import LiveEventSpacePage from "./app/pages/LiveEventSpace.page.jsx";
 import SessionsPage from "./app/pages/Sessions.page.jsx";
 import EventSatisfactionFormPage from "./app/pages/EventSatisfactionForm.page.jsx";
+import WinnersList from "./app/components/WinnersList.jsx";
+import { WinnersPage } from "./app/pages/Winners.jsx";
 
 setInitialTheme();
 
@@ -123,6 +125,10 @@ const router = createBrowserRouter([
 			{
 				path: "challenges",
 				element: <ChallengesPage />,
+			},
+			{
+				path: "awards",
+				element: <WinnersPage />,
 			},
 			{
 				path: "ticket",
