@@ -16,7 +16,7 @@ Many people have contacted me asking me if they can use this code for their own 
 
 I value keeping the site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of the website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, I will continue to document this website, and please feel free to contact me for any missing details [Personal Website](https://www.hichemfantar.com/).
+Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please feel free to contact me for any missing details [Personal Website](https://www.hichemfantar.com/) and I will continue to document the website.
 
 ### TL;DR
 
@@ -26,7 +26,26 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [hi
 
 1. Follow the instructions on the [WorkAdventure Documentation](https://docs.workadventu.re/)
 
-## 🛠 Website Installation & Set Up
+## Getting Started
+
+To get a local copy up and running, please follow these simple steps.
+
+### Prerequisites
+
+Here is what you need to be able to run the TSYP website.
+
+- Node.js (Version: >=18.x)
+- NPM _(yarn and pnpm are also good options)_
+
+> The codebase will receive a refactor in the coming months
+
+## 🛠 Development
+
+1. Clone the repo into a public GitHub repository (or fork https://github.com/hichemfantar/TSYP-11-Official-Website/fork). If you plan to distribute the code, keep the source code public to comply with [GPLv2](https://github.com/hichemfantar/TSYP-11-Official-Website/blob/main/LICENSE).
+
+   ```sh
+   git clone https://github.com/hichemfantar/TSYP-11-Official-Website.git
+   ```
 
 1. Install [Node](https://nodejs.org/en)
 
@@ -34,13 +53,13 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [hi
    node -v && npm -v
    ```
 
-2. Install dependencies
+1. Install dependencies
 
    ```sh
    npm install
    ```
 
-3. Start the development server
+1. Start the development server
 
    ```sh
    npm run dev
