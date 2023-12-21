@@ -62,7 +62,7 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [hi
 
 | Color                | Hex                                                                |
 | -------------------- | ------------------------------------------------------------------ |
-| Light Background     | ![#f9fafb](https://via.placeholder.com/10/0a192f?text=+) `#f9fafb` |
+| Light Background     | ![#f9fafb](https://via.placeholder.com/10/f9fafb?text=+) `#f9fafb` |
 | Dark Text            | ![#111827](https://via.placeholder.com/10/111827?text=+) `#111827` |
 | Dark Text Secondary  | ![#9ca3af](https://via.placeholder.com/10/9ca3af?text=+) `#9ca3af` |
 | Dark Background      | ![#000000](https://via.placeholder.com/10/000000?text=+) `#000000` |
