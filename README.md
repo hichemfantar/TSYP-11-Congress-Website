@@ -22,7 +22,11 @@ Please also note that I did not build this site with the intention of it being a
 
 Yes, you can fork this repo. Please give me proper credit by linking back to [hichemfantar.com](https://www.hichemfantar.com/). Thanks!
 
-## 🛠 Installation & Set Up
+## 🗺️ Building the virtual map
+
+1. Follow the instructions on the [WorkAdventure Documentation](https://docs.workadventu.re/)
+
+## 🛠 Website Installation & Set Up
 
 1. Install [Node](https://nodejs.org/en)
 
