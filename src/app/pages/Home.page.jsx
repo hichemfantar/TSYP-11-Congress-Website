@@ -911,7 +911,7 @@ function SponsorsPreview() {
 			</Link>
 			<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
 				<a
-					href="https://www.orange.tn/"
+					href="https://www.orangedigitalcenters.com/"
 					target="_blank"
 					rel="noreferrer"
 					className="overflow-hidden rounded-full bg-white p-4 shadow-md shadow-gray-200 transition hover:scale-105"

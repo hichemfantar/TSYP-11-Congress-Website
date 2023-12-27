@@ -81,7 +81,10 @@ function ExpoDetails({ data }) {
 				</div>
 
 				<div>
-					<p>{data.description}</p>
+					<p
+						dangerouslySetInnerHTML={{ __html: data.description }}
+						className=""
+					></p>
 				</div>
 
 				{data.website && (

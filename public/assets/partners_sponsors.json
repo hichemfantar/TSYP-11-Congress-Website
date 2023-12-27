@@ -244,12 +244,12 @@
 	},
 	{
 		"enabled": true,
-		"name": "Orange",
-		"description": "Orange Tunisia acquired a license in Tunisia on 5 May 2010, making it the leading 3G mobile operator with Divona Telecom, the second landline operator and the third mobile phone operator in Tunisia",
+		"name": "Orange Digital Center",
+		"description": "Orange Digital Center is a transformative hub at the forefront of Orange Tunisia's digital education initiatives, dedicated to fostering digital equality and inclusion. Launched in 2019 and replicated across Africa and the Middle East, it serves as a catalyst for youth employability and entrepreneurial development. Offering diverse programs, including the Coding School, Solidarity FabLab, and Orange Fab, the center provides a comprehensive pathway from education to technological incubation and startup acceleration. By actively engaging youth in IT training, hands-on projects, and inspiring talks, the ODC plays a pivotal role in bridging the gap between academic learning and professional opportunities, creating a dynamic space for innovation, collaboration, and the cultivation of digital skills.<br /><br />The Coding School, a freely accessible technological center, offers diverse training programs in networking, data science, web development, and mobile app development... Additionally, the ODC Clubs, located in different universities across the country, cater to students' diverse needs, providing free training and exchanges with technology experts. The Coding School also conducts insightful sessions called ODC Talks, connecting professionals and technology enthusiasts to discuss innovative topics.<br /><br />The Solidarity FabLabs, an initiative by Orange Tunisia's Foundation, serve as platforms for young individuals, to develop technical, digital, and transversal skills. The FabLabs are dedicated to experimentation, collaborative creation, and digital prototyping. The FabLabs offer diverse activities, including open sessions, specific training, rapid prototyping, mentorship, and incubation for startups.<br /><br />Orange Fab accelerates startups by providing business opportunities nationally and internationally. Through mentorship and workshops, it contributes to startups' growth and success in collaboration with Orange Tunisia and the Orange Group.<br /><br />In conclusion, the ODC opens a gateway to a transformative journey in the realm of digital education, innovation, and entrepreneurship. The ODC also encourages women, to venture into male-dominated technological fields. It shares the inspiring journeys of young entrepreneurs nurtured by Orange Tunisia through initiatives like POESAM and Orange Summer Challenge, aiming to inspire youth to embark on entrepreneurial endeavors.",
 		"slug": "orange",
 		"tierRank": 6,
 		"logo": { "url": "https://i.imgur.com/FkG6VVq.png" },
-		"website": "https://www.orange.tn/"
+		"website": "https://www.orangedigitalcenters.com/"
 	},
 	{
 		"enabled": true,
