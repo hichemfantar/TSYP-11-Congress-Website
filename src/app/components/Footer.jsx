@@ -102,15 +102,13 @@ export default function Footer() {
 							<ThemeToggle />
 						</div>
 					)}
-					{false && (
-						<Link
-							to="https://github.com/hichemfantar/TSYP-11-Website-Virtual-Game-Hub"
-							aria-label="github repo"
-							target="_blank"
-						>
-							<FontAwesomeIcon icon={faGithub} className="block h-5 w-5 p-2" />
-						</Link>
-					)}
+					<Link
+						to="https://github.com/hichemfantar/TSYP-11-Official-Website"
+						aria-label="github repo"
+						target="_blank"
+					>
+						<FontAwesomeIcon icon={faGithub} className="block h-5 w-5 p-2" />
+					</Link>
 					<a
 						href="https://www.facebook.com/ieee.tsyp"
 						target="_blank"

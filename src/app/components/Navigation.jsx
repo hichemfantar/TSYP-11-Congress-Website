@@ -189,17 +189,12 @@ export default function Navigation() {
 						<div className="hidden lg:block">
 							<ThemeToggle />
 						</div>
-						{false && (
-							<Link
-								to="https://github.com/hichemfantar/TSYP-11-Website-Virtual-Game-Hub"
-								target="_blank"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="block h-5 w-5 p-2"
-								/>
-							</Link>
-						)}
+						<Link
+							to="https://github.com/hichemfantar/TSYP-11-Official-Website"
+							target="_blank"
+						>
+							<FontAwesomeIcon icon={faGithub} className="block h-5 w-5 p-2" />
+						</Link>
 
 						{false && (
 							<Link
