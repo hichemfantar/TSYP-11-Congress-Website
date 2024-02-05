@@ -32,7 +32,9 @@ export default function WinnersList() {
 	);
 	const sectionAwards = enabledWinners?.filter((e) => e.type === "section");
 	const spcAwards = enabledWinners?.filter((e) => e.type === "spc");
-	const challengeAwards = challengeWinnersData;
+	const challengeAwards = challengeWinnersData?.filter(
+		(e) => e.enabled === true
+	);
 
 	return (
 		<div>

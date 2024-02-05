@@ -6,6 +6,7 @@
 		"slug": "PES-&-IES-Challenge",
 		"logo": { "url": "https://i.imgur.com/2CAjaNE.png" },
 		"link": "https://bit.ly/PES-IES",
+		"winner": "ENETCOM | ENIS",
 		"winnerImg": ""
 	},
 	{
@@ -15,7 +16,7 @@
 		"slug": "SMC-&-EDUCATION-Challenge",
 		"logo": { "url": "https://i.imgur.com/QwhCPMT.png" },
 		"link": "https://bit.ly/3QbG3GU",
-		"winner": "",
+		"winner": "ENIT",
 		"winnerImg": ""
 	},
 	{
@@ -25,7 +26,7 @@
 		"slug": "IAS-Challenge",
 		"logo": { "url": "https://i.imgur.com/pFMD6if.png" },
 		"link": "https://bit.ly/3PMSCaa",
-		"winner": "",
+		"winner": "FST",
 		"winnerImg": ""
 	},
 	{
@@ -35,7 +36,7 @@
 		"slug": "RAS-Challenge",
 		"logo": { "url": "https://i.imgur.com/5A0DAtu.png" },
 		"link": "https://bit.ly/46PhYv5",
-		"winner": "",
+		"winner": "ENIT",
 		"winnerImg": ""
 	},
 	{
@@ -45,7 +46,7 @@
 		"slug": "EMBS-Challenge",
 		"logo": { "url": "https://i.imgur.com/IeXKVQ0.png" },
 		"link": "https://tinyurl.com/22fdb2cs",
-		"winner": "",
+		"winner": "ENETCOM",
 		"winnerImg": ""
 	},
 	{
@@ -55,7 +56,7 @@
 		"slug": "AESS-Challenge",
 		"logo": { "url": "https://i.imgur.com/09FsBT3.png" },
 		"link": "https://bit.ly/3rPXL9s",
-		"winner": "",
+		"winner": "ESPRIT",
 		"winnerImg": ""
 	},
 	{
@@ -65,7 +66,7 @@
 		"slug": "CS-&-YP-Challenge",
 		"logo": { "url": "https://i.imgur.com/3hzl3jP.png" },
 		"link": "https://bit.ly/CSYP-PDF",
-		"winner": "",
+		"winner": "Sup'Com",
 		"winnerImg": ""
 	},
 	{
@@ -75,7 +76,7 @@
 		"slug": "SIGHT-Challenge",
 		"logo": { "url": "https://i.imgur.com/i4teEs2.png" },
 		"link": "https://bit.ly/SIGHT-PDF",
-		"winner": "",
+		"winner": "ESPRIT",
 		"winnerImg": ""
 	},
 	{
@@ -85,7 +86,7 @@
 		"slug": "SSCS-Challenge",
 		"logo": { "url": "https://i.imgur.com/4uV0iAT.png" },
 		"link": "https://bit.ly/3PTriHn",
-		"winner": "",
+		"winner": "ENETCOM",
 		"winnerImg": ""
 	},
 	{
@@ -95,11 +96,11 @@
 		"slug": "WIE-Challenge",
 		"logo": { "url": "https://i.imgur.com/kjMm6rQ.png" },
 		"link": "https://bit.ly/3FxyT9D",
-		"winner": "",
+		"winner": "ENETCOM",
 		"winnerImg": ""
 	},
 	{
-		"enabled": true,
+		"enabled": false,
 		"name": "IEEE SAC Tunisia Challenge",
 		"description": "WIE is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
 		"slug": "WIE-Challenge",
@@ -115,7 +116,7 @@
 		"slug": "WIE-Challenge",
 		"logo": { "url": "https://i.imgur.com/tuFDEhC.png" },
 		"link": "https://bit.ly/3MfAxk1",
-		"winner": "",
+		"winner": "ISIMS",
 		"winnerImg": ""
 	}
 ]
