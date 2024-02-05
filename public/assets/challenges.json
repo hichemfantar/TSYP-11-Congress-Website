@@ -6,7 +6,7 @@
 		"slug": "PES-&-IES-Challenge",
 		"logo": { "url": "https://i.imgur.com/2CAjaNE.png" },
 		"link": "https://bit.ly/PES-IES",
-		"winner": "ENETCOM | ENIS",
+		"winner": "ENETCOM > ENIS > ESPRIT",
 		"winnerImg": ""
 	},
 	{
@@ -16,7 +16,7 @@
 		"slug": "SMC-&-EDUCATION-Challenge",
 		"logo": { "url": "https://i.imgur.com/QwhCPMT.png" },
 		"link": "https://bit.ly/3QbG3GU",
-		"winner": "ENIT",
+		"winner": "ENIT > ESPRIT > ENSI",
 		"winnerImg": ""
 	},
 	{
@@ -26,7 +26,7 @@
 		"slug": "IAS-Challenge",
 		"logo": { "url": "https://i.imgur.com/pFMD6if.png" },
 		"link": "https://bit.ly/3PMSCaa",
-		"winner": "FST",
+		"winner": "FST > FSS > ENSI",
 		"winnerImg": ""
 	},
 	{
@@ -36,7 +36,7 @@
 		"slug": "RAS-Challenge",
 		"logo": { "url": "https://i.imgur.com/5A0DAtu.png" },
 		"link": "https://bit.ly/46PhYv5",
-		"winner": "ENIT",
+		"winner": "ENIT > ESPRIT > ENETCOM",
 		"winnerImg": ""
 	},
 	{
@@ -46,7 +46,7 @@
 		"slug": "EMBS-Challenge",
 		"logo": { "url": "https://i.imgur.com/IeXKVQ0.png" },
 		"link": "https://tinyurl.com/22fdb2cs",
-		"winner": "ENETCOM",
+		"winner": "ENETCOM > ENSI > ISSATM",
 		"winnerImg": ""
 	},
 	{
@@ -56,7 +56,7 @@
 		"slug": "AESS-Challenge",
 		"logo": { "url": "https://i.imgur.com/09FsBT3.png" },
 		"link": "https://bit.ly/3rPXL9s",
-		"winner": "ESPRIT",
+		"winner": "ESPRIT > ENETCOM > ENIS",
 		"winnerImg": ""
 	},
 	{
@@ -66,7 +66,7 @@
 		"slug": "CS-&-YP-Challenge",
 		"logo": { "url": "https://i.imgur.com/3hzl3jP.png" },
 		"link": "https://bit.ly/CSYP-PDF",
-		"winner": "Sup'Com",
+		"winner": "Sup'Com > ENSIT > ESPRIT",
 		"winnerImg": ""
 	},
 	{
@@ -76,7 +76,7 @@
 		"slug": "SIGHT-Challenge",
 		"logo": { "url": "https://i.imgur.com/i4teEs2.png" },
 		"link": "https://bit.ly/SIGHT-PDF",
-		"winner": "ESPRIT",
+		"winner": "ESPRIT > ENETCOM > ESSTHS",
 		"winnerImg": ""
 	},
 	{
@@ -86,7 +86,7 @@
 		"slug": "SSCS-Challenge",
 		"logo": { "url": "https://i.imgur.com/4uV0iAT.png" },
 		"link": "https://bit.ly/3PTriHn",
-		"winner": "ENETCOM",
+		"winner": "ENETCOM > Sup'Com > ENIS",
 		"winnerImg": ""
 	},
 	{
@@ -96,7 +96,7 @@
 		"slug": "WIE-Challenge",
 		"logo": { "url": "https://i.imgur.com/kjMm6rQ.png" },
 		"link": "https://bit.ly/3FxyT9D",
-		"winner": "ENETCOM",
+		"winner": "ENETCOM > Sup'Com > ENIT",
 		"winnerImg": ""
 	},
 	{
@@ -116,7 +116,7 @@
 		"slug": "WIE-Challenge",
 		"logo": { "url": "https://i.imgur.com/tuFDEhC.png" },
 		"link": "https://bit.ly/3MfAxk1",
-		"winner": "ISIMS",
+		"winner": "ISIMS > ENETCOM > ENIT",
 		"winnerImg": ""
 	}
 ]
