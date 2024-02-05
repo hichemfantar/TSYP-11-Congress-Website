@@ -1108,6 +1108,20 @@ function IEEEPartners() {
 						// height={200}
 					/>
 				</a>
+				<a
+					href="https://entrepreneurship.ieee.org/"
+					target="_blank"
+					rel="noreferrer"
+					className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"
+				>
+					<CustomImage
+						className="col-span-2 h-[115px] w-[115px] bg-white object-contain p-4 transition dark:shadow-gray-800 md:h-[180px] md:w-[180px] lg:col-span-1"
+						src={"https://i.imgur.com/RxAnk66.png"}
+						alt="Transistor"
+						// width={200}
+						// height={200}
+					/>
+				</a>
 				{false && (
 					<a
 						href="https://www.ieeesmc.org/"
