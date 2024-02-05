@@ -1109,7 +1109,7 @@ function IEEEPartners() {
 					/>
 				</a>
 				<a
-					href="https://entrepreneurship.ieee.org/"
+					href="https://ieee-edusociety.org/"
 					target="_blank"
 					rel="noreferrer"
 					className="overflow-hidden rounded-full shadow-md shadow-gray-200 transition hover:scale-105"

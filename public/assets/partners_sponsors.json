@@ -181,6 +181,15 @@
 	},
 	{
 		"enabled": true,
+		"type": "global-ieee-partner",
+		"name": "IEEE IES",
+		"description": "The IEEE Education Society was founded in 1957 and is one of the oldest technical societies in IEEE. It is a worldwide society of professionals dedicated to ensuring high-quality education in science and engineering. Our members engage students each day, research and propose new theories in learning science, and innovate classroom practice.",
+		"slug": "edu",
+		"logo": { "url": "https://i.imgur.com/RxAnk66.png" },
+		"website": "https://ieee-edusociety.org/"
+	},
+	{
+		"enabled": true,
 		"type": "section-partner",
 		"name": "SMC",
 		"description": "The mission of the Systems, Man, and Cybernetics Society is to serve the interests of its members and the community at large by promoting the theory, practice, and interdisciplinary aspects of systems science and engineering, human-machine systems, and cybernetics. It is accomplished through conferences, publications, and other activities that contribute to the professional needs of its members.",
