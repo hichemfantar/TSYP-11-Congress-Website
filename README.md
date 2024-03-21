@@ -8,7 +8,7 @@
   The official website of the 11th edition for <a href="https://tsyp11.vercel.app/" target="_blank">tsyp.ieee.tn</a> built with <a href="https://www.react.dev/" target="_blank">React</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>
 </p>
 
-![demo](https://i.imgur.com/aadOMfQ.png)
+![demo](https://raw.githubusercontent.com/hichemfantar/TSYP-11-Official-Website/master/light-dark.png)
 
 ## 🚨 Forking this repo (please read!)
 
@@ -41,7 +41,7 @@ Here is what you need to be able to run the TSYP website.
 
 ## 🛠 Development
 
-1. Clone the repo into a public GitHub repository (or fork https://github.com/hichemfantar/TSYP-11-Official-Website/fork). If you plan to distribute the code, keep the source code public to comply with [GPLv2](https://github.com/hichemfantar/TSYP-11-Official-Website/blob/main/LICENSE).
+1. Clone the repo into a public GitHub repository (or fork <https://github.com/hichemfantar/TSYP-11-Official-Website/fork>). If you plan to distribute the code, keep the source code public to comply with [GPLv2](https://github.com/hichemfantar/TSYP-11-Official-Website/blob/main/LICENSE).
 
    ```sh
    git clone https://github.com/hichemfantar/TSYP-11-Official-Website.git
