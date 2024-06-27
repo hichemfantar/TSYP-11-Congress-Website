@@ -123,12 +123,7 @@ export function ContactForm({ title = "Contact us" }) {
 		setIsSuccess(false);
 		setIsSending(true);
 		emailjs
-			.sendForm(
-				"service_0eywd1w",
-				"template_f3onrlp",
-				form.current,
-				"X1AqlHz3TEdbh55zo"
-			)
+			.sendForm("___", "___", form.current, "___")
 			.then(
 				(result) => {
 					console.log(result.text);
@@ -265,10 +260,7 @@ export function ContactForm({ title = "Contact us" }) {
 						which explains how we may collect, use and disclose your
 						personal information including to third parties.
 					</p> */}
-						<div
-							className="g-recaptcha"
-							data-sitekey="6LdkuJonAAAAADPOvXrCE1hnLvmqqGP7WMt2oK8s"
-						></div>
+						<div className="g-recaptcha" data-sitekey="---"></div>
 
 						<button
 							className={`w-full rounded-lg bg-blue-700 px-5 py-3 text-center text-base font-medium text-white sm:w-auto ${
