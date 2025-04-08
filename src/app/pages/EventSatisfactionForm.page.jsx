@@ -125,12 +125,7 @@ function Form({ title = "Your Feedback" }) {
 		setIsSuccess(false);
 		setIsSending(true);
 		emailjs
-			.sendForm(
-				"service_0eywd1w",
-				"template_f3onrlp",
-				form.current,
-				"X1AqlHz3TEdbh55zo"
-			)
+			.sendForm("___", "___", form.current, "___")
 			.then(
 				(result) => {
 					console.log(result.text);

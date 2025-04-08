@@ -8,7 +8,6 @@ import Logo from "../../assets/main logo black (Custom).png";
 // import memory8 from "../../assets/memories/357311497_1034866187885516_4807505043687124219_n.jpg";
 
 import { Link } from "react-router-dom";
-// import ThreeExperience from "../components/ThreeExperience";
 import {
 	faGraduationCap,
 	faMapLocationDot,
@@ -26,14 +25,6 @@ export default function RegistrationPage() {
 
 	return (
 		<div className="h-full">
-			{/* {false && matches && (
-				<Suspense fallback={null}>
-					<div className="hidden h-[40rem] overflow-auto rounded-2xl md:block md:h-[45rem]">
-						<ThreeExperience />
-					</div>
-				</Suspense>
-			)} */}
-
 			<Fade triggerOnce>
 				<section className="grid grid-cols-12 items-center justify-center py-10 md:py-12">
 					<div className="col-span-12 mx-auto">

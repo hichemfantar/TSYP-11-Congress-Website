@@ -1,4 +1,3 @@
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { motion } from "framer-motion";
 import { Outlet, ScrollRestoration, useLocation } from "react-router-dom";
 import Footer from "./Footer";
@@ -29,34 +28,7 @@ export default function AppLayout({ children }) {
 
 	return (
 		<>
-			{/* <div
-				style={{
-					// position: "absolute",
-					width: "100%",
-					height: "100%",
-					overflow: "hidden",
-					inset: "0px",
-				}}
-			>
-				<div
-					style={{
-						width: "100%",
-						height: "100%",
-					}}
-				>
-					<ThreeExperience />
-				</div>
-			</div> */}
-
-			<div
-				className="flex min-h-full flex-col"
-				style={
-					{
-						// relative position to show on top of canvas
-						// position: "relative",
-					}
-				}
-			>
+			<div className="flex min-h-full flex-col">
 				<Navigation />
 
 				<main className="container mx-auto flex flex-1 p-4 py-8 2xl:px-24">
@@ -94,7 +66,6 @@ export default function AppLayout({ children }) {
 			/>
 
 			<ScrollRestoration />
-			<ReactQueryDevtools initialIsOpen={false} />
 		</>
 	);
 }

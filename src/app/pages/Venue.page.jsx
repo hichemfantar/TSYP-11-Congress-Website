@@ -1,10 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import hotel_map from "../../assets/hotel/hotel_map.png";
-import CustomImage from "../components/CustomImage";
-import ScheduleList from "../components/schedule/ScheduleList";
 import { Fade } from "react-awesome-reveal";
-import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import hotel_map from "../../assets/hotel/hotel_map.png";
 
 export default function VenuePage() {
 	return (

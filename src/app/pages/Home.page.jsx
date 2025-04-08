@@ -29,7 +29,7 @@ import { Link } from "react-router-dom";
 import TSYP2021Dark from "../../assets/tsyp-editions/tsyp-2021-dark.png";
 import TSYP2022 from "../../assets/tsyp-editions/tsyp-2022.png";
 import Team from "../components/Team";
-// import ThreeExperience from "../components/ThreeExperience";
+
 import {
 	faExternalLink,
 	faMasksTheater,
@@ -51,14 +51,6 @@ export default function HomePage() {
 
 	return (
 		<div className="h-full">
-			{/* {false && matches && (
-				<Suspense fallback={null}>
-					<div className="hidden h-[40rem] overflow-auto rounded-2xl md:block md:h-[45rem]">
-						<ThreeExperience />
-					</div>
-				</Suspense>
-			)} */}
-
 			<Fade triggerOnce>
 				<section className="grid grid-cols-12 items-center justify-center py-10 md:py-12">
 					<div className="col-span-12 mx-auto">
